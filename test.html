@@ -1,0 +1,184 @@
+<html lang="en"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Database of Spectroscopic Constants of Diatomic Molecules</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style_home.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script></head>
+<body __processed_e2d55527-026a-4996-9471-82c523773d11__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjI2Iiwic2NvcmUiOjIwMDI2fV0=">
+    <div class="logobar" bis_skin_checked="1">
+        <a href="https://www.stonybrook.edu/" target="_blank">
+            <div class="left-section" bis_skin_checked="1">
+                <img class="logo" src="./images/stony-brook-university-logo-horizontal-white-300.png">
+            </div>
+        </a>
+        <a href="https://dscdm.physics.stonybrook.edu/index.html">
+        <div class="right-section" bis_skin_checked="1">
+            | Database of Spectroscopic Constants of Diatomic Molecules 
+        </div>
+        
+        </a>
+
+          <div id="myNav" class="overlay" bis_skin_checked="1">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content" bis_skin_checked="1">
+                <a href="https://dscdm.physics.stonybrook.edu/index.html">Home</a>
+                <a href="https://dscdm.physics.stonybrook.edu/contact.html">Contact</a>
+                <a href="https://dscdm.physics.stonybrook.edu/about.html">About</a>
+                <a href="https://dscdm.physics.stonybrook.edu/Datasearch/search.html">Search</a>
+                <a href="https://dscdm.physics.stonybrook.edu/API/api.html">API Explorer</a>
+                <a href="https://dscdm.physics.stonybrook.edu/plotting/">Plotting Tool</a>
+                <a href="https://dscdm.physics.stonybrook.edu/ML/">Machine Learning</a>
+                <a href="https://dscdm.physics.stonybrook.edu/loginsystem/contribute.php">Upload</a>
+            </div>
+          </div>
+          <span class="menu" onclick="openNav()">☰ Menu</span>
+          
+    </div>
+
+    
+    <div class="backg" bis_skin_checked="1">
+        <div class="home-dis" bis_skin_checked="1">
+            <h1 class="hometitle">DSCDM</h1>
+            <p class="homesub">Date/Time: <span id="datetime">8/28/2025, 12:56:10 PM</span></p>
+            <p class="homedet">Welcome to our Diatomic Molecules Platform. This collaborative space is designed for researchers, educators, and students alike. 
+                Our comprehensive database not only allows you to search for spectroscopic data, but also provides a plotting tool for data analysis. 
+                One of our standout features is the integration of machine learning predictor. Regardless of registration status, anyone can use our database to train their models,
+                offering a significant opportunity for independent testing and insight generation.
+            </p>
+            
+            <p></p>
+        </div>
+    </div>
+
+    <div id="navbar" bis_skin_checked="1">
+        <div class="ML" bis_skin_checked="1">
+        <a id="logo">Create an account to upload new data</a>
+        </div>
+        <div id="navbar-right" bis_skin_checked="1">
+            <a class="active" href="https://dscdm.physics.stonybrook.edu/loginsystem/contribute.php">Upload</a>
+            <a href="https://dscdm.physics.stonybrook.edu/loginsystem/signuppage.php">Sign up</a>
+        </div>
+    </div>
+
+    
+   
+    <div class="searchbar" onclick="window.location.href='https://dscdm.physics.stonybrook.edu/Datasearch/search.html';" bis_skin_checked="1">
+      <img class="slogo" src="./images/diatomic-icon.PNG">
+      <a href="#" style="text-decoration: none; color: inherit;">
+        <p style="margin-left: 15px; font-size:15px;">Click to access the Database.</p>
+      </a>
+    </div>
+    
+    
+
+    <div class="main" bis_skin_checked="1">
+        <div class="heading" bis_skin_checked="1">
+            <h1 class="section-header">Before you start <span class="sub-item">Introduction of DSCDM</span></h1>
+            <p class="header1">The project aims to make available the spectroscopic constants for diatomic molecules 
+                and useful analytical tools to the users, from students to researchers, in a friendly and comprehensive way. 
+                Friendly, because users can straightforwardly retrieve spectroscopic data of diatomic molecules in a variety of formats compatible with analyzing software. 
+                Our database allows users to train their own machine-learning models with our data set.
+                Users may, after registration, have the possibility of uploading new spectroscopic data. </p>  
+            
+        </div>
+       
+          <div class="heading" bis_skin_checked="1">
+              <div bis_skin_checked="1">
+                <center><img class="intro1" src="./images/search.PNG" style="max-width: 70%;"></center>
+              </div>
+              <div class="section-header" bis_skin_checked="1">
+                <p class="header1">The main focus of this webpage is the search bar located under the heading "Search Molecules". Here you can search for a specific molecule. 
+                   
+
+                    </p><ul>
+                        <li><p>Please note that the molecule name should consist of all characters in the correct order, including both uppercase and lowercase letters.</p>
+                        </li>
+                        <li>Further down the page, you can view some statistics of the database in the form of a pie chart and bar chart. 
+                        </li>
+                    </ul>
+                    
+                        </div>
+          </div>
+          <div class="heading" bis_skin_checked="1">
+            <div bis_skin_checked="1">
+              <center><img class="intro2" src="./images/upload.png" style="max-width: 70%;"></center>
+            </div>   
+            <div class="section-header" bis_skin_checked="1">
+              <p class="header1">After login to a valid account, user can access the upload page to contribute new data to our database. 
+              </p>
+
+              <ul>
+                <li><p>An email will be sent to the database manager and the data will be stored in a temporary database.             </p></li>
+                <li>Once the data has been approved, it will be accessable for everyone and will be used for machine-learning. 
+                </li>
+            </ul>
+
+            </div>   
+          </div>
+        
+          <br><br>
+
+          <div class="heading" bis_skin_checked="1">
+            <h1 class="section-header">Team <span class="sub-item"> Contact info</span></h1>
+            <h2 class="header2">E-mail: molecularspectroscopysbu@gmail.com</h2>
+            <p class="header1">If you have any questions or suggestions, please feel free to contact us.</p>
+            <p class="header1">Last update: 2023/Aug/20</p>
+
+            <br><br>
+            
+            <center><p class="header1">Department of Physics and Astronomy </p></center>
+            <center><p class="header1">Stony Brook University</p></center>
+            <center><p class="header1">Stony Brook, NY 11794-3800</p></center>
+          </div>
+    </div>
+
+
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        function updateDateTime() {
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    }
+    
+    // Update date and time by seconds
+    setInterval(updateDateTime, 1000);
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    
+    //menu
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+    }
+
+
+    </script>
+
+
+
+</body></html>
+
+
+

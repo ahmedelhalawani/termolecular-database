@@ -1,0 +1,41 @@
+1. Flow system. Rate constant(s) derived from decay of Cl atoms, monitored by time-resolved resonance fluorescence.
+2. Reaction was studied over the pressure range 15 to 120 torr. The temperature dependence of the reaction can also be represented by the expression k = 1.40 x 10^21*T^-1.91cm^6 mol^-2s^-1.
+3. Reaction was studied over the pressure range 15 to 90 torr.
+4. Reaction was studied over the pressure range 15 to 75 torr.
+5. Static system. [Br₂] and [BrNO] monitored by absorption spectrophotometry. Rate constant obtained from kinetic analysis of experimental data. Pressure of added He ranged from 1 to 100 atm. Tabulated k is the limiting low-pressure rate constant obtained from "fitting" the fall off curve to the experimental data (k∞ >= 2 * 10^13 cm^3mol^-1s^-1 is the value obtained for the limiting high-pressure rate constant).
+6. Study of the recombination of iodine atoms in the presence of NO (static system). Reappearance of I, was monitored by absorbance measurements at 500 nm. Rate constant derived from kinetic treatment of proposed mechanism. Pressures of Ar used ranged from approximately 100 to 450 torr.
+7. Flow system. Rate of reaction was monitored by observing the chemiluminescence produced by the O + NO + M reaction. Rate parameters were derived by means of a phase shift technique.
+8. Data obtained from a study of the Hg/N₂O/NO/HBr system.
+9. Data obtained from a study of the Hg/N₂O/NO/HI system.
+10. Static system. Rate constant derived from decay spectroscopy. Experiments performed over the pressure range 50 to 600 torr. Lindemann-Hinshelwood treatment of experimental data yields the low-pressure rate constant listed and a limiting high-pressure rate constant of 9.3 x 10^12 cm^3mol^-1s^-1
+11. Rate parameters derived from decay of O atoms, monitored by observation of NO₂ chemiluminescence. Rate constant can be equally well represented by the expression k/cm^6 mol^-2s^-1 4.24 x 10^20*T^-1.70
+12. Rate constant derived from decay of H/D atoms monitored by absorption spectroscopy.
+13. Data obtained from studies of Hg/N₂O/NO/allene and Hg/N₂O/NO/1,3-butadiene systems.
+14. Rate constant calculated from kinetic data for the reverse reaction and thermodynamic data.
+15. Discharge-flow system. Reaction studied using ESR spectroscopy. Total pressures were less than 10 torr.
+16. Rate constant obtained from computer simulation of experimental data. Units of k are cm^3 mol^-1 s^-1.
+17. N atoms were produced by the pulse-radiolysis of N₂. Rate constant derived from decay of O atoms, monitored by resonance absorption.
+18. In some experiments O atoms were produced by the pulse-radiolysis of O₂. 
+19. Reaction was studied over the total pressure range 50 to 1000 torr (mainly Ar or SF₆ diluent). Reaction products were analyzed by gas chromatography. Rate data were obtained from computer simulation of product yields. k tabulated is the limiting high pressure second-order rate constant, obtained from RRKM treatment of experimental data.
+20. Reaction studied by scavenging F atoms with added HI and monitoring HF† produced by its infrared fluorescence. k obtained from kinetic modeling of reaction system. Units of k are cm^3 mol^-1 s^-1.
+21. k obtained from re-analysis of laser-schlieren data of Kiefer (J. Chem. Phys., 62, 1354, 1975) by computer simulation.
+22. Units of k are cm^3 mol^-1 s^-1.
+23. [CH₃] monitored by UV absorption. Rate constant obtained from computer simulation of experimental data. Experiments performed at 1 atm total pressure.
+24. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 3.49 × 10^12 is the corresponding second-order rate constant.
+25. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 5.06 × 10^12 is the corresponding second-order rate constant.
+26. Ne pressure = 4 atm, k/cm^3 mol^-1 s^-1 = 5.4 × 10^12 is the corresponding second-order rate constant.
+27. Experimental temperature not stated hence room temperature assumed.
+28. Reaction studied using an optoacoustic technique. k determined at 100 torr Kr pressure.
+29. Data evaluation.
+30. M = air.
+31. Flow system. Kinetic analysis based on decay of O atoms, monitored by chemiluminescence from O + NO.
+32. Determined from a study of the kinetics of the H₂O₂/N₂ flame inhibited by Na.
+33. Above value found to be compatible with a kinetic analysis of the photo-oxidation of CHCl₃ initiated by Cl atoms.
+﻿34. Smog chamber study at 1 atm pressure. Photolyses of Cl₂, in presence of H₂, NO, NO₂, and air. Products monitored by FTIR spectroscopy. Rate constants estimated from a computer fit of product data. Units of rate constant are cm^3mol^-1s^-1 
+35. M = Cl₂. 
+36. k is low-pressure limiting rate constant. 
+37. k is high-pressure limiting rate constant.
+38. M = N₂ or O₂. 
+
+                        
+                        

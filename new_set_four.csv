@@ -1,0 +1,93 @@
+Reactant(s),M,Reaction,E/kcal mol⁻¹,E/KJ mol⁻¹,A,k,n,Temp./K,Radical Source,Reference,Notes
+H+H,He,H+H+He → H₂+He,,,,1.20E-32,0,77,H₂ (T),1,2
+H+H,He,H+H+He → H₂+He,,,,5.90E-33,0,298,H₂ discharge,2,2
+H+H,Ar,H+H+Ar → H₂+Ar,,,,2.76E-33,0,1300,H₂/O₂ (S.T.),3,
+H+H,Ar,H+H+Ar → H₂+Ar,,,,2.76E-33,0,1700,H₂/O₂ (S.T.),3,
+H+H,Ar,H+H+Ar → H₂+Ar,,,,2.76E-32,0,77,H₂ (T),1,1
+H+H,Ar,H+H+Ar → H₂+Ar,,,,1.78E-30,-1,1700,,4,3
+H+H,Ar,H+H+Ar → H₂+Ar,,,,1.78E-30,-1,5000,,4,3
+H+H,H₂,H+H+H₂ → H₂+H₂,,,,1.86E-32,0,77,H₂ (T),1,1
+D+D,D₂,D+D+D₂ → D₂+D₂,,,,6.17E-33,0,298,D₂ (T),1,1
+D+D,D₂,D+D+D₂ → D₂+D₂,,,,1.52E-32,0,77,D₂ (T),1,1
+H+N,M,H+N+M → HN+M,,,,3.09E-32,0,294,H₂/N₂ Discharges,5,2
+H+N,M,H+N+M → HN+M,,,,6.46E-32,0,294,H₂/N₂ Discharges,5,2
+N+N,N₂,N+N+N₂ → N₂+N₂,,,,1.41E-32,0,293,N₂ Discharge,7,
+N+N,N₂,N+N+N₂ → N₂+N₂,,,,1.41E-32,0,573,N₂ Discharge,7,
+N+O,N₂,N+O+N₂ → NO+N₂,,,,1.07E-32,0,273,,8,3
+N+O,N₂,N+O+N₂ → NO+N₂,,,,1.20E-32,0,196,,9,
+N+O,N₂,N+O+N₂ → NO+N₂,,,,9.13E-33,0,298,,9,
+O+O,N₂,O+O+N₂ → O₂+N₂,,,,1.12E-32,0,196,,9,
+O+O,N₂,O+O+N₂ → O₂+N₂,,,,4.79E-33,0,298,,9,
+O+O,O₂,O+O+O₂ → O₂+O₂,,,,5.50E-34,0,3500,O₂ (S.T.),10,
+O+O,H₂O,O+O+H₂O → O₂+H₂O,,,,2.51E-35,1,360,O₂ Discharge,11,
+O+O,H₂O,O+O+H₂O → O₂+H₂O,,,,2.51E-35,1,520,O₂ Discharge,11,
+O+O,M,O+O+M → O₂+M,0.3,1.4,,3.72E-30,,300,,13,3
+O+O,M,O+O+M → O₂+M,0.3,1.4,,3.72E-30,,8000,,13,3
+O+C,Ar/CO,O+C+Ar/CO → OC+Ar/CO,,,,9.13E-22,-3.08,7000,,12,"3,9"
+O+C,Ar/CO,O+C+Ar/CO → OC+Ar/CO,,,,9.13E-22,-3.08,14000,,12,"3,9"
+S+S,H₂S,S+S+H₂S → S₂+H₂S,,,,2.76E-33,0,300,H₂S Discharge,16,8
+F+F,He,F+F+He → F₂+He,,,,2.19E-33,0,293,F₂,13a,"6,7"
+F+F,He,F+F+He → F₂+He,,,,6.03E-34,0,294,F₂ Discharge,13b,6
+F+F,Ar,F+F+Ar → F₂+Ar,,,,2.76E-34,0,1000,,14,3
+F+F,Ar,F+F+Ar → F₂+Ar,,,,2.76E-34,0,2000,,14,3
+F+F,Ar,F+F+Ar → F₂+Ar,,,,7.95E-35,0,295,,15,10
+Cl+Cl,He,Cl+Cl+He → Cl₂+He,,,,3.89E-33,0,298,Cl₂ (F.P.),18,
+Cl+Cl,He,Cl+Cl+He → Cl₂+He,,,,4.68E-33,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,Ne,Cl+Cl+Ne → Cl₂+Ne,,,,4.68E-33,0,298,Cl₂ (F.P.),18,
+Cl+Cl,Ne,Cl+Cl+Ne → Cl₂+Ne,,,,4.68E-33,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,Ar,Cl+Cl+Ar → Cl₂+Ar,,,,2.09E-32,0,298,Cl₂ (F.P.),18,
+Cl+Cl,Ar,Cl+Cl+Ar → Cl₂+Ar,,,,2.04E-32,0,298,Cl₂ (F.P.),18,
+Cl+Cl,N₂,Cl+Cl+N₂ → Cl₂+N₂,,,,4.17E-32,0,298,Cl₂ (F.P.),18,
+Cl+Cl,N₂,Cl+Cl+N₂ → Cl₂+N₂,,,,2.19E-32,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,Cl₂,Cl+Cl+Cl₂ → Cl₂+Cl₂,,,,5.50E-32,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,CO₂,Cl+Cl+CO₂ → Cl₂+CO₂,,,,1.52E-31,0,298,Cl₂ (F.P.),18,
+Cl+Cl,CO₂,Cl+Cl+CO₂ → Cl₂+CO₂,,,,3.32E-32,,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,CF₄,Cl+Cl+CF₄ → Cl₂+CF₄,,,,1.52E-31,0,298,Cl₂ (F.P.),18,
+Cl+Cl,CF₄,Cl+Cl+CF₄ → Cl₂+CF₄,,,,3.32E-32,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,C₂F₆,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,5.76E-32,0,298,Cl₂ (F.P.),18,
+Cl+Cl,C₂F₆,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,3.55E-32,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,SiF₄,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,1.59E-31,0,298,Cl₂ (F.P.),18,
+Cl+Cl,SiF₄,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,3.55E-32,0,298,Cl₂ (F.P.),18a,11a
+Cl+Cl,SF₆,Cl+Cl+SF₆ → Cl₂+SF₆,,,,5.76E-32,0,298,Cl₂ (F.P.),18,
+Cl+Cl,SF₆,Cl+Cl+SF₆ → Cl₂+SF₆,,,,3.55E-32,0,298,Cl₂ (F.P.),18a,11a
+Br+Br,He,Br+Br+He → Br₂+He,,,,2.82E-33,0,298,Br₂ discharge,19,12
+Br+Br,He,Br+Br+He → Br₂+He,,,,3.24E-33,0,300,Br₂ (F.P.),20,13
+Br+Br,Ne,Br+Br+Ne → Br₂+Ne,,,,4.08E-33,0,300,Br₂ (F.P.),20,13
+Br+Br,Ar,Br+Br+Ar → Br₂+Ar,,,,9.34E-33,0,298,Br₂ discharge,19,12
+Br+Br,Ar,Br+Br+Ar → Br₂+Ar,,,,6.61E-33,0,300,Br₂ (F.P.),20,13
+Br+Br,Kr,Br+Br+Kr → Br₂+Kr,,,,8.52E-33,0,300,Br₂ (F.P.),20,13
+Br+Br,Xe,Br+Br+Xe → Br₂+Xe,,,,1.12E-32,0,300,Br₂ (F.P.),21,13
+Br+Br,N₂,Br+Br+N₂ → Br₂+N₂,,,,8.72E-33,0,300,Br₂ (F.P.),20,13
+Br+Br,N₂,Br+Br+N₂ → Br₂+N₂,,,,8.33E-33,0,298,"O+Br₂→BrO+Br
+O+BrO→O₂+Br
+",19,12
+Br+Br,O₂,Br+Br+O₂ → Br₂+O₂,,,,1.20E-32,0,298,"O+Br₂→BrO+Br
+O+BrO→O₂+Br
+",19,12
+Br+Br,O₂,Br+Br+O₂ → Br₂+O₂,,,,1.62E-32,0,300,Br₂ (F.P.),20,13
+Br+Br,Br₂,Br+Br+Br₂ → Br₂+Br₂,,,,8.33E-32,0,298,Br₂ discharge,19,12
+Br+Br,HBr,Br+Br+HBr → Br₂+HBr,,,,2.29E-33,0,1417,flame,22,
+Br+Br,CF₄,Br+Br+CF₄ → Br₂+CF₄,,,,3.09E-32,0,300,Br₂ (F.P.),21,13
+Br+Br,CH₃Cl,Br+Br+CH₃Cl → Br₂+CH₃Cl,,,,9.56E-32,0,294,Br₂ (F.P.),23,
+Br+Br,C₂H₅Cl,Br+Br+C₂H₅Cl → Br₂+C₂H₅Cl,,,,1.48E-31,0,294,Br₂ (F.P.),23,
+Br+Br,CH₃Br,Br+Br+CH₃Br → Br₂+CH₃Br,,,,3.32E-31,0,294,Br₂ (F.P.),23,
+Br+Br,C₂H₅Br,Br+Br+C₂H₅Br → Br₂+C₂H₅Br,,,,6.93E-31,0,294,Br₂ (F.P.),23,
+Br+Br,C₆H₆,Br+Br+C₆H₆ → Br₂+C₆H₆,,,,1.45E-30,0,294,Br₂ (F.P.),23,14
+Br+Br,SF₆,Br+Br+SF₆ → Br₂+SF₆,,,,3.17E-32,0,300,Br₂ (F.P.),21,13
+I+I,He,I+I+He → I₂+He,,,,7.77E-33,0,206,I₂ (F.P),24a,
+I+I,Ar,I+I+Ar → I₂+Ar,,,,8.33E-33,0,298,I₂ (F.P),25,
+I+I,Ar,I+I+Ar → I₂+Ar,,,,2.19E-32,0,206,I₂ (F.P),24a,
+I+I,Ar,I+I+Ar → I₂+Ar,,,,8.27E-33,-1.56,500,I₂ (S.T),24b,
+I+I,Ar,I+I+Ar → I₂+Ar,,,,8.27E-33,-1.56,1450,I₂ (F.P),24b,
+I+I,Xe,I+I+Xe → I₂+Xe,,,,4.37E-32,0,206,I₂ (F.P),24a,
+I+I,H₂,I+I+H₂ → I₂+H₂,,,,2.14E-32,0,206,I₂ (F.P),24a,
+I+I,D₂,I+I+D₂ → I₂+D₂,,,,2.14E-32,0,206,I₂ (F.P),24a,
+I+I,NO,I+I+NO → I₂+NO,,,,6.61E-29,0,294,CH₃I (F.P.),26,
+I+I,ICl,I+I+ICl → I₂+ICl,,,,2.46E-30,0,325,ICl (F.P.),27,15
+I+I,DCl,I+I+DCl → I₂+DCl,,,,4.27E-32,0,300,I₂ (F.P),28,
+I+I,CH₃Cl,I+I+CH₃Cl → I₂+CH₃Cl,,,,1.10E-31,0,294,I₂ (F.P),23,16
+I+I,C₂H₅Cl,I+I+C₂H₅Cl → I₂+C₂H₅Cl,,,,1.59E-31,0,294,I₂ (F.P),23,16
+I+I,CH₃Br,I+I+CH₃Br → I₂+CH₃Br,,,,1.48E-31,0,294,I₂ (F.P),23,16
+I+Cl,N₂,I+Cl+N₂ → ICl+N₂,,,,1.70E-31,0,325,ICl (F.P.),27,15
+I+Cl,CO₂,I+Cl+CO₂ → ICl+CO₂,,,,4.27E-31,0,325,ICl (F.P.),27,15
+I+Cl,ICl,I+Cl+ICl → ICl+ICl,,,,1.20E-30,0,325,ICl (F.P.),27,15

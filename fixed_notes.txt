@@ -1,0 +1,31 @@
+1. Values obtained from computer simulation of experimental data.
+2. Units of k and A are cm^3 mol^-1 s^-1.
+2a. Reaction was third order at P <50 mmHg, fall-off beginning at P <150 mmHg. The table lists the extrapolated high-pressure rate constant.
+3. Rate data based on mass spectrometric analysis of products.
+3a. Products were analyzed by mass spectrometry.
+4. Measured at a pressure of 50 torr He.
+5. Evaluated rate data.
+6. Flame study.
+6a. [OH] monitored by resonance fluorescence.
+7. [H] monitored by resonance fluorescence.
+8. Estimated value based on k = 7.58 x 10^13 exp (-7590/T) cm^3 mol^-1 s^-1 for the reaction: H+ N₂O → HO + N₂.
+9. Measured using chemiluminescence technique.
+10. [H] monitored by resonance fluorescence.
+11. Rate constant k, calculated from k1 = k_1 * K_c
+12. Measured mass spectrometrically in a discharge flow system.
+13. [NF₂] monitored by absorption spectrophotometry.
+14. Halogen atom concentrations followed by titration of atoms with nitrosyl chloride using the afterglow emission as indicator.
+14a. [I₂] monitored by absorption spectrometry.
+14b. Rate constants measured by analysis of overlapping relaxations. [I₂] monitored by laser resonance absorption.
+15. Based on k = 5.49 x 10^12 cm^3 mol^-1 s^-1 at 295 K for reaction O + NO₂ → O₂ + NO.
+16. k∞/cm^3 mol^-1 s^-1.
+16a. [O] monitored by resonance absorption. The temperature dependence of the rate constant could be equally well represented by k = 1.38 x 10^21 T^-1.82 cm^6 mol^-2 s^-1
+17. Modulation phase shift technique.
+18. [Pb] monitored by resonance absorption. Reaction products were not determined.
+19. [Sb] monitored by resonance absorption. Reaction products were not determined. The reaction was found to be second order with k = 1.08 x 10^11 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
+20. [Bi] monitored by resonance absorption. Reaction products were not deter- mined. The reaction was found to be second order with k = 3.37 x 10^10 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
+21. Measured relative to k/cm^6 mol^-2 s^-1 2.5 x 10' for the reaction O+ NO + N₂ → NO₂+ N₂.
+22. Measured using infrared absorption spectroscopy.
+23. Laser flash photolysis followed by monitoring I, absorption. The mechanism is believed to be I + NO₂ + M → INO₂ + M; I + INO₂ →  I₂ + NO₂ (fast). 
+24. [O(³P)] monitored by resonance fluorescence.
+25. Units of k are cm^3 mol^-1 s^-1; obtained by extrapolation to infinite pressure.

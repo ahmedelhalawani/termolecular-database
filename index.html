@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termolecular Database</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header bar */
+    header {
+      background: #800000; /* deep red */
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header img.logo {
+      height: 40px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    table { 
+      border-collapse: collapse; 
+      width: 100%; 
+      margin-top: 20px; 
+    }
+    th, td { 
+      border: 1px solid #ccc; 
+      padding: 6px 10px; 
+    }
+    th { 
+      background: #f0f0f0; 
+    }
+    a { 
+      color: #800000; 
+      text-decoration: underline; 
+    }
+    a:hover { 
+      color: darkred; 
+    }
+    button { 
+      padding: 6px 12px; 
+      font-size: 14px; 
+      margin: 5px; 
+      cursor: pointer; 
+    }
+    .activeTab { 
+      background: #b30000; /* brighter red */
+      color: white; 
+    }
+
+    /* 🔴 Red slider */
+    input[type=range] {
+      -webkit-appearance: none;
+      width: 300px;
+      height: 6px;
+      background: #ddd;
+      border-radius: 3px;
+      outline: none;
+      margin: 10px 0;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background: #b30000;
+      cursor: pointer;
+      border-radius: 50%;
+      border: none;
+    }
+    input[type=range]::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      background: #b30000;
+      cursor: pointer;
+      border-radius: 50%;
+      border: none;
+    }
+    input[type=range]::-ms-thumb {
+      width: 16px;
+      height: 16px;
+      background: #b30000;
+      cursor: pointer;
+      border-radius: 50%;
+      border: none;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+      height: 6px;
+      background: #b30000;
+      border-radius: 3px;
+    }
+    input[type=range]::-moz-range-track {
+      height: 6px;
+      background: #b30000;
+      border-radius: 3px;
+    }
+    input[type=range]::-ms-track {
+      height: 6px;
+      background: #b30000;
+      border-radius: 3px;
+    }
+
+    /* 🔍 Search bar */
+    #searchBar {
+      margin: 15px 0;
+      padding: 8px;
+      width: 300px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header>
+    <div>
+      <a href="landing.html">
+        <img src="jpr_logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <nav>
+      <a href="landing.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Database</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Termolecular Database</h1>
+
+    <div>
+      <button id="set1Btn" class="activeTab">Dataset 1</button>
+      <button id="set2Btn">Dataset 2</button>
+      <button id="set3Btn">Dataset 3</button>
+      <button id="set4Btn">Dataset 4</button>
+      <button id="set5Btn">Dataset 5</button>
+      <button id="set6Btn">Dataset 6</button>
+    </div>
+
+    <div>
+      <button id="downloadBtn">Download CSV</button>
+    </div>
+
+    <div>
+      <label for="tempSlider">Filter Temp./K ≤ <span id="tempValue"></span></label><br>
+      <input type="range" id="tempSlider" min="0" max="100" value="100">
+    </div>
+
+    <!-- 🔍 Search bar -->
+    <div>
+      <input type="text" id="searchBar" placeholder="Search reactions...">
+    </div>
+
+    <table id="csvTable"></table>
+
+    <div id="graphContainer"></div>
+  </main>
+
+  <script>
+    let allRows = [];
+    let currentSet = 1;
+
+    const datasets = {
+      1: { csv: "sneediest.csv", notes: "fixed_notes.txt", sources: "fixed_sources.txt", graph: "graph_1.html" },
+      2: { csv: "second_set_lol.csv", notes: "notes_6.txt", sources: "sources_6.txt", graph: "graph_2.html" },
+      3: { csv: "third_set.csv", notes: "notes_4.txt", sources: "sources_4.txt", graph: "graph_3.html" },
+      4: { csv: "set_four.csv", notes: "notes_2.txt", sources: "sources_2.txt", graph: "graph_4.html" },
+      5: { csv: "set_five.csv", notes: "notes_5.txt", sources: "sources_5.txt", graph: "graph_5.html" },
+      6: { csv: "set_six.csv", notes: "notes_1.txt", sources: "sources_1.txt", graph: "graph_6.html" }
+    };
+
+    const graphContainer = document.getElementById("graphContainer");
+
+    async function loadCSV(setNum) {
+      currentSet = setNum;
+
+      // Highlight active button
+      for (let i = 1; i <= 6; i++) {
+        document.getElementById(`set${i}Btn`).classList.toggle("activeTab", setNum === i);
+      }
+
+      // Load graph
+      try {
+        const response = await fetch(datasets[setNum].graph);
+        const htmlContent = await response.text();
+        graphContainer.innerHTML = htmlContent;
+
+        const scripts = graphContainer.querySelectorAll("script");
+        scripts.forEach(script => {
+          const newScript = document.createElement("script");
+          if (script.src) newScript.src = script.src;
+          else newScript.textContent = script.textContent;
+          document.body.appendChild(newScript).remove();
+        });
+      } catch (error) {
+        console.error("Graph load failed:", error);
+        graphContainer.innerHTML = "<div>Graph failed to load.</div>";
+      }
+
+      // Load CSV
+      const text = await (await fetch(datasets[setNum].csv)).text();
+      const results = Papa.parse(text, { header: true, skipEmptyLines: true });
+      allRows = results.data;
+
+      const temps = allRows.map(r => parseFloat(r["Temp./K"])).filter(v => !isNaN(v));
+      const minT = Math.min(...temps);
+      const maxT = Math.max(...temps);
+
+      const slider = document.getElementById("tempSlider");
+      const tempValue = document.getElementById("tempValue");
+
+      slider.min = minT;
+      slider.max = maxT;
+      slider.value = maxT;
+      tempValue.textContent = maxT;
+
+      slider.oninput = () => applyFilters();
+      document.getElementById("searchBar").addEventListener("input", () => applyFilters());
+
+      renderTable(allRows);
+    }
+
+    function applyFilters() {
+      const slider = document.getElementById("tempSlider");
+      const tempValue = document.getElementById("tempValue");
+      const query = document.getElementById("searchBar").value.toLowerCase();
+
+      tempValue.textContent = slider.value;
+
+      const filtered = allRows.filter(r => {
+        const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
+        const searchOK = !query || (r.Reaction && r.Reaction.toLowerCase().includes(query));
+        return tempOK && searchOK;
+      });
+
+      renderTable(filtered);
+    }
+
+    function renderTable(data) {
+      const table = document.getElementById("csvTable");
+      table.innerHTML = "";
+
+      if (data.length === 0) {
+        table.innerHTML = "<tr><td>No results</td></tr>";
+        return;
+      }
+
+      const headerRow = document.createElement("tr");
+      Object.keys(data[0]).forEach(key => {
+        const th = document.createElement("th");
+        th.textContent = key;
+        headerRow.appendChild(th);
+      });
+      table.appendChild(headerRow);
+
+      data.forEach(row => {
+        const tr = document.createElement("tr");
+        Object.entries(row).forEach(([key, value]) => {
+          const td = document.createElement("td");
+          const lowerKey = key.toLowerCase();
+          if ((lowerKey === "notes" || lowerKey === "reference" || lowerKey === "references") && value) {
+            const links = value.split(",").map(v => {
+              const num = v.trim();
+              const targetPage = lowerKey === "notes" ? "notes.html" : "sources.html";
+              return `<a href="${targetPage}?set=${currentSet}#${num}">${num}</a>`;
+            });
+            td.innerHTML = links.join(", ");
+          } else {
+            td.textContent = value;
+          }
+          tr.appendChild(td);
+        });
+        table.appendChild(tr);
+      });
+    }
+
+    document.getElementById("downloadBtn").addEventListener("click", () => {
+      const link = document.createElement("a");
+      link.href = datasets[currentSet].csv;
+      link.download = datasets[currentSet].csv;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+
+    for (let i = 1; i <= 6; i++) {
+      document.getElementById(`set${i}Btn`).addEventListener("click", () => loadCSV(i));
+    }
+
+    loadCSV(1);
+  </script>
+</body>
+</html>

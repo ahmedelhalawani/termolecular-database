@@ -1,0 +1,19 @@
+1. [H] monitored by self-balancing catalytic probe detector.
+2. [H] monitored by e.s.r.
+3. Evaluated rate data.
+4. Estimated values, based on experimental data at 1050 K combined with literature data at lower temperatures.
+5. [OH²Σ⁺] monitored by emmission spectroscopy.
+6. [F] monitored by e.s.r.
+7. Measured in jet-flow apparatus.
+8. [S₂] monitored by chemiluminescence.
+9. Rate constant k, calculated from k1 = k_1 * K_c
+10. [F] monitored by Cl, titration with measurement of emission. 
+11. [Cl₂] monitored by kinetic absorption spectroscopy.
+11a. [Cl₂] monitored by absorption at 313 nm.
+12. [Br₂] monitored by kinetic absorption spectroscopy.
+13. Experimental data measured over the range 298 to 1273 K.
+13a. Recombination studied in supersonic nozzle at end of shock tube over a pres- sure range of 5 to 30 atm.
+14. Measured relative to Br+ Br+ Ar → Br₂ + Ar for which k = 2.7 x 10^15 cm^-6 mol^-2 s^-1
+15. [I₂] and [ICI] monitored spectrophotometrically.
+16. Measured relative to I+I+I₂ → 2I₂  for which k 1.4 x 10^18 cm^-6 mol^-2 s^-1.  
+17. Over the temperature range 300 to 573 K, the rate constant showed a temperature-dependent, negative temperature coefficient.

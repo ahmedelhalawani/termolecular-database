@@ -1,0 +1,63 @@
+1. Hack, W., Wagner, H. Gg., and Hoyermann, K., Ber. Bunsenges. Phys. Chem., 82, 713, 1978.
+2. Campbell, I. M. and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 316, 1978.
+3. Hardy, J. E., Gardiner, W. C., Jr., and Burcat, A., Int. J. Chem. Kinet.. 10, 503, 1978.
+4. Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet.. 
+5. Campbell, I. M., Rogerson, J. S., and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 2672, 1978.
+6. Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978.
+7. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1, 75, 1868, 1979.
+8. Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979
+9. Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979.
+10. Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979.
+11. Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979.
+12. Streit, G. E., Wells, J. S., Fehsenfeld, F. C., and Howard, C. J., J. Chem. Phys., 70, 3439, 1979.
+13. Lalo, C. and Vermeil, C., J. Chim. Phys. Phys. Chim. Biol., 77, 131, 1980. 
+14. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., React. Kinet. Catal. Lett., 15, 305, 1980.
+15. Pagsberg, P. B., Eriksen, J., and Christensen, H. C., J. Phys. Chem., 83. 582, 1979.
+16. Smith, I. W. M. and Wrigley, D. J., Chem. Phys. Lett., 70, 481, 1980. 
+17. Smith, I. W. M. and Wrigley, D. J., Chem. Phys., 63, 321, 1981.
+18. Cooper, R., Cumming, J. B., Gordon, S., and Mulac, W. A., Radiat. Phys. Chem., 16, 169, 1980.
+19. Washida, N., J. Chem. Phys., 73, 1665, 1980.
+20. Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980.
+21. Ogren, P. J., Sworski, T. J., Hochanadel, C. J., and Cassel, J. M., J. Phys. Chem., 86, 238, 1982.
+22. Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980.
+23. Zellner, R., Ber. Bunsenges. Phys. Chem., 82, 1172, 1978.
+24. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., Kinet. Katal., 22, 858, 1981.
+25. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982.
+26. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982.
+27. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 14, 861, 1982. 
+28. Ryan, K. R. and Plumb, I. C., J. Phys. Chem., 86, 4678, 1982.
+29. Smith, O. I., Tseregounis, S., and Wang, S., Int. J. Chem. Kinet., 14, 679, 1982.
+30. Merryman, E. L. and Levy, A., Symp. (Int.) Combust., [Proc.). 17, 727, 1979. 
+31. Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980.
+32. Nielsen, O. J., Siliesen, A., Luther, K., and Troe, J., J. Phys. Chem., 86, 2929, 1982.
+33. Teets, R. E. and Bechtel, J. H., Symp. (Int.) Combust., [Proc.], 18, 425, 1981. 
+34. Parkes, D. A., Chem. Phys. Lett., 77, 527, 1981.
+35. Flesca, N. G., Diamy, A.-M., and Ben-Aim, R. I., J. Chim. Phys. Phys. Chim. Biol., 76, 681, 1979.
+36. Davis, D. D., Ravishankara, A. R., and Fischer, S., Geophys. Res. Lett., 6, 113, 1979.
+37. McDade, C. E., Lenhardt, T. M., and Bayes, K. D., J. Photochem., 20, 1, 1982.
+38. Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980.
+39. Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980.
+40. Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982. 
+41. Cox, R. A. and Sheppard, D., Nature (London), 284, 330, 1980.
+42. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 13, 1011, 1981.
+43. Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981. 
+44. Arai, H., Nagai, S., and Hatada, M., Radiat. Phys. Chem., 17, 211, 1981. 
+45. Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981. 
+46. Shamonima, N. F. and Kotov, A. G., Kinet. Katal., 20, 233, 1979.
+47. Chebotarev, N. F., Kinet. Katal., 20, 1381, 1979.
+48. Niki, H., Maker, P. D., Savage, C. M., and Breitenbach, L. P., Int. J. Chem. 
+49. Leu, M.-T., J. Phys. Chem., 86, 4558, 1982.
+50. Horowitz, A., Su., F., and Calvert, J. G., Int. J. Chem. Kinetc., 10, 1099,1978.
+51. Nadtochenko, V. A., Fedotov, N. G., Vedeneev, V. I., and Sarkisov, O. M., Dokl. Akad. Nauk. SSSR., 238, 1391, 1978.
+52. Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982.
+53. Toby, S. and Ullrich, E., Int. J. Chem. Kinet., 12, 535, 1980.
+54. Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982.
+55. Wongdontri-Stuper, W., Jayanty, R. K. M., Simonaitis, R., and Heicklen, J., J. Photochem., 10, 163, 1979.
+56. Gordon, E. B., Ivanov, B. I., Perminov, A. P., and Balalaev, V. E., Chem. Phys., 35, 79, 1978.
+57. Nelson, H. H., and McDonald, J. R., J. Phys. Chem., 86, 1242, 1982.
+58. Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984.
+59. DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83.
+60. Morgan, C. A., Pilling, M. J., and Tulloch, J. M., J. Chem. Soc., Faraday Trans. 2, 78, 1323, 1982.
+61. Ruiz, R. P., Bayes, K. D., Macpherson, M. T., and Pilling, M.J., J. Phys. Chem., 85, 1622, 1981.
+62. Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981.
+63. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.

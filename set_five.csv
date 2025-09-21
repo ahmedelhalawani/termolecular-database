@@ -1,0 +1,33 @@
+Reactant(s),M,Reaction,(E/R)/K,A,k,n,Temp./K,Radical Source,System,Reference,Notes
+H+O→OH(²Σ⁺),Ar,H+O→OH(²Σ⁺)+Ar → HO→OH(²Σ⁺)+Ar,4175,2.29E-34,,,1300-1800,H₂/O₂/Ar (S.T),Direct,7,9
+H+F,Ar,H+F+Ar → HF+Ar,-17680,2.00E-35,,,3500-6000,,,12,12
+H+Cl,M,H+Cl+M → HCl+M,,,<9.5608872185E-32,0,1650-1900,,,8,10
+H+Cl,Ar,H+Cl+Ar → HCl+Ar,-9940,7.25E-35,,,2900-7000,,,12,12
+H+Br,M,H+Br+M → HBr+M,,,<8.7196327772E-31,0,1650-2050,,,8,10
+H+Br,He,H+Br+He → HBr+He,,,5.29E-27,-1.865,200-600,,,12,12
+H+I,M,H+I+M → HI+M,,,<8.7196327772E-31,0,1650-1950,,,8,10
+N+N,N₂,N+N+N₂ → N₂+N₂,,,7.25E-33,0,293,N₂ Discharge,Direct,4,4
+N+N,Cl₂,N+N+Cl₂ → N₂+Cl₂,,,1.32E-31,0,Room Temp.,N₂ Discharge,Direct,9,
+F+F,Ar,F+F+Ar → F₂+Ar,-3190,8.92E-40,,,1400-2600,,,12,12
+Cl+Cl,Ar,Cl+Cl+Ar → Cl₂+Ar,,,5.02E-34,0,298,Cl₂ Discharge,Direct,10,
+Cl+Cl,Ar,Cl+Cl+Ar → Cl₂+Ar,-906,6.17E-34,,,195-520,,,12,12
+Cl+Br,Ar,Cl+Br+Ar → ClBr+Ar,,,4.47E-34,0,298,Cl₂ Discharge; Cl+Br₂→Br+BrCl,Direct,10,
+Br+Br,He,Br+Br+He → Br₂+He,,,4.27E-33,0,Room Temp.,Br₂ (F.P.),Direct,1,1
+Br+Br,Ar,Br+Br+Ar → Br₂+Ar,,,2.57E-34,0,298,Cl+Br₂→Br+BrCl,Direct,10,
+Br+Br,Ar,Br+Br+Ar → Br₂+Ar,-856,6.46E-34,,,290-2000,,,12,12
+I+I,Ar,I+I+Ar → I₂+Ar,,,4.37E-33,0,360,I₂ (F.P.),Direct,6,8
+I+I,Ar,I+I+Ar → I₂+Ar,-754,6.46E-34,,,290-12500,,,12,12
+I+I,N₂,I+I+N₂ → I₂+N₂,,,1.10E-32,0,360,I₂ (F.P.),Direct,6,8
+I+I,I₂,I+I+I₂ → I₂+I₂,,,1.41E-36,0,360,I₂ (F.P.),Direct,6,8
+I+I,CO₂,I+I+CO₂ → I₂+CO₂,,,2.19E-32,0,360,I₂ (F.P.),Direct,6,8
+I+I,SF₆,I+I+SF₆ → I₂+SF₆,,,~8.327184655E-33,0,346,I₂ (F.P.),Direct,11,11
+I+I,c-C₃H₆,I+I+c-C₃H₆ → I₂+c-C₃H₆,,,~1.0011477951E-33,0,346,I₂ (F.P.),Direct,11,11
+I+I,n-C₄H₁₀,I+I+n-C₄H₁₀ → I₂+n-C₄H₁₀,,,~3.7196167542E-33,0,336-346,I₂ (F.P.),Direct,11,11
+I+I,neo-C₅H₁₂,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,~1.1762460966E-33,0,355,I₂ (F.P.),Direct,11,11
+I+I,neo-C₅H₁₂,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,~3.7196167542E-33,0,380,I₂ (F.P.),Direct,11,11
+I+I,i-C₃F₇I,I+I+i-C₃F₇I → I₂+i-C₃F₇I,-1360,5.76E-33,1.32E-22,-3.4,300-455,I₂ (F.P.),Direct,5,"5,6"
+I+I,i-C₅F₁₁I,I+I+i-C₅F₁₁I → I₂+i-C₅F₁₁I,-1300,5.90E-33,5.79E-23,-3.2,304-463,I₂ (F.P.),Direct,5,"5,7"
+I+I*,n-C₃F₇I,I+I*+n-C₃F₇I → II*+n-C₃F₇I,,,1.10E-32,0,Room Temp.,n-C₃F₇I (P),Direct,13,13
+S+S,H₂S,S+S+H₂S → S₂+H₂S,,,1.20E-29,0,295,H₂S (Pulse Radiolysis),See Notes,3,3
+Mg+F,Ar,Mg+F+Ar → MgF+Ar,,,1.05E-35,1,873-1073,See Notes,See Notes,2,2
+Mg+F,Ar,Mg+F+Ar → MgF+Ar,<=1000,,,,873-1073,See Notes,See Notes,2,2

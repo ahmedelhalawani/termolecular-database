@@ -1,0 +1,199 @@
+Reaction,(E/R)/K,A,k,n,Temp./K,Radical Source,System,Reference,Notes
+"H + O₂ + H₂ → HO₂ + H₂
+",,,3.02E-32,0,Room Temp,H₂ (Pulse-radiolysis),Direct,11,11
+"H + O₂ + H₂ → HO₂ + H₂
+",,,6.03E-32,0,295,H₂ (Pulse-radiolysis),Direct,32,41
+H+O₂+He →  HO₂ + O₂,,,2.46E-32,0,293,"         
+H₂ (Pulse-radiolysis)
+",Direct,1,1
+H + O₂ + O₂ →   HO₂  + O₂,,,5.79E-32,-1,200,H₂ discharge,Direct,58,"30,64"
+H + O₂ + O₂ →   HO₂  + O₂,,,5.79E-32,-1,300,H₂ discharge,Direct,58,"30,64"
+H + O₂ + N₂ → HO₂  + N₂,,,5.79E-32,-1,200,N/A,N/A,58,"30,64"
+H + O₂ + N₂ → HO₂  + N₂,,,5.79E-32,-1,300,N/A,N/A,58,"30,64"
+H + O₂ + N₂ → HO₂  + N₂,,,3.32E-32,0,425,O+H₂ → OH + H and O+OH → O₂ + H,See Notes,5,5
+H + O₂ + H₂O → HO₂  + H₂O,,,8.72E-32,0,1500,CH₄/ air flame,See Notes,33,"38,42,43"
+H + O₂  + M →  HO₂ + M,,,1.38E-36,0,349,NH₃/O₂ (Pulse radiolysis),See Notes,15,15
+H + O₂  + M →  HO₂ + M,,,5.51E-32,-1.6,200,N/A,N/A,58,"30,52"
+H + O₂  + M →  HO₂ + M,,,5.51E-32,-1.6,300,N/A,N/A,58,"30,52"
+H+CO+H₂ → HCO + H₂,,,1.05E-34,0,Room Temp,H₂O/CO/H₂ (F.P),See Notes,31,"39,40"
+H+CO+N₂ → HCO + N₂,,,3.99E-34,0,425,O+H₂ → OH +H ,See Notes,2,2
+H+CO+Ar → HCO + Ar,,,2.69E-34,0,425,O+H₂ → OH +H ,See Notes,2,2
+H+CO+CH₄→ HCO + CH₄,,,1.59E-34,0,Room Temp,H₂O/CO/CH₄ (F.P),See Notes,31,"39,40"
+H+CO+CH₄→ HCO + CH₄,,,1.00E-34,0,Room Temp,H₂O/CO (F.P),See Notes,31,"39,40"
+H+CO → HCO + M,,,6.46E-39,0,345,CH₄/CO (Pulse radiolysis),Relative,44,"44,69,70"
+H+CO → HCO + M,,,9.34E-39,0,393,CH₄/CO (Pulse radiolysis),Relative,44,"44,69,71"
+H+CO → HCO + M,,,1.62E-38,0,449,CH₄/CO (Pulse radiolysis),Relative,44,"44,69,72"
+H+CO → HCO + M,2050,,,0,449,CH₄/CO (Pulse radiolysis),Relative,44,69
+H+CO → HCO + M,2050,,,0,345,CH₄/CO (Pulse radiolysis),Relative,44,69
+H+SO₂ + M → HSO₂ + M,,,6.03E-33,0,305,H₂/maser,Direct,56,84
+D+O₂+D → DO₂ + D₂,,,2.89E-32,0,Room Temp,D₂ (Pulse Radiolysis),Direct,11,11
+O+O₂+He → O₃ +He,,,2.51E-34,0,296,O₂ (Pulse Radiolysis),Direct,20,10
+O+O₂+He → O₃ +He,,,3.47E-34,0,298,O₂ / He (F.P),Direct,40,53
+O+O₂+Ar→ O₃ + Ar,-525,6.17E-35,,0,263,O₃ (Laser F.P) ,Direct,20,10
+O+O₂+Ar→ O₃ + Ar,-535,6.32E-35,,0,219,O₂ / Ar (F.P),Direct,39,"53,54"
+O+O₂+Ar→ O₃ + Ar,-687,,3.72E-35,0,220,O₂ / Ar (F.P),Direct,40,"53,59"
+O+O₂+N₂→ O₃ + N₂,-995,1.82E-35,,0,263,O₃ (Laser F.P) ,Direct,10,10
+O+O₂+N₂→ O₃ + N₂,-575,8.72E-35,,0,219,O₂/N₂ (F.P),Direct,39,"53,55"
+O+O₂+N₂→ O₃ + N₂,-724,5.02E-35,,0,218,O₂/N₂ (F.P),Direct,40,"53,60"
+O+O₂+N₂→ O₃ + N₂,,,5.79E-34,-2.8,200,,,58,86
+O+O₂+O₂→O₃+O₂,-635,6.77E-35,,0,262,O₃ (Laser F.P) ,Direct,10,10
+O+O₂+Ar→ O₃ + Ar,-525,6.17E-35,,0,298,O₃ (Laser F.P) ,Direct,20,10
+O+O₂+Ar→ O₃ + Ar,-535,6.32E-35,,0,368,O₂ / Ar (F.P),Direct,39,"53,54"
+O+O₂+Ar→ O₃ + Ar,-687,,3.72E-35,0,353,O₂ / Ar (F.P),Direct,40,"53,59"
+O+O₂+N₂→ O₃ + N₂,-995,1.82E-35,,0,309,O₃ (Laser F.P) ,Direct,10,10
+O+O₂+N₂→ O₃ + N₂,-575,8.72E-35,,0,368,O₂/N₂ (F.P),Direct,39,"53,55"
+O+O₂+N₂→ O₃ + N₂,-724,5.02E-35,,0,366,O₂/N₂ (F.P),Direct,40,"53,60"
+O+O₂+N₂→ O₃ + N₂,,,5.79E-34,-2.8,300,,,58,86
+O+O₂+O₂→O₃+O₂,-635,6.77E-35,,0,319,O₃ (Laser F.P) ,Direct,10,10
+O+O₂+O₂→O₃+O₂,,,1.10E-33,0,296,O₂ (Pulse Radiolysis),Direct,20,10
+O+O₂+O₂→O₃+O₂,,,4.08E-34,0,Room Temp,O₃/O₂ (F.P),See Notes,21,22
+O+O₂+O₂→O₃+O₂,,,4.37E-34,0,300,O₂ discharge,Direct,35,
+O+O₂+O₂→O₃+O₂,-345,,,0,219,O₂ (F.P),Direct,39,"53,56"
+O+O₂+O₂→O₃+O₂,-663,,,0,227,O₂ (F.P),Direct,40,53.61
+O+O₂+O₂→O₃+O₂,,,6.34E-34,-2,200,,,58,86
+O+O₂+M → O₃+ M,-525,,,0,220,,,39,"57,58"
+O+O₂+M → O₃+ M,,,6.34E-34,-1.9,220,,,39,"57,58"
+O+O₂+M → O₃+ M,-715,,,0,218,,,40,"57,62"
+O+O₂+M → O₃+ M,,,5.76E-34,-2.57,218,,,40,"57,62"
+O+O₂+M → O₃+ M,,,6.07E-34,-2.3,200,,,58,"57,86"
+O+O₂+M → O₃+ M,,4.68E-36,,0,200,,,58,"30,44,52"
+O+CO+M→CO₂+M,-2300,7.77E-35,,0,1300,See Notes,See Notes,3,3
+O+CO+M→CO₂+M,805,,,0,348,CO/O₃ (T),Relative,53,"80,81"
+O+O₂+O₂→O₃+O₂,-345,,,0,368,O₂ (F.P),Direct,39,"53,56"
+O+O₂+O₂→O₃+O₂,-663,,,0,353,O₂ (F.P),Direct,40,53.61
+O+O₂+O₂→O₃+O₂,,,6.34E-34,-2,300,,,58,86
+O+O₂+M → O₃+ M,-525,,,0,360,,,39,"57,58"
+O+O₂+M → O₃+ M,,,6.34E-34,-1.9,360,,,39,"57,58"
+O+O₂+M → O₃+ M,-715,,,0,366,,,40,"57,62"
+O+O₂+M → O₃+ M,,,5.76E-34,-2.57,366,,,40,"57,62"
+O+O₂+M → O₃+ M,,,6.07E-34,-2.3,300,,,58,"57,86"
+O+O₂+M → O₃+ M,,4.68E-36,,0,300,,,58,"30,44,52"
+O+CO+M→CO₂+M,-2300,7.77E-35,,0,2200,See Notes,See Notes,3,3
+O+CO+M→CO₂+M,805,,,0,433,CO/O₃ (T),Relative,53,"80,81"
+O+CO+He→CO₂+He,,,1.00E-35,0,294,CO (Pulse radiolysis),Direct,20,10
+O+CO₂+He→CO₃+He,,,2.76E-35,0,294,CO (Pulse radiolysis),Direct,20,10
+O+CO+CO → CO₂ + CO,,,<4.3701686298E-36,0,296,CO₂ (Pulse radiolysis),Direct,20,10
+O+SO₂+ M → SO₃ + M,,,2.04E-33,0,2250,CH₄/H₂S/air flame,See Notes,30,38
+O+SO₂+ M → SO₃ + M,-3163,1.20E-33,,0,1435,CO/SO₂/O₂/Ar flame,See Notes,29,37
+O+SO₂+ M → SO₃ + M,1000,4.08E-32,,0,200,,,58,"64,86,87"
+O+SO₂+ M → SO₃ + M,-3163,1.20E-33,,0,1850,CO/SO₂/O₂/Ar flame,See Notes,29,37
+O+SO₂+ M → SO₃ + M,1000,4.08E-32,,0,400,,,58,"64,86,87"
+O+SO₂+ M → SO₃ + M,,,1.41E-33,0,298,,,58,"30,64,87"
+O+SO₂+ N₂ → SO₃ + N₂ ,,,1.35E-33,0,299,SO₂/NO (F.P),Direct,6,6
+O+SO₂+ Ar → SO₃ + Ar,1010,3.09E-32,,0,299-400,SO₂/NO (F.P),Direct,6,6
+O+SO₂+ SO₂ → SO₃ + SO₂,,,9.56E-33,0,299,SO₂/NO (F.P),Direct,6,6
+F+O₂ + M → FO₂ + M ,-905,2.76E-34,,0,223,F₂ discharge,Direct,46,"74,75"
+F+O₂ + M → FO₂ + M ,-905,2.76E-34,,0,293,F₂ discharge,Direct,46,"74,75"
+F+O₂ + M → FO₂ + M ,,,3.17E-33,0,296,F₂ (Laser P),Direct,16,16
+F+O₂ + M → FO₂ + M ,,,3.72E-33,0,295,F₂ (Laser F.P.),Direct,17,"16,17"
+F+O₂ + M → FO₂ + M ,,,1.10E-32,0,Room Temp.,WF₆/H₂/O₂/He (Laser F.P.),Direct,47,76
+F+O₂ + M → FO₂ + M ,,,5.76E-33,0,291,,,63,"30,65"
+F+O₂ + M → FO₂ + M ,,,1.60E-32,-1.4,200,,,59,"30,57,64"
+F+O₂ + M → FO₂ + M ,,,1.30E-32,-1.4,200,,,58,"30,64,87"
+F+O₂ + M → FO₂ + M ,,,5.50E-35,0,200,,,58,"30,44,52"
+F+O₂ + M → FO₂ + M ,,,5.76E-33,0,300,,,63,"30,65"
+F+O₂ + M → FO₂ + M ,,,1.60E-32,-1.4,300,,,59,"30,57,64"
+F+O₂ + M → FO₂ + M ,,,1.30E-32,-1.4,300,,,58,"30,64,87"
+F+O₂ + M → FO₂ + M ,,,5.50E-35,0,300,,,58,"30,44,52"
+F+CO+He→COF+He,,,5.50E-32,0,295,,,63,30
+Cl+O₂+M → ClO₂+M,,,2.29E-34,0,298,Cl₂/H₂/O₂ (F.P.),Relative,"14,24",14
+Cl+O₂+M → ClO₂+M,,,2.01E-33,-1.4,200,,,59,"30,57,64"
+Cl+O₂+M → ClO₂+M,,,2.01E-33,-1.4,300,,,59,"30,57,64"
+Cl+SO₂+Ar→ClSO₂+Ar,,,1.29E-33,0,295,Cl₂ discharge,Direct,9,9
+Cl+SO₂+N₂→ClSO₂+N₂,,,2.29E-33,0,295,Cl₂ discharge,Direct,9,9
+Cl+SO₂+SO₂→ClSO₂+SO₂,,,1.91E-32,0,295,Cl₂ discharge,Direct,9,9
+Na+O₂+He→NaO₂+He,,,5.50E-31,0,724,NaI (F.P.),Direct,25,"32,33"
+Na+O₂+N₂→NaO₂+N₂,,,1.00E-30,0,724,NaI (F.P.),Direct,25,"32,33"
+Na+O₂+CO₂→NaO₂+CO₂,,,2.19E-30,0,724,NaI (F.P.),Direct,25,"32,33"
+K+O₂+He→KO₂+He,,,9.93E-28,-1,753,KI (F.P.),Direct,26,34
+K+O₂+N₂→KO₂+N₂,,,1.71E-27,-1,753,KI (F.P.),Direct,26,34
+K+O₂+CO₂→KO₂+CO₂,,,5.51E-27,-1,753,KI (F.P.),Direct,26,34
+Na+O₂+He→NaO₂+He,,,5.50E-31,0,844,NaI (F.P.),Direct,25,"32,33"
+Na+O₂+N₂→NaO₂+N₂,,,1.00E-30,0,844,NaI (F.P.),Direct,25,"32,33"
+Na+O₂+CO₂→NaO₂+CO₂,,,2.19E-30,0,844,NaI (F.P.),Direct,25,"32,33"
+K+O₂+He→KO₂+He,,,9.93E-28,-1,873,KI (F.P.),Direct,26,34
+K+O₂+N₂→KO₂+N₂,,,1.71E-27,-1,873,KI (F.P.),Direct,26,34
+K+O₂+CO₂→KO₂+CO₂,,,5.51E-27,-1,873,KI (F.P.),Direct,26,34
+CH₃+O₂+M→CH₃O₂+M,,,"[2.7573899936E-32,5.5017163419E-32 ]",0,295,F₂/CH₄/O₂ (T),Direct,51,
+CH₃+O₂+M→CH₃O₂+M,,,1.59E-31,0,298,O+C₂H₄ → CH₃ + HCO,Relative,19,21
+CH₃+O₂+M→CH₃O₂+M,,,3.39E-31,0,295,F+CH₄ → CH₃ + HF,Direct,27,35
+CH₃+O₂+M→CH₃O₂+M,,,5.51E-31,-2,200,,,"58,59","57,86,87"
+CH₃+O₂+M→CH₃O₂+M,,,3.31E-36,-1.7,200,,,59,"30,52,57"
+CH₃+O₂+M→CH₃O₂+M,,,3.02E-36,0,200,,,58,"30,44,52"
+CH₃+O₂+M→CH₃O₂+M,,,5.51E-31,-2,300,,,"58,59","57,86,87"
+CH₃+O₂+M→CH₃O₂+M,,,3.31E-36,-1.7,300,,,59,"30,52,57"
+CH₃+O₂+M→CH₃O₂+M,,,3.02E-36,0,300,,,58,"30,44,52"
+CH₃+CO+M→CH₃CO+M,,,3.02E-42,0,298,(CH₃)₂N₂ (Modulated P),Relative,34,"44,45,46"
+CH₃+CO+M→CH₃CO+M,,,1.10E-41,0,298,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,45,47"
+CH₃+CO+M→CH₃CO+M,3020,2.00E-37,,0,263,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83"
+CH₃+CO+M→CH₃CO+M,3020,2.00E-37,,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83"
+CH₃+CO+M→CH₃CO+M,,,5.76E-36,0,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"64,82,83"
+CH₃+CO+M→CH₃CO+M,,,2.63E-41,0,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,52,82,83"
+CH₃+CO+M→CH₃CO+M,,,1.07E-35,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"64,82,83"
+CH₃+CO+M→CH₃CO+M,,,9.56E-41,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,52,82,83"
+CH₃+SO₂+M→CH₃SO₂+M,,,<=1.3819686629E-36,0,Room Temp.,CH₃N₂CH₃ (P),Relative,43,"39,44,67"
+CF₃+O₂+M→CF₃O₂+M,,,1.66E-35,0,300,CF₃Cl (Pulse radiolysis),Direct,18,"18,19"
+CF₃+O₂+M→CF₃O₂+M,,,1.78E-29,0,295,CF₄ discharge ,Direct,28,"35,36"
+CCl₃+O₂+M→CCl₃O₂+M,,,8.52E-36,0,300,CCl₄ (Pulse radiolysis),Direct,18,"18,20"
+HCO+O₂+CO→HCOO₂+H₂+CO,,,>=1.0977367285E-30,0,298,H₂CO/O₂ (P),Relative,50,78
+CH₃O+SO₂+M → CH₃OSO₂ +M,,,8.72E-37,0,Room Temp.,CH₃ONO (P),Direct,43,"39,44,68"
+CH₃O₂+SO₂+M → CH₃O₂SO₂ +M,,,2.19E-38,0,Room Temp.,CH₃N₂CH₃/O₂ (F.P.),See Notes,43,"15,39"
+C₂H₅+O₂+M→C₂H₅O₂+M,,,7.42E-29,0,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,"64,65,66"
+C₂H₅+O₂+M→C₂H₅O₂+M,,,7.25E-36,0,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,"18,65,66"
+C₂H₅+O₂+M→C₂H₅O₂+M,,,2.01E-28,-3.8,200-300,,,58,"86,87"
+C₂H₅+O₂+M→C₂H₅O₂+M,,,8.72E-36,0,200-300,,,58,"30,44,52"
+CH₃CO+O₂ + M → CH₃CO₃+M,,,3.32E-36,0,298,CH₃COCH₃ (F.P.),Direct,37,"39,44,50,51"
+CH₃CO+O₂ + M → CH₃CO₃+M,,,8.72E-36,0,200-300,,,58,"30,44,52"
+CH₃CO+O₂ + M → CH₃CO₃+M,,,3.47E-36,0,298,,,58,"30,44,92"
+C₃H₅+O₂+M→C₃H₅O₂+M,,,"[1.3505112156E-37,6.3168155424E-37]",0,382-453,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"44,88"
+C₃H₅+O₂+M→C₃H₅O₂+M,,,2.63E-37,0,348,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"44,89"
+C₃H₅+O₂+M→C₃H₅O₂+M,,,,,,,,,
+n-C₃H₇+O₂+M→n-C₃H₇O₂+M,,,1.10E-35,0,200-300,,,58,"44,52,86"
+i-C₃H₇+O₂+M→i-C₃H₇O₂+M,,,2.51E-35,0,200-300,,,58,"44,52,86"
+n-C₄H₉+O₂+M → n-C₄H₉O₂ + M,,,1.23E-35,0,300,n-C₄H₉I (F.P.),Direct,38,"44,50,52"
+s-C₄H₉+O₂+M → s-C₄H₉O₂ + M,,,2.76E-35,0,300,s-C₄H₉I (F.P.),Direct,38,"44,50,52"
+t-C₄H₉+O₂+M → t-C₄H₉O₂ + M,,,3.89E-35,0,300,t-C₄H₉I (F.P.),Direct,38,"44,50,52"
+CH₃CH(OH)CHCH₃ + O₂ +M →CH₃CH(OH)CHO₂CH₃+M,,,4.37E-35,0,300,CH₃CH(OH)CHICH₃ (F.P.),Direct,38,"44,50,52"
+C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,1.74E-36,0,295-372,C₆H₅CH₂Cl (Laser P),Direct,57,"44,85,91"
+C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,1.66E-36,0,298,C₆H₅CH₂X (F.P.),Direct,62,"44,90"
+C₆H₅CO+O₂+M→C₆H₅CO₃+M,,,9.56E-36,0,Room Temp.,C₆H₅COCH₃ (F.P.),Direct,37,"39,44,50,51"
+o-CH₃C₆H₄CH₂+O₂+M→o-CH₃C₆H₄CH₂O₂+M,,,2.00E-36,0,298,o-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,90"
+p-CH₃C₆H₄CH₂+O₂+M→p-CH₃C₆H₄CH₂O₂+M,,,1.82E-36,0,298,p-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,90"
+OH+SO₂+N₂→HSO₃+N₂,,,2.76E-31,0,298,,,23,"30,31"
+OH+SO₂+N₂→HSO₃+N₂,,,1.38E-36,0,298,H₂O (F.P.),Direct,36,"44,48,49"
+OH+SO₂+N₂→HSO₃+N₂,,,2.51E-31,0,298,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+N₂→HSO₃+N₂,,,4.96E-31,-3.3,200-300,,,58,"30,64"
+OH+SO₂+O₂→HSO₃+O₂,,,2.46E-31,0,298,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+O₂→HSO₃+O₂,,,4.96E-31,-3.3,200-300,,,58,"30,64"
+OH+SO₂+He→HSO₃+He,-913,3.63E-33,,0,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+He→HSO₃+He,,,7.91E-32,-2.85,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+Ar→HSO₃+Ar,-1190,1.91E-38,,0,298-424,H₂O (F.P.),Direct,22,"23,24,26"
+OH+SO₂+Ar→HSO₃+Ar,,,1.10E-31,0,298,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+CO₂→HSO₃+CO₂,,,1.20E-30,0,298,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+SO₂→HSO₃+SO₂,-908,5.25E-32,,0,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+SO₂→HSO₃+SO₂,,,1.15E-30,-2.78,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
+OH+SO₂+SF₆→HSO₃+SF₆,-810,6.17E-38,,0,298-424,H₂O (F.P.),Direct,22,"23,25,27,28"
+OH+SO₂+SF₆→HSO₃+SF₆,-750,2.09E-37,,0,298-424,H₂O (F.P.),Direct,22,"23,24,27,29"
+OH+SO₂+M→HSO₃+M,,,1.20E-36,0,297,HONO (P),Relative,41,"44,63"
+OH+SO₂+M→HSO₃+M,,,3.03E-31,-3.4,200-300,,,59,"30,57,64"
+OH+SO₂+M→HSO₃+M,,,3.32E-36,0,200-300,,,59,"30,44,52,57"
+OH+SO₂+M→HSO₃+M,,,3.47E-36,0,200-300,,,58,"30,44,52"
+HO₂+CO+He→HCO₃+He,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,8,8
+HO₂+SO₂+He→HO₂SO₂+He,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,8,8
+NH+N₂ +N₂ → NH₃+N₂,,,<1.0977367285E-38,0,296,NH₃ (Pulsed P),Direct,45,73
+NH+NH₃ +He → N₂H₄+He,,,<2.7573899936E-36,0,296,NH₃ (Pulsed P),Direct,45,73
+NH+NH₃ +Ar → N₂H₄+Ar,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,45,73
+NH+NH₃ +N₂ → N₂H₄+N₂,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,45,73
+NH+NH₃ +NH₃  → N₂H₄+NH₃ ,,,<2.7573899936E-33,0,296,NH₃ (Pulsed P),Direct,45,73
+2NO+O₂→2NO₂,,,4.68E-38,0,296,NO/O₂/N₂ (T),Direct,52,79
+2NO+O₂→2NO₂,-880,,,,268,NO/O₂/N₂ (T),Direct,52,79
+2NO+Cl₂→2ClNO,2500,1.12E-37,,,250,,,63,30
+2NO+O₂→2NO₂,-880,,,,296,NO/O₂/N₂ (T),Direct,52,79
+2NO+Cl₂→2ClNO,2500,1.12E-37,,,500,,,63,30
+2NO+Br₂→2BrNO,,,8.72E-39,0,300,NO/Br₂ (T),Direct,4,4
+2NO+Br₂→2BrNO,630,1.32E-37,,,270,,,63,30
+2NO+Br₂→2BrNO,630,1.32E-37,,,330,,,63,30
+2NO₂+H₂O→HNO₂+HNO₃,,,8.72E-39,0,296,,,12,12
+2NO₂+CH₃OH→CH₃ONO+HNO₃,,,5.76E-37,0,298,NO₂/CH₃OH/O₂/N₂ (T),Direct,48,68
+2NO₂+CH₃OH→CH₃ONO+HNO₃,,,5.76E-37,0,298,NO₂/CH₃OH/O₂/N₂ (T),Direct,48,68
+S₂+S₂+H₂S→S₄+H₂S,,,2.19E-29,0,295,H₂S (Pulse Radiolysis),See Notes,7,7

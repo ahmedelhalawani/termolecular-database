@@ -1,0 +1,17 @@
+1. Static system. Rate constant derived from variation of [Br₂], monitored by ab- sorption spectrophotometry. Pressure of added He ranged from 1 to 100 atm.
+2.  Data derived using a diffusion flame method. Pressure range was approximately 7 to 20 torr.
+3. Study of the pulse-radiolysis of H₂S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectrometry. Experimental S₂/SH profiles were compared to the results of numerical integration of proposed mechanism; rate constant obtained by fitting simulated profiles to experimental profiles.
+4. Discharge-flow system. Rate constant derived from decay of N atoms, monitored by mass spectrometry.
+5. Reaction studied by kinetic spectroscopy.
+6. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 4.8 x 10^25*T^-3.4
+7. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 2.1 x 10^25*T^-3.2.
+8. Reaction studied using mass spectrometry.
+9. [OH(²Σ⁺)] monitored by emission spectroscopy.
+10. Rate constant derived by modeling flame inhibition data taken from the literature. 
+11. Approximate value derived from graphical data in paper.
+12. Data evaluation.
+13. Laser photolyses at 266 nm with resonance fluorescence detection of 1. Rotational and vibrational state of I* unknown. Temperature assumed to be room temperature.
+
+
+                                                
+

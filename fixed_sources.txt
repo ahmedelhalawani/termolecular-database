@@ -1,0 +1,38 @@
+1. Teng, L. and Jones, W. E., J. Chem. Soc., Faraday Trans. 1,68, 1267, 1972. 
+2. Halstead, M. P., Leathard, R. M., Marshall, R. M., and Purnell, J. H., Proc. R. Soc. London, Ser. A, 316, 575, 1970.
+3. Camilleri, P., Marshall, R. M., and Purnell, J. H., J. Chem. Soc., Faraday Trans. 1, 70, 1434, 1974.
+3a. Jung-Tsang Cheng, Ying-Sheng Lee, and Chuin-Tih Yeh, J. Phys. Chem., 81, 687, 1977.
+3b. Jung-Tsang Cheng and Chuin-Tih Yeh, J. Phys. Chem., 81, 1982, 1977.
+4. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 70, 1840, 1974. 4a. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 72, 1733, 1976. 
+5. Kurylo, M. J., Peterson, N. C., and Braun, W., J. Chem. Phys., 53, 2776, 1971.
+6. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972.
+7. Friswell, N. J. and Sutton, M. M., Chem. Phys. Lett., 15, 108, 1972.
+7a. Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Com- bustion Institute, Pittsburgh, 1977, 939.
+8. Baldwin, R. R., Gethin, A., Plaistowe, J., and Walker, R. W., J. Chem. Soc., Faraday Trans. 1,71, 1265, 1975.
+9. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973.
+10. Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972.
+10a. Oka, K., Singleton, D. L., and Cvetanovic, R. J., J. Chem. Phys., 66, 713, 1977.                           
+10b. Oka, K., Singleton, D. L., and Cvetanović, R. J., J. Chem. Phys., 67, 4681, 1977.
+11. Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975.
+11a. Atkinson, R., Perry, R. A., and Pitts, J. N., Chem. Phys. Lett., 47, 197, 1977.
+12. Boyd, A. W., Willis, C., and Miller, O. A., Can. J. Chem., 49, 2283, 1971. 
+13. Clyne, M. A. A. and Watson, R. T., J. Chem. Soc., Faraday Trans. 1, 70, 1109, 1974.
+14. Clyne, M. A. A., and Connor, J., J. Chem. Soc., Faraday Trans. 2, 68, 1220, 1972.                          
+14a. Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977.
+14b. Skorobogatov, G. A., Seleznev, V. G., and Slesar, O. N., Dokl. Akad. Nauk SSSR, Ser. Khim., 231, 1407, 1976 (Russian); 231, 1292, 1976 (English).
+15. Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27.
+15a. Whytock, D. A., Michael, J. V., and Payne, W. A., Chem. Phys. Lett., 42, 466, 1976.
+16. Becker, K. H., Groth, W., and Thran, D., Chem. Phys. Lett., 15, 215, 1972. 
+17. Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 27, 467, 1974.
+18. Furuyama, S., Atkinson, R., Colussi, A. J., and Cvetanovic, R. J., Int. J. Chem. Kinet., 6, 741, 1974.
+19. Singleton, D. L., Furuyama, S., and Cvetanovic, R. J., J. Chem. Phys., 63, 1003, 1975.
+20. Atkinson, R. and Cvetanović, R. J., J. Chem. Phys., 56, 432, 1972.
+21. Atkinson, R. and Pitts, J. N., J. Phys. Chem., 78, 1780, 1974.
+22. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. III, Butterworths, London, 1976.
+23. Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977.
+24. Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977.
+25. Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977.
+26. Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976.
+27. Harker, A. B. and Johnston, H. S., J. Phys. Chem., 77, 1153, 1973.
+                        
+                        

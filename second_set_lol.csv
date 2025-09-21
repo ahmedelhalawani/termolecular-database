@@ -1,0 +1,96 @@
+Reaction,(E/R)/K,E/kcal mol⁻¹,E/KJ mol⁻¹,A,k,n,Temp./K,Radical Source,System,Reference,Notes
+H+CH₃→CH₄,,,,,2.51E-34,0,300,CH₃N₂CH₃/C₂H₄ (F.P.),See note,13,19
+H+CH₃→CH₄,,,,,3.32E-34,0,296,H₂O/CH₄ (F.P.),See note,18,23
+H+NH₂→NH₃,,,,,4.37E-35,0,349,NH₃ (Pulse Radiolysis),See note,11,16
+H+NH₂→NH₃,,,,,5.90E-34,0,2700,,,16,"14,22"
+H+NO+H₂→HNO+H₂,,,,,4.58E-32,0,294,H₂ (Pulse Radiolysis),Direct,7,12
+D+NO+H₂→HNO+D₂,,,,,4.37E-32,0,294,D₂ (Pulse Radiolysis),Direct,7,12
+F+CF₃O→CF₃OF,,,,,9.56E-35,0,300,(CF₃O)₂ (Laser P),See note,14,20
+F+NO+He→FNO+He,0,,,8.92E-32,,,195,F₂ Discharge,Direct,10,15
+F+NO+He→FNO+He,0,,,8.92E-32,,,288,F₂ Discharge,Direct,10,15
+F+NO+He→FNO+He,,,,,8.33E-32,0,250,,,27,29
+F+NO+He→FNO+He,,,,,8.33E-32,0,300,,,27,29
+F+NO+NO→FNO+NO,-100,,,1.35E-31,,,195,F₂ Discharge,Direct,10,15
+F+NO+NO→FNO+NO,-100,,,1.35E-31,,,288,F₂ Discharge,Direct,10,15
+F+NO+M→FNO+M,,,,,5.79E-32,-1.7,200,,,23,"29,30,36"
+F+NO+M→FNO+M,,,,,5.79E-32,-1.7,300,,,23,"29,30,36"
+F+NO₂+M→Produts,,,,,3.31E-30,-2,200,,,23,"29,30,36"
+F+NO₂+M→Produts,,,,,3.31E-30,-2,300,,,23,"29,30,36"
+F+NO₂+M→Produts,,,,,3.31E-34,-1,200,,,23,"29,30,37"
+F+NO₂+M→Produts,,,,,9.93E-31,-2,200,,,22,"29,30,38"
+F+NO₂+M→Produts,,,,,3.47E-34,0,200,,,22,"29,30,38"
+F+NO₂+M→Produts,,,,,3.31E-34,-1,300,,,23,"29,30,37"
+F+NO₂+M→Produts,,,,,9.93E-31,-2,300,,,22,"29,30,38"
+F+NO₂+M→Produts,,,,,3.47E-34,0,300,,,22,"29,30,38"
+F+NF₂+Ne→NF₃+Ne,,,,,2.29E-31,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,24
+F+NF₂+Ne→NF₃+Ne,,,,,1.70E-31,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,25
+F+NF₂+Ne→NF₃+Ne,,,,,8.92E-32,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,26
+F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,1000,,,27,29
+Cl+CCl₃O₂→Products,,,,,~3.4713483332E-35,,303,CHCl₃/O₂ (P),Relative,26,"22,33"
+Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,200,COCl₂ (F.P.),Direct,1,"1,2"
+F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,2000,,,27,29
+Cl+CCl₃O₂→Products,,,,,~3.4713483332E-35,,426,CHCl₃/O₂ (P),Relative,26,"22,33"
+Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,400,COCl₂ (F.P.),Direct,1,"1,2"
+Cl+NO+He→NOCl+He,,,,,4.08E-32,0,294,COCl₂ (F.P.),Direct,1,"1,3"
+Cl+NO+Ar→NOCl+Ar,,,,,4.37E-32,0,294,COCl₂ (F.P.),Direct,1,"1,4"
+Cl+NO+M→NOCl+M,,,,,6.17E-36,0,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,34
+Cl+NO+M→NOCl+M,-520,,,1.45E-32,,,200,,,27,"29,35"
+Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.6,200,,,23,"29,30,36"
+Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2,200,,,23,"29,30,36"
+Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1,200,,,23,"29,30,37"
+Cl+NO+M→NOCl+M,-520,,,1.45E-32,,,200,,,27,"29,35"
+Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.6,300,,,23,"29,30,36"
+Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2,300,,,23,"29,30,36"
+Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1,300,,,23,"29,30,37"
+Cl+NO₂+M→ClNO₂+M,,,,,1.35E-35,0,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,34
+Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2,200,,,23,"29,30,36"
+Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1,200,,,23,"29,30,37"
+Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2,300,,,23,"29,30,36"
+Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1,300,,,23,"29,30,37"
+Br+NO+He→BrNO+He,,,,,9.34E-33,0,300,Br₂ (F.P.),See Note,2,5
+I+CH₃+Kr→CH₃I+Kr,,,,,1.74E-35,0,294,CH₃I (P),Direct,21,"22,27,28"
+I+CD₃+Kr→CD₃I+Kr,,,,,5.50E-35,0,294,CD₃I (P),Direct,21,"22,27,28"
+I+CH₂I+Kr→CH₂I₂+Kr,,,,,2.19E-34,0,294,CH₂I₂ (P),Direct,21,"22,27,28"
+I+C₂H₅+Kr→C₂H₅I+Kr,,,,,2.19E-35,0,294,C₂H₅I (P),Direct,21,"22,27,28"
+I+n-C₃F₇→n-C₃F₇I,,,,,>=2.6332870007E-35,0,298,n-C₃F₇I,Direct,19,22
+I+NO+Ar→INO+Ar,,,,,1.02E-32,0,298,I₂ (F.P.),Direct,3,6
+I+NO+Ar→INO+Ar,,,,,9.13E-33,0,328,I₂ (F.P.),Direct,3,6
+I+NO+H₂→INO+H₂,,,,,7.42E-33,0,295,H₂/HI (Pulse radiolysis),Direct,17,
+I+NO+M→INO+M,,,,,1.79E-32,-1,200,,,22,"29,36,38"
+I+NO+M→INO+M,,,,,2.76E-35,0,200,,,22,"22.29,37,38"
+I+NO₂+M→INO₂+M,,,,,3.03E-31,-1,200,,,22,"29,36,38"
+I+NO₂+M→INO₂+M,,,,,1.10E-34,0,200,,,22,"22.29,37,38"
+O+NO+M→NO₂+M,-588,,,1.78E-32,,,298,Modulated N₂O/Hg*,Direct,4,"7,8"
+O+NO+M→NO₂+M,-619,,,1.66E-32,,,298,Modulated N₂O/Hg*,Direct,4,"7,9"
+O+NO+M→NO₂+M,-265,,,6.03E-32,,,298,Modulated N₂O/Hg*,Direct,8,"7,13"
+I+NO+M→INO+M,,,,,1.79E-32,-1,300,,,22,"29,36,38"
+I+NO+M→INO+M,,,,,2.76E-35,0,300,,,22,"22.29,37,38"
+I+NO₂+M→INO₂+M,,,,,3.03E-31,-1,300,,,22,"29,36,38"
+I+NO₂+M→INO₂+M,,,,,1.10E-34,0,300,,,22,"22.29,37,38"
+O+NO+M→NO₂+M,-588,,,1.78E-32,,,554,Modulated N₂O/Hg*,Direct,4,"7,8"
+O+NO+M→NO₂+M,-619,,,1.66E-32,,,554,Modulated N₂O/Hg*,Direct,4,"7,9"
+O+NO+M→NO₂+M,-265,,,6.03E-32,,,574,Modulated N₂O/Hg*,Direct,8,"7,13"
+O+NO+M→NO₂+M,,,,,1.21E-31,-1.8,200,,,23,"29,30,36"
+O+NO+M→NO₂+M,,,,,5.02E-35,0,200,,,23,"22,29,30,37"
+O+NO+M→NO₂+M,,,,,4.96E-35,0.3,300,,,22,"29,37"
+O+NO+M→NO₂+M,,,,,1.21E-31,-1.8,300,,,23,"29,30,36"
+O+NO+M→NO₂+M,,,,,5.02E-35,0,300,,,23,"22,29,30,37"
+O+NO+M→NO₂+M,,,,,4.96E-35,0.3,1500,,,22,"29,37"
+O+NO+He→NO₂+He,,,,,4.17E-32,0,298,N+NO→O+N₂,Direct,12,"17,18"
+O+NO+N₂→NO₂+N₂,,,,,7.77E-32,0,298,N+NO→O+N₂,Direct,12,17
+O+NO+N₂→NO₂+N₂,,,,,1.10E-31,0,299,NO (F.P.),Direct,24,31
+O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.6,200,,,22,29
+O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,237,NO (F.P.),Direct,6,11
+O+NO+O₂→NO₂+O₂,,,,,8.55E-32,-1.8,200,,,22,29
+O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.6,300,,,22,29
+O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,397,NO (F.P.),Direct,6,11
+O+NO+O₂→NO₂+O₂,,,,,8.55E-32,-1.8,200,,,22,29
+O+NO+SO₂→NO₂+SO₂,,,,,8.55E-32,0,299,NO (F.P.),Direct,24,31
+O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,200,,,23,"29,30,36"
+O+NO₂+M→NO₃+M,,,,,3.63E-35,0,200,,,23,"22,29,30,37"
+O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,200,,,22,"29,36,38"
+O+NO₂+M→NO₃+M,,,,,3.63E-35,0,200,,,22,"29,36,37"
+O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,300,,,23,"29,30,36"
+O+NO₂+M→NO₃+M,,,,,3.63E-35,0,300,,,23,"22,29,30,37"
+O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,400,,,22,"29,36,38"
+O+NO₂+M→NO₃+M,,,,,3.63E-35,0,400,,,22,"29,36,37"

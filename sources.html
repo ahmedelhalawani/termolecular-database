@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sources</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #800000;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img.logo {
+      height: 40px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+
+    .source { 
+      margin-bottom: 14px; 
+      line-height: 1.4; 
+    }
+    .source:target { 
+      background: #ffe6e6; 
+      padding: 6px; 
+      border-radius: 6px; 
+    }
+    .tabs { 
+      margin: 12px 0; 
+    }
+    .tabs button { 
+      padding: 6px 12px; 
+      margin-right: 6px; 
+      cursor: pointer; 
+      border: none;
+      border-radius: 4px;
+      background: #f2f2f2;
+    }
+    .activeTab { 
+      background: #b30000; 
+      color: #fff; 
+    }
+    a { 
+      color: #800000; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <a href="landing.html">
+        <img src="jpr_logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <nav>
+      <a href="landing.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Database</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Sources</h1>
+    <p><a href="index.html">⬅ Back to Table</a></p>
+
+    <div class="tabs">
+      <button id="set1Btn" class="activeTab">Dataset 1</button>
+      <button id="set2Btn">Dataset 2</button>
+      <button id="set3Btn">Dataset 3</button>
+      <button id="set4Btn">Dataset 4</button>
+      <button id="set5Btn">Dataset 5</button>
+      <button id="set6Btn">Dataset 6</button>
+    </div>
+
+    <div id="sourcesContainer"></div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    let currentSet = Number(params.get("set")) || 1;
+
+    const files = {
+      1: "fixed_sources.txt",
+      2: "sources_6.txt",
+      3: "sources_4.txt",
+      4: "sources_2.txt",
+      5: "sources_5.txt",
+      6: "sources_1.txt"
+    };
+
+    function setActiveTab() {
+      for (let i = 1; i <= 6; i++) {
+        document.getElementById(`set${i}Btn`).classList.toggle("activeTab", currentSet === i);
+      }
+    }
+
+    function parseNumberedLines(text) {
+      const items = [];
+      const lines = text.split(/\r?\n/);
+      for (const line of lines) {
+        const m = line.match(/^\s*([0-9]+[a-zA-Z]*)\.\s*(.*)$/);
+        if (m) items.push({ num: m[1], content: m[2] });
+      }
+      return items;
+    }
+
+    async function loadSources() {
+      setActiveTab();
+      const filename = files[currentSet];
+      const container = document.getElementById("sourcesContainer");
+      container.innerHTML = "Loading...";
+
+      try {
+        const text = await fetch(filename).then(r => r.text());
+        const items = parseNumberedLines(text);
+        container.innerHTML = "";
+
+        if (items.length === 0) {
+          container.textContent = "No sources found.";
+          return;
+        }
+
+        for (const { num, content } of items) {
+          const div = document.createElement("div");
+          div.className = "source";
+          div.id = num;
+          div.innerHTML = `<strong>${num}.</strong> ${content}`;
+          container.appendChild(div);
+        }
+
+        if (location.hash) {
+          const el = document.getElementById(location.hash.slice(1));
+          if (el) el.scrollIntoView();
+        }
+      } catch (e) {
+        container.textContent = "Failed to load sources.";
+        console.error(e);
+      }
+    }
+
+    for (let i = 1; i <= 6; i++) {
+      document.getElementById(`set${i}Btn`).addEventListener("click", () => {
+        currentSet = i;
+        history.replaceState(null, "", `?set=${i}${location.hash || ""}`);
+        loadSources();
+      });
+    }
+
+    loadSources();
+  </script>
+</body>
+</html>

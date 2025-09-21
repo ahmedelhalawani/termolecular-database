@@ -1,0 +1,56 @@
+1. Flame study.
+2. [H] monitored by resonance fluorescence.
+3. [H] monitored by HNO chemiluminescence.
+4. Rate constants evaluated from measured induction periods.
+5. Analysis involved mass spectrometer coupled to supersonic molecular beam sampling system.
+6. Pulse radiolysis study.
+7. Estimated value based on a computer treatment of data to interpret second explosion limit of CO+ H₂ + O₂ mixtures.
+8. Measured relative to k/cm^-6 mol^-2 s^-1 5.5 x 10^12 for the reaction O+ NO₂ → O₂ + NO at 295K
+9. Reaction followed by monitoring CO₂*, emission at 4270 nm.
+10. [O] monitored by resonance fluorescence spectroscopy.
+11. Measured relative to k/cm^-6 mol^-2 s^-1 2.3 x 10^13 exp (-2060/T) for the reaction 0+0₃ → 20₂
+12. Evaluated rate data.
+13. Measured relative to k/cm^-6 mol^-2 s^-1 9.1 x 10^12 exp (-1100/T) for the reaction O(³P) + CF₃CH=CH₂ → products.
+14. M = CO + O₂
+15. Obtained from k2/k3 4.37 exp (-3360/T), for reactions 0+0₃ → 20₂ (1) and O + CO + M →CO₂ + M (2), taking k, as in note 
+16. Discharge flow system: [O] monitored by e.s.r.
+17. Molecular modulation technique.
+17a. Reaction followed by monitoring IR chemiluminescence from HF*.
+17b. Measured in jet-flow apparatus, [F] monitored by e.s.r.
+18. Estimated value.
+19. M is the sum of chlorine and ozone pressures (in ratio 1:1).
+20. Good agreement between transition-state theoretical values and experimental
+rate constants.
+21. Revised result of thermal reaction from previous papers (References 55-57). 22. See also comments References 58, 59.
+22a. Pb (6³P0) formed by pulsed irradiation of PbEt, and monitored by resonance absorption.
+22b. Sb (5⁴S) formed by pulsed irradiation of SbMe, and monitored by reso- nance absorption.
+22c. Bi (6⁴S) formed by pulsed irradiation of BiMe, and monitored by resonance absorption.
+23. Discharge flow system; [HO] monitored by resonance fluorescence.
+24. Measured relative to HO + CO → CO₂ + H for which k 8.43 x 10^16 cm^-6 mol^-2 s^-1 between 253 to 297 K. A few experiments between 253 to 297 K suggest that E 11.7 kJ mol^-1 for the reaction in the table, or k = 2.5 x 10^29 T^-5.1 cm^-6 mol^-2 s^-1.
+25. k/cm^-3 mol^-1 s^-1  measured at 760 torr total pressure; measured relative to k/ cm^-3 mol^-1 s^-1  8.6 x 10^19 for the reaction HO + CO → H + CO₂ at 298 K. 
+26. k/cm^-3 mol^-1 s^-1 measured at 710 torr, N₂:0₂ 2:1; measured relative to k/ k/cm^-3 mol^-1 s^-1  9.1 x 10^10 for the reaction  HO + CO → H + CO₂ at 300 K. 
+27. Pulse radiolysis of H₂O vapor; k/cm^-3 mol^-1 s^-1 measured at pressure of 760 torr of H₂O vapor.
+28. The real activation energy evaluated by original authors using the method of Gershinowitz and Eyring is approximately zero.
+29. The thermal oxidation of NO at low concentration ~50 ppm, and total pres- sure ~630 mmHg.
+30. Monometric measurements of the rate of pressure decrease.
+31. Photometric measurements of the rate of production of NO,.
+32. Constant values at this temperature range with varying NO and O, pressures and the addition of N₂.
+33. At p =70 torr.
+34. At p =160 torr.
+35. At p =335 torr.
+36. At p =690 torr
+37. Recommended values based on the evaluation of literature data up to 1969. 37a. [CH₃] and [CH₃O₂] monitored by absorption at 216 nm and 248 nm, respectively. The limiting second-order rate constant was found to be k 1.3 x 10^12  cm^-3 mol^-1 s^-1.
+38. Critical survey of literature data. The Arrhenius plot is curved, and the values given are valid only at low temperatures.
+38a. [Br₂] and [BrNO] monitored by UV absorption.
+39. It is unlikely that the nitric oxide-hydrogen reaction is a simple termolecular process.
+40. Temperature independent. Estimated from reverse reaction. 
+41. Estimated from reverse reaction.
+42. [S₂] monitored by flash spectroscopy and plate photometry.
+43. These values are for an overall reaction which could be RNO + NO ⇌ R(NO)₂: R(NO)₂ NO → R + N₂ + NO₃
+44. Units of k are torr^-2s^-1.
+45. [O] monitored by e.s.r.; pressure 0.22 to 1.1 torr.
+46. Molecular modulation study: [CH₃] monitored by absorption at 216 nm; measured in fall-off region (20 to 760 torr); tabulated k is limiting low-pres- sure third-order k; estimated high-pressure second-order k = 7.2 x 10^11 cm^-3 mol^-1 s^-1
+47. Fourier transform infrared spectrometric study.
+48. NO₂ formed from NO + NO₃ → 2N0₂ and [NO₂]  monitored spectrophotometrically
+49. [OH] monitored by resonance fluorescence; pressure range 25 to 648 torr; limiting low-pressure third-order k.
+

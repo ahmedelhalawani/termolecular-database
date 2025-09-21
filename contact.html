@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header bar */
+    header {
+      background: #800000; /* deep red */
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header img.logo {
+      height: 40px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Center content */
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+    }
+
+    .content-box {
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      padding: 30px;
+      max-width: 600px;
+      display: inline-block;
+    }
+
+    h1 {
+      color: #800000;
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #800000;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: darkred;
+    }
+
+    /* Footer (match about.html) */
+    footer {
+      text-align: center;
+      background: #333;
+      color: #ddd;
+      padding: 15px;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header>
+    <div>
+      <a href="landing.html">
+        <img src="jpr_logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <nav>
+      <a href="landing.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Database</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-box">
+      <h1>Contact Us</h1>
+
+      <p><strong>E-mail:</strong> ahmed.elhalawani@stonybrook.edu</p>
+
+      <p>
+        <strong>Address:</strong><br>
+        Stony Brook University<br>
+        100 Nicolls Road<br>
+        Stony Brook, NY 11794
+      </p>
+
+      <p>
+        <strong>Phone Numbers:</strong><br>
+        General Information (University): (631) 632-6000<br>
+      </p>
+
+      <p>
+        <strong>Group Website:</strong><br>
+        <a href="https://www.stonybrook.edu/commcms/amotheory/index.php" target="_blank">
+          AMO Theory Group Website
+        </a>
+      </p>
+
+      <p>
+        If you have any questions or suggestions, please feel free to 
+        <a href="mailto:ahmed.elhalawani@stonybrook.edu">contact us</a>.
+      </p>
+    </div>
+  </main>
+
+  <!-- Unified Footer -->
+  <footer>
+    © 2025 Termolecular Reaction Database | JPR Group
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+1. Fenimore, C. P. and Moore, J., Combust. Flame, 22, 343, 1974. 
+2. Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972. 
+3. Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974.
+3a. Hislop, J. R. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 73, 506, 1977.
+3b. Slack, M. W., Combust. Flame, 28, 241, 1977.
+4. Peeters, J. and Mahnen, G., 14th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1973, 133.
+5. Belles, F. E. and Lauver, M. R., J. Chem. Phys., 40, 415, 1964.
+6. Zaslonko, I. S., Kogarko, S., and Mozzhuklin, E. V., Kinet. Katal., 10, 1197, 1969.
+7. Wang, H. Y., Eyre, J. A., and Dorfman, L. M., J. Chem. Phys., 59, 5199, 1973.
+8. Baldwin, R. R., Jackson, D., Melvin, A., and Rossiter, B. N., Int. J. Chem. Kinet., 4, 277, 1972.
+9. Kallend, A. S., Combust. Flame, 19, 227, 1972.
+10. Dunn, M. R., Freeman, C. G., McEvan, M. J., and Phillips, L. F., J. Phys. Chem., 75, 2662, 1971.
+11. Hippler, H., Schippett, C., and Troe, J., Int. J. Chem. Kinet. Symp., 1, 27, 1975.
+12. Inn, E. C. Y., J. Chem. Phys., 59, 5431, 1973.
+13. Dean, A. M. and Steiner, D. C., J. Chem. Phys., 66, 598, 1977.
+14. Slanger, T. G., Wood, B. J., and Black, G., J. Chem. Phys., 57, 233, 1972. 
+15. Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968.
+16. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+17. Inn, E. C. Y., J. Chem. Phys., 61, 741, 1974.
+18. Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972.
+19. Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974.
+20. Kondratiev, V. N. and Ptichkin, I. I., Kinet. Katal., 2, 449, 1961.
+21. Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 29, 28, 1974.
+21a. Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977.
+21b. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 268, 1976 (Russian); 17, 251, 1976 (English).
+22. Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975.
+23. Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973. 
+24a. Sullivan, J. H., J. Chem. Phys., 46, 73, 1967.
+24b. Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977.
+24c. Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977.
+24d. Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977.
+25. Harris, G. W. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 71, 610, 1975.
+26. Castleman, A. W., Jr. and Tang, I. N., J. Photochem., 6, 349, 1977.
+27. Castleman, A. W., Davis, R. E., Munkelwitz, H. R., Tang, I. N., and Wood, W. P., Int. J. Chem. Kinet. Symp., 1, 629, 1975.
+28. Cox, R. A., Int. J. Chem. Kinet. Symp., 1, 379, 1975.
+29. Gordon, S. and Mulac, W. A., Int. J. Chem. Kinet. Symp., 1, 289, 1975.
+30. Stedman, D. H. and Niki, H., J. Phys. Chem., 77, 2604, 1973.
+31. Brown, F. and Crist, R. H., J. Chem. Phys., 9, 840, 1941.
+32. Smith, J. H., J. Am. Chem. Soc., 65, 74, 1943.
+33. Johnston, H. S. and Slentz, L. W., J. Am. Chem. Soc., 73, 2948, 1951.
+34. Greig, J. D. and Hall, P. G., Trans. Faraday Soc., 63, 655, 1967.
+35. Hall, P. G. and Greig, J. D., Chem. Comm., 326, 1966.
+36. Greig, J. D. and Hall, J. D., Trans. Faraday Soc., 62, 652, 1966.
+37. Morecroft, M. J. and Thomas, J. H., J. Phys. Chem., 71, 1543, 1967.
+38. Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967.
+39. Baulch, D. L., Drysdale, D. D., and Horne, D. G., High Temperature Re- action Rate Data, Rep. No. 5, University of Leeds, July 1970.
+39a. Hochanadel, C. J., Ghormley, J. A., Boyle, J. W., and Ogren, P. J., J. Phys. Chem., 81, 3, 1977.
+40. Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969.
+40a. Hovel, N. and van der Bergh, H., Int. J. Chem. Kinet., 9, 871, 1977.
+41. Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265. 
+42. Welinsky, I. and Taylor, H. A., J. Chem. Phys., 6, 466, 1938.
+43. Ashmore, P. G. and Spencer, M. S., Trans. Faraday Soc., 55, 1868, 1959.
+44. Krauss, W., Z. Phys. Chem., Abt. A., 175, 295, 1936.
+45. Hinshelwood, C. N. and Mitchell, J. W., J. Chem. Soc., 378, 1936.
+46. Ray, J. D. and Ogg, R. A., J. Chem. Phys., 29, 984, 1957.
+47. Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958.
+48. Ashmore, P. G. and Burnett, M. G., Trans. Faraday Soc., 58, 253, 1962.
+49. Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1,
+68, 1550, 1972.
+50. Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1, 69, 1389, 1973.
+51. Heicklen, J., J. Phys. Chem., 70, 112, 1966.
+52. Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965.
+53. Johnston, H. S. and Heicklen, J., J. Phys. Chem., 70, 3088, 1966.
+54. Spicer, C. W., Villa, A., Wiebe, H. A., and Heicklen, J., J. Am. Chem. Soc., 95, 13, 1973.
+55. Sullivan, J. H., J. Chem. Phys., 30, 1292, 1959. 
+56. Sullivan, J. H., J. Chem. Phys., 36, 1925, 1962. 
+57. Sullivan, J. H., J. Chem. Phys., 39, 3001, 1963. 
+58. Noyes, W. A., J. Chem. Phys., 47, 3097, 1967. 
+59. Sullivan, J. H., J. Chem. Phys., 47, 3098, 1967.
+60. Hogan, L. G. and Burch, D. S., J. Chem. Phys., 65, 894, 1976.
+61. Parkes, D. A., Int. J. Chem. Kinet., 9, 451, 1977.
+62. Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Chem. Phys. Lett., 37, 441, 1976.
+63. Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Environ. Sci. Technol., 10, 674, 1976.
+64. Christie, M. I. and Matthews, C. J., J. Chem. Soc., Faraday Trans. 1, 72, 1652, 1976.
+65. Atkinson, R., Perry, R. A., and Pitts, J. N., J. Chem. Phys., 65, 306, 1976.
