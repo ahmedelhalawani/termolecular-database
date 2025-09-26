@@ -44,7 +44,7 @@ H+NH₂+Ar→NH₃+Ar,-7.56,-31.59,,1.32E-33,0.0,3000.0,,9,"5,11"
 H+NH₂→NH₃,,,,5.02E-35,0.0,298.0,NH₃ Radiolysis,12,2
 F+NF₂+He→NF₃+He,,,,8.92E-31,0.0,298.0,"N₂F₄ + 2NF₂
 N + NF₂ → 2F + N₂",13,12
-CL+NF₂ + Ar → NF₂Cl + Ar,,,,2.69E-31,0.0,293.0,Cl₂/Ar discharge; N₂F₄ (T),14,"13,14"
+Cl+NF₂ + Ar → NF₂Cl + Ar,,,,2.69E-31,0.0,293.0,Cl₂/Ar discharge; N₂F₄ (T),14,"13,14"
 Br+NF₂ +Ar  → NF₂Br + Ar,,,,1.00E-31,0.0,293.0,Br₂/Ar discharge; N₂F₄ (T),14,"13,14"
 I+NO+He→INO+He,,,,6.03E-33,0.0,330.0,I₂  (laser F.P.),14a,14a
 I+NO+Ne→INO+Ne,,,,8.14E-33,0.0,330.0,I₂  (laser F.P.),14a,14a

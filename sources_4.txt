@@ -1,63 +1,211 @@
 1. Hack, W., Wagner, H. Gg., and Hoyermann, K., Ber. Bunsenges. Phys. Chem., 82, 713, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19780820710?casa_token=yGJ51LeEr9cAAAAA:FTRQXjWaMDJQhNlKJwxhhUwycPmE96VE6VavDr70JBfHtyyxrElOoiySbGbkKfw1G1AiFDnvcH7Zfw
+
 2. Campbell, I. M. and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 316, 1978.
+https://pubs.rsc.org/en/content/articlehtml/1978/f1/f19787400316?casa_token=OfDTnjkWr7QAAAAA:FjWGL3visfL9xg5d88YqasfTUYOBoQ5p0ljIAPgPe1-mu3PozE5sjCfxvOz948cIhRqFAhpcWCgO
+
 3. Hardy, J. E., Gardiner, W. C., Jr., and Burcat, A., Int. J. Chem. Kinet.. 10, 503, 1978.
-4. Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet.. 
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100508?casa_token=X0EH4rHL5MkAAAAA:iO1hKlgYETtBx83D8jAWORWeiEDBTesF2pSAR1xCn1s1ld_g0YfG2bObZUhrjwzvNTM1GRrv2dr36Q
+
+4. Hippler, H., Luu, S.H., Teitelbaum, H. and Troe, J. (1978), Flash photolysis study of the NO-catalyzed recombination of bromine atoms. Int. J. Chem. Kinet., 10: 155-169
+https://doi.org/10.1002/kin.550100203
+
+
 5. Campbell, I. M., Rogerson, J. S., and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 2672, 1978.
+https://pubs.rsc.org/en/content/articlehtml/1978/f1/f19787402672?casa_token=UnQuL5NAxzMAAAAA:_tb4T31UV2dmmXFC4nxZYq4hlILKmBckHKu1SvBGTZ67xsjIk7CDEzfX5xOWhuyBraKRGmN3bX7O
+
 6. Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550101006?casa_token=mNSolzQbZZAAAAAA:VyMzZtjtM-UJGf73lxwvLzu4vqDpqmwF4POU464ZfqwdqEd32bxDjak8vS8QWuWCIJMes7_c4HSrYA
+
 7. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1, 75, 1868, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=_H8DX4jKe-IAAAAA:PaelIFo39SSalA0VJU8w9AFd5dmKxqM1K94v_qC3P1O5UPbaW1958K8D9e4YDrxRo3wuwibj6ZY7
+
+
 8. Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979
+
+
 9. Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0004698179902567
+
+
 10. Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0301010479851824
+
+
 11. Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979.
+
+
 12. Streit, G. E., Wells, J. S., Fehsenfeld, F. C., and Howard, C. J., J. Chem. Phys., 70, 3439, 1979.
+https://pubs.aip.org/aip/jcp/article-abstract/70/7/3439/216760/A-tunable-diode-laser-study-of-the-reactions-of
+
 13. Lalo, C. and Vermeil, C., J. Chim. Phys. Phys. Chim. Biol., 77, 131, 1980. 
+https://jcp.edpsciences.org/articles/jcp/abs/1980/01/jcp198077p131/jcp198077p131.html
+
+
 14. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., React. Kinet. Catal. Lett., 15, 305, 1980.
+https://link.springer.com/article/10.1007/BF02098706
+
+
 15. Pagsberg, P. B., Eriksen, J., and Christensen, H. C., J. Phys. Chem., 83. 582, 1979.
+https://pubs.acs.org/doi/pdf/10.1021/j100468a006?casa_token=sDJt3WPPjHsAAAAA:VJ5fvdA3y_MVRBmeIZ1soNFFCZNzKLGzEfb56VSu0Jv0KLW_-HQebspZmqoyL7OA8zLzDaw-PpKYpg
+
+
 16. Smith, I. W. M. and Wrigley, D. J., Chem. Phys. Lett., 70, 481, 1980. 
+https://www.sciencedirect.com/science/article/abs/pii/0009261480801096
+
+
 17. Smith, I. W. M. and Wrigley, D. J., Chem. Phys., 63, 321, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0301010481870085
+
 18. Cooper, R., Cumming, J. B., Gordon, S., and Mulac, W. A., Radiat. Phys. Chem., 16, 169, 1980.
+https://www.sciencedirect.com/science/article/abs/pii/0146572480902241?via%3Dihub
+
+
 19. Washida, N., J. Chem. Phys., 73, 1665, 1980.
+https://pubs.aip.org/aip/jcp/article-abstract/73/4/1665/89318/Reaction-of-methyl-radicals-with-O-3P-O2-and-NO
+
 20. Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980.
+
+
 21. Ogren, P. J., Sworski, T. J., Hochanadel, C. J., and Cassel, J. M., J. Phys. Chem., 86, 238, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100391a021?casa_token=hlQVynsd1nkAAAAA:SoHpH2kmbeUKG7UOhweNXMZHT4lyBhSJMP2h3dyXlxci3F9ANyDHW5DqU7tS4wxPKCEMxMEA_yeafw
+
 22. Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980.
+https://www.sciencedirect.com/science/article/abs/pii/0009261480850858
+
 23. Zellner, R., Ber. Bunsenges. Phys. Chem., 82, 1172, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19780821120?casa_token=ANaBA_mFkuAAAAAA:C2Kk_qJ8cf3pr9VrAZIC_WfMV159jPVAfVfmBWbGISUzBW3pyt6fz9SxsDcoyPbzy6ri2xbdrv1VnA
+
 24. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., Kinet. Katal., 22, 858, 1981.
+
+
 25. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827800163?casa_token=Yr6ZErEAMEQAAAAA:zon64eexnk4NQub6a0RbhiCjQ0w3GeNLKZxMVBXRR8GP-uefv0M5HUhlZgDbyi_lMaKRX-4FAJKx
+
+
 26. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982.
-27. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 14, 861, 1982. 
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827801175?casa_token=XnxFtQeZBhgAAAAA:FTTIMEhLXsv_iYM7KmsC7tPUJbKuQRoXaBQefsbb3RyAxstK0Duvhqul271M1jTlnH9gEpzUGYMX
+
+
+27. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 14, 861, 1982.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140806?casa_token=MWdgoq_tGLEAAAAA:DTH4qD4sP8NlO9AtcTfbO9RYa0aoLGq_x7wZs3Y7Q8fPZiJyGNW9iVAZ-BlbE614fsZ4Zqo_kghYLA
+
 28. Ryan, K. R. and Plumb, I. C., J. Phys. Chem., 86, 4678, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100221a008?casa_token=gvvcXDWovjYAAAAA:uvafRJkIipaEHz5K413MS_RvngHGrHoxpBTmD-wcBudZVJoAYx0ljGTMtFp-VBgDIWjOQLI8pori0Q
+
+
 29. Smith, O. I., Tseregounis, S., and Wang, S., Int. J. Chem. Kinet., 14, 679, 1982.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140610?casa_token=jU4AaxeNstIAAAAA:Ln3-sXUwFj1m1WzGbrpHEJDJ939JJKQzyQ1AUHnXoZ60Qoto2-mQLmmyXK_15JGH6lj0kgvP1DWD3A
+
 30. Merryman, E. L. and Levy, A., Symp. (Int.) Combust., [Proc.). 17, 727, 1979. 
+https://www.sciencedirect.com/science/article/abs/pii/S0082078479800715
+
+
 31. Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980.
+https://pubs.acs.org/doi/pdf/10.1021/j100440a001?casa_token=xu5xeub7h_cAAAAA:IoiG308g1OS3Npqm0j28wSQY1G9jottBqTiAhIQELNzM5y04NU7-BDhubdlZowdQ_P9gGvBl01x-Zg
+
+
 32. Nielsen, O. J., Siliesen, A., Luther, K., and Troe, J., J. Phys. Chem., 86, 2929, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100212a025?casa_token=ZtXDngQhMkAAAAAA:5l1jVtq4pqkCwoYfZLR7UYNNK-F5eG_JxBba_ITQYMaKnw73mJS8jtMmA1wtiT5cULjohpdQUbmSWQ
+
 33. Teets, R. E. and Bechtel, J. H., Symp. (Int.) Combust., [Proc.], 18, 425, 1981. 
+https://www.sciencedirect.com/science/article/abs/pii/S0082078481800483
+
 34. Parkes, D. A., Chem. Phys. Lett., 77, 527, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0009261481852013
+
 35. Flesca, N. G., Diamy, A.-M., and Ben-Aim, R. I., J. Chim. Phys. Phys. Chim. Biol., 76, 681, 1979.
+
+
 36. Davis, D. D., Ravishankara, A. R., and Fischer, S., Geophys. Res. Lett., 6, 113, 1979.
+https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/GL006i002p00113?casa_token=MOdXbEEDZpsAAAAA:B0UZeEBUko2_wu7z2B2ZVidbqN8IaKuiWrQRVCmQ29KpNtRPzPxb8pIOQDsGJ3ox-LT1ImBtUWPItg
+
+
 37. McDade, C. E., Lenhardt, T. M., and Bayes, K. D., J. Photochem., 20, 1, 1982.
+https://www.sciencedirect.com/science/article/abs/pii/0047267082800427
+
 38. Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980.
+
+
 39. Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550120704?casa_token=Mbps-r-CtMgAAAAA:BPtaXi_dh3tq9qr-D-pDAXkpafcfweuZyAGguD1SLgaMSYBMdttCwzdAHQSnfDfT7MQUqLDdCERz6g
+
 40. Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982. 
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140408?casa_token=pALmjbXl8hEAAAAA:yfQMDGdu6tvu8KyHUbk923qZSwBp7ax6CjbYnkc18g5M5QU8vyek3BgGWS0KofVVyWONKvKe0hadDg
+
 41. Cox, R. A. and Sheppard, D., Nature (London), 284, 330, 1980.
+https://www.nature.com/articles/284330a0
+
 42. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 13, 1011, 1981.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550131003?casa_token=yyLTktYvm0EAAAAA:dQs-Rk1HymCR-ey-CkjTlV_oNL13pjeJjrDF7Pbj6VfmYHg2XHDl3U5lXnTNY1IfE2NuCFWo9h3BIA
+
 43. Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981. 
-44. Arai, H., Nagai, S., and Hatada, M., Radiat. Phys. Chem., 17, 211, 1981. 
+https://pubs.acs.org/doi/pdf/10.1021/j150609a011?casa_token=OskY2Y-bW-gAAAAA:kfOEqzffHhBB5CGs6RylFqrMFur3OO6i2xRIHSTKoNAYSzIKBRvoiQH6VfDbIP0YuwCPutrJFVW9qw
+
+44. Arai, H., Nagai, S., and Hatada, M., Radiat. Phys. Chem., 17, 211, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0146572481903332
+
+
 45. Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981. 
+
+
 46. Shamonima, N. F. and Kotov, A. G., Kinet. Katal., 20, 233, 1979.
+
+
+
 47. Chebotarev, N. F., Kinet. Katal., 20, 1381, 1979.
+
+
 48. Niki, H., Maker, P. D., Savage, C. M., and Breitenbach, L. P., Int. J. Chem. 
+https://pubs.acs.org/doi/pdf/10.1021/j100216a023?casa_token=mwWJAZCPiaMAAAAA:02xISsDeBcFxg10IaZNMJnMuUPpTfeVlDXRuYdkn1HRTal_yE_lQgPAxQjdTuk8Fyg7G0teyc6n0UQ
+
+
 49. Leu, M.-T., J. Phys. Chem., 86, 4558, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100220a021?casa_token=UfllwOkMQZgAAAAA:aGtdXChV4WTjYSkFsbBNG5zWykpjfJIolVehdrBL6mFP2ZermXjJkUthETfpqZA0i1NyaYENs5_N1Q
+
+
 50. Horowitz, A., Su., F., and Calvert, J. G., Int. J. Chem. Kinetc., 10, 1099,1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550101102?casa_token=7vUJP7hHT_sAAAAA:TaAtyss8xPrBxvc8L5gdhCA4up6DHgFq9PuyIKyrAuVYoRC1KQwcj-0a2HFcxbMITcP_Oo1qJYespg
+
 51. Nadtochenko, V. A., Fedotov, N. G., Vedeneev, V. I., and Sarkisov, O. M., Dokl. Akad. Nauk. SSSR., 238, 1391, 1978.
+
+
 52. Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982.
+www.sciencedirect.com/science/article/abs/pii/000469818290467X
+
 53. Toby, S. and Ullrich, E., Int. J. Chem. Kinet., 12, 535, 1980.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550120804?casa_token=22v-g6n79FMAAAAA:IM8jLMkUOkykHu-FLwjWLffxsSSmzYmZiNXWqTAoWiezmouiOqm5mAv2a3Lz_iJvnHQInF6NE2u_TQ
+
+
 54. Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f1/f19827802423?casa_token=ukJwMT0QJ2gAAAAA:SdFY9RajtUgngt1wBGy9se-qu2JO9HoreXDMqKQgkBsUC75VIWw3eL9w0OjWSlrgLBFWgBajWeX5
+
+
 55. Wongdontri-Stuper, W., Jayanty, R. K. M., Simonaitis, R., and Heicklen, J., J. Photochem., 10, 163, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0047267079800040
+
 56. Gordon, E. B., Ivanov, B. I., Perminov, A. P., and Balalaev, V. E., Chem. Phys., 35, 79, 1978.
+https://www.sciencedirect.com/science/article/abs/pii/0301010478851945
+
 57. Nelson, H. H., and McDonald, J. R., J. Phys. Chem., 86, 1242, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100397a004?casa_token=nGC--me27dkAAAAA:vnK3Hgg1i3x0SJAti5dpsaQdPGfC96bjt6xAVAIR54_25lpdCHSt1LVr996wGV0oWV8hM3Lg7dlWVg
+
+
 58. Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984.
+https://pubs.aip.org/aip/jpr/article-abstract/13/4/1259/241368/Evaluated-Kinetic-and-Photochemical-Data-for
+
 59. DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83.
+
+
 60. Morgan, C. A., Pilling, M. J., and Tulloch, J. M., J. Chem. Soc., Faraday Trans. 2, 78, 1323, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827801323?casa_token=PiV635Swe5gAAAAA:owp7EtL7F7WQlRS2Ao5RYy6PKliv2fozVnnacSj-lPjh-wGznqLOLYsh06h0rCUc2qfC77cGhMVJ
+
 61. Ruiz, R. P., Bayes, K. D., Macpherson, M. T., and Pilling, M.J., J. Phys. Chem., 85, 1622, 1981.
+
 62. Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0009261481851901
+
 63. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.
+https://srd.nist.gov/JPCRD/jpcrdS1Vol10.pdf
+
+

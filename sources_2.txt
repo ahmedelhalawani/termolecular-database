@@ -1,34 +1,120 @@
 1. Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973.
+
 2. Bennett, J. E. and Blackmore, D. R., Chem. Comm., 1521, 1968.
+https://pubs.rsc.org/en/content/articlelanding/1968/c1/c19680001521
+
 3. Mallard, W. G. and Owen, J. H., Int. J. Chem. Kinet., 6, 753, 1974.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550060511
+
 4. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972.
+https://srd.nist.gov/JPCRD/jpcrd293.pdf
+
+
 5. Brown, R. L., Int. J. Chem. Kinet., 5, 663, 1973.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550050416
+
+
 6. Day, M. J., Thompson, K., and Dixon-Lewis, G., 14th Symp. (Int.) Com- bust., The Combustion Institute, Pittsburgh, 1973, 47.
+https://nvlpubs.nist.gov/nistpubs/jres/77A/jresv77An6p733_A1b.pdf
+
+
 6a. Koike, T. and Morinaga, K., Bull. Chem. Soc. Jpn., 49, 1457, 1976.
+
+
 7. Avramenko, L. I. and Krasnen'kov, V. M., Izv. Akad. Nauk SSSR, Ser. Khim., 7, 1095, 1963 (English).
+
+
 8. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., High Temperature Reaction Rate Data, Vol. 4, University of Leeds, 1969.
-9. Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973. 
-10. Loser, S. A., Dokl. Akad. Nauk SSSR, Ser. Khim., 120, 467, 1958. 
+
+
+9. Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973.
+https://www.sciencedirect.com/science/article/abs/pii/0009261473804798
+
+
+10. Loser, S. A., Dokl. Akad. Nauk SSSR, Ser. Khim., 120, 467, 1958.
+
+ 
 11. Avramenko, L. I., Zh. Fiz. Khim., 23, 790, 1949.
-12. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+
+
+12. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Kinetic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19770810719
+
+
 13. Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National
 Standard Reference Data System - National Bureau of Standards 20, 1968. 13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English).
+
+https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds20.pdf
+
+
 13b. Ultec, C. J., Chem. Phys. Lett., 46, 366, 1977.
+
+
 14. Lloyd, A. C., Int. J. Chem. Kinet., 3, 39, 1971.
-15. Ganguli, P. S. and Kaufman, M., Chem. Phys. Lett., 25, 221, 1974. 
-16. Fair, R. W. and Thrush, B. A., Trans. Faraday Soc., 65, 1208, 1969. 
-17. Widman, R. P. and DeGraff, B. A., J. Phys. Chem., 77, 1325, 1973. 
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550030105?casa_token=8hmYQa1bgbQAAAAA:-vEQJVmtMf0haFuDXy9paODyF4RFjRNJKRZiGiKU8crVXRSqDDDh4oFfGpIlelEVjw-s7VUPc4eQHw
+
+
+15. Ganguli, P. S. and Kaufman, M., Chem. Phys. Lett., 25, 221, 1974.
+https://www.sciencedirect.com/science/article/abs/pii/0009261474891220 
+
+16. Fair, R. W. and Thrush, B. A., Trans. Faraday Soc., 65, 1208, 1969.
+https://pubs.rsc.org/en/content/articlehtml/1969/tf/tf9696501208?casa_token=n_wYcR2iUKIAAAAA:obpRK39TXlWSDmo5Xw90HHPyXXyC6fuV6B3mr8zAe7yr9uCfDkYHojHY9oDNZx3Ti4GadFg89lwz
+
+
+17. Widman, R. P. and DeGraff, B. A., J. Phys. Chem., 77, 1325, 1973.
+https://pubs.acs.org/doi/10.1021/j100630a002
+
+ 
 18. Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973.
+https://www.sciencedirect.com/science/article/abs/pii/0009261473851590
+
+
 18a. Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550080404
+
+
 19. Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973.
+https://pubs.rsc.org/en/content/articlelanding/1973/f2/f29736900412
+
+
 20. Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969.
+https://pubs.aip.org/aip/jcp/article-abstract/51/8/3414/534038/Recombination-of-Br-Atoms-by-Flash-Photolysis-over?redirectedFrom=fulltext
+
+
 20a. Genich, A. P., Manelis, G. B., and Myagkov, Yu. P., Dokl. Phys. Chem., 235, 1082, 1977 (Russian); 235, 787, 1977 (English).
+
+
 21. Chang, S. K., Clarke, A. G., and Burns, G., J. Chem. Phys., 54, 1835, 1971. 
+https://pubs.aip.org/aip/jcp/article-abstract/54/4/1835/445669/Recombination-of-Br-Atoms-by-Flash-Photolysis-over?redirectedFrom=fulltext
+
+
 22. Horie, O. and Frazier, G. C., Jr., J. Phys. Chem., 75, 3046, 1971.
-23. Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974. 
-24. Ip, J. K. K. and Burns, G., J. Chem. Phys., 56, 3155, 1972. 24a. Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976. 24b. Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976.
+https://pubs.acs.org/doi/abs/10.1021/j100689a003?casa_token=gOAkNL7wJ20AAAAA:9uoJr4_w-mc_TmekXYRG0h5E150upYpc0sC-6UUgm5Wzy6os3PAeid6wCqenvLK0tYVrdR5FM50X7A
+
+
+23. Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974.
+https://pubs.acs.org/doi/pdf/10.1021/ja00810a011?casa_token=_uZHa_h4o8cAAAAA:xA6vWvCeCyNQ1lHLij7JpCrYV6KhhMx0z3v1xCYmsSI7Yg0Dpwgd06Tpeo8n4wIYUDGbf6TNAJJ22w
+
+
+24. Ip, J. K. K. and Burns, G., J. Chem. Phys., 56, 3155, 1972. 24a. Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976. 
+
+
+24b. Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976.
+https://www.sciencedirect.com/science/article/abs/pii/0009261476807014
+
+
 25. Burns, G., Leroy, R. J., Morriss, D. G., and Blake, J. A., Proc. R. Soc. London, Ser. A, 315, 81, 1971.
+
+
 26. Mayer, R. T., J. Phys. Chem., 78, 878, 1974.
+
+
 26a. Autrium, R. E., Burns, G., and Ip, J. K. K., Can. J. Chem., 55, 749, 1977.
+https://cdnsciencepub.com/doi/abs/10.1139/v77-104
+
+
 27. Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973.
+https://pubs.acs.org/doi/pdf/10.1021/j100623a002?casa_token=AdipeTQSYdkAAAAA:XsaBKH7e44uVCk4xxImj0V9dWlsm0Or_kmv027rTyTQX2hCPN6JsYDFrZgiqLOBbmjXCnsQSs-HjKw
+
 28. Chang, H. W. and Burns, G., J. Chem. Phys., 62, 2426, 1975.
+https://pubs.aip.org/aip/jcp/article-abstract/62/6/2426/773464/Recombination-of-iodine-atoms-by-flash-photolysis

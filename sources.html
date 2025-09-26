@@ -98,28 +98,18 @@
     let currentSet = Number(params.get("set")) || 1;
 
     const files = {
-      1: "fixed_sources.txt",
-      2: "sources_6.txt",
-      3: "sources_4.txt",
-      4: "sources_2.txt",
-      5: "sources_5.txt",
-      6: "sources_1.txt"
+      1: "fixed_sources.html",
+      2: "sources_6.html",
+      3: "sources_4.html",
+      4: "sources_2.html",
+      5: "sources_5.html",
+      6: "sources_1.html"
     };
 
     function setActiveTab() {
       for (let i = 1; i <= 6; i++) {
         document.getElementById(`set${i}Btn`).classList.toggle("activeTab", currentSet === i);
       }
-    }
-
-    function parseNumberedLines(text) {
-      const items = [];
-      const lines = text.split(/\r?\n/);
-      for (const line of lines) {
-        const m = line.match(/^\s*([0-9]+[a-zA-Z]*)\.\s*(.*)$/);
-        if (m) items.push({ num: m[1], content: m[2] });
-      }
-      return items;
     }
 
     async function loadSources() {
@@ -129,22 +119,8 @@
       container.innerHTML = "Loading...";
 
       try {
-        const text = await fetch(filename).then(r => r.text());
-        const items = parseNumberedLines(text);
-        container.innerHTML = "";
-
-        if (items.length === 0) {
-          container.textContent = "No sources found.";
-          return;
-        }
-
-        for (const { num, content } of items) {
-          const div = document.createElement("div");
-          div.className = "source";
-          div.id = num;
-          div.innerHTML = `<strong>${num}.</strong> ${content}`;
-          container.appendChild(div);
-        }
+        const html = await fetch(filename).then(r => r.text());
+        container.innerHTML = html;
 
         if (location.hash) {
           const el = document.getElementById(location.hash.slice(1));

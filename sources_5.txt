@@ -1,12 +1,38 @@
 1. Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet... 10, 155, 1978.
-2. Kuznetsov, V. A. and Kashireninov, O. E., Zh. Fiz. Khim., 52, 355, 1978. 3. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1. 75. 1868, 1979.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100203?casa_token=ED-zWWWRXdAAAAAA:7m_Tj8r7Ge2_yVNRzsSfvHb3FKnsWyBmvBV3tcUzuIQN7s6ZaASNL7D59zYqEXXoprfJ1p5zTNmXuQ
+
+2. Kuznetsov, V. A. and Kashireninov, O. E., Zh. Fiz. Khim., 52, 355, 1978. 
+
+
+3. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1. 75. 1868, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=gBikh6xN0dsAAAAA:Zk3j3JOUMPrZpEgMURI5_bELyEhgbO31NFyT9DoaTzchxffCW78gHcbDX_jmZ6vw09zszdaM96kW
+
 4. Yamashita, T., J. Chem. Phys., 70, 4248, 1979.
+https://pubs.aip.org/aip/jcp/article-abstract/70/9/4248/88248/Rate-of-recombination-of-nitrogen-atoms
+
 5. Skorobogatov, G. A., Dimov, B. P., and Khomenko, V. E., Chem. Phys.. 42, 73, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/030101047985168X
+
 6. Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980.
+
+
 7. Koike, T. and Morinaga, K., Bull. Chem. Soc. Jpn., 55, 52, 1982.
-8. Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979. 
+
+
+8. Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=gBikh6xN0dsAAAAA:Zk3j3JOUMPrZpEgMURI5_bELyEhgbO31NFyT9DoaTzchxffCW78gHcbDX_jmZ6vw09zszdaM96kW
+ 
 9. Emel'kin, V. A. and Marusin, V. V., Kinet. Katal., 19, 1389, 1978. 
+
+
 10. Clyne, M. A. A. and Smith, D. J., J. Chem. Soc., Faraday Trans. 2. 75, 704, 1979. 
+https://pubs.rsc.org/en/content/articlehtml/1979/f2/f29797500704?casa_token=5xaVY2wHFmAAAAAA:JJn9HcS2xLck-6J5Yu8f3JEnuhHPZYoyQwo4lfOfClwAWsaVD9d1nHEJp6eD6p6jJbv0cctLYLSk
+
 11. Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980. 
-12. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981. 
+https://pubs.aip.org/aip/jcp/article-abstract/72/10/5405/775642/The-photolytic-cage-effect-of-iodine-in-the-gas
+
+12. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.
+
+ 
 13. Stephan, K.-H. and Comes, F. J., Chem. Phys. Lett., 65, 251, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0009261479870591
