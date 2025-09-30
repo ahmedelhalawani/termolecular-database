@@ -58,7 +58,7 @@
       text-decoration: underline; 
     }
     a:hover { 
-      color: darkred; 
+  color: #800000; 
     }
     button { 
       padding: 6px 12px; 
@@ -67,7 +67,7 @@
       cursor: pointer; 
     }
     .activeTab { 
-      background: #b30000; /* brighter red */
+  background: #800000; /* unified red */
       color: white; 
     }
 
@@ -86,7 +86,7 @@
       appearance: none;
       width: 16px;
       height: 16px;
-      background: #b30000;
+  background: #800000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
@@ -94,7 +94,7 @@
     input[type=range]::-moz-range-thumb {
       width: 16px;
       height: 16px;
-      background: #b30000;
+  background: #800000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
@@ -102,24 +102,24 @@
     input[type=range]::-ms-thumb {
       width: 16px;
       height: 16px;
-      background: #b30000;
+  background: #800000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
     }
     input[type=range]::-webkit-slider-runnable-track {
       height: 6px;
-      background: #b30000;
+  background: #800000;
       border-radius: 3px;
     }
     input[type=range]::-moz-range-track {
       height: 6px;
-      background: #b30000;
+  background: #800000;
       border-radius: 3px;
     }
     input[type=range]::-ms-track {
       height: 6px;
-      background: #b30000;
+  background: #800000;
       border-radius: 3px;
     }
 
@@ -134,7 +134,7 @@
   </style>
 </head>
 <body>
-  <!-- Top Navigation -->
+
   <header class="topbar">
     <div>
       <a href="landing.html">
@@ -199,6 +199,12 @@
     async function loadCSV(setNum) {
       currentSet = setNum;
 
+      // Clear search bar when switching datasets
+      const searchBar = document.getElementById("searchBar");
+      if (searchBar) {
+        searchBar.value = "";
+      }
+
       // Highlight active button
       for (let i = 1; i <= 6; i++) {
         document.getElementById(`set${i}Btn`).classList.toggle("activeTab", setNum === i);
@@ -250,11 +256,30 @@
       const tempValue = document.getElementById("tempValue");
       const query = document.getElementById("searchBar").value.toLowerCase();
 
+      // helper to replace subscript numbers with normal numbers
+      function normalizeSubscripts(str) {
+        if (!str) return str;
+        return str
+          .replace(/[₀]/g, '0')
+          .replace(/[₁]/g, '1')
+          .replace(/[₂]/g, '2')
+          .replace(/[₃]/g, '3')
+          .replace(/[₄]/g, '4')
+          .replace(/[₅]/g, '5')
+          .replace(/[₆]/g, '6')
+          .replace(/[₇]/g, '7')
+          .replace(/[₈]/g, '8')
+          .replace(/[₉]/g, '9');
+      }
+
       tempValue.textContent = slider.value;
 
       const filtered = allRows.filter(r => {
         const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
-        const searchOK = !query || (r.Reaction && r.Reaction.toLowerCase().includes(query));
+        let reaction = r.Reaction ? r.Reaction.toLowerCase() : "";
+        let reactionNorm = normalizeSubscripts(reaction);
+        // Search matches if query is in original or normalized reaction
+        const searchOK = !query || (reaction.includes(query) || reactionNorm.includes(query));
         return tempOK && searchOK;
       });
 
