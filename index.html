@@ -33,7 +33,9 @@
       font-weight: bold;
     }
 
+    /* Keep header/nav links white and underlined on hover (match landing.html) */
     nav a:hover {
+      color: white;
       text-decoration: underline;
     }
 
@@ -58,7 +60,8 @@
       text-decoration: underline; 
     }
     a:hover { 
-  color: #800000; 
+      color: #800000; 
+      text-decoration: underline;
     }
     button { 
       padding: 6px 12px; 
@@ -130,6 +133,15 @@
       width: 300px;
       border: 1px solid #aaa;
       border-radius: 5px;
+    }
+
+    footer {
+      background: #333;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: auto;
     }
   </style>
 </head>
@@ -339,5 +351,13 @@
 
     loadCSV(1);
   </script>
+
+
+<footer>
+    © 2025 Termolecular Reaction Database | JPR Group
+</footer>
+
 </body>
+
+
 </html>

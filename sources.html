@@ -26,7 +26,9 @@
       text-decoration: none;
       font-weight: bold;
     }
+    /* Keep header/nav links white and underlined on hover (match landing.html) */
     nav a:hover {
+      color: white;
       text-decoration: underline;
     }
     main {
@@ -57,12 +59,37 @@
   background: #800000; 
   color: #fff; 
     }
+    /* Match dataset button styles from index.html */
+    button { 
+      padding: 6px 12px; 
+      font-size: 14px; 
+      margin: 5px; 
+      cursor: pointer; 
+    }
+    /* Show red background and white text when pressed/focused to match index active style */
+    .tabs button:active, .tabs button:focus, button:active, button:focus {
+      background: #800000;
+      color: white;
+      outline: none;
+    }
     a { 
       color: #800000; 
+      text-decoration: underline;
     }
     a:hover {
       color: #800000;
+      text-decoration: underline;
     }
+
+    footer {
+      background: #333;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: auto;
+    }
+
   </style>
 </head>
 <body>
@@ -146,5 +173,8 @@
 
     loadSources();
   </script>
+  <footer>
+    © 2025 Termolecular Reaction Database | JPR Group
+  </footer>
 </body>
 </html>
