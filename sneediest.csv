@@ -11,7 +11,6 @@ H+CH₃→CH₄,,,,6.03E-36,0.0,703.0,H₂ discharge/C₂H₆ (T),3,"1,2"
 H+CH₃→CH₄,,,,4.17E-34,0.0,308.0,C₂H₆/Hg*,3a,2
 H+CH₃→CH₄,,,,5.50E-34,0.0,308.0,C₂H₆/Hg*,3b,"2,2a"
 H+CH₃+He→CH₄+He,,,,1.45E-29,0.0,295.0,H₂/He discharge/C₂H₄ (T),4,3
-H+CH₃+He→CH₄+He,,,,See Additional Notes-0,,,,,
 H+CH₃+NO→CH₄+NO,,,,5.50E-28,0.0,295.0,H₂/He discharge/C₂H₄ (T),4,3
 H+C₂H₅→C₂H₆,,,,9.78E-35,0.0,298.0,C₂H₄ (F.P.),5,"2,4"
 H+C₂H₅→C₂H₆,0.2,0.9,1.78e-34,,,321.0,H₂ discharge/C₂H₄,4a,"2,3a"
@@ -44,7 +43,7 @@ H+NH₂+Ar→NH₃+Ar,-7.56,-31.59,,1.32E-33,0.0,3000.0,,9,"5,11"
 H+NH₂→NH₃,,,,5.02E-35,0.0,298.0,NH₃ Radiolysis,12,2
 F+NF₂+He→NF₃+He,,,,8.92E-31,0.0,298.0,"N₂F₄ + 2NF₂
 N + NF₂ → 2F + N₂",13,12
-Cl+NF₂ + Ar → NF₂Cl + Ar,,,,2.69E-31,0.0,293.0,Cl₂/Ar discharge; N₂F₄ (T),14,"13,14"
+CL+NF₂ + Ar → NF₂Cl + Ar,,,,2.69E-31,0.0,293.0,Cl₂/Ar discharge; N₂F₄ (T),14,"13,14"
 Br+NF₂ +Ar  → NF₂Br + Ar,,,,1.00E-31,0.0,293.0,Br₂/Ar discharge; N₂F₄ (T),14,"13,14"
 I+NO+He→INO+He,,,,6.03E-33,0.0,330.0,I₂  (laser F.P.),14a,14a
 I+NO+Ne→INO+Ne,,,,8.14E-33,0.0,330.0,I₂  (laser F.P.),14a,14a
@@ -71,14 +70,6 @@ I+NO₂+neo-C₅H₁₂→INO₂+neo-C₅H₁₂,,,,5.76E-32,0.0,330.0,I₂  (F.
 I+NO₂+(CH₃)₃CC₂H₅→INO₂+(CH₃)₃CC₂H₅,,,,6.77E-32,0.0,330.0,I₂  (F.P.),14a,23
 I+NO₂+(CH₃)₂CHCH₂CH(CH₃)₂→INO₂+M,,,,6.93E-32,0.0,330.0,I₂  (F.P.),14a,23
 I+NO₂+(CH₃)₂CCH₂CH(CH₃)₂→INO₂+M,,,,7.59E-32,0.0,330.0,I₂  (F.P.),14a,23
-I+CF₃ → CF₃I,,,,See Additional Notes -1,,297.0,CF₃I (F.P.),14b,14b
-I+CF₃ → CF₃I,,,,See Additional Notes -2,,457.0,CF₃I (F.P.),14b,14b
-I+C₂F₅ → C₂F₅I,,,,See Additional Notes -3,,297.0,C₂F₅I (F.P.),14b,14b
-I+C₂F₅ → C₂F₅I,,,,See Additional Notes -4,,457.0,C₂F₅I (F.P.),14b,14b
-I+C₃F₇ → C₃F₇I,,,,See Additional Notes -5,,297.0,C₃F₇I (F.P.),14b,14b
-I+C₃F₇ → C₃F₇I,,,,See Additional Notes -6,,457.0,C₃F₇I (F.P.),14b,14b
-I+C₄F₉ → C₄F₉I,,,,See Additional Notes -7,,297.0, C₄F₉I(F.P.),14b,14b
-I+C₄F₉ → C₄F₉I,,,,See Additional Notes -8,,457.0, C₄F₉I(F.P.),14b,14b
 O+NO+Ne→ NO₂+Ne,-1.0,-4.2,9.34e-33,,,217.0,NO (F.P.),26,24
 O+NO+Ne→ NO₂+Ne,-1.0,-4.2,9.34e-33,,,217.0,NO (F.P.),26,24
 O+NO+He→ NO₂+He,-1.0,-4.2,1.07e-32,,,217.0,NO (F.P.),26,24
@@ -96,8 +87,6 @@ O+NO+N₂→ NO₂+N₂,,,,6.46E-32,0.0,295.0,NO₂ (P),15,15
 O+NO+N₂→ NO₂+N₂,,,,5.02E-35,0.0,295.0,NO₂ (P),15,"2,15,16"
 O+NO+N₂→ NO₂+N₂,-1.2,-4.8,1.55e-32,,,217.0,NO (F.P.),15a,16a
 O+NO+N₂→ NO₂+N₂,-1.2,-4.8,1.55e-32,,,500.0,NO (F.P.),15a,16a
-O+NO+O₂→ NO₂+O₂,,,,See Additional Notes -9,,230.0,,9,"2,5"
-O+NO+O₂→ NO₂+O₂,,,,See Additional Notes -10,,3750.0,,9,"2,5"
 O+NO+O₂→ NO₂+O₂,,,,7.09E-32,0.0,294.0,NO₂ (P.),16,
 O+NO+O₂/Ar→ NO₂+O₂/Ar,-1.8,-7.8,3.02e-33,,,200.0,,9,5
 O+NO+O₂/Ar→ NO₂+O₂/Ar,-1.8,-7.8,3.02e-33,,,500.0,,9,5

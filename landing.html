@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Database of Termolecular Reactions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Termolecular Reactions Database</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fafafa;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
       color: #333;
       display: flex;
       flex-direction: column;
@@ -17,16 +20,16 @@
 
     /* Navigation Bar */
     header {
-  background: #800000; /* Deep red */
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+      background: #990000; /* Deep red */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 24px;
     }
 
     header img.logo {
-  height: 40px;
+      height: 45px;
     }
 
     nav a {
@@ -44,12 +47,12 @@
     .hero {
       text-align: center;
       padding: 80px 20px;
-      background: #f5f5f5;
+      background: #e7e4e2;
     }
 
     .hero h1 {
       font-size: 2.8em;
-      color: #800000;
+      color: #990000;
     }
 
     .hero p {
@@ -63,7 +66,7 @@
       margin-top: 20px;
       padding: 12px 24px;
       font-size: 1.1em;
-      background: #800000;
+      background: #990000;
       color: white;
       border: none;
       border-radius: 6px;
@@ -72,7 +75,7 @@
     }
 
     .cta-btn:hover {
-      background: #600000;
+      background: #6B000D;
     }
 
     /* Section Styling */
@@ -83,7 +86,7 @@
     }
 
     section h2 {
-      color: #800000;
+      color: #990000;
       margin-bottom: 15px;
       text-align: center;
     }
@@ -104,7 +107,7 @@
     }
 
     .reaction-card {
-      background: white;
+      background: #f4f2f0;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 20px;
@@ -112,7 +115,7 @@
     }
 
     .reaction-card h3 {
-      color: #800000;
+      color: #990000;
       margin-top: 0;
     }
 
@@ -130,19 +133,19 @@
 <body>
 
   <!-- Top Navigation -->
-  <header class="topbar">
+  <header>
     <div>
       <a href="landing.html">
         <img src="jpr_logo.png" alt="Logo" class="logo">
       </a>
     </div>
     <nav>
-      <a href="landing.html">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="about.html">About</a>
-      <a href="explanation.html">Explanation</a>
-      <a href="index.html">Database</a>
-    </nav>
+    <a href="landing.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="explanation.html">Explanation</a>
+    <a href="index.html">Database</a>
+  </nav>
   </header>
 
   <!-- Hero -->
@@ -164,6 +167,7 @@
     </p>
   </section>
 
+  <!-- Featured Reactions -->
   <section>
     <h2>Interesting Reactions in our Database</h2>
     <div class="reaction-grid">
@@ -190,7 +194,8 @@
   <section>
     <h2>How to Use</h2>
     <p>
-      Navigate using the menu above or the “Explore the Database” button. For explanations about how to read the data navigate over to the explanation section.
+      Navigate using the menu above or the “Explore the Database” button. Once inside,
+      you can search, filter by temperature, and view original references and notes.
     </p>
   </section>
 
@@ -198,8 +203,6 @@
   <footer>
     © 2025 Termolecular Reaction Database | JPR Group
   </footer>
-
-  
 
 </body>
 </html>

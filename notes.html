@@ -2,98 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Notes</title>
   <style>
-    body { 
-      font-family: Arial, sans-serif; 
+    body {
       margin: 0;
-      padding: 0;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
+
+    /* Header bar - match landing/index */
     header {
-      background: #800000;
+      background: #990000; /* Deep red */
       color: white;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
+      justify-content: space-between;
+      padding: 12px 24px;
     }
+
     header img.logo {
-      height: 40px;
+      height: 45px;
     }
+
     nav a {
       color: white;
       margin-left: 20px;
       text-decoration: none;
       font-weight: bold;
     }
-    /* Keep header/nav links white and underlined on hover (match landing.html) */
+
     nav a:hover {
-      color: white;
       text-decoration: underline;
     }
+
     main {
       padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
 
-    .note { 
-      margin-bottom: 14px; 
-      line-height: 1.4; 
+    h1 { color: #990000; }
+
+    .note {
+      margin-bottom: 14px;
+      line-height: 1.4;
     }
-    .note:target { 
-      background: #ffe6e6; 
-      padding: 6px; 
-      border-radius: 6px; 
+    .note:target {
+      background: #ffe6e6;
+      padding: 6px;
+      border-radius: 6px;
     }
-    .tabs { 
-      margin: 12px 0; 
-    }
-    .tabs button { 
-      padding: 6px 12px; 
-      margin-right: 6px; 
-      cursor: pointer; 
+
+    .tabs { margin: 12px 0; }
+
+    /* Buttons - match index.html */
+    .tabs button,
+    button {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 0.825em;
+      margin-top: 10px;
+      margin-right: 6px;
+      cursor: pointer;
+      background: #990000;
       border: none;
-      border-radius: 4px;
-      background: #f2f2f2;
-    }
-    .activeTab { 
-  background: #800000; 
-  color: #fff; 
-    }
-    /* Match dataset button styles from index.html */
-    button { 
-      padding: 6px 12px; 
-      font-size: 14px; 
-      margin: 5px; 
-      cursor: pointer; 
-    }
-    /* Show red background and white text when pressed/focused to match index active style */
-    .tabs button:active, .tabs button:focus, button:active, button:focus {
-      background: #800000;
+      border-radius: 3px;
       color: white;
-      outline: none;
+      font-family: "Montserrat", sans-serif;
     }
-    a { 
-      color: #800000; 
-      text-decoration: underline;
+
+    .tabs button { padding: 6px 10px; margin-top: 0; border-radius: 4px; }
+
+    .tabs button.activeTab {
+      background: #b30000; /* brighter red */
+      color: white;
     }
-    a:hover {
-      color: #800000;
-      text-decoration: underline;
-    }
+
+    a { color: #990000; text-decoration: underline; }
 
     footer {
+      text-align: center;
       background: #333;
       color: #ddd;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
+      padding: 15px;
       margin-top: auto;
     }
-
   </style>
 </head>
 <body>
-  <header class="topbar">
+  <header>
     <div>
       <a href="landing.html">
         <img src="jpr_logo.png" alt="Logo" class="logo">
@@ -197,10 +202,8 @@
 
     loadNotes();
   </script>
-
   <footer>
     © 2025 Termolecular Reaction Database | JPR Group
   </footer>
-
 </body>
 </html>

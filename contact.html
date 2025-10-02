@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Contact Us</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+     body {
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
+      color: #333;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
@@ -17,12 +20,12 @@
 
     /* Header bar */
     header {
-      background: #800000; /* deep red */
+      background: #990000; /* Deep red */
       color: white;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
+      justify-content: space-between;
+      padding: 12px 24px;
     }
 
     header img.logo {
@@ -36,7 +39,6 @@
       font-weight: bold;
     }
 
-    /* Keep header/nav links white and underlined on hover (match landing.html) */
     nav a:hover {
       color: white;
       text-decoration: underline;
@@ -52,7 +54,7 @@
     }
 
     .content-box {
-      background: white;
+      background: #f5f3f2;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 8px;
       padding: 30px;
@@ -61,7 +63,7 @@
     }
 
     h1 {
-      color: #800000;
+      color: #990000;
       margin-top: 0;
     }
 
@@ -70,15 +72,13 @@
       line-height: 1.5;
     }
 
-    /* Default body links (outside header) */
     a {
-      color: #800000;
+      color: #990000;
       text-decoration: underline;
     }
 
     a:hover {
-      color: #800000;
-      text-decoration: underline;
+      color: #990000;
     }
 
     /* Footer (match about.html) */
@@ -93,13 +93,13 @@
 </head>
 <body>
   <!-- Top Navigation -->
-  <header class="topbar">
-  <div>
-    <a href="landing.html">
-      <img src="jpr_logo.png" alt="Logo" class="logo">
-    </a>
-  </div>
-  <nav>
+  <header>
+    <div>
+      <a href="landing.html">
+        <img src="jpr_logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <nav>
     <a href="landing.html">Home</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
@@ -107,7 +107,6 @@
     <a href="index.html">Database</a>
   </nav>
   </header>
-
 
   <main>
     <div class="content-box">

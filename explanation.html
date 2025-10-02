@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Explanation of Data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Explanation of Database</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #ffffff;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
       color: #333;
       display: flex;
       flex-direction: column;
@@ -19,12 +22,12 @@
 
     /* Navigation Bar - copied from landing.html to match exactly */
     header.topbar {
-      background: #800000; /* Deep red */
+      background: #990000; /* Deep red */
       color: white;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
+      justify-content: space-between;
+      padding: 12px 24px;
     }
 
     header.topbar img.logo {
@@ -50,29 +53,29 @@
     }
 
     a:hover {
-      color: #800000;
+      color: #990000;
     }
 
    
-    h1{font-size:1.6rem;margin:0;color:#800000}
-    p.lead{color:#800000;margin-top:6px}
+    h1{font-size:1.6rem;margin:0;color:#990000}
+    p.lead{color:#990000;margin-top:6px}
 
-    .card{background:#fff;border:2px solid #800000;border-radius:12px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(127,29,29,0.15)}
+    .card{background:#f5f3f2;border:2px solid #990000;border-radius:12px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(127,29,29,0.15)}
     .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
     .full{grid-column:1/-1}
 
     table{width:100%;border-collapse:collapse;margin-top:12px}
-    th,td{padding:8px 10px;border-bottom:1px solid #fca5a5;text-align:left}
-    th{background:#fee2e2;font-weight:600;color:#800000}
-    code{background:#fee2e2;padding:2px 6px;border-radius:6px;color:#800000}
+    th,td{padding:8px 10px;border-bottom:1px solid #D52027;text-align:left}
+    th{background:#ffdedf;font-weight:600;color:#990000}
+    code{background:#ffdedf;padding:2px 6px;border-radius:6px;color:#990000}
 
     .col-list{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-    .col-card{background:#fff;border:1px solid #fecaca;padding:10px;border-radius:8px}
+    .col-card{background:#f5f3f2;border:1px solid #D52027;padding:10px;border-radius:8px}
 
-    .muted{color:#800000;font-size:0.95rem}
-    .help{font-size:0.9rem;color:#800000}
+    .muted{color:#990000;font-size:0.95rem}
+    .help{font-size:0.9rem;color:#990000}
 
-    footer{margin-top:18px;color:#800000;font-size:0.9rem}
+    footer{margin-top:18px;color:#990000;font-size:0.9rem}
 
     @media (max-width:920px){.grid{grid-template-columns:1fr}.col-list{grid-template-columns:1fr}}
     
@@ -115,22 +118,22 @@
   <div class="container">
     <header>
       <div>
-        <h1>Explanation of Data</h1>
+        <h1>Explanation of Database</h1>
         <p class="lead">Concise guide to what each column means.</p>
       </div>
     </header>
 
     <div class="grid">
       <section class="card">
-        <h2 style="margin-top:0;color:#800000">Goals & scope</h2>
+        <h2 style="margin-top:0;color:#990000">Goals & scope</h2>
         <p class="muted">This page explains the dataset columns and gives guidance for interpretation, units, and uncertainties.</p>
 
-        <h3 style="margin-top:16px;color:#800000">Quick example</h3>
+        <h3 style="margin-top:16px;color:#990000">Quick example</h3>
         <p class="muted">If a row lists $A = 1.2\times 10^{30}$, $n = -2.5$, and $E = 5.1\;\text{kcal mol}^{-1}$, then the generalized Arrhenius form is $$k(T) = A T^n e^{-E/(RT)}.$$ Use $R = 1.9872\times10^{-3}\;\text{kcal mol}^{-1}\text{K}^{-1}$ to evaluate the exponential term when $E$ is in kcal/mol.</p>
       </section>
 
       <aside class="card">
-        <h3 style="margin-top:0;color:#800000">At-a-glance</h3>
+        <h3 style="margin-top:0;color:#990000">At-a-glance</h3>
         <p class="muted">Units & quick tips</p>
         <table>
           <tr><th>Column</th><th>Typical units</th></tr>
@@ -142,40 +145,40 @@
       </aside>
 
       <section class="card full">
-        <h2 style="color:#800000">Column-by-column explanations</h2>
+        <h2 style="color:#990000">Column-by-column explanations</h2>
         <div class="col-list" style="margin-top:12px">
           <div class="col-card">
-            <h4 style="color:#800000">Reaction</h4>
+            <h4 style="color:#990000">Reaction</h4>
             <p class="muted">Balanced chemical equation for the process studied. If a third body is required, it is shown as <code>M</code>. Radical species are denoted with a dot (•).</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">E / kcal mol⁻¹</h4>
+            <h4 style="color:#990000">E / kcal mol⁻¹</h4>
             <p class="muted">Activation energy in kcal/mol. Appears in the Arrhenius exponent: $e^{-E/(RT)}$. Provided alongside the kJ value.</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">E / kJ mol⁻¹</h4>
+            <h4 style="color:#990000">E / kJ mol⁻¹</h4>
             <p class="muted">Same activation energy in kJ/mol. Conversion: $1\;\text{kcal mol}^{-1} = 4.184\;\text{kJ mol}^{-1}$.</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">A (pre-exponential)</h4>
+            <h4 style="color:#990000">A (pre-exponential)</h4>
             <p class="muted">Frequency factor in the Arrhenius expression. Units depend on molecularity (termolecular → cm⁶ mol⁻² s⁻¹). Appears in $k(T) = A T^n e^{-E/(RT)}$.</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">k</h4>
+            <h4 style="color:#990000">k</h4>
             <p class="muted">Rate constant at the given temperature. For termolecular reactions: cm⁶ mol⁻² s⁻¹.</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">n (temperature exponent)</h4>
+            <h4 style="color:#990000">n (temperature exponent)</h4>
             <p class="muted">Exponent in $k(T) = A T^n e^{-E/(RT)}$. Accounts for deviations from simple Arrhenius behavior. For $n=0$ That means $T=1$ and is constant.</p>
           </div>
 
           <div class="col-card">
-            <h4 style="color:#800000">Temp. / K</h4>
+            <h4 style="color:#990000">Temp. / K</h4>
             <p class="muted">Temperature (Kelvin) for which $k$ applies. If a range is shown, parameters are valid within that range.</p>
           </div>
         </div>

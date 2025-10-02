@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>About | Termolecular Reaction Database</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fafafa;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
       color: #333;
       display: flex;
       flex-direction: column;
@@ -17,12 +20,12 @@
 
     /* Header bar (same as index.html) */
     header {
-      background: #800000; /* deep red */
+      background: #990000; /* Deep red */
       color: white;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 10px 20px;
+      padding: 12px 24px;
     }
 
     header img.logo {
@@ -49,13 +52,13 @@
     }
 
     h1 {
-      color: #800000;
+      color: #990000;
       font-size: 2em;
       margin-bottom: 20px;
     }
 
     h2 {
-      color: #800000;
+      color: #990000;
       margin-top: 30px;
       margin-bottom: 15px;
     }
@@ -75,7 +78,7 @@
     }
 
     .team-member strong {
-      color: #800000;
+      color: #990000;
     }
 
     /* Footer pinned at bottom */
@@ -90,13 +93,11 @@
 </head>
 <body>
   <!-- Top Navigation -->
-  <header class="topbar">
-  <div>
-    <a href="landing.html">
-      <img src="jpr_logo.png" alt="Logo" class="logo">
-    </a>
-  </div>
-  <nav>
+  <header>
+    <div>
+      <a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a>
+    </div>
+    <nav>
     <a href="landing.html">Home</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
@@ -104,7 +105,6 @@
     <a href="index.html">Database</a>
   </nav>
   </header>
-
 
   <!-- Main Content -->
   <main>
@@ -120,8 +120,8 @@
 
     <h2>Our Team</h2>
     <div class="team-list">
-      <div class="team-member"><strong>Christiana Hadjipavlis</strong> </div>
       <div class="team-member"><strong>Ahmed Elhalawani</strong> </div>
+      <div class="team-member"><strong>Christiana Hadjipavlis</strong> </div>
       <div class="team-member"><strong>JPR Group</strong> </div>
     </div>
   </main>

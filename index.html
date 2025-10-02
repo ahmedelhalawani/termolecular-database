@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Termolecular Database</title>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   <style>
-    body { 
-      font-family: Arial, sans-serif; 
+    body {
       margin: 0;
-      padding: 0;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     /* Header bar */
     header {
-      background: #800000; /* deep red */
+      background: #990000; /* Deep red */
       color: white;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
+      justify-content: space-between;
+      padding: 12px 24px;
     }
 
     header img.logo {
@@ -33,10 +40,20 @@
       font-weight: bold;
     }
 
-    /* Keep header/nav links white and underlined on hover (match landing.html) */
     nav a:hover {
-      color: white;
       text-decoration: underline;
+    }
+
+    h1 {
+      color: #990000;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #990000;
+      margin-top: 30px;
+      margin-bottom: 15px;
     }
 
     main {
@@ -56,25 +73,30 @@
       background: #f0f0f0; 
     }
     a { 
-      color: #800000; 
+      color: #990000; 
       text-decoration: underline; 
     }
     a:hover { 
-      color: #800000; 
-      text-decoration: underline;
+      text-decoration: underline; 
     }
     button { 
+      display: inline-block;
       padding: 6px 12px; 
-      font-size: 14px; 
-      margin: 5px; 
-      cursor: pointer; 
+      font-size: 0.825em; 
+      margin-top: 10px; 
+      cursor: pointer;
+      background:  #990000;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      font-family: "Montserrat", sans-serif;
     }
     .activeTab { 
-  background: #800000; /* unified red */
+      background: #b30000; /* brighter red */
       color: white; 
     }
 
-    
+    /* 🔴 Red slider */
     input[type=range] {
       -webkit-appearance: none;
       width: 300px;
@@ -89,7 +111,7 @@
       appearance: none;
       width: 16px;
       height: 16px;
-  background: #800000;
+      background: #b30000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
@@ -97,7 +119,7 @@
     input[type=range]::-moz-range-thumb {
       width: 16px;
       height: 16px;
-  background: #800000;
+      background: #b30000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
@@ -105,28 +127,28 @@
     input[type=range]::-ms-thumb {
       width: 16px;
       height: 16px;
-  background: #800000;
+      background: #b30000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
     }
     input[type=range]::-webkit-slider-runnable-track {
       height: 6px;
-  background: #800000;
+      background: #b30000;
       border-radius: 3px;
     }
     input[type=range]::-moz-range-track {
       height: 6px;
-  background: #800000;
+      background: #b30000;
       border-radius: 3px;
     }
     input[type=range]::-ms-track {
       height: 6px;
-  background: #800000;
+      background: #b30000;
       border-radius: 3px;
     }
 
-   
+    /* 🔍 Search bar */
     #searchBar {
       margin: 15px 0;
       padding: 8px;
@@ -136,30 +158,30 @@
     }
 
     footer {
+      text-align: center;
       background: #333;
       color: #ddd;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
+      padding: 15px;
       margin-top: auto;
     }
+
   </style>
 </head>
 <body>
-
-  <header class="topbar">
+  <!-- Top Navigation -->
+  <header>
     <div>
       <a href="landing.html">
         <img src="jpr_logo.png" alt="Logo" class="logo">
       </a>
     </div>
     <nav>
-      <a href="landing.html">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="about.html">About</a>
-      <a href="explanation.html">Explanation</a>
-      <a href="index.html">Database</a>
-    </nav>
+    <a href="landing.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="explanation.html">Explanation</a>
+    <a href="index.html">Database</a>
+  </nav>
   </header>
 
   <main>
@@ -183,7 +205,7 @@
       <input type="range" id="tempSlider" min="0" max="100" value="100">
     </div>
 
-    
+    <!-- 🔍 Search bar -->
     <div>
       <input type="text" id="searchBar" placeholder="Search reactions...">
     </div>
@@ -210,12 +232,6 @@
 
     async function loadCSV(setNum) {
       currentSet = setNum;
-
-      // Clear search bar when switching datasets
-      const searchBar = document.getElementById("searchBar");
-      if (searchBar) {
-        searchBar.value = "";
-      }
 
       // Highlight active button
       for (let i = 1; i <= 6; i++) {
@@ -268,30 +284,11 @@
       const tempValue = document.getElementById("tempValue");
       const query = document.getElementById("searchBar").value.toLowerCase();
 
-      // helper to replace subscript numbers with normal numbers
-      function normalizeSubscripts(str) {
-        if (!str) return str;
-        return str
-          .replace(/[₀]/g, '0')
-          .replace(/[₁]/g, '1')
-          .replace(/[₂]/g, '2')
-          .replace(/[₃]/g, '3')
-          .replace(/[₄]/g, '4')
-          .replace(/[₅]/g, '5')
-          .replace(/[₆]/g, '6')
-          .replace(/[₇]/g, '7')
-          .replace(/[₈]/g, '8')
-          .replace(/[₉]/g, '9');
-      }
-
       tempValue.textContent = slider.value;
 
       const filtered = allRows.filter(r => {
         const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
-        let reaction = r.Reaction ? r.Reaction.toLowerCase() : "";
-        let reactionNorm = normalizeSubscripts(reaction);
-        // Search matches if query is in original or normalized reaction
-        const searchOK = !query || (reaction.includes(query) || reactionNorm.includes(query));
+        const searchOK = !query || (r.Reaction && r.Reaction.toLowerCase().includes(query));
         return tempOK && searchOK;
       });
 
@@ -352,12 +349,9 @@
     loadCSV(1);
   </script>
 
-
-<footer>
+  <footer>
     © 2025 Termolecular Reaction Database | JPR Group
-</footer>
+  </footer>
 
 </body>
-
-
 </html>
