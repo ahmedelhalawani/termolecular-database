@@ -5,105 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Notes</title>
   <style>
-    body {
-      margin: 0;
-      font-family: "Montserrat", sans-serif;
-      background: #f3f1ed;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    /* Header bar - match landing/index */
-    header {
-      background: #990000; /* Deep red */
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px 24px;
-    }
-
-    header img.logo {
-      height: 40px;
-    }
-
-    nav a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      padding: 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
+    body { margin: 0; font-family: "Montserrat", sans-serif; background: #f3f1ed; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+    header { background: #990000; color: white; display: flex; align-items: center; justify-content: space-between; padding: 12px 24px; }
+    header img.logo { height: 40px; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; max-width: 1000px; margin: auto; }
     h1 { color: #990000; }
-
-    .note {
-      margin-bottom: 14px;
-      line-height: 1.4;
-    }
-    .note:target {
-      background: #ffe6e6;
-      padding: 6px;
-      border-radius: 6px;
-    }
-
     .tabs { margin: 12px 0; }
-
-    /* Buttons - match index.html */
-    .tabs button,
-    button {
-      display: inline-block;
-      padding: 6px 12px;
-      font-size: 0.825em;
-      margin-top: 10px;
-      margin-right: 6px;
-      cursor: pointer;
-      background: #990000;
-      border: none;
-      border-radius: 3px;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-    }
-
-    .tabs button { padding: 6px 10px; margin-top: 0; border-radius: 4px; }
-
-    .tabs button.activeTab {
-      background: #b30000; /* brighter red */
-      color: white;
-    }
-
-    a { color: #990000; text-decoration: underline; }
-
-    footer {
-      text-align: center;
-      background: #333;
-      color: #ddd;
-      padding: 15px;
-      margin-top: auto;
-    }
+    .tabs button { display: inline-block; padding: 6px 12px; margin-right: 6px; border: none; border-radius: 4px; cursor: pointer; background: #990000; color: white; font-size: 0.9em; }
+    .tabs button.activeTab { background: #b30000; }
+    .section { background: #fff; margin: 10px 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden; }
+    .section summary { background: #eee; padding: 10px 14px; cursor: pointer; font-weight: 600; color: #990000; }
+    .section summary:hover { background: #e2e2e2; }
+    .note { padding: 8px 16px; line-height: 1.4; border-top: 1px solid #ddd; }
+    footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
   </style>
 </head>
 <body>
   <header>
-    <div>
-      <a href="landing.html">
-        <img src="jpr_logo.png" alt="Logo" class="logo">
-      </a>
-    </div>
+    <div><a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a></div>
     <nav>
       <a href="landing.html">Home</a>
       <a href="contact.html">Contact</a>
@@ -118,92 +42,93 @@
     <p><a href="index.html">⬅ Back to Table</a></p>
 
     <div class="tabs">
-      <button id="set1Btn" class="activeTab">Dataset 1</button>
-      <button id="set2Btn">Dataset 2</button>
-      <button id="set3Btn">Dataset 3</button>
-      <button id="set4Btn">Dataset 4</button>
-      <button id="set5Btn">Dataset 5</button>
-      <button id="set6Btn">Dataset 6</button>
+      <button id="nonIonicBtn" class="activeTab">Non-Ionic</button>
+      <button id="ionicBtn">Ionic</button>
     </div>
 
-    <div id="notesContainer"></div>
+    <div id="notesContainer">Loading...</div>
   </main>
 
-  <script>
-    const params = new URLSearchParams(location.search);
-    let currentSet = Number(params.get("set")) || 1;
+  <footer>© 2025 Termolecular Reaction Database | JPR Group</footer>
 
+  <script>
     const files = {
-      1: "fixed_notes.txt",
-      2: "notes_6.txt",
-      3: "notes_4.txt",
-      4: "notes_2.txt",
-      5: "notes_5.txt",
-      6: "notes_1.txt"
+      nonionic: "combined_notes.txt",
+      ionic: "notes_7.txt"
     };
 
-    function setActiveTab() {
-      for (let i = 1; i <= 6; i++) {
-        document.getElementById(`set${i}Btn`).classList.toggle("activeTab", currentSet === i);
-      }
-    }
+    let currentTab = "nonionic";
 
-    function parseNumberedLines(text) {
-      const items = [];
-      const lines = text.split(/\r?\n/);
-      for (const line of lines) {
-        const m = line.match(/^\s*([0-9]+[a-zA-Z]*)\.\s*(.*)$/);
-        if (m) items.push({ num: m[1], content: m[2] });
-      }
-      return items;
+    function setActiveTab() {
+      document.getElementById("nonIonicBtn").classList.toggle("activeTab", currentTab === "nonionic");
+      document.getElementById("ionicBtn").classList.toggle("activeTab", currentTab === "ionic");
     }
 
     async function loadNotes() {
       setActiveTab();
-      const filename = files[currentSet];
       const container = document.getElementById("notesContainer");
       container.innerHTML = "Loading...";
 
       try {
-        const text = await fetch(filename).then(r => r.text());
-        const items = parseNumberedLines(text);
-        container.innerHTML = "";
+        const text = await fetch(files[currentTab]).then(r => r.text());
 
-        if (items.length === 0) {
-          container.textContent = "No notes found.";
-          return;
+        if (currentTab === "ionic") {
+          // simple load for ionic: each non-empty line becomes a note block
+          const lines = text.split(/\r?\n/).filter(l => l.trim());
+          container.innerHTML = lines.map((line, idx) => `<div class="note" id="ionic-entry-${idx+1}">${line}</div>`).join("");
+        } else {
+          // NON-IONIC: split into sections by header "NOTES FOR SECTION N"
+          // Grab headers
+          const headerMatches = [...text.matchAll(/NOTES FOR SECTION\s+\d+[^\n]*/gi)];
+          const headers = headerMatches.map(m => m[0]);
+          // Split by the headers; result may include leading empty chunk so filter
+          const sections = text.split(/NOTES FOR SECTION\s+\d+[^\n]*/i).filter(s => s.trim());
+
+          let html = "";
+          for (let i = 0; i < sections.length; i++) {
+            const body = sections[i].split(/\r?\n/).filter(l => l.trim());
+            const notesHTML = body.map((line, idx) => {
+              const m = line.match(/^\s*([0-9a-zA-Z.]+)\s*(.*)$/);
+              if (m) return `<div class="note" id="section${i+1}-note${idx+1}"><strong>${m[1]}</strong> ${m[2]}</div>`;
+              return `<div class="note" id="section${i+1}-note${idx+1}">${line}</div>`;
+            }).join("");
+            // add id to the details so anchors like #section3 work
+            html += `
+              <details class="section" id="section${i+1}" ${i === 0 ? "open" : ""}>
+                <summary>${headers[i] || "Section " + (i + 1)}</summary>
+                ${notesHTML}
+              </details>`;
+          }
+          container.innerHTML = html;
         }
 
-        for (const { num, content } of items) {
-          const div = document.createElement("div");
-          div.className = "note";
-          div.id = num;
-          div.innerHTML = `<strong>${num}.</strong> ${content}`;
-          container.appendChild(div);
-        }
-
+        // If there's a hash like #section3 open/scroll it
         if (location.hash) {
-          const el = document.getElementById(location.hash.slice(1));
-          if (el) el.scrollIntoView();
+          const id = location.hash.slice(1);
+          const el = document.getElementById(id);
+          if (el) {
+            // if it's a details element, open it
+            if (el.tagName.toLowerCase() === "details") el.open = true;
+            setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+          }
         }
       } catch (e) {
-        container.textContent = "Failed to load notes.";
+        container.innerHTML = "Failed to load notes.";
         console.error(e);
       }
     }
 
-    for (let i = 1; i <= 6; i++) {
-      document.getElementById(`set${i}Btn`).addEventListener("click", () => {
-        currentSet = i;
-        history.replaceState(null, "", `?set=${i}${location.hash || ""}`);
-        loadNotes();
-      });
-    }
+    document.getElementById("nonIonicBtn").addEventListener("click", () => {
+      currentTab = "nonionic";
+      loadNotes();
+    });
+    document.getElementById("ionicBtn").addEventListener("click", () => {
+      currentTab = "ionic";
+      loadNotes();
+    });
 
+    // initial load
     loadNotes();
   </script>
-  <footer>
-    © 2025 Termolecular Reaction Database | JPR Group
-  </footer>
 </body>
 </html>

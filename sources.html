@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Sources</title>
   <style>
     body {
@@ -17,76 +17,60 @@
       flex-direction: column;
       min-height: 100vh;
     }
-
-    /* Header */
     header {
-      background: #990000; /* Deep red */
+      background: #990000;
       color: white;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 12px 24px;
     }
-
-    header img.logo {
-      height: 40px;
-    }
-
+    header img.logo { height: 40px; }
     nav a {
       color: white;
       margin-left: 20px;
       text-decoration: none;
       font-weight: bold;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      padding: 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; max-width: 1000px; margin: auto; }
     h1 { color: #990000; }
 
-    .source {
-      margin-bottom: 14px;
-      line-height: 1.4;
-    }
-    .source:target {
-      background: #ffe6e6;
-      padding: 6px;
-      border-radius: 6px;
-    }
-
     .tabs { margin: 12px 0; }
-
-    /* Buttons */
-    .tabs button,
-    button {
+    .tabs button {
       display: inline-block;
       padding: 6px 12px;
-      font-size: 0.825em;
-      margin-top: 10px;
       margin-right: 6px;
+      border: none;
+      border-radius: 4px;
       cursor: pointer;
       background: #990000;
-      border: none;
-      border-radius: 3px;
       color: white;
-      font-family: "Montserrat", sans-serif;
+      font-size: 0.9em;
     }
+    .tabs button.activeTab { background: #b30000; }
 
-    .tabs button { padding: 6px 10px; margin-top: 0; border-radius: 4px; }
-
-    .tabs button.activeTab {
-      background: #b30000; /* brighter red */
-      color: white;
+    .section {
+      background: #fff;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+      overflow: hidden;
     }
+    .section summary {
+      background: #eee;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 600;
+      color: #990000;
+    }
+    .section summary:hover { background: #e2e2e2; }
 
-    a { color: #990000; text-decoration: underline; }
+    .source {
+      padding: 8px 16px;
+      line-height: 1.4;
+      border-top: 1px solid #ddd;
+    }
 
     footer {
       text-align: center;
@@ -118,68 +102,104 @@
     <p><a href="index.html">⬅ Back to Table</a></p>
 
     <div class="tabs">
-      <button id="set1Btn" class="activeTab">Dataset 1</button>
-      <button id="set2Btn">Dataset 2</button>
-      <button id="set3Btn">Dataset 3</button>
-      <button id="set4Btn">Dataset 4</button>
-      <button id="set5Btn">Dataset 5</button>
-      <button id="set6Btn">Dataset 6</button>
+      <button id="nonIonicBtn" class="activeTab">Non-Ionic</button>
+      <button id="ionicBtn">Ionic</button>
     </div>
 
-    <div id="sourcesContainer"></div>
+    <div id="sourcesContainer">Loading...</div>
   </main>
 
-  <script>
-    const params = new URLSearchParams(location.search);
-    let currentSet = Number(params.get("set")) || 1;
+  <footer>
+    © 2025 Termolecular Reaction Database | JPR Group
+  </footer>
 
+  <script>
     const files = {
-      1: "fixed_sources.html",
-      2: "sources_6.html",
-      3: "sources_4.html",
-      4: "sources_2.html",
-      5: "sources_5.html",
-      6: "sources_1.html"
+      nonionic: "combined_sources.txt",
+      ionic: "sources_7.txt"
     };
 
+    let currentTab = "nonionic";
+
     function setActiveTab() {
-      for (let i = 1; i <= 6; i++) {
-        document.getElementById(`set${i}Btn`).classList.toggle("activeTab", currentSet === i);
+      document.getElementById("nonIonicBtn").classList.toggle("activeTab", currentTab === "nonionic");
+      document.getElementById("ionicBtn").classList.toggle("activeTab", currentTab === "ionic");
+    }
+
+    function scrollToHash() {
+      if (location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) {
+          if (el.tagName.toLowerCase() === 'details' && !el.open) {
+            el.open = true;
+          }
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
     }
 
-    async function loadSources() {
+    async function loadSources(hashCheck = true) {
       setActiveTab();
-      const filename = files[currentSet];
       const container = document.getElementById("sourcesContainer");
       container.innerHTML = "Loading...";
 
       try {
-        const html = await fetch(filename).then(r => r.text());
+        const text = await fetch(files[currentTab]).then(r => r.text());
+
+        const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
+        const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
+        const sections = text.split(sectionRegex).filter(s => s.trim());
+
+        let html = "";
+        for (let i = 0; i < sections.length; i++) {
+          const sectionNumber = i + 1;
+          const lines = sections[i].split(/\r?\n/).filter(l => l.trim());
+          const sourcesHTML = [];
+
+          for (let j = 0; j < lines.length; j++) {
+            let line = lines[j];
+            if (lines[j+1] && /^https?:\/\//i.test(lines[j+1].trim())) {
+              line += ` (<a href="${lines[j+1].trim()}" target="_blank">link</a>)`;
+              j++;
+            }
+            sourcesHTML.push(`<div class="source">${line}</div>`);
+          }
+
+          const isTargetSection = location.hash === `#section${sectionNumber}`;
+          const initialOpen = isTargetSection ? " open" : "";
+
+          html += `
+            <details class="section"${initialOpen} id="section${sectionNumber}">
+              <summary>${headers[i] || "Section " + sectionNumber}</summary>
+              ${sourcesHTML.join("")}
+            </details>
+          `;
+        }
+
         container.innerHTML = html;
 
-        if (location.hash) {
-          const el = document.getElementById(location.hash.slice(1));
-          if (el) el.scrollIntoView();
-        }
+        if (hashCheck) scrollToHash();
+
       } catch (e) {
-        container.textContent = "Failed to load sources.";
+        container.innerHTML = "Failed to load sources.";
         console.error(e);
       }
     }
 
-    for (let i = 1; i <= 6; i++) {
-      document.getElementById(`set${i}Btn`).addEventListener("click", () => {
-        currentSet = i;
-        history.replaceState(null, "", `?set=${i}${location.hash || ""}`);
-        loadSources();
-      });
+    function initialLoadCheck() {
+      loadSources();
     }
 
-    loadSources();
+    document.getElementById("nonIonicBtn").addEventListener("click", () => {
+      currentTab = "nonionic";
+      loadSources();
+    });
+    document.getElementById("ionicBtn").addEventListener("click", () => {
+      currentTab = "ionic";
+      loadSources();
+    });
+
+    initialLoadCheck();
   </script>
-  <footer>
-    © 2025 Termolecular Reaction Database | JPR Group
-  </footer>
 </body>
 </html>

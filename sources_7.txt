@@ -1,0 +1,19 @@
+﻿1. Zymak I., Jusko P., Roučka S., Plašil R., Rubovič P., Gerlich D. and Glosík J., EPJ AP 56, 24010 (2011).
+2. Smith D. and Španěl P., RCM 36, e9241 (2022).
+3. Smith D. and Adams N., Chem. Phys. Lett. 54, 535–540 (1978). doi:10.1016/0009-2614(78)85279-8
+4. Wild R., Nötzold M., Lochmann C. and Wester R., J. Phys. Chem. A 125, 8581–8586 (2021). doi:10.1021/acs.jpca.1c05458
+5. Adams N. and Smith D., Chem. Phys. Lett. 79, 563–567 (1981). doi:10.1016/0009-2614(81)85036-1
+6. Barassin J., Thomas R. and Barassin A., Chem. Phys. Lett. 71, 269–273 (1980). doi:10.1016/0009-2614(80)80161-8
+7. Böhringer H., Arnold F., Smith D. and Adams N., Int. J. Mass Spectrom. 52, 25–41 (1983).
+8. van Koppen P.A.M., Jarrold M.F., Bowers M.T., Bass L.M. and Jennings K.R., J. Chem. Phys. 81, 288–297 (1984). doi:10.1063/1.447383
+9. Viggiano A.A., J. Chem. Phys. 81, 2639–2645 (1984). doi:10.1063/1.447972
+10. Dheandhanoo S. and Johnsen R., P&SS 31, 933–938 (1983).
+11. Guthrie J.A., Chaney R.C. and Cunningham A.J., J. Chem. Phys. 95, 930–936 (1991). doi:10.1063/1.461101
+12. van Koppen P.A., Derai R., Kemper P., Liu S. and Bowers M.T., IJMS 73, 41–60 (1986).
+13. Meot-Ner M. and Field F.H., J. Chem. Phys. 61, 3742–3749 (1974). doi:10.1063/1.1682560
+14. Lochmann C., Nötzold M., Wild R., Satta M., Yurtsever E., Gianturco F.A. and Wester R., J. Phys. Chem. A. 127, 4919–4926 (2023).
+15. Böhringer H. and Arnold F., J. Chem. Phys. 77, 5534–5541 (1982). doi:10.1063/1.443758
+16. Payzant J.D., Cunningham A.J. and Kebarle P., J. Chem. Phys. 59, 5615–5619 (1973). doi:10.1063/1.1679914
+17. Rowe B.R., Dupeyrat G., Marquette J.B. and Gaucherel P., J. Chem. Phys. 80, 4915–4921 (1984). doi:10.1063/1.446513
+18. Randeniya L.K., Zeng X.K., Smith R.S. and Smith M.A., J. Phys. Chem. 93, 8031–8037 (1989). doi:10.1021/j100361a015
+19. Schlemmer S., Luca A., Glosik J. and Gerlich D., J. Chem. Phys. 116, 4508–4516 (2002). doi:10.1063/1.1451247

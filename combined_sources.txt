@@ -1,0 +1,832 @@
+SOURCES FOR SECTION 1 (Rows 1-161):
+
+1. Fenimore, C. P. and Moore, J., Combust. Flame, 22, 343, 1974.
+https://www.sciencedirect.com/science/article/abs/pii/0010218074900492
+
+2. Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972.
+https://pubs.aip.org/aip/jcp/article-abstract/57/9/3736/768963/Pressure-Dependence-and-Third-Body-Effects-on-the?redirectedFrom=fulltext
+
+
+3. Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550060310
+
+
+3a. Hislop, J. R. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 73, 506, 1977.
+https://pubs.rsc.org/en/content/articlehtml/1977/f2/f29777300506?casa_token=UEbROR80sVEAAAAA:XdL-M8cXypYisb7Z6j_QLcM0qKxeD-nUHqiOiDR_9hYZdPmQerB15pmj_OefDYmE1MGNV_7Ovpu7
+
+3b. Slack, M. W., Combust. Flame, 28, 241, 1977.
+https://www.sciencedirect.com/science/article/abs/pii/0010218077900311
+
+4. Peeters, J. and Mahnen, G., 14th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1973, 133.
+
+
+5. Belles, F. E. and Lauver, M. R., J. Chem. Phys., 40, 415, 1964.
+https://pubs.aip.org/aip/jcp/article-abstract/40/2/415/80454/Origin-of-OH-Chemiluminescence-during-the
+
+
+6. Zaslonko, I. S., Kogarko, S., and Mozzhuklin, E. V., Kinet. Katal., 10, 1197, 1969.
+
+
+7. Wang, H. Y., Eyre, J. A., and Dorfman, L. M., J. Chem. Phys., 59, 5199, 1973.
+https://pubs.aip.org/aip/jcp/article-abstract/59/9/5199/778394/Activation-energy-for-the-gas-phase-reaction-of
+
+
+8. Baldwin, R. R., Jackson, D., Melvin, A., and Rossiter, B. N., Int. J. Chem. Kinet., 4, 277, 1972.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550040305?casa_token=fgJDYz0Y41AAAAAA:wwKOn5pgjMdULIxb-YejwswcjKwQdxgnv7Tl4ltMIT-B-Cd4gcNAhdaxhuvm7diKBXuYIrkEB8pcMg
+
+
+9. Kallend, A. S., Combust. Flame, 19, 227, 1972.
+https://www.sciencedirect.com/science/article/abs/pii/S001021807280213X
+
+
+
+10. Dunn, M. R., Freeman, C. G., McEvan, M. J., and Phillips, L. F., J. Phys. Chem., 75, 2662, 1971.
+https://pubs.acs.org/doi/pdf/10.1021/j100686a022?casa_token=Jk7QFXADxEQAAAAA:OGUxIhNno12ZcnhMPEtvCWera0R1kvppI4eUblQpv3mYk1yBQseE322w8LrU-wSdkQqWAeCivOytCg
+
+
+
+11. Hippler, H., Schippett, C., and Troe, J., Int. J. Chem. Kinet. Symp., 1, 27, 1975.
+
+
+12. Inn, E. C. Y., J. Chem. Phys., 59, 5431, 1973.
+https://pubs.aip.org/aip/jcp/article-abstract/59/10/5431/87182/Rate-constant-for-the-reaction-CO-1-O-3P-CO2-2CO2
+
+13. Dean, A. M. and Steiner, D. C., J. Chem. Phys., 66, 598, 1977.
+https://pubs.aip.org/aip/jcp/article-abstract/66/2/598/773342/A-shock-tube-study-of-the-recombination-of-carbon
+
+
+14. Slanger, T. G., Wood, B. J., and Black, G., J. Chem. Phys., 57, 233, 1972. 
+https://pubs.aip.org/aip/jcp/article-abstract/57/1/233/779742/Kinetics-of-O-3P-CO-M-Recombination
+
+
+15. Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968.
+
+
+16. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fbbpc.19770810719
+
+
+17. Inn, E. C. Y., J. Chem. Phys., 61, 741, 1974.
+https://pubs.aip.org/aip/jcp/article-abstract/61/2/741/534237/Rate-coefficient-for-H-CH4-H2-CH3-in-the?redirectedFrom=fulltext
+
+
+18. Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972.
+https://pubs.aip.org/aip/jcp/article-abstract/56/5/2004/909264/Kinetics-and-Mechanism-of-the-Reaction-of-O-3P
+
+
+19. Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19740780113?casa_token=FQ6G1sPwusUAAAAA:v7KZFpzzlsaWypPoR6yYYpLuxM8MywQX2VTqInFv_MkDWLJO2OA3Mz_JoWKzTTuXT6Jm5tz-ma0H2w
+
+
+20. Kondratiev, V. N. and Ptichkin, I. I., Kinet. Katal., 2, 449, 1961.
+
+
+21. Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 29, 28, 1974.
+https://www.sciencedirect.com/science/article/abs/pii/0009261474801284
+
+
+21a. Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977.
+https://pubs.aip.org/aip/jcp/article-abstract/66/12/5513/780819/A-flash-photolysis-infrared-chemiluminescence
+
+
+21b. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 268, 1976 (Russian); 17, 251, 1976 (English).
+
+
+22. Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975.
+https://pubs.rsc.org/en/content/articlehtml/1975/f1/f19757102072?casa_token=svF1miaDtlIAAAAA:vXbYrCq7g8UHXDfVgS5jpQsDKQgVtXvF4yyj_Yvbfw6A3XCJdzJubP06si4dnMim1Kv-ORjHb5qD
+
+
+23. Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973. 
+https://pubs.acs.org/doi/pdf/10.1021/j100907a005?casa_token=_MDedVz4WF0AAAAA:35FZdqbTFz_v1Jbxbn0V-R4HxFWpXF7tkLpslSZL9uZIJMR8QcyiIlvrwqav4pE2KlR_nBeMeXviXw
+
+24a. Sullivan, J. H., J. Chem. Phys., 46, 73, 1967.
+https://pubs.aip.org/aip/jcp/article-abstract/46/1/73/83553/Mechanism-of-the-Bimolecular-Hydrogen-Iodine
+
+24b. Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977.
+
+
+24c. Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977.
+https://www.sciencedirect.com/science/article/abs/pii/0047267077870068
+
+24d. Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977.
+https://www.sciencedirect.com/science/article/abs/pii/004726707685071X
+
+25. Harris, G. W. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 71, 610, 1975.
+https://pubs.rsc.org/en/content/articlehtml/1975/f1/f19757100610?casa_token=Xm7IbkDdQBoAAAAA:X8W7ltRcTqj5ZrRQ0aXlIo21ZKsW-AQPVWR0E8XYWQmnRve2oerFF8VYlFW1ppZyrXu7uPvh3xuP
+
+26. Castleman, A. W., Jr. and Tang, I. N., J. Photochem., 6, 349, 1977.
+https://www.sciencedirect.com/science/article/abs/pii/0047267076850733
+
+27. Castleman, A. W., Davis, R. E., Munkelwitz, H. R., Tang, I. N., and Wood, W. P., Int. J. Chem. Kinet. Symp., 1, 629, 1975.
+
+
+28. Cox, R. A., Int. J. Chem. Kinet. Symp., 1, 379, 1975.
+
+
+29. Gordon, S. and Mulac, W. A., Int. J. Chem. Kinet. Symp., 1, 289, 1975.
+
+
+30. Stedman, D. H. and Niki, H., J. Phys. Chem., 77, 2604, 1973.
+https://pubs.acs.org/doi/pdf/10.1021/j100640a005?casa_token=X2TdO4ghlkYAAAAA:A8yBhNmF0DaW7l_a49WtoG-8Jp-YcBaGfiGiDDaNuRZQID1_mmXnJksMokMBh5U8Op52FVi5fZ36HQ
+
+
+31. Brown, F. and Crist, R. H., J. Chem. Phys., 9, 840, 1941.
+https://pubs.aip.org/aip/jcp/article-abstract/9/12/840/217492/Further-Studies-on-the-Oxidation-of-Nitric-Oxide
+
+
+32. Smith, J. H., J. Am. Chem. Soc., 65, 74, 1943.
+https://pubs.acs.org/doi/pdf/10.1021/ja01241a025?casa_token=gnBqzd9i8AQAAAAA:E01I6fmUyCpR758LQHEQhkz2AHcykwAaow44D9zSbf2vNJgManfRHpb09svMOFApq6Y0_hXUHe6wvw
+
+
+33. Johnston, H. S. and Slentz, L. W., J. Am. Chem. Soc., 73, 2948, 1951.
+
+
+34. Greig, J. D. and Hall, P. G., Trans. Faraday Soc., 63, 655, 1967.
+https://pubs.rsc.org/en/content/articlehtml/1967/tf/tf9676300655?casa_token=j2d-Oz7D5pQAAAAA:PxsSw3QgcL265hmbe1pjzZh2pXVTnkUyT_EFJQerLQ6D-tI0quHT4DeMhbGD-ORItpyvAPDrrOEM
+
+35. Hall, P. G. and Greig, J. D., Chem. Comm., 326, 1966.
+https://pubs.rsc.org/en/content/articlepdf/1966/c1/c1966000326b
+
+36. Greig, J. D. and Hall, J. D., Trans. Faraday Soc., 62, 652, 1966.
+https://pubs.rsc.org/en/content/articlehtml/1966/tf/tf9666200652?casa_token=8kCQlL5gp-EAAAAA:jbp2uCA1F0s7I443856IVyteN8j67kv0bDOIh3qtmi4LjMqBvIDhRF2NMagRzOKD-lc2_zKjQ9W4
+
+37. Morecroft, M. J. and Thomas, J. H., J. Phys. Chem., 71, 1543, 1967.
+https://pubs.acs.org/doi/pdf/10.1021/j100864a063?casa_token=R9xFJeND64EAAAAA:QFhts9MoIyfL36eop0mEEwo3q68f4jRPUPn_0v2EsaBIXeLPTe25CHbV0mv26hxO5W2SJTaQ6gWluA
+
+
+38. Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967.
+
+
+39. Baulch, D. L., Drysdale, D. D., and Horne, D. G., High Temperature Re- action Rate Data, Rep. No. 5, University of Leeds, July 1970.
+
+
+39a. Hochanadel, C. J., Ghormley, J. A., Boyle, J. W., and Ogren, P. J., J. Phys. Chem., 81, 3, 1977.
+
+
+40. Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969.
+https://pubs.acs.org/doi/pdf/10.1021/j100843a034?casa_token=i1EOALy3ds0AAAAA:5jFg5m9kEnn5O9lLXiDejbFqu08hfI9JajUzLSCUkd_8eFDqIKjT2aS7gKG15dNTWCd8b8qTMHV5bA
+
+40a. Hovel, N. and van der Bergh, H., Int. J. Chem. Kinet., 9, 871, 1977.
+
+
+41. Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265. 
+
+
+42. Welinsky, I. and Taylor, H. A., J. Chem. Phys., 6, 466, 1938.
+
+
+43. Ashmore, P. G. and Spencer, M. S., Trans. Faraday Soc., 55, 1868, 1959.
+https://pubs.rsc.org/en/content/articlepdf/1959/tf/tf9595501868?casa_token=6TKmKTYK8zEAAAAA:LP3642gNke1drynxJ-kLYqqts6ys_uYmfGVSy3x9aNUbj3PcOm69BG9S4GuP1SMp5iDMKK5mTpo7
+
+
+44. Krauss, W., Z. Phys. Chem., Abt. A., 175, 295, 1936.
+
+
+45. Hinshelwood, C. N. and Mitchell, J. W., J. Chem. Soc., 378, 1936.
+https://pubs.rsc.org/en/content/articlepdf/1936/jr/jr9360000378?casa_token=QkpHsyb5x64AAAAA:MY5zzUHoeDJGhmbN2EPxGMpFAsv4CQRklI9jVb1UsP61k_wZUatWudpbDnE7aJekKcthMihTtJ1Y
+
+
+46. Ray, J. D. and Ogg, R. A., J. Chem. Phys., 29, 984, 1957.
+
+
+47. Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958.
+https://pubs.acs.org/doi/pdf/10.1021/ja01541a019?casa_token=GzK-qN_9PtwAAAAA:9V0cMchxYxYyIi_bWH7QylOSC5yUusB53hEPjuj1xj2XO1WrIGrotKLqGq1T9C5EoQ5W9aZgAF-Fxw
+
+
+48. Ashmore, P. G. and Burnett, M. G., Trans. Faraday Soc., 58, 253, 1962.
+https://pubs.rsc.org/en/content/articlepdf/1962/tf/tf9625800253?casa_token=BX3KwPc8E98AAAAA:9T6vJcgTMeMuoMitN7jZSatv-XKjg_use-ATlOjBFJ1IASPpPsVlj5qU66W1ylaUEB9cwWQdHFxV
+
+
+49. Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1, 68, 1550, 1972.
+https://pubs.rsc.org/en/content/articlehtml/1972/f1/f19726801550?casa_token=IfHZGNPcXGUAAAAA:gAbgxVpzCe_saKJOZazemOsC1wUzRbCCk0Tl9LeccQjzD1LfK8QjgSu_uX9GnT3xMdCNVfcVZdNZ
+
+
+50. Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1, 69, 1389, 1973.
+https://pubs.rsc.org/en/content/articlehtml/1973/f1/f19736901389?casa_token=iwfJK3FOnk0AAAAA:3jSXcH71AQhxQSH9jo11nIne7cRbOTp9K7t1b9ZeIwpEm_IG4XvAD0wiSMxZI69ceg1gtOsRvQ6S
+
+
+51. Heicklen, J., J. Phys. Chem., 70, 112, 1966.
+https://pubs.acs.org/doi/pdf/10.1021/j100873a017?casa_token=3TxPDCAHudgAAAAA:oTwcsXzQeC8DkVKMKg9rpk6PcECqq_EucyrXnspCqa3tZqfhk8ThupN6C2kiph-bbcfM_17uVIcm_w
+
+
+52. Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965.
+https://pubs.rsc.org/en/content/articlepdf/1965/tf/tf9656100674?casa_token=6_G3KBprGhoAAAAA:SRuRfQpoZov-J6aBB0bJ18n7gSooGuZ5smIHgcXj27_uhVO7FSJfXDAQyXCdhtyJ0rG14jLElBFf
+
+
+53. Johnston, H. S. and Heicklen, J., J. Phys. Chem., 70, 3088, 1966.
+https://pubs.acs.org/doi/pdf/10.1021/j100882a012?casa_token=mJwbW0NyOa0AAAAA:EzOFXVskQ2eb8JANgIDh5oErYECocX5mtWQakikOeFBU7eQ1fr5PqAzdM7dXAt_ZuqtqAr55leuizw
+
+54. Spicer, C. W., Villa, A., Wiebe, H. A., and Heicklen, J., J. Am. Chem. Soc., 95, 13, 1973.
+https://pubs.acs.org/doi/pdf/10.1021/ja00782a003?casa_token=W30KkO-5wfgAAAAA:XpQHhO0Iv8Nhne0Bz-y4B8G81veKEafLwVthHCKuu0FBs61WKdHjR5maBXpvv3fy77D1nJjyVnhW2w
+
+
+55. Sullivan, J. H., J. Chem. Phys., 30, 1292, 1959. 
+https://pubs.aip.org/aip/jcp/article-abstract/30/5/1292/205537/Rates-of-Reaction-of-Hydrogen-with-Iodine
+
+
+56. Sullivan, J. H., J. Chem. Phys., 36, 1925, 1962.
+https://pubs.aip.org/aip/jcp/article-abstract/36/7/1925/205930/Rates-of-Reaction-of-Hydrogen-with-Iodine-II
+
+57. Sullivan, J. H., J. Chem. Phys., 39, 3001, 1963.
+https://pubs.aip.org/aip/jcp/article-abstract/39/11/3001/208327/Deuterium-Kinetic-Isotope-Effect-in-the-Hydrogen
+
+
+58. Noyes, W. A., J. Chem. Phys., 47, 3097, 1967. 
+https://pubs.aip.org/aip/jcp/article-abstract/47/8/3097/85205/Ambiguities-in-Mechanistic-Interpretations-of-the
+
+59. Sullivan, J. H., J. Chem. Phys., 47, 3098, 1967.
+https://pubs.aip.org/aip/jcp/article/47/8/3098/85287/Comment-on-Mechanistic-Interpretation-of-Hydrogen
+
+
+60. Hogan, L. G. and Burch, D. S., J. Chem. Phys., 65, 894, 1976.
+https://pubs.aip.org/aip/jcp/article-abstract/65/3/894/87329/A-measurement-of-the-rate-constant-for-the
+
+61. Parkes, D. A., Int. J. Chem. Kinet., 9, 451, 1977.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550090313?casa_token=65jepXDNLPMAAAAA:tYG7swE48eVWjyCDv9X6IvWQEBwqav7an2i1l5PsIB3tJrxoZnsJW1VJkDKjVq4yPFMqfDckWb7b8w
+
+62. Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Chem. Phys. Lett., 37, 441, 1976.
+https://www.sciencedirect.com/science/article/abs/pii/0009261476850105
+
+63. Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Environ. Sci. Technol., 10, 674, 1976.
+https://pubs.acs.org/doi/pdf/10.1021/es60118a007?casa_token=_OWyKgTNkRoAAAAA:8GGZSNMYEPWtq4S8qaE17N-YqdSpE1v5GyId-nYpaqWSpT1G6za36h0MmqOOIAc9CdvdkUoinwIuoQ
+
+64. Christie, M. I. and Matthews, C. J., J. Chem. Soc., Faraday Trans. 1, 72, 1652, 1976.
+https://pubs.rsc.org/en/content/articlehtml/1976/f1/f19767201652?casa_token=DmjxohAjGFwAAAAA:N-5tMp0Y5kywNyJkRUkNlu0Ekx9nimksmFJfsgr-ejPk2EvQFuMvUOCYYA045W4AxRSWQMDw9oih
+
+65. Atkinson, R., Perry, R. A., and Pitts, J. N., J. Chem. Phys., 65, 306, 1976.
+https://pubs.aip.org/aip/jcp/article-abstract/65/1/306/216449/Rate-constants-for-the-reactions-of-the-OH-radical
+
+SOURCES FOR SECTION 2 (Rows 162-192):
+
+1. Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet... 10, 155, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100203?casa_token=ED-zWWWRXdAAAAAA:7m_Tj8r7Ge2_yVNRzsSfvHb3FKnsWyBmvBV3tcUzuIQN7s6ZaASNL7D59zYqEXXoprfJ1p5zTNmXuQ
+
+2. Kuznetsov, V. A. and Kashireninov, O. E., Zh. Fiz. Khim., 52, 355, 1978. 
+
+
+3. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1. 75. 1868, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=gBikh6xN0dsAAAAA:Zk3j3JOUMPrZpEgMURI5_bELyEhgbO31NFyT9DoaTzchxffCW78gHcbDX_jmZ6vw09zszdaM96kW
+
+4. Yamashita, T., J. Chem. Phys., 70, 4248, 1979.
+https://pubs.aip.org/aip/jcp/article-abstract/70/9/4248/88248/Rate-of-recombination-of-nitrogen-atoms
+
+5. Skorobogatov, G. A., Dimov, B. P., and Khomenko, V. E., Chem. Phys.. 42, 73, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/030101047985168X
+
+6. Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980.
+
+
+7. Koike, T. and Morinaga, K., Bull. Chem. Soc. Jpn., 55, 52, 1982.
+
+
+8. Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=gBikh6xN0dsAAAAA:Zk3j3JOUMPrZpEgMURI5_bELyEhgbO31NFyT9DoaTzchxffCW78gHcbDX_jmZ6vw09zszdaM96kW
+ 
+9. Emel'kin, V. A. and Marusin, V. V., Kinet. Katal., 19, 1389, 1978. 
+
+
+10. Clyne, M. A. A. and Smith, D. J., J. Chem. Soc., Faraday Trans. 2. 75, 704, 1979. 
+https://pubs.rsc.org/en/content/articlehtml/1979/f2/f29797500704?casa_token=5xaVY2wHFmAAAAAA:JJn9HcS2xLck-6J5Yu8f3JEnuhHPZYoyQwo4lfOfClwAWsaVD9d1nHEJp6eD6p6jJbv0cctLYLSk
+
+11. Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980. 
+https://pubs.aip.org/aip/jcp/article-abstract/72/10/5405/775642/The-photolytic-cage-effect-of-iodine-in-the-gas
+
+12. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.
+
+ 
+13. Stephan, K.-H. and Comes, F. J., Chem. Phys. Lett., 65, 251, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0009261479870591
+
+
+SOURCES FOR SECTION 3 (Rows 193-281):
+1. Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973.
+
+2. Bennett, J. E. and Blackmore, D. R., Chem. Comm., 1521, 1968.
+https://pubs.rsc.org/en/content/articlelanding/1968/c1/c19680001521
+
+3. Mallard, W. G. and Owen, J. H., Int. J. Chem. Kinet., 6, 753, 1974.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550060511
+
+4. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972.
+https://srd.nist.gov/JPCRD/jpcrd293.pdf
+
+
+5. Brown, R. L., Int. J. Chem. Kinet., 5, 663, 1973.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550050416
+
+
+6. Day, M. J., Thompson, K., and Dixon-Lewis, G., 14th Symp. (Int.) Com- bust., The Combustion Institute, Pittsburgh, 1973, 47.
+https://nvlpubs.nist.gov/nistpubs/jres/77A/jresv77An6p733_A1b.pdf
+
+
+6a. Koike, T. and Morinaga, K., Bull. Chem. Soc. Jpn., 49, 1457, 1976.
+
+
+7. Avramenko, L. I. and Krasnen'kov, V. M., Izv. Akad. Nauk SSSR, Ser. Khim., 7, 1095, 1963 (English).
+
+
+8. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., High Temperature Reaction Rate Data, Vol. 4, University of Leeds, 1969.
+
+
+9. Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973.
+https://www.sciencedirect.com/science/article/abs/pii/0009261473804798
+
+
+10. Loser, S. A., Dokl. Akad. Nauk SSSR, Ser. Khim., 120, 467, 1958.
+
+ 
+11. Avramenko, L. I., Zh. Fiz. Khim., 23, 790, 1949.
+
+
+12. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Kinetic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19770810719
+
+
+13. Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National
+Standard Reference Data System - National Bureau of Standards 20, 1968. 13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English).
+
+https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds20.pdf
+
+
+13b. Ultec, C. J., Chem. Phys. Lett., 46, 366, 1977.
+
+
+14. Lloyd, A. C., Int. J. Chem. Kinet., 3, 39, 1971.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550030105?casa_token=8hmYQa1bgbQAAAAA:-vEQJVmtMf0haFuDXy9paODyF4RFjRNJKRZiGiKU8crVXRSqDDDh4oFfGpIlelEVjw-s7VUPc4eQHw
+
+
+15. Ganguli, P. S. and Kaufman, M., Chem. Phys. Lett., 25, 221, 1974.
+https://www.sciencedirect.com/science/article/abs/pii/0009261474891220 
+
+16. Fair, R. W. and Thrush, B. A., Trans. Faraday Soc., 65, 1208, 1969.
+https://pubs.rsc.org/en/content/articlehtml/1969/tf/tf9696501208?casa_token=n_wYcR2iUKIAAAAA:obpRK39TXlWSDmo5Xw90HHPyXXyC6fuV6B3mr8zAe7yr9uCfDkYHojHY9oDNZx3Ti4GadFg89lwz
+
+
+17. Widman, R. P. and DeGraff, B. A., J. Phys. Chem., 77, 1325, 1973.
+https://pubs.acs.org/doi/10.1021/j100630a002
+
+ 
+18. Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973.
+https://www.sciencedirect.com/science/article/abs/pii/0009261473851590
+
+
+18a. Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550080404
+
+
+19. Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973.
+https://pubs.rsc.org/en/content/articlelanding/1973/f2/f29736900412
+
+
+20. Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969.
+https://pubs.aip.org/aip/jcp/article-abstract/51/8/3414/534038/Recombination-of-Br-Atoms-by-Flash-Photolysis-over?redirectedFrom=fulltext
+
+
+20a. Genich, A. P., Manelis, G. B., and Myagkov, Yu. P., Dokl. Phys. Chem., 235, 1082, 1977 (Russian); 235, 787, 1977 (English).
+
+
+21. Chang, S. K., Clarke, A. G., and Burns, G., J. Chem. Phys., 54, 1835, 1971. 
+https://pubs.aip.org/aip/jcp/article-abstract/54/4/1835/445669/Recombination-of-Br-Atoms-by-Flash-Photolysis-over?redirectedFrom=fulltext
+
+
+22. Horie, O. and Frazier, G. C., Jr., J. Phys. Chem., 75, 3046, 1971.
+https://pubs.acs.org/doi/abs/10.1021/j100689a003?casa_token=gOAkNL7wJ20AAAAA:9uoJr4_w-mc_TmekXYRG0h5E150upYpc0sC-6UUgm5Wzy6os3PAeid6wCqenvLK0tYVrdR5FM50X7A
+
+
+23. Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974.
+https://pubs.acs.org/doi/pdf/10.1021/ja00810a011?casa_token=_uZHa_h4o8cAAAAA:xA6vWvCeCyNQ1lHLij7JpCrYV6KhhMx0z3v1xCYmsSI7Yg0Dpwgd06Tpeo8n4wIYUDGbf6TNAJJ22w
+
+
+24. Ip, J. K. K. and Burns, G., J. Chem. Phys., 56, 3155, 1972. 24a. Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976. 
+
+
+24b. Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976.
+https://www.sciencedirect.com/science/article/abs/pii/0009261476807014
+
+
+25. Burns, G., Leroy, R. J., Morriss, D. G., and Blake, J. A., Proc. R. Soc. London, Ser. A, 315, 81, 1971.
+
+
+26. Mayer, R. T., J. Phys. Chem., 78, 878, 1974.
+
+
+26a. Autrium, R. E., Burns, G., and Ip, J. K. K., Can. J. Chem., 55, 749, 1977.
+https://cdnsciencepub.com/doi/abs/10.1139/v77-104
+
+
+27. Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973.
+https://pubs.acs.org/doi/pdf/10.1021/j100623a002?casa_token=AdipeTQSYdkAAAAA:XsaBKH7e44uVCk4xxImj0V9dWlsm0Or_kmv027rTyTQX2hCPN6JsYDFrZgiqLOBbmjXCnsQSs-HjKw
+
+28. Chang, H. W. and Burns, G., J. Chem. Phys., 62, 2426, 1975.
+https://pubs.aip.org/aip/jcp/article-abstract/62/6/2426/773464/Recombination-of-iodine-atoms-by-flash-photolysis
+
+SOURCES FOR SECTION 4 (Rows 282-474):
+
+1. Hack, W., Wagner, H. Gg., and Hoyermann, K., Ber. Bunsenges. Phys. Chem., 82, 713, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19780820710?casa_token=yGJ51LeEr9cAAAAA:FTRQXjWaMDJQhNlKJwxhhUwycPmE96VE6VavDr70JBfHtyyxrElOoiySbGbkKfw1G1AiFDnvcH7Zfw
+
+2. Campbell, I. M. and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 316, 1978.
+https://pubs.rsc.org/en/content/articlehtml/1978/f1/f19787400316?casa_token=OfDTnjkWr7QAAAAA:FjWGL3visfL9xg5d88YqasfTUYOBoQ5p0ljIAPgPe1-mu3PozE5sjCfxvOz948cIhRqFAhpcWCgO
+
+3. Hardy, J. E., Gardiner, W. C., Jr., and Burcat, A., Int. J. Chem. Kinet.. 10, 503, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100508?casa_token=X0EH4rHL5MkAAAAA:iO1hKlgYETtBx83D8jAWORWeiEDBTesF2pSAR1xCn1s1ld_g0YfG2bObZUhrjwzvNTM1GRrv2dr36Q
+
+4. Hippler, H., Luu, S.H., Teitelbaum, H. and Troe, J. (1978), Flash photolysis study of the NO-catalyzed recombination of bromine atoms. Int. J. Chem. Kinet., 10: 155-169
+https://doi.org/10.1002/kin.550100203
+
+
+5. Campbell, I. M., Rogerson, J. S., and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 2672, 1978.
+https://pubs.rsc.org/en/content/articlehtml/1978/f1/f19787402672?casa_token=UnQuL5NAxzMAAAAA:_tb4T31UV2dmmXFC4nxZYq4hlILKmBckHKu1SvBGTZ67xsjIk7CDEzfX5xOWhuyBraKRGmN3bX7O
+
+6. Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550101006?casa_token=mNSolzQbZZAAAAAA:VyMzZtjtM-UJGf73lxwvLzu4vqDpqmwF4POU464ZfqwdqEd32bxDjak8vS8QWuWCIJMes7_c4HSrYA
+
+7. Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1, 75, 1868, 1979.
+https://pubs.rsc.org/en/content/articlehtml/1979/f1/f19797501868?casa_token=_H8DX4jKe-IAAAAA:PaelIFo39SSalA0VJU8w9AFd5dmKxqM1K94v_qC3P1O5UPbaW1958K8D9e4YDrxRo3wuwibj6ZY7
+
+
+8. Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979
+
+
+9. Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0004698179902567
+
+
+10. Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0301010479851824
+
+
+11. Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979.
+
+
+12. Streit, G. E., Wells, J. S., Fehsenfeld, F. C., and Howard, C. J., J. Chem. Phys., 70, 3439, 1979.
+https://pubs.aip.org/aip/jcp/article-abstract/70/7/3439/216760/A-tunable-diode-laser-study-of-the-reactions-of
+
+13. Lalo, C. and Vermeil, C., J. Chim. Phys. Phys. Chim. Biol., 77, 131, 1980. 
+https://jcp.edpsciences.org/articles/jcp/abs/1980/01/jcp198077p131/jcp198077p131.html
+
+
+14. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., React. Kinet. Catal. Lett., 15, 305, 1980.
+https://link.springer.com/article/10.1007/BF02098706
+
+
+15. Pagsberg, P. B., Eriksen, J., and Christensen, H. C., J. Phys. Chem., 83. 582, 1979.
+https://pubs.acs.org/doi/pdf/10.1021/j100468a006?casa_token=sDJt3WPPjHsAAAAA:VJ5fvdA3y_MVRBmeIZ1soNFFCZNzKLGzEfb56VSu0Jv0KLW_-HQebspZmqoyL7OA8zLzDaw-PpKYpg
+
+
+16. Smith, I. W. M. and Wrigley, D. J., Chem. Phys. Lett., 70, 481, 1980. 
+https://www.sciencedirect.com/science/article/abs/pii/0009261480801096
+
+
+17. Smith, I. W. M. and Wrigley, D. J., Chem. Phys., 63, 321, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0301010481870085
+
+18. Cooper, R., Cumming, J. B., Gordon, S., and Mulac, W. A., Radiat. Phys. Chem., 16, 169, 1980.
+https://www.sciencedirect.com/science/article/abs/pii/0146572480902241?via%3Dihub
+
+
+19. Washida, N., J. Chem. Phys., 73, 1665, 1980.
+https://pubs.aip.org/aip/jcp/article-abstract/73/4/1665/89318/Reaction-of-methyl-radicals-with-O-3P-O2-and-NO
+
+20. Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980.
+
+
+21. Ogren, P. J., Sworski, T. J., Hochanadel, C. J., and Cassel, J. M., J. Phys. Chem., 86, 238, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100391a021?casa_token=hlQVynsd1nkAAAAA:SoHpH2kmbeUKG7UOhweNXMZHT4lyBhSJMP2h3dyXlxci3F9ANyDHW5DqU7tS4wxPKCEMxMEA_yeafw
+
+22. Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980.
+https://www.sciencedirect.com/science/article/abs/pii/0009261480850858
+
+23. Zellner, R., Ber. Bunsenges. Phys. Chem., 82, 1172, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19780821120?casa_token=ANaBA_mFkuAAAAAA:C2Kk_qJ8cf3pr9VrAZIC_WfMV159jPVAfVfmBWbGISUzBW3pyt6fz9SxsDcoyPbzy6ri2xbdrv1VnA
+
+24. Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., Kinet. Katal., 22, 858, 1981.
+
+
+25. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827800163?casa_token=Yr6ZErEAMEQAAAAA:zon64eexnk4NQub6a0RbhiCjQ0w3GeNLKZxMVBXRR8GP-uefv0M5HUhlZgDbyi_lMaKRX-4FAJKx
+
+
+26. Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827801175?casa_token=XnxFtQeZBhgAAAAA:FTTIMEhLXsv_iYM7KmsC7tPUJbKuQRoXaBQefsbb3RyAxstK0Duvhqul271M1jTlnH9gEpzUGYMX
+
+
+27. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 14, 861, 1982.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140806?casa_token=MWdgoq_tGLEAAAAA:DTH4qD4sP8NlO9AtcTfbO9RYa0aoLGq_x7wZs3Y7Q8fPZiJyGNW9iVAZ-BlbE614fsZ4Zqo_kghYLA
+
+28. Ryan, K. R. and Plumb, I. C., J. Phys. Chem., 86, 4678, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100221a008?casa_token=gvvcXDWovjYAAAAA:uvafRJkIipaEHz5K413MS_RvngHGrHoxpBTmD-wcBudZVJoAYx0ljGTMtFp-VBgDIWjOQLI8pori0Q
+
+
+29. Smith, O. I., Tseregounis, S., and Wang, S., Int. J. Chem. Kinet., 14, 679, 1982.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140610?casa_token=jU4AaxeNstIAAAAA:Ln3-sXUwFj1m1WzGbrpHEJDJ939JJKQzyQ1AUHnXoZ60Qoto2-mQLmmyXK_15JGH6lj0kgvP1DWD3A
+
+30. Merryman, E. L. and Levy, A., Symp. (Int.) Combust., [Proc.). 17, 727, 1979. 
+https://www.sciencedirect.com/science/article/abs/pii/S0082078479800715
+
+
+31. Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980.
+https://pubs.acs.org/doi/pdf/10.1021/j100440a001?casa_token=xu5xeub7h_cAAAAA:IoiG308g1OS3Npqm0j28wSQY1G9jottBqTiAhIQELNzM5y04NU7-BDhubdlZowdQ_P9gGvBl01x-Zg
+
+
+32. Nielsen, O. J., Siliesen, A., Luther, K., and Troe, J., J. Phys. Chem., 86, 2929, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100212a025?casa_token=ZtXDngQhMkAAAAAA:5l1jVtq4pqkCwoYfZLR7UYNNK-F5eG_JxBba_ITQYMaKnw73mJS8jtMmA1wtiT5cULjohpdQUbmSWQ
+
+33. Teets, R. E. and Bechtel, J. H., Symp. (Int.) Combust., [Proc.], 18, 425, 1981. 
+https://www.sciencedirect.com/science/article/abs/pii/S0082078481800483
+
+34. Parkes, D. A., Chem. Phys. Lett., 77, 527, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0009261481852013
+
+35. Flesca, N. G., Diamy, A.-M., and Ben-Aim, R. I., J. Chim. Phys. Phys. Chim. Biol., 76, 681, 1979.
+
+
+36. Davis, D. D., Ravishankara, A. R., and Fischer, S., Geophys. Res. Lett., 6, 113, 1979.
+https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/GL006i002p00113?casa_token=MOdXbEEDZpsAAAAA:B0UZeEBUko2_wu7z2B2ZVidbqN8IaKuiWrQRVCmQ29KpNtRPzPxb8pIOQDsGJ3ox-LT1ImBtUWPItg
+
+
+37. McDade, C. E., Lenhardt, T. M., and Bayes, K. D., J. Photochem., 20, 1, 1982.
+https://www.sciencedirect.com/science/article/abs/pii/0047267082800427
+
+38. Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980.
+
+
+39. Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550120704?casa_token=Mbps-r-CtMgAAAAA:BPtaXi_dh3tq9qr-D-pDAXkpafcfweuZyAGguD1SLgaMSYBMdttCwzdAHQSnfDfT7MQUqLDdCERz6g
+
+40. Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982. 
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140408?casa_token=pALmjbXl8hEAAAAA:yfQMDGdu6tvu8KyHUbk923qZSwBp7ax6CjbYnkc18g5M5QU8vyek3BgGWS0KofVVyWONKvKe0hadDg
+
+41. Cox, R. A. and Sheppard, D., Nature (London), 284, 330, 1980.
+https://www.nature.com/articles/284330a0
+
+42. Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 13, 1011, 1981.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550131003?casa_token=yyLTktYvm0EAAAAA:dQs-Rk1HymCR-ey-CkjTlV_oNL13pjeJjrDF7Pbj6VfmYHg2XHDl3U5lXnTNY1IfE2NuCFWo9h3BIA
+
+43. Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981. 
+https://pubs.acs.org/doi/pdf/10.1021/j150609a011?casa_token=OskY2Y-bW-gAAAAA:kfOEqzffHhBB5CGs6RylFqrMFur3OO6i2xRIHSTKoNAYSzIKBRvoiQH6VfDbIP0YuwCPutrJFVW9qw
+
+44. Arai, H., Nagai, S., and Hatada, M., Radiat. Phys. Chem., 17, 211, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0146572481903332
+
+
+45. Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981. 
+
+
+46. Shamonima, N. F. and Kotov, A. G., Kinet. Katal., 20, 233, 1979.
+
+
+
+47. Chebotarev, N. F., Kinet. Katal., 20, 1381, 1979.
+
+
+48. Niki, H., Maker, P. D., Savage, C. M., and Breitenbach, L. P., Int. J. Chem. 
+https://pubs.acs.org/doi/pdf/10.1021/j100216a023?casa_token=mwWJAZCPiaMAAAAA:02xISsDeBcFxg10IaZNMJnMuUPpTfeVlDXRuYdkn1HRTal_yE_lQgPAxQjdTuk8Fyg7G0teyc6n0UQ
+
+
+49. Leu, M.-T., J. Phys. Chem., 86, 4558, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100220a021?casa_token=UfllwOkMQZgAAAAA:aGtdXChV4WTjYSkFsbBNG5zWykpjfJIolVehdrBL6mFP2ZermXjJkUthETfpqZA0i1NyaYENs5_N1Q
+
+
+50. Horowitz, A., Su., F., and Calvert, J. G., Int. J. Chem. Kinetc., 10, 1099,1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550101102?casa_token=7vUJP7hHT_sAAAAA:TaAtyss8xPrBxvc8L5gdhCA4up6DHgFq9PuyIKyrAuVYoRC1KQwcj-0a2HFcxbMITcP_Oo1qJYespg
+
+51. Nadtochenko, V. A., Fedotov, N. G., Vedeneev, V. I., and Sarkisov, O. M., Dokl. Akad. Nauk. SSSR., 238, 1391, 1978.
+
+
+52. Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982.
+www.sciencedirect.com/science/article/abs/pii/000469818290467X
+
+53. Toby, S. and Ullrich, E., Int. J. Chem. Kinet., 12, 535, 1980.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550120804?casa_token=22v-g6n79FMAAAAA:IM8jLMkUOkykHu-FLwjWLffxsSSmzYmZiNXWqTAoWiezmouiOqm5mAv2a3Lz_iJvnHQInF6NE2u_TQ
+
+
+54. Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f1/f19827802423?casa_token=ukJwMT0QJ2gAAAAA:SdFY9RajtUgngt1wBGy9se-qu2JO9HoreXDMqKQgkBsUC75VIWw3eL9w0OjWSlrgLBFWgBajWeX5
+
+
+55. Wongdontri-Stuper, W., Jayanty, R. K. M., Simonaitis, R., and Heicklen, J., J. Photochem., 10, 163, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0047267079800040
+
+56. Gordon, E. B., Ivanov, B. I., Perminov, A. P., and Balalaev, V. E., Chem. Phys., 35, 79, 1978.
+https://www.sciencedirect.com/science/article/abs/pii/0301010478851945
+
+57. Nelson, H. H., and McDonald, J. R., J. Phys. Chem., 86, 1242, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100397a004?casa_token=nGC--me27dkAAAAA:vnK3Hgg1i3x0SJAti5dpsaQdPGfC96bjt6xAVAIR54_25lpdCHSt1LVr996wGV0oWV8hM3Lg7dlWVg
+
+
+58. Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984.
+https://pubs.aip.org/aip/jpr/article-abstract/13/4/1259/241368/Evaluated-Kinetic-and-Photochemical-Data-for
+
+59. DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83.
+
+
+60. Morgan, C. A., Pilling, M. J., and Tulloch, J. M., J. Chem. Soc., Faraday Trans. 2, 78, 1323, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827801323?casa_token=PiV635Swe5gAAAAA:owp7EtL7F7WQlRS2Ao5RYy6PKliv2fozVnnacSj-lPjh-wGznqLOLYsh06h0rCUc2qfC77cGhMVJ
+
+61. Ruiz, R. P., Bayes, K. D., Macpherson, M. T., and Pilling, M.J., J. Phys. Chem., 85, 1622, 1981.
+
+62. Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981.
+https://www.sciencedirect.com/science/article/abs/pii/0009261481851901
+
+63. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.
+https://srd.nist.gov/JPCRD/jpcrdS1Vol10.pdf
+
+
+SOURCES FOR SECTION 5 (Rows 475-562):
+1. Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978.
+https://pubs.aip.org/aip/jcp/article-abstract/68/12/5410/533228/The-temperature-dependence-of-the-rate-constant
+
+2. Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet.. 10, 155, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100203?casa_token=FN1NtfJvlboAAAAA:_YMi-vhx4fmX-TQ1h4di7O-0fOT5z_DiLY0O8Ep3ZzkGAY2A4PeHZZsQNa7pVrsadyVzISp_RLA5_Q
+
+3. Basco, N. and Hunt, J. E., Int. J. Chem. Kinet., 10, 733, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100707?casa_token=qPENOrbqHwQAAAAA:jGDeva9DYHhZP4NPbSfPrAFmnfi4D6Zv6H-9MU4aaa4xlqAh0anmKoiqsg4PXd0NYfNbK2VDxzaQkw
+
+4. Singleton, D. L. and Cvetanović, R. J., Can. J. Chem., 56, 2934, 1978.
+https://cdnsciencepub.com/doi/abs/10.1139/v78-481
+
+5. Van Roodselaar, A., Obi, K., and Strausz, O. P., Int. J. Chem. Kinetc., 10, 31, 1978.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550100104?casa_token=-uVlH6yYmmEAAAAA:FiqNhmma1RRI947RbSqBDSJyLB0nFr4bl0G9iA1xGdQ9d3k08ilXqBbCDaVeXNoLknWFYezFi_A-CQ
+
+
+6. Anderson, L. G. and Stephens, R. D., J. Photochem., 11, 293, 1979.
+https://www.sciencedirect.com/science/article/abs/pii/0047267079850169
+
+
+7. Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979.
+https://academic.oup.com/bcsj/article-abstract/52/12/3503/7358522
+
+8. Nip, W. S., Singleton, D. L., and Cvetanović, R. J., Can. J. Chem., 57, 949, 
+https://cdnsciencepub.com/doi/abs/10.1139/v79-156
+
+9. Grillo, A., Reed, R., and Slack, M. W., J. Chem. Phys., 70, 1634, 1979. 
+https://pubs.aip.org/aip/jcp/article-abstract/70/4/1634/86404/Infrared-measurements-of-sulfur-dioxide-thermal
+
+10. Kim, P., MacLean, D. I., and Valance, W. G., J. Phys. Chem., 84, 1806, 1980.
+https://pubs.acs.org/doi/pdf/10.1021/j100451a013?casa_token=5QF0MRTZZBUAAAAA:jNjNkw382Ih6dk3KfXA-luu23dHkEyxlNQ2o9obVDGvjQh7C2NCpkd89l2HATq83D6E8WrFNDnsURQ
+
+
+11. Pagsberg, P. B., Eriksen, J., and Christensen, H. C., J. Phys. Chem., 83, 582, 1980.
+
+
+12. Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 3159, 1980.
+
+
+13. Patrick, R., Pilling, M. J., and Rogers, G., J. Chem. Phys., 53, 279, 1980. 
+https://www.sciencedirect.com/science/article/abs/pii/0301010480851184
+
+14. Zhang, F., Francisco, J. S., and Steinfeld, J. I., J. Phys. Chem., 86, 2402, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100210a030?casa_token=UXs9X4-hrXQAAAAA:06gegG4NcsVAyGyYs1f0KlbrElcj8QW5DzwhoOtPzdQqcNhTWKSHAeqapsfUvFKFDc5qjavdrRmV0g
+
+15. Kiefer, J. H. and Ramaprabhu, R., Chem. Phys. Lett., 86, 499, 1982.
+https://www.sciencedirect.com/science/article/abs/pii/0009261482801796
+
+16. Holzrichter, K. and Wagner, H. Gg., Symp. (Int.) Combust.. [Proc.], 18, 769. 1981.
+
+
+17. Nielsen, O. J., Siliesen, A., Luther, K., and Troe, J., J. Phys. Chem., 86, 2929, 1982.
+https://pubs.acs.org/doi/pdf/10.1021/j100212a025?casa_token=xTG5iYDhcKAAAAAA:8ybZtVbhIkwF7wcOv-pO1SpOBafs0ViYP4iGitspDKvCgopaSeyBsysnmKjSTXXc7yK4RwJdLeIByA
+
+
+18. Sworski, T. J., Hochanadel, C. J., and Ogren, P. J., J. Phys. Chem., 84, 129, 1980.
+https://pubs.acs.org/doi/pdf/10.1021/j100439a002?casa_token=VOkh4FDWzZsAAAAA:05csYiFTknRZID5IQcd28khnBI9ElI8QDP_OmS3MQsIgt3ua9LSHzvWbh3DX8cyiF1BKDTyQUdGm3Q
+
+19. Rossi, M. J., Barker, J. R., and Golden, D. M., Int. J. Chem. Kinet., 14, 499, 1982.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550140507?casa_token=sicXcRX5Zs4AAAAA:bH4MHRzmUMoYtIQg-xP2BMQWn9ZqWPRJyN8QR_xXV7IEoN38Dkst_aEfmREAwdBacn-YRwa2M7RNoQ
+
+20. Tang, K. Y., Hunter, R. O., Jr., and Huestis, D. L., J., Appl. Phys., 52, 6046, 1981.
+https://pubs.aip.org/aip/jap/article-abstract/52/10/6046/10945/Molecular-recombination-in-laser-media-II?redirectedFrom=fulltext
+
+21. Hunter, R. F. and Kristjansson, K. S., J. Chem. Soc., Faraday Trans. 2, 78, 2067, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f2/f29827802067?casa_token=CCJoqxEbDwgAAAAA:-UPNxMEBpa2RRfCS2dwgwV1Lbg9_LI8xb_IlTyUieL70P43z5RTQ7rAMat829s1YgdTejaHMLuuN
+
+22. Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984.
+https://pubs.aip.org/aip/jpr/article-abstract/13/4/1259/241368/Evaluated-Kinetic-and-Photochemical-Data-for
+
+23. DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83.
+
+24. Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978. 
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550101006?casa_token=pga4SH_tHK0AAAAA:BqoeFhWIQHj1jLfwm53-dTLt5yAzJXR6RRKuzcrFf0pfANS8mm7H3jYhoPKv7nCU5LX22OpNl9rDkw
+
+25. Jensen, D. E. and Jones, G. A., J. Chem. Soc., Faraday Trans. 1, 78, 2843, 1982.
+https://pubs.rsc.org/en/content/articlehtml/1982/f1/f19827802843?casa_token=pe_lc6_Cdu0AAAAA:6zWlSYZdPFTwu1q89KfZ8Anl45_zq8ChoB_w-fLZANQa0w2uEN4NpAAT7ew0twhVxDivyHYKvAWa
+
+26. Olbregts, J., J. Photochem., 14, 19, 1980.
+https://www.sciencedirect.com/science/article/abs/pii/0047267080850659
+
+27. Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981.
+
+
+28. Uselman, W. M., Levine, S. Z., Chan, W. H., Calvert, J. G., and Shaw, J. H., Nitrogenous Air Pollutants: Chemical and Biological Implications, Grosjean, D., Ed., Ann Arbor Science, Ann Arbor, Mich., 1979.
+                        
+SOURCES FOR SECTION 6 (Rows 563-667):
+1. Teng, L. and Jones, W. E., J. Chem. Soc., Faraday Trans. 1,68, 1267, 1972.
+https://pubs.rsc.org/en/content/articlelanding/1972/f1/f19726801267
+
+2. Halstead, M. P., Leathard, R. M., Marshall, R. M., and Purnell, J. H., Proc. R. Soc. London, Ser. A, 316, 575, 1970.
+https://www.jstor.org/stable/77640?seq=1
+
+3. Camilleri, P., Marshall, R. M., and Purnell, J. H., J. Chem. Soc., Faraday Trans. 1, 70, 1434, 1974.
+https://pubs.rsc.org/en/content/articlelanding/1974/f1/f19747001434
+
+3a. Jung-Tsang Cheng, Ying-Sheng Lee, and Chuin-Tih Yeh, J. Phys. Chem., 81, 687, 1977.
+https://pubs.acs.org/doi/pdf/10.1021/j100523a001?ref=article_openPDF
+
+3b. Jung-Tsang Cheng and Chuin-Tih Yeh, J. Phys. Chem., 81, 1982, 1977.
+https://pubs.acs.org/doi/pdf/10.1021/j100523a001?ref=article_openPDF
+
+4. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 70, 1840, 1974. 4a. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 72, 1733, 1976.
+https://pubs.rsc.org/en/Content/ArticleLanding/1976/F1/F19767201733
+
+ 
+5. Kurylo, M. J., Peterson, N. C., and Braun, W., J. Chem. Phys., 53, 2776, 1971.
+https://www.sciencedirect.com/science/article/pii/0009261472871586
+
+6. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972.
+https://srd.nist.gov/JPCRD/jpcrd293.pdf
+
+7. Friswell, N. J. and Sutton, M. M., Chem. Phys. Lett., 15, 108, 1972.
+https://www.sciencedirect.com/science/article/pii/0009261472870283
+
+7a. Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939.
+
+8. Baldwin, R. R., Gethin, A., Plaistowe, J., and Walker, R. W., J. Chem. Soc., Faraday Trans. 1,71, 1265, 1975.
+https://pubs.rsc.org/en/content/articlelanding/1975/f1/f19757101265
+
+9. Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973.
+https://srd.nist.gov/JPCRD/jpcrd293.pdf
+
+10. Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972.
+https://pubs.aip.org/aip/jcp/article/57/9/3736/768963/Pressure-Dependence-and-Third-Body-Effects-on-the
+
+10a. Oka, K., Singleton, D. L., and Cvetanovic, R. J., J. Chem. Phys., 66, 713, 1977.
+https://pubs.aip.org/aip/jcp/article/66/2/713/773880/Mercury-photosensitized-reaction-of-H2-in-the
+
+10b. Oka, K., Singleton, D. L., and Cvetanović, R. J., J. Chem. Phys., 67, 4681, 1977.
+https://pubs.aip.org/aip/jcp/article/67/10/4681/216501/Temperature-dependence-of-the-rate-of-reaction-H
+
+11. Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975.
+https://pubs.rsc.org/en/content/articlelanding/1975/f1/f19757102097
+
+
+11a. Atkinson, R., Perry, R. A., and Pitts, J. N., Chem. Phys. Lett., 47, 197, 1977.
+https://kinetics.nist.gov/kinetics/Detail;jsessionid=5D22301CC72EAEE27DCB6189C9E658DB?id=1977ATK/PER197:0
+
+12. Boyd, A. W., Willis, C., and Miller, O. A., Can. J. Chem., 49, 2283, 1971.
+https://cdnsciencepub.com/doi/epdf/10.1139/v71-369
+
+
+13. Clyne, M. A. A. and Watson, R. T., J. Chem. Soc., Faraday Trans. 1, 70, 1109, 1974.
+https://pubs.rsc.org/en/content/articlelanding/1974/f1/f19747001109
+
+
+14. Clyne, M. A. A., and Connor, J., J. Chem. Soc., Faraday Trans. 2, 68, 1220, 1972.
+https://pubs.rsc.org/en/content/articlelanding/1972/f2/f29726801220
+
+                          
+14a. Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550090207
+
+14b. Skorobogatov, G. A., Seleznev, V. G., and Slesar, O. N., Dokl. Akad. Nauk SSSR, Ser. Khim., 231, 1407, 1976 (Russian); 231, 1292, 1976 (English).
+
+15. Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27.
+https://onlinelibrary.wiley.com/doi/abs/10.1002/kin.550080404
+
+15a. Whytock, D. A., Michael, J. V., and Payne, W. A., Chem. Phys. Lett., 42, 466, 1976.
+https://www.sciencedirect.com/science/article/pii/0009261476806550
+
+16. Becker, K. H., Groth, W., and Thran, D., Chem. Phys. Lett., 15, 215, 1972.
+https://www.sciencedirect.com/science/article/pii/0009261472801520
+
+17. Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 27, 467, 1974.
+https://www.sciencedirect.com/science/article/pii/0009261474802824?via%3Dihub
+
+18. Furuyama, S., Atkinson, R., Colussi, A. J., and Cvetanovic, R. J., Int. J. Chem. Kinet., 6, 741, 1974.
+https://kinetics.nist.gov/kinetics/Detail;jsessionid=F9C1791E541F872DE41522F366CA98AC?id=1974FUR/ATK741:4
+
+19. Singleton, D. L., Furuyama, S., and Cvetanovic, R. J., J. Chem. Phys., 63, 1003, 1975.
+
+
+20. Atkinson, R. and Cvetanović, R. J., J. Chem. Phys., 56, 432, 1972.
+https://pubs.aip.org/aip/jcp/article/56/1/432/899737/Activation-Energies-of-the-Addition-of-O-3P-Atoms
+
+21. Atkinson, R. and Pitts, J. N., J. Phys. Chem., 78, 1780, 1974.
+https://kinetics.nist.gov/kinetics/Detail;jsessionid=FA005FBE6331C034E8E554D13C482AAF?id=1974ATK/PIT1780:9
+
+22. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. III, Butterworths, London, 1976.
+
+23. Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977.
+
+24. Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977.
+https://kinetics.nist.gov/kinetics/Detail;jsessionid=625C16FBA131FF6C8CB4CFE99869B497?id=1977HUS/SLA59:3
+
+25. Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977.
+
+26. Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976.
+https://pubs.aip.org/aip/jcp/article/65/11/4830/793516/Absolute-rate-constants-for-O-NO-M-He-Ne-Ar-Kr-NO2
+
+27. Harker, A. B. and Johnston, H. S., J. Phys. Chem., 77, 1153, 1973.
+https://kinetics.nist.gov/kinetics/Detail;jsessionid=6E3167619D742552113492AD4D5AFDBA?id=1973HAR/JOH1153:4
+                        
+                        

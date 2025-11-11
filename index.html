@@ -19,9 +19,8 @@
       min-height: 100vh;
     }
 
-    /* Header bar */
     header {
-      background: #990000; /* Deep red */
+      background: #990000;
       color: white;
       display: flex;
       align-items: center;
@@ -50,12 +49,6 @@
       margin-bottom: 20px;
     }
 
-    h2 {
-      color: #990000;
-      margin-top: 30px;
-      margin-bottom: 15px;
-    }
-
     main {
       padding: 20px;
     }
@@ -65,20 +58,21 @@
       width: 100%; 
       margin-top: 20px; 
     }
+
     th, td { 
       border: 1px solid #ccc; 
       padding: 6px 10px; 
     }
+
     th { 
       background: #f0f0f0; 
     }
+
     a { 
       color: #990000; 
       text-decoration: underline; 
     }
-    a:hover { 
-      text-decoration: underline; 
-    }
+
     button { 
       display: inline-block;
       padding: 6px 12px; 
@@ -91,12 +85,12 @@
       color: white;
       font-family: "Montserrat", sans-serif;
     }
+
     .activeTab { 
-      background: #b30000; /* brighter red */
+      background: #b30000;
       color: white; 
     }
 
-    /* 🔴 Red slider */
     input[type=range] {
       -webkit-appearance: none;
       width: 300px;
@@ -106,49 +100,17 @@
       outline: none;
       margin: 10px 0;
     }
+
     input[type=range]::-webkit-slider-thumb {
       -webkit-appearance: none;
-      appearance: none;
       width: 16px;
       height: 16px;
       background: #b30000;
       cursor: pointer;
       border-radius: 50%;
       border: none;
-    }
-    input[type=range]::-moz-range-thumb {
-      width: 16px;
-      height: 16px;
-      background: #b30000;
-      cursor: pointer;
-      border-radius: 50%;
-      border: none;
-    }
-    input[type=range]::-ms-thumb {
-      width: 16px;
-      height: 16px;
-      background: #b30000;
-      cursor: pointer;
-      border-radius: 50%;
-      border: none;
-    }
-    input[type=range]::-webkit-slider-runnable-track {
-      height: 6px;
-      background: #b30000;
-      border-radius: 3px;
-    }
-    input[type=range]::-moz-range-track {
-      height: 6px;
-      background: #b30000;
-      border-radius: 3px;
-    }
-    input[type=range]::-ms-track {
-      height: 6px;
-      background: #b30000;
-      border-radius: 3px;
     }
 
-    /* 🔍 Search bar */
     #searchBar {
       margin: 15px 0;
       padding: 8px;
@@ -164,11 +126,9 @@
       padding: 15px;
       margin-top: auto;
     }
-
   </style>
 </head>
 <body>
-  <!-- Top Navigation -->
   <header>
     <div>
       <a href="landing.html">
@@ -176,24 +136,20 @@
       </a>
     </div>
     <nav>
-    <a href="landing.html">Home</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-    <a href="explanation.html">Explanation</a>
-    <a href="index.html">Database</a>
-  </nav>
+      <a href="landing.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="explanation.html">Explanation</a>
+      <a href="index.html">Database</a>
+    </nav>
   </header>
 
   <main>
     <h1>Termolecular Database</h1>
 
     <div>
-      <button id="set1Btn" class="activeTab">Dataset 1</button>
-      <button id="set2Btn">Dataset 2</button>
-      <button id="set3Btn">Dataset 3</button>
-      <button id="set4Btn">Dataset 4</button>
-      <button id="set5Btn">Dataset 5</button>
-      <button id="set6Btn">Dataset 6</button>
+      <button id="ionicBtn">Ionic Dataset</button>
+      <button id="nonIonicBtn" class="activeTab">Non-Ionic Dataset</button>
     </div>
 
     <div>
@@ -205,59 +161,58 @@
       <input type="range" id="tempSlider" min="0" max="100" value="100">
     </div>
 
-    <!-- 🔍 Search bar -->
     <div>
       <input type="text" id="searchBar" placeholder="Search reactions...">
     </div>
 
     <table id="csvTable"></table>
-
     <div id="graphContainer"></div>
   </main>
 
+  <footer>
+    © 2025 Termolecular Reaction Database | JPR Group
+  </footer>
+
   <script>
     let allRows = [];
-    let currentSet = 1;
+    let currentSet = "nonIonic"; // Default set
 
     const datasets = {
-      1: { csv: "sneediest.csv", notes: "fixed_notes.txt", sources: "fixed_sources.txt", graph: "graph_1.html" },
-      2: { csv: "second_set_lol.csv", notes: "notes_6.txt", sources: "sources_6.txt", graph: "graph_2.html" },
-      3: { csv: "third_set.csv", notes: "notes_4.txt", sources: "sources_4.txt", graph: "graph_3.html" },
-      4: { csv: "set_four.csv", notes: "notes_2.txt", sources: "sources_2.txt", graph: "graph_4.html" },
-      5: { csv: "set_five.csv", notes: "notes_5.txt", sources: "sources_5.txt", graph: "graph_5.html" },
-      6: { csv: "set_six.csv", notes: "notes_1.txt", sources: "sources_1.txt", graph: "graph_6.html" }
+      ionic: { csv: "ionic.csv", notes: "ionic_notes.txt", sources: "ionic_sources.txt" },
+      nonIonic: { csv: "nonionic.csv", notes: "nonionic_notes.txt", sources: "nonionic_sources.txt" }
     };
 
     const graphContainer = document.getElementById("graphContainer");
+    const searchBar = document.getElementById("searchBar");
+    const slider = document.getElementById("tempSlider");
+    const tempValue = document.getElementById("tempValue");
 
-    async function loadCSV(setNum) {
-      currentSet = setNum;
+    // Map Number → Section
+    function getSectionFromNumber(num) {
+      if (num >= 1 && num <= 161) return 1;
+      if (num >= 162 && num <= 192) return 2;
+      if (num >= 193 && num <= 281) return 3;
+      if (num >= 282 && num <= 474) return 4;
+      if (num >= 475 && num <= 562) return 5;
+      if (num >= 563 && num <= 667) return 6;
+      return null;
+    }
 
-      // Highlight active button
-      for (let i = 1; i <= 6; i++) {
-        document.getElementById(`set${i}Btn`).classList.toggle("activeTab", setNum === i);
-      }
+    async function loadCSV(setKey) {
+      currentSet = setKey;
 
-      // Load graph
-      try {
-        const response = await fetch(datasets[setNum].graph);
-        const htmlContent = await response.text();
-        graphContainer.innerHTML = htmlContent;
+      // Highlight active dataset
+      document.getElementById("ionicBtn").classList.toggle("activeTab", setKey === "ionic");
+      document.getElementById("nonIonicBtn").classList.toggle("activeTab", setKey === "nonIonic");
 
-        const scripts = graphContainer.querySelectorAll("script");
-        scripts.forEach(script => {
-          const newScript = document.createElement("script");
-          if (script.src) newScript.src = script.src;
-          else newScript.textContent = script.textContent;
-          document.body.appendChild(newScript).remove();
-        });
-      } catch (error) {
-        console.error("Graph load failed:", error);
-        graphContainer.innerHTML = "<div>Graph failed to load.</div>";
-      }
+      // Reset search bar and filters
+      searchBar.value = "";
+      slider.value = slider.max;
+      graphContainer.innerHTML = "";
+      window.scrollTo({ top: 0, behavior: "smooth" });
 
-      // Load CSV
-      const text = await (await fetch(datasets[setNum].csv)).text();
+      // Load CSV data
+      const text = await (await fetch(datasets[setKey].csv)).text();
       const results = Papa.parse(text, { header: true, skipEmptyLines: true });
       allRows = results.data;
 
@@ -265,30 +220,41 @@
       const minT = Math.min(...temps);
       const maxT = Math.max(...temps);
 
-      const slider = document.getElementById("tempSlider");
-      const tempValue = document.getElementById("tempValue");
-
       slider.min = minT;
       slider.max = maxT;
       slider.value = maxT;
       tempValue.textContent = maxT;
 
-      slider.oninput = () => applyFilters();
-      document.getElementById("searchBar").addEventListener("input", () => applyFilters());
-
       renderTable(allRows);
     }
 
-    function applyFilters() {
-      const slider = document.getElementById("tempSlider");
-      const tempValue = document.getElementById("tempValue");
-      const query = document.getElementById("searchBar").value.toLowerCase();
+    function normalizeChemical(text) {
+      if (!text) return "";
+      const subscripts = { "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉" };
+      const superscripts = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9" };
+      let normalized = text;
+      for (const [num, sub] of Object.entries(subscripts)) normalized = normalized.replaceAll(num, sub);
+      for (const [sub, num] of Object.entries(superscripts)) normalized = normalized.replaceAll(sub, num);
+      return normalized;
+    }
 
+    function applyFilters() {
+      const query = searchBar.value.toLowerCase().trim();
       tempValue.textContent = slider.value;
 
       const filtered = allRows.filter(r => {
         const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
-        const searchOK = !query || (r.Reaction && r.Reaction.toLowerCase().includes(query));
+        if (!query) return tempOK;
+
+        const reaction = (r.Reaction || "").toLowerCase();
+        const normalizedQuery = normalizeChemical(query);
+        const normalizedReaction = normalizeChemical(reaction);
+
+        const searchOK = reaction.includes(query) ||
+                         reaction.includes(normalizedQuery) ||
+                         normalizedReaction.includes(query) ||
+                         normalizedReaction.includes(normalizedQuery);
+
         return tempOK && searchOK;
       });
 
@@ -314,16 +280,15 @@
 
       data.forEach(row => {
         const tr = document.createElement("tr");
+        const numberVal = parseInt(row["Number"]);
+        const section = getSectionFromNumber(numberVal);
+
         Object.entries(row).forEach(([key, value]) => {
           const td = document.createElement("td");
           const lowerKey = key.toLowerCase();
-          if ((lowerKey === "notes" || lowerKey === "reference" || lowerKey === "references") && value) {
-            const links = value.split(",").map(v => {
-              const num = v.trim();
-              const targetPage = lowerKey === "notes" ? "notes.html" : "sources.html";
-              return `<a href="${targetPage}?set=${currentSet}#${num}">${num}</a>`;
-            });
-            td.innerHTML = links.join(", ");
+          if ((lowerKey === "notes" || lowerKey === "reference" || lowerKey === "references") && value && section) {
+            const targetPage = lowerKey === "notes" ? "notes.html" : "sources.html";
+            td.innerHTML = `<a href="${targetPage}#section${section}">${value}</a>`;
           } else {
             td.textContent = value;
           }
@@ -342,16 +307,14 @@
       document.body.removeChild(link);
     });
 
-    for (let i = 1; i <= 6; i++) {
-      document.getElementById(`set${i}Btn`).addEventListener("click", () => loadCSV(i));
-    }
+    slider.addEventListener("input", applyFilters);
+    searchBar.addEventListener("input", applyFilters);
 
-    loadCSV(1);
+    document.getElementById("ionicBtn").addEventListener("click", () => loadCSV("ionic"));
+    document.getElementById("nonIonicBtn").addEventListener("click", () => loadCSV("nonIonic"));
+
+    // Default to non-ionic dataset
+    loadCSV("nonIonic");
   </script>
-
-  <footer>
-    © 2025 Termolecular Reaction Database | JPR Group
-  </footer>
-
 </body>
 </html>
