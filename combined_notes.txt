@@ -97,8 +97,8 @@ NOTES FOR SECTION 4 (Rows 282-474):
 3. Shock tube study (H₂/O₂/CO/Ar mixtures). Experiments performed over the pressure range 2 to 4 atm. Overall kinetics monitored by CO flame spectrum (visible), which is a measure of the product [CO][O], and by thermal emission (infrared) from CO₂. Experimental profiles were compared to results of numerical integration of proposed mechanism; the rate constant for O + CO + M was obtained from a computer fit of the profiles.
 4. Static system. Rate constant derived from decay of Br₂, monitored by absorption spectrophotometry.
 5. Discharge-flow stirred reaction system (O/H₂/N₂/CO). O atoms produced by N discharge, followed by the reaction N+NO→N₂+O. Kinetic analysis based on observing variation in rate of decay of O atoms due to addition of O₂ ([O] monitored via chemiluminescent reaction with CO) as a function of the ratio [H]/ [0].
-6.Flow system. Kinetic analysis based on decay of O atoms, monitored by NO₂ chemiluminescence from the reaction of O with NO.
-7.Study of the pulse-radiolysis of H.S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectro- metry. Experimental SSH profiles were compared to the results of numerical integration of proposed mechanism, rate constant obtained by fitting simulated profiles to experimental profiles.
+6. Flow system. Kinetic analysis based on decay of O atoms, monitored by NO₂ chemiluminescence from the reaction of O with NO.
+7. Study of the pulse-radiolysis of H.S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectro- metry. Experimental SSH profiles were compared to the results of numerical integration of proposed mechanism, rate constant obtained by fitting simulated profiles to experimental profiles.
 8. Fast-flow system. [HO₂] monitored by LMR.
 9. Fast-flow system. Rate constant derived from decay of Cl atoms, monitored by mass spectrometry.
 10. Rate constants derived from decay of O(³P), monitored by resonance absorption.  
@@ -127,8 +127,7 @@ NOTES FOR SECTION 4 (Rows 282-474):
 33. [Na] monitored by time-resolved atomic resonance absorption.
 34. [K] monitored by time-resolved atomic resonance absorption.
 35. Discharge-flow system. Reaction studied using mass spectrometry, k is limiting low-pressure rate constant, obtained by extrapolation of experimental data. Bath gas was He.
-36. Data suggest a value of the limiting high-pressure rate constant k∞ of approximately 5 x 10^12 cm^3mol^-1s^-1. The channel CF₃ +0₂ → F₂CO + FO is estimated to
-account for less than 1% of the overall CF₃ +0₂ reaction.
+36. Data suggest a value of the limiting high-pressure rate constant k∞ of approximately 5 x 10^12 cm^3mol^-1s^-1. The channel CF₃ +0₂ → F₂CO + FO is estimated to account for less than 1% of the overall CF₃ +0₂ reaction.
 37. Flame study with mass spectrometric analysis.
 38. Flame study.
 39. Experimental temperature not stated hence room temperature assumed.
@@ -164,8 +163,7 @@ account for less than 1% of the overall CF₃ +0₂ reaction.
 69. Experiments performed at atmospheric pressure.
 70. k calculated using k/cm^3mol^-1s^-1 = 9.15 x 10^5 for the reference reaction H +
 CH₄  → H₂ + CH₃.
-71. k calculated using k/cm^3mol^-1s^-1 9.09 x 10^6 for the reference reaction H +
-CH₄  → H₂ + CH₃.
+71. k calculated using k/cm^3mol^-1s^-1 9.09 x 10^6 for the reference reaction H +  CH₄  → H₂ + CH₃.
 72. k calculated using k/cm^3mol^-1s^-1 7.41 x 10^7 for the reference reaction H +
 CH₄  → H₂ + CH₃.
 73. [NH] monitored by resonance fluorescence.
@@ -177,7 +175,7 @@ CH₄  → H₂ + CH₃.
 79. Flow system. Decay of NO monitored using a chemiluminescence analyzer.
 80.  Units of A are cm^3mol^-1s^-1.
 81. Rate parameters calculated using  k/cm^3mol^-1s^-1 = 1.0 x 10^15 exp(-11430/T) for the reaction O₃ + M → 0₂ +0+ M and k/cm^3mol^-1s^-1 = 1.20 × 10^13 exp(-2410/T) for the reaction O+ 0₃→ 20₂.
-82.Rate constant(s) obtained by computer simulation of experimental data. 
+82. Rate constant(s) obtained by computer simulation of experimental data. 
 83. Molecular modulation study.
 84. Experiments involved the application of the H-maser as a spin relaxometer. 
 85. [C₆H₅CH₂] monitored by laser-induced fluorescence. k is overall 2nd order rate constant.

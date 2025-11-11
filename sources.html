@@ -8,86 +8,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Sources</title>
   <style>
-    body {
-      margin: 0;
-      font-family: "Montserrat", sans-serif;
-      background: #f3f1ed;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header {
-      background: #990000;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px 24px;
-    }
+    body { margin: 0; font-family: "Montserrat", sans-serif; background: #f3f1ed; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+    header { background: #990000; color: white; display: flex; align-items: center; justify-content: space-between; padding: 12px 24px; }
     header img.logo { height: 40px; }
-    nav a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
     main { padding: 20px; max-width: 1000px; margin: auto; }
     h1 { color: #990000; }
-
     .tabs { margin: 12px 0; }
-    .tabs button {
-      display: inline-block;
-      padding: 6px 12px;
-      margin-right: 6px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      background: #990000;
-      color: white;
-      font-size: 0.9em;
-    }
+    .tabs button { display: inline-block; padding: 6px 12px; margin-right: 6px; border: none; border-radius: 4px; cursor: pointer; background: #990000; color: white; font-size: 0.9em; }
     .tabs button.activeTab { background: #b30000; }
-
-    .section {
-      background: #fff;
-      margin: 10px 0;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-      overflow: hidden;
-    }
-    .section summary {
-      background: #eee;
-      padding: 10px 14px;
-      cursor: pointer;
-      font-weight: 600;
-      color: #990000;
-    }
+    .section { background: #fff; margin: 10px 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden; }
+    .section summary { background: #eee; padding: 10px 14px; cursor: pointer; font-weight: 600; color: #990000; }
     .section summary:hover { background: #e2e2e2; }
-
-    .source {
-      padding: 8px 16px;
-      line-height: 1.4;
-      border-top: 1px solid #ddd;
-    }
-
-    footer {
-      text-align: center;
-      background: #333;
-      color: #ddd;
-      padding: 15px;
-      margin-top: auto;
-    }
+    .source { padding: 8px 16px; line-height: 1.4; border-top: 1px solid #ddd; }
+    footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
+    #ionicHeader { color: #990000; border-bottom: 2px solid #990000; margin-top: 30px; padding-bottom: 5px; }
   </style>
 </head>
 <body>
   <header>
-    <div>
-      <a href="landing.html">
-        <img src="jpr_logo.png" alt="Logo" class="logo">
-      </a>
-    </div>
+    <div><a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a></div>
     <nav>
       <a href="landing.html">Home</a>
       <a href="contact.html">Contact</a>
@@ -109,9 +50,7 @@
     <div id="sourcesContainer">Loading...</div>
   </main>
 
-  <footer>
-    © 2025 Termolecular Reaction Database | JPR Group
-  </footer>
+  <footer>© 2025 Termolecular Reaction Database | JPR Group</footer>
 
   <script>
     const files = {
@@ -126,19 +65,7 @@
       document.getElementById("ionicBtn").classList.toggle("activeTab", currentTab === "ionic");
     }
 
-    function scrollToHash() {
-      if (location.hash) {
-        const el = document.getElementById(location.hash.slice(1));
-        if (el) {
-          if (el.tagName.toLowerCase() === 'details' && !el.open) {
-            el.open = true;
-          }
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }
-    }
-
-    async function loadSources(hashCheck = true) {
+    async function loadSources() {
       setActiveTab();
       const container = document.getElementById("sourcesContainer");
       container.innerHTML = "Loading...";
@@ -146,39 +73,60 @@
       try {
         const text = await fetch(files[currentTab]).then(r => r.text());
 
-        const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
-        const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
-        const sections = text.split(sectionRegex).filter(s => s.trim());
+        if (currentTab === "ionic") {
+          const lines = text.split(/\r?\n/).filter(l => l.trim());
+          container.innerHTML = `<h2 id="ionicHeader">SOURCES FOR IONIC DATASET</h2>` +
+            lines.map((line, idx) => {
+              if (lines[idx+1] && /^https?:\/\//i.test(lines[idx+1].trim())) {
+                const link = lines[idx+1].trim();
+                lines.splice(idx+1, 1);
+                return `<div class="source">${line} (<a href="${link}" target="_blank">link</a>)</div>`;
+              }
+              return `<div class="source">${line}</div>`;
+            }).join("");
+        } else {
+          const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
+          const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
+          const sections = text.split(sectionRegex).filter(s => s.trim());
 
-        let html = "";
-        for (let i = 0; i < sections.length; i++) {
-          const sectionNumber = i + 1;
-          const lines = sections[i].split(/\r?\n/).filter(l => l.trim());
-          const sourcesHTML = [];
+          let html = "";
+          for (let i = 0; i < sections.length; i++) {
+            const sectionNumber = i + 1;
+            const lines = sections[i].split(/\r?\n/).filter(l => l.trim());
+            const sourcesHTML = [];
 
-          for (let j = 0; j < lines.length; j++) {
-            let line = lines[j];
-            if (lines[j+1] && /^https?:\/\//i.test(lines[j+1].trim())) {
-              line += ` (<a href="${lines[j+1].trim()}" target="_blank">link</a>)`;
-              j++;
+            for (let j = 0; j < lines.length; j++) {
+              let line = lines[j];
+              if (lines[j+1] && /^https?:\/\//i.test(lines[j+1].trim())) {
+                line += ` (<a href="${lines[j+1].trim()}" target="_blank">link</a>)`;
+                j++;
+              }
+              sourcesHTML.push(`<div class="source">${line}</div>`);
             }
-            sourcesHTML.push(`<div class="source">${line}</div>`);
+
+            html += `
+              <details class="section" id="section${sectionNumber}">
+                <summary>${headers[i] || "Section " + sectionNumber}</summary>
+                ${sourcesHTML.join("")}
+              </details>`;
           }
-
-          const isTargetSection = location.hash === `#section${sectionNumber}`;
-          const initialOpen = isTargetSection ? " open" : "";
-
-          html += `
-            <details class="section"${initialOpen} id="section${sectionNumber}">
-              <summary>${headers[i] || "Section " + sectionNumber}</summary>
-              ${sourcesHTML.join("")}
-            </details>
-          `;
+          container.innerHTML = html;
         }
 
-        container.innerHTML = html;
-
-        if (hashCheck) scrollToHash();
+        // Handle redirect
+        if (location.hash) {
+          const id = location.hash.slice(1);
+          if (id === "ionic") {
+            currentTab = "ionic";
+            await loadSources();
+          } else {
+            const el = document.getElementById(id);
+            if (el) {
+              if (el.tagName.toLowerCase() === "details") el.open = true;
+              setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 200);
+            }
+          }
+        }
 
       } catch (e) {
         container.innerHTML = "Failed to load sources.";
@@ -186,20 +134,10 @@
       }
     }
 
-    function initialLoadCheck() {
-      loadSources();
-    }
+    document.getElementById("nonIonicBtn").addEventListener("click", () => { currentTab = "nonionic"; loadSources(); });
+    document.getElementById("ionicBtn").addEventListener("click", () => { currentTab = "ionic"; loadSources(); });
 
-    document.getElementById("nonIonicBtn").addEventListener("click", () => {
-      currentTab = "nonionic";
-      loadSources();
-    });
-    document.getElementById("ionicBtn").addEventListener("click", () => {
-      currentTab = "ionic";
-      loadSources();
-    });
-
-    initialLoadCheck();
+    loadSources();
   </script>
 </body>
 </html>

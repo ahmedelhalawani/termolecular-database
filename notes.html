@@ -23,6 +23,7 @@
     .section summary:hover { background: #e2e2e2; }
     .note { padding: 8px 16px; line-height: 1.4; border-top: 1px solid #ddd; }
     footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
+    #ionicHeader { color: #990000; border-bottom: 2px solid #990000; margin-top: 30px; padding-bottom: 5px; }
   </style>
 </head>
 <body>
@@ -73,15 +74,12 @@
         const text = await fetch(files[currentTab]).then(r => r.text());
 
         if (currentTab === "ionic") {
-          // simple load for ionic: each non-empty line becomes a note block
           const lines = text.split(/\r?\n/).filter(l => l.trim());
-          container.innerHTML = lines.map((line, idx) => `<div class="note" id="ionic-entry-${idx+1}">${line}</div>`).join("");
+          container.innerHTML = `<h2 id="ionicHeader">NOTES FOR IONIC DATASET</h2>` +
+            lines.map((line, idx) => `<div class="note" id="ionic-entry-${idx+1}">${line}</div>`).join("");
         } else {
-          // NON-IONIC: split into sections by header "NOTES FOR SECTION N"
-          // Grab headers
           const headerMatches = [...text.matchAll(/NOTES FOR SECTION\s+\d+[^\n]*/gi)];
           const headers = headerMatches.map(m => m[0]);
-          // Split by the headers; result may include leading empty chunk so filter
           const sections = text.split(/NOTES FOR SECTION\s+\d+[^\n]*/i).filter(s => s.trim());
 
           let html = "";
@@ -92,9 +90,8 @@
               if (m) return `<div class="note" id="section${i+1}-note${idx+1}"><strong>${m[1]}</strong> ${m[2]}</div>`;
               return `<div class="note" id="section${i+1}-note${idx+1}">${line}</div>`;
             }).join("");
-            // add id to the details so anchors like #section3 work
             html += `
-              <details class="section" id="section${i+1}" ${i === 0 ? "open" : ""}>
+              <details class="section" id="section${i+1}">
                 <summary>${headers[i] || "Section " + (i + 1)}</summary>
                 ${notesHTML}
               </details>`;
@@ -102,32 +99,30 @@
           container.innerHTML = html;
         }
 
-        // If there's a hash like #section3 open/scroll it
+        // Scroll logic
         if (location.hash) {
           const id = location.hash.slice(1);
-          const el = document.getElementById(id);
-          if (el) {
-            // if it's a details element, open it
-            if (el.tagName.toLowerCase() === "details") el.open = true;
-            setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+          if (id === "ionic") {
+            currentTab = "ionic";
+            await loadNotes();
+          } else {
+            const el = document.getElementById(id);
+            if (el) {
+              if (el.tagName.toLowerCase() === "details") el.open = true;
+              setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 200);
+            }
           }
         }
+
       } catch (e) {
         container.innerHTML = "Failed to load notes.";
         console.error(e);
       }
     }
 
-    document.getElementById("nonIonicBtn").addEventListener("click", () => {
-      currentTab = "nonionic";
-      loadNotes();
-    });
-    document.getElementById("ionicBtn").addEventListener("click", () => {
-      currentTab = "ionic";
-      loadNotes();
-    });
+    document.getElementById("nonIonicBtn").addEventListener("click", () => { currentTab = "nonionic"; loadNotes(); });
+    document.getElementById("ionicBtn").addEventListener("click", () => { currentTab = "ionic"; loadNotes(); });
 
-    // initial load
     loadNotes();
   </script>
 </body>

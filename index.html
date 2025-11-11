@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,7 +18,6 @@
       flex-direction: column;
       min-height: 100vh;
     }
-
     header {
       background: #990000;
       color: white;
@@ -27,70 +26,37 @@
       justify-content: space-between;
       padding: 12px 24px;
     }
-
-    header img.logo {
-      height: 40px;
-    }
-
+    header img.logo { height: 40px; }
     nav a {
       color: white;
       margin-left: 20px;
       text-decoration: none;
       font-weight: bold;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
+    nav a:hover { text-decoration: underline; }
     h1 {
       color: #990000;
       font-size: 2em;
       margin-bottom: 20px;
     }
-
-    main {
-      padding: 20px;
-    }
-
-    table { 
-      border-collapse: collapse; 
-      width: 100%; 
-      margin-top: 20px; 
-    }
-
-    th, td { 
-      border: 1px solid #ccc; 
-      padding: 6px 10px; 
-    }
-
-    th { 
-      background: #f0f0f0; 
-    }
-
-    a { 
-      color: #990000; 
-      text-decoration: underline; 
-    }
-
-    button { 
+    main { padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 6px 10px; }
+    th { background: #f0f0f0; }
+    a { color: #990000; text-decoration: underline; }
+    button {
       display: inline-block;
-      padding: 6px 12px; 
-      font-size: 0.825em; 
-      margin-top: 10px; 
+      padding: 6px 12px;
+      font-size: 0.825em;
+      margin-top: 10px;
       cursor: pointer;
-      background:  #990000;
+      background: #990000;
       border: none;
       border-radius: 3px;
       color: white;
       font-family: "Montserrat", sans-serif;
     }
-
-    .activeTab { 
-      background: #b30000;
-      color: white; 
-    }
-
+    .activeTab { background: #b30000; color: white; }
     input[type=range] {
       -webkit-appearance: none;
       width: 300px;
@@ -100,7 +66,6 @@
       outline: none;
       margin: 10px 0;
     }
-
     input[type=range]::-webkit-slider-thumb {
       -webkit-appearance: none;
       width: 16px;
@@ -110,7 +75,6 @@
       border-radius: 50%;
       border: none;
     }
-
     #searchBar {
       margin: 15px 0;
       padding: 8px;
@@ -118,7 +82,6 @@
       border: 1px solid #aaa;
       border-radius: 5px;
     }
-
     footer {
       text-align: center;
       background: #333;
@@ -131,9 +94,7 @@
 <body>
   <header>
     <div>
-      <a href="landing.html">
-        <img src="jpr_logo.png" alt="Logo" class="logo">
-      </a>
+      <a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a>
     </div>
     <nav>
       <a href="landing.html">Home</a>
@@ -157,12 +118,12 @@
     </div>
 
     <div>
-      <label for="tempSlider">Filter Temp./K ≤ <span id="tempValue"></span></label><br>
-      <input type="range" id="tempSlider" min="0" max="100" value="100">
+      <label for="tempSlider">Filter Temp./K ≤ <span id="tempValue"></span></label><br />
+      <input type="range" id="tempSlider" min="0" max="100" value="100" />
     </div>
 
     <div>
-      <input type="text" id="searchBar" placeholder="Search reactions...">
+      <input type="text" id="searchBar" placeholder="Search reactions..." />
     </div>
 
     <table id="csvTable"></table>
@@ -175,19 +136,18 @@
 
   <script>
     let allRows = [];
-    let currentSet = "nonIonic"; // Default set
-
+    let currentSet = "nonIonic"; // default
     const datasets = {
-      ionic: { csv: "ionic.csv", notes: "ionic_notes.txt", sources: "ionic_sources.txt" },
-      nonIonic: { csv: "nonionic.csv", notes: "nonionic_notes.txt", sources: "nonionic_sources.txt" }
+      ionic: { csv: "ionic.csv" },
+      nonIonic: { csv: "nonionic.csv" }
     };
 
-    const graphContainer = document.getElementById("graphContainer");
     const searchBar = document.getElementById("searchBar");
     const slider = document.getElementById("tempSlider");
     const tempValue = document.getElementById("tempValue");
+    const graphContainer = document.getElementById("graphContainer");
 
-    // Map Number → Section
+    // Determine section for non-ionic data
     function getSectionFromNumber(num) {
       if (num >= 1 && num <= 161) return 1;
       if (num >= 162 && num <= 192) return 2;
@@ -200,103 +160,100 @@
 
     async function loadCSV(setKey) {
       currentSet = setKey;
-
-      // Highlight active dataset
       document.getElementById("ionicBtn").classList.toggle("activeTab", setKey === "ionic");
       document.getElementById("nonIonicBtn").classList.toggle("activeTab", setKey === "nonIonic");
 
-      // Reset search bar and filters
+      // reset
       searchBar.value = "";
       slider.value = slider.max;
       graphContainer.innerHTML = "";
       window.scrollTo({ top: 0, behavior: "smooth" });
 
-      // Load CSV data
       const text = await (await fetch(datasets[setKey].csv)).text();
-      const results = Papa.parse(text, { header: true, skipEmptyLines: true });
-      allRows = results.data;
+      const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
+      allRows = parsed.data;
 
       const temps = allRows.map(r => parseFloat(r["Temp./K"])).filter(v => !isNaN(v));
-      const minT = Math.min(...temps);
-      const maxT = Math.max(...temps);
-
-      slider.min = minT;
-      slider.max = maxT;
-      slider.value = maxT;
-      tempValue.textContent = maxT;
-
+      const minT = Math.min(...temps), maxT = Math.max(...temps);
+      slider.min = minT; slider.max = maxT; slider.value = maxT; tempValue.textContent = maxT;
       renderTable(allRows);
     }
 
     function normalizeChemical(text) {
       if (!text) return "";
-      const subscripts = { "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉" };
-      const superscripts = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9" };
-      let normalized = text;
-      for (const [num, sub] of Object.entries(subscripts)) normalized = normalized.replaceAll(num, sub);
-      for (const [sub, num] of Object.entries(superscripts)) normalized = normalized.replaceAll(sub, num);
-      return normalized;
+      const subs = { "0": "₀","1":"₁","2":"₂","3":"₃","4":"₄","5":"₅","6":"₆","7":"₇","8":"₈","9":"₉" };
+      const sups = { "₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9" };
+      let t = text;
+      for (const [n, s] of Object.entries(subs)) t = t.replaceAll(n, s);
+      for (const [s, n] of Object.entries(sups)) t = t.replaceAll(s, n);
+      return t;
     }
 
     function applyFilters() {
       const query = searchBar.value.toLowerCase().trim();
       tempValue.textContent = slider.value;
-
       const filtered = allRows.filter(r => {
         const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
         if (!query) return tempOK;
-
         const reaction = (r.Reaction || "").toLowerCase();
-        const normalizedQuery = normalizeChemical(query);
-        const normalizedReaction = normalizeChemical(reaction);
-
+        const normQuery = normalizeChemical(query);
+        const normReaction = normalizeChemical(reaction);
         const searchOK = reaction.includes(query) ||
-                         reaction.includes(normalizedQuery) ||
-                         normalizedReaction.includes(query) ||
-                         normalizedReaction.includes(normalizedQuery);
-
+                         reaction.includes(normQuery) ||
+                         normReaction.includes(query) ||
+                         normReaction.includes(normQuery);
         return tempOK && searchOK;
       });
-
       renderTable(filtered);
     }
 
     function renderTable(data) {
       const table = document.getElementById("csvTable");
       table.innerHTML = "";
-
-      if (data.length === 0) {
-        table.innerHTML = "<tr><td>No results</td></tr>";
-        return;
-      }
+      if (!data.length) { table.innerHTML = "<tr><td>No results</td></tr>"; return; }
 
       const headerRow = document.createElement("tr");
-      Object.keys(data[0]).forEach(key => {
+      Object.keys(data[0]).forEach(k => {
         const th = document.createElement("th");
-        th.textContent = key;
+        th.textContent = k;
         headerRow.appendChild(th);
       });
       table.appendChild(headerRow);
 
       data.forEach(row => {
         const tr = document.createElement("tr");
-        const numberVal = parseInt(row["Number"]);
-        const section = getSectionFromNumber(numberVal);
-
-        Object.entries(row).forEach(([key, value]) => {
+        const num = parseInt(row["Number"]);
+        const section = currentSet === "ionic" ? null : getSectionFromNumber(num);
+        Object.entries(row).forEach(([key, val]) => {
           const td = document.createElement("td");
-          const lowerKey = key.toLowerCase();
-          if ((lowerKey === "notes" || lowerKey === "reference" || lowerKey === "references") && value && section) {
-            const targetPage = lowerKey === "notes" ? "notes.html" : "sources.html";
-            td.innerHTML = `<a href="${targetPage}#section${section}">${value}</a>`;
+          const lower = key.toLowerCase();
+          if ((lower === "notes" || lower === "reference" || lower === "references") && val) {
+            let linkTarget = "";
+            if (currentSet === "ionic") {
+              // redirect to ionic tab of notes/sources
+              const page = lower === "notes" ? "notes.html" : "sources.html";
+              linkTarget = `${page}?tab=ionic`;
+            } else if (section) {
+              // non-ionic sections 1–6
+              const page = lower === "notes" ? "notes.html" : "sources.html";
+              linkTarget = `${page}#section${section}`;
+            }
+            if (linkTarget) td.innerHTML = `<a href="${linkTarget}">${val}</a>`;
+            else td.textContent = val;
           } else {
-            td.textContent = value;
+            td.textContent = val;
           }
           tr.appendChild(td);
         });
         table.appendChild(tr);
       });
     }
+
+    // event listeners
+    document.getElementById("ionicBtn").addEventListener("click", () => loadCSV("ionic"));
+    document.getElementById("nonIonicBtn").addEventListener("click", () => loadCSV("nonIonic"));
+    searchBar.addEventListener("input", applyFilters);
+    slider.addEventListener("input", applyFilters);
 
     document.getElementById("downloadBtn").addEventListener("click", () => {
       const link = document.createElement("a");
@@ -307,14 +264,7 @@
       document.body.removeChild(link);
     });
 
-    slider.addEventListener("input", applyFilters);
-    searchBar.addEventListener("input", applyFilters);
-
-    document.getElementById("ionicBtn").addEventListener("click", () => loadCSV("ionic"));
-    document.getElementById("nonIonicBtn").addEventListener("click", () => loadCSV("nonIonic"));
-
-    // Default to non-ionic dataset
-    loadCSV("nonIonic");
+    loadCSV("nonIonic"); // default
   </script>
 </body>
 </html>
