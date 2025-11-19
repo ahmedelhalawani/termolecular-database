@@ -298,7 +298,7 @@ https://pubs.aip.org/aip/jcp/article-abstract/72/10/5405/775642/The-photolytic-c
 https://www.sciencedirect.com/science/article/abs/pii/0009261479870591
 
 
-SOURCES FOR SECTION 3 (Rows 193-281):
+SOURCES FOR SECTION 3 (Rows 193-280):
 1. Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973.
 
 2. Bennett, J. E. and Blackmore, D. R., Chem. Comm., 1521, 1968.
@@ -420,7 +420,7 @@ https://pubs.acs.org/doi/pdf/10.1021/j100623a002?casa_token=AdipeTQSYdkAAAAA:Xsa
 28. Chang, H. W. and Burns, G., J. Chem. Phys., 62, 2426, 1975.
 https://pubs.aip.org/aip/jcp/article-abstract/62/6/2426/773464/Recombination-of-iodine-atoms-by-flash-photolysis
 
-SOURCES FOR SECTION 4 (Rows 282-474):
+SOURCES FOR SECTION 4 (Rows 281-468):
 
 1. Hack, W., Wagner, H. Gg., and Hoyermann, K., Ber. Bunsenges. Phys. Chem., 82, 713, 1978.
 https://onlinelibrary.wiley.com/doi/abs/10.1002/bbpc.19780820710?casa_token=yGJ51LeEr9cAAAAA:FTRQXjWaMDJQhNlKJwxhhUwycPmE96VE6VavDr70JBfHtyyxrElOoiySbGbkKfw1G1AiFDnvcH7Zfw
@@ -633,7 +633,7 @@ https://www.sciencedirect.com/science/article/abs/pii/0009261481851901
 https://srd.nist.gov/JPCRD/jpcrdS1Vol10.pdf
 
 
-SOURCES FOR SECTION 5 (Rows 475-562):
+SOURCES FOR SECTION 5 (Rows 469-553):
 1. Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978.
 https://pubs.aip.org/aip/jcp/article-abstract/68/12/5410/533228/The-temperature-dependence-of-the-rate-constant
 
@@ -720,7 +720,7 @@ https://www.sciencedirect.com/science/article/abs/pii/0047267080850659
 
 28. Uselman, W. M., Levine, S. Z., Chan, W. H., Calvert, J. G., and Shaw, J. H., Nitrogenous Air Pollutants: Chemical and Biological Implications, Grosjean, D., Ed., Ann Arbor Science, Ann Arbor, Mich., 1979.
                         
-SOURCES FOR SECTION 6 (Rows 563-667):
+SOURCES FOR SECTION 6 (Rows 554-654):
 1. Teng, L. and Jones, W. E., J. Chem. Soc., Faraday Trans. 1,68, 1267, 1972.
 https://pubs.rsc.org/en/content/articlelanding/1972/f1/f19726801267
 
