@@ -1,666 +1,670 @@
-Number,Reaction,(E/R)/K,E/kcal mol⁻¹,E/KJ mol⁻¹,A,k,n,Temp./K,Radical Source,System,Reference,Notes
-1,H+O₂+M→HO₂+M,,,,,1.02E-32,0.00E+00,1720,H₂/O₂,,1,1
-2,H+O₂+M→HO₂+M,,,,,1.74E-32,0.00E+00,2030,H₂/O₂,,1,1
-3,H+O₂+H₂→HO₂+H₂,,,,,1.20E-32,0.00E+00,294,H₂/Hg*,,2,2
-4,H+O₂+H₂→HO₂+H₂,,,,,5.90E-32,0,298,CH₄,(F.P.),3,2
-5,H+O₂+He→HO₂+He,,,,,7.42E-33,0,294,H₂/Hg*,,2,2
-6,H+O₂+He→HO₂+He,,,,,1.86E-32,0.00E+00,298,CH₄,(F.P.),3,2
-7,H+O₂+He→HO₂+He,,,,,1.48E-32,0.00E+00,294,H₂ Discharge,,3a,3
-8,H+O₂+Ne→HO₂+Ne,,,,,1.52E-32,0,294,H₂/Hg*,,2,2
-9,H+O₂+Ar→HO₂+Ar,,,,,6.03E-33,0,294,H₂/Hg*,,2,2
-10,H+O₂+Ar→HO₂+Ar,,-0.69,-2.9,6.75E-33,,,220,CH₄,(F.P.),3,2
-11,H+O₂+Ar→HO₂+Ar,,-0.69,-2.9,6.75E-33,,,360,CH₄,(F.P.),3,2
-12,H+O₂+Ar→HO₂+Ar,,,,,5.79E-30,-1.00E+00,200,H₂/O₂,(S.T.),3b,4
-13,H+O₂+Ar→HO₂+Ar,,,,,5.79E-30,-1.00E+00,2200,H₂/O₂,(S.T.),3b,4
-14,H+O₂+Kr→HO₂+Kr,,,,,1.10E-32,0.00E+00,294,H₂/Hg*,,2,2
-15,H+O₂+N₂→HO₂+N₂,,,,,5.50E-32,0.00E+00,298,CH₄,(F.P.),3,2
-16,H+O₂+N₂→HO₂+N₂,,,,,1.85E-28,-1.42E+00,200,H₂/O₂,(S.T.),3b,4
-17,H+O₂+N₂→HO₂+N₂,,,,,1.85E-28,-1.42E+00,2200,H₂/O₂,(S.T.),3b,4
-18,H+O₂+O₂→HO₂+O₂,,,,,6.93E-33,0.00E+00,1900,CH₄/O₂,(T),4,5
-19,H+O₂+CH₄→HO₂+CH₄,,,,,4.20E-31,0.00E+00,298,CH₄,(F.P.),3,2
-20,H+O₂+HO→HO₂+HO,,,,,5.50E-37,0.00E+00,1103,H₂/O₂,(S.T.),5,
-21,H+O₂+HO→HO₂+HO,,,,,1.38E-36,0.00E+00,1475,H₂/O₂/Ar,(S.T.),6,
-22,H+O₂+HO→HO₂+HO,,,,,5.50E-37,0.00E+00,1903,H₂/O₂,(S.T.),5,
-23,H+O₂+HO→HO₂+HO,,,,,1.38E-36,0,1100,H₂/O₂/Ar,(S.T.),6,
-24,H+CO+H₂→HCO+H₂,,,,,7.95E-33,0,294,H₂/Hg*,,2,2
-25,H+CO+H₂→HCO+H₂,,2,8.4,,,,298,H₂,,7,"2,6"
-26,H+CO+H₂→HCO+H₂,,2,8.4,,,,373,H₂,,7,"2,6"
-27,H+CO+H₂→HCO+H₂,,,,,6.32E-34,0,773,H₂/O₂/CO,(T),8,7
-28,H+CO+He→HCO+He,,,,,6.17E-33,0,294,H₂/Hg*,,2,2
-29,H+CO+Ne→HCO+Ne,,,,,4.79E-33,0.00E+00,294,H₂/Hg*,,2,2
-30,H+CO+Ar→HCO+Ar,,,,,6.03E-33,0.00E+00,294,H₂/Hg*,,2,2
-31,H+CO+Kr→HCO+Kr,,,,,6.93E-33,0.00E+00,294,H₂/Hg*,,2,2
-32,H+SO₂+M→HSO₂+M,,,,,1.29E-32,0,1666,H₂/O₂/N₂,,9,1
-33,H+SO₂+M→HSO₂+M,,,,,1.29E-32,0.00E+00,2123,H₂/O₂/N₂,,9,1
-34,2H+C₂N₂→2HCN,,,,,1.10E-30,0.00E+00,300,C₂N₂/H₂ Discharge,,10,
-35,O+O₂+N₂→O₃+N₂,,,,,6.32E-34,0.00E+00,295,NO₂/O₂,(P),11,8
-36,O+O₂+O₂→O₃+O₂,,,,,6.32E-34,0.00E+00,294,O₃,(T),60,
-37,O+CO+Ar→CO₂+Ar,,,,,9.78E-36,0.00E+00,296,CO₂,(F.P.),12,
-38,O+CO+Ar→CO₂+Ar,,,,,1.59E-34,0.00E+00,2100,N₂O/CO,(S.T.),13,9
-39,O+CO+Ar→CO₂+Ar,,,,,1.59E-34,0.00E+00,3200,N₂O/CO,(S.T.),13,9
-40,O+CO+N₂→CO₂+N₂,,,,,2.29E-36,0.00E+00,296,CO₂,(P),14,10
-41,O+CO+O₂→CO₂+O₂,,,,,4.27E-34,0.00E+00,470,,(T),15,11
-42,O+CO+CO→CO₂+CO,,4.34,18.2,6.46E-33,,,,CO₂,(P),14,10
-43,O+CO+CO→CO₂+CO,,4.34,18.2,6.61E-33,,,250,,,16,12
-44,O+CO+CO→CO₂+CO,,4.34,18.2,6.61E-33,,,500,,,16,12
-45,O+CO+CO→CO₂+CO,,,,,<1.0011477951E-34,0.00E+00,470,,(T),15,11
-46,O+CO+CO→CO₂+CO,,,,,4.47E-36,0.00E+00,296,CO₂,(F.P.),12,
-47,O+CO+CO₂→CO₂+CO₂,,,,,5.38E-36,0.00E+00,296,CO₂,(F.P.),12,
-48,O+CO+CO₂→CO₂+CO₂,,,,,6.17E-36,0.00E+00,296,CO₂,(F.P.),14,10
-49,O+CO+CO₂→CO₂+CO₂,,3.5,14.8,2.21E-33,,,254,CO₂,(F.P.),17,
-50,O+CO+N₂O→CO₂+N₂O,,4.1,17.2,1.62E-32,,,298,N₂O/Hg*,,18,13
-51,O+CO+N₂O→CO₂+N₂O,,2.9,12.1,4.37E-38,,,298,N₂O/Hg*,,18,"7,13"
-52,O+CO+CO₂→CO₂+CO₂,,3.5,14.8,2.21E-33,,,2996,CO₂,(F.P.),17,
-53,O+CO+N₂O→CO₂+N₂O,,4.1,17.2,1.62E-32,,,472,N₂O/Hg*,,18,13
-54,O+CO+N₂O→CO₂+N₂O,,2.9,12.1,4.37E-38,,,472,N₂O/Hg*,,18,"7,13"
-55,O+CO+M→CO₂+M,,,,,<5.5017163419E-34,0.00E+00,1500,O₃,(S.T.),19,
-56,O+CO+M→CO₂+M,,2.1,8.8,9.56E-34,,,373,,(T),20,14
-57,O+CO+M→CO₂+M,,-2.6,-10.8,1.00E-35,,,409,,(T),15,15
-58,O+CO+M→CO₂+M,,2.1,8.8,9.56E-34,,,525,,(T),20,14
-59,O+CO+M→CO₂+M,,-2.6,-10.8,1.00E-35,,,502,,(T),15,15
-60,O+SO₂+He→SO₃+He,,,,,8.33E-34,0.00E+00,294,O₂ Discharge,,19,16
-61,O+SO₂+He→SO₃+He,,1.4,5.9,1.07E-31,,,248,O₂ Discharge,,19,16
-62,O+SO₂+He→SO₃+He,,1.4,5.9,1.07E-31,,,415,O₂ Discharge,,19,16
-63,O+SO₂+N₂→SO₃+N₂,,,,,1.32E-33,0.00E+00,294,O₂ Discharge,,19,16
-64,O+SO₂+N₂O→SO₃+N₂O,,2,8.4,9.13E-32,,,392,N₂O,(P),21,17
-65,O+SO₂+N₂O→SO₃+N₂O,,2,8.4,9.13E-32,,,299,N₂O,(P),21,17
-66,F+O₂+He→FO₂+He,,,,,5.38E-33,0,298,F₂/O₂/HF,(F.P),21a,17a
-67,F+O₂+He→FO₂+He,,,,,6.93E-33,0.00E+00,293,F₂/O₂,,21b,17b
-68,F+O₂+Ar→FO₂+Ar,,,,,8.33E-33,0.00E+00,298,F₂/O₂/HF,(F.P),21a,17a
-69,F+O₂+Ar→FO₂+Ar,,,,,6.03E-33,0.00E+00,293,F₂/O₂,,21b,17b
-70,F+O₂+N₂→FO₂+N₂,,,,,1.41E-32,0.00E+00,293,F₂/O₂,,21b,17b
-71,F+O₂+O₂→FO₂+O₂,,,,,1.48E-32,0.00E+00,298,F₂/O₂/HF,(F.P),21a,17a
-72,F+O₂+F₂→FO₂+F₂,,,,,5.02E-33,0.00E+00,298,F₂/O₂/HF,(F.P),21a,17a
-73,F+O₂+HF→FO₂+HF,,,,,2.51E-30,0.00E+00,298,F₂/O₂/HF,(F.P),21a,17a
-74,F+O₂+DF→FO₂+DF,,,,,~1.2603704002E-30,0.00E+00,298,F₂/O₂/HF,(F.P),21a,17a
-75,F+CO+He→COF+He,,,,,3.39E-38,0.00E+00,298,F₂/He Discharge/CO,,22,
-76,F+CO+Ar→COF+Ar,,,,,5.02E-38,0.00E+00,298,F₂/Ar Discharge/CO,,22,
-77,F+Xe+Ar→XeF+Ar,,,,,2.29E-39,0,298,F₂/Ar Discharge/CO,,22,
-78,F+Kr+He→KrF+He,,,,,<1.9975524673E-40,0.00E+00,298,F₂/Ar Discharge/CO,,22,
-79,Cl+O₃+O₂→ClOOO+O₂,,,,,1.38E-37,0.00E+00,263,Cl₂/O₃/O₂,(P),23,18
-80,Cl+O₃+He→ClOOO+He,,,,,<2.7573899936E-40,0,263,Cl₂/O₃/He,(P),23,18
-81,Cl+O₃+M→ClOOO+M,,,,,6.93E-38,0.00E+00,263,Cl₂/O₃,(P),23,"18,19"
-82,2I+H₂→2HI,,-5.3,-22.2,1.74E-34,,,418,H₂/I₂ and H₂/I₂,(P) and (T),24a,"20,21,22"
-83,Cl+O₃+O₂→ClOOO+O₂,,,,,1.38E-37,0.00E+00,273,Cl₂/O₃/O₂,(P),23,18
-84,Cl+O₃+He→ClOOO+He,,,,,<2.7573899936E-40,0.00E+00,273,Cl₂/O₃/He,(P),23,18
-85,Cl+O₃+M→ClOOO+M,,,,,6.93E-38,0.00E+00,273,Cl₂/O₃,(P),23,"18,19"
-86,2I+H₂→2HI,,-5.3,-22.2,1.74E-34,,,738,H₂/I₂ and H₂/I₂,(P) and (T),24a,"20,21,22"
-87,Pb+O₂+He→Products,,,,,1.41E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-88,Pb+O₂+N₂→Products,,,,,3.17E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-89,Pb+O₂+CO→Products,,,,,6.46E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-90,Pb+O₂+CO₂→Products,,,,,3.17E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-91,Pb+O₂+CH₄→Products,,,,,3.09E-31,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-92,Pb+O₂+CF₄→Products,,,,,3.89E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-93,Pb+O₂+SF₆→Products,,,,,2.09E-32,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-94,Pb+O₂+C₂H₆→Products,,,,,2.69E-30,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-95,Pb+O₂+C₂H₂→Products,,,,,1.18E-30,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-96,Pb+O₂+C₂H₄→Products,,,,,5.76E-28,0.00E+00,300,PbEt₄/O₂,(P),24b,22b
-97,Sb+O₂+He→Products,,,,,2.19E-31,0.00E+00,294,SbMe₃,(P),24c,22c
-98,Sb+O₂+N₂→Products,,,,,3.17E-31,0.00E+00,294,SbMe₃,(P),24c,22c
-99,Sb+O₂+SF₆→Products,,,,,3.63E-31,0.00E+00,294,SbMe₃,(P),24c,22c
-100,Sb+O₂+He→Products,,,,,3.63E-31,0.00E+00,294,SbMe₃,(P),24c,22c
-101,Sb+C₂H₂+He→Products,,,,,9.34E-33,0.00E+00,294,SbMe₃,(P),24c,22c
-102,Sb+C₂H₂+N₂→Products,,,,,1.00E-32,0.00E+00,294,SbMe₃,(P),24c,22c
-103,Sb+C₂H₂+SF₆→Products,,,,,1.20E-32,0.00E+00,294,SbMe₃,(P),24c,22c
-104,Sb+C₂H₄+He→Products,,,,,1.00E-32,0.00E+00,294,SbMe₃,(P),24c,22c
-105,Sb+C₂H₄+N₂→Products,,,,,1.10E-32,0.00E+00,294,SbMe₃,(P),24c,22c
-106,Sb+C₂H₄+SF₆→Products,,,,,1.15E-32,0.00E+00,294,SbMe₃,(P),24c,22c
-107,Bi+C₂H₂+He→Products,,,,,1.10E-33,0.00E+00,293,BiMe₃,(P),24d,22d
-108,Bi+C₂H₂+N₂→Products,,,,,7.42E-33,0.00E+00,293,BiMe₃,(P),24d,22d
-109,Bi+C₂H₂+SF₆→Products,,,,,6.46E-33,0.00E+00,293,BiMe₃,(P),24d,22d
-110,Bi+C₂H₄+He→Products,,1,4,1.59E-32,,,293-600,BiMe₃,(P),24d,22d
-111,Bi+C₂H₄+He→Products,,,,,3.09E-33,0.00E+00,293,BiMe₃,(P),24d,22d
-112,Bi+C₂H₄+N₂→Products,,,,,8.14E-33,0.00E+00,293,BiMe₃,(P),24d,22d
-113,Bi+C₂H₄+SF₆→Products,,,,,1.78E-32,0.00E+00,293,BiMe₃,(P),24d,22d
-114,HO+SO₂+Ar→HSO₃+Ar,,,,,4.47E-31,0.00E+00,298,H+NO₂→HO+NO,,25,23
-115,HO+SO₂+Ar→HSO₃+Ar,,,,,1.62E-31,0.00E+00,298,H₂O,(F.P.),65,49
-116,HO+SO₂+N₂→HSO₃+N₂,,,,,7.42E-31,0.00E+00,298,H+NO₂→HO+NO,,25,23
-117,HO+SO₂+N₂→HSO₃+N₂,,,,,1.59E-31,0.00E+00,298,H₂O/SO₂/CO,(P),26,23a
-118,HO+SO₂+M→HSO₃+M,,,,,1.00E-36,0.00E+00,298,H₂O/SO₂/CO/N₂,(P),27,25
-119,HO+SO₂+M→HSO₃+M,,,,,1.00E-36,0.00E+00,300,HONO/N₂/O₂,(P),28,26
-120,HO+SO₂+H₂O→Products,,,,,3.03E-36,0.00E+00,435,H₂O,,29,27
-121,NO+NO+O₂→2NO₂,,,,,3.99E-38,0.00E+00,298,NO₂/O₂/N₂,(P),30,
-122,NO+NO+O₂→2NO₂,,,,,8.33E-39,0.00E+00,478,NO₂/O₂,(T),37,30
-123,NO+NO+O₂→2NO₂,,,,,2.00E-39,0.00E+00,298,NO₂/O₂,(T),33,31
-124,NO+NO+O₂→2NO₂,,-0.95,-3.97,,,,293-372,NO₂/O₂/N₂,(T),"34,35",
-125,NO+NO+O₂→2NO₂,,,,,5.50E-38,0.00E+00,293,NO₂/O₂/N₂,(T),"34,36","28,29"
-126,NO+NO+O₂→2NO₂,,,,,8.72E-39,0.00E+00,478-593,NO₂/O₂/N₂,(T),37,
-127,NO+NO+O₂→2NO₂,,,,,8.52E-39,0.00E+00,478-593,NO₂/O₂/N₂,(T),37,30
-128,NO+NO+O₂→2NO₂,,,,,1.38E-37,0.00E+00,298,NO₂/γ-radiolysis,,38,31
-129,NO+NO+O₂→2NO₂,,,,,1.38E-37,0.00E+00,298,NO₂/γ-radiolysis,,38,"30,32"
-130,NO+NO+O₂→2NO₂,,,,,8.33E-38,0.00E+00,298,NO₂/γ-radiolysis,,38,"31,32"
-131,NO+NO+O₂→2NO₂,,,,,7.25E-38,0.00E+00,298,NO₂/γ-radiolysis,,38,33
-132,NO+NO+O₂→2NO₂,,-1.05,-4.38,6.61E-39,,,273-600,,,39,34
-133,CH₃+O₂+N₂→CH₃O₂+N₂,,,,,3.09E-31,0.00E+00,294,(CH₃N)₂,(P),61,35
-134,CH₃+O₂+(CH₃)₄C→CH₃O₂+(CH₃)₄C,,,,,1.52E-30,0.00E+00,294,(CH₃N)₂,(P),61,36
-135,CH₃+O₂+M→CH₃O₂+M,,,,,See Note,,295,(CH₃)₂N₂/O₂,(F.P.),39a,37
-136,NO+NO₂+H₂O→2HONO,,,,,6.03E-38,0.00E+00,296,HONO/NOₓ/H₂O,(P),"62,63",46
-137,2NO+Cl₂→2NOCl,,4.2,17.56,6.93E-38,,,,,,"41,42",46
-138,2NO+Cl₂→2NOCl,,6,25.1,6.93E-37,,,373-523,NO/Cl₂,(T),43,37a
-139,2NO+Cl₂→2NOCl,,4.5,18.8,1.15E-37,,,278-338,NO/Cl₂,(T),40,47
-140,2NO+Cl₂→2NOCl,,,,,5.25E-41,0.00E+00,298,NO/Cl₂,(T),40,38
-141,2NO+Br₂→2NOBr,,1.6,6.7,1.10E-37,,,265-288,NO/Br₂,(T),"41,44",
-142,2NO+Br₂→2NOBr,,0.57,2.39,6.93E-38,,,263-333,NO/Br₂,(T),40,
-143,2NO+Br₂→2NOBr,,,,,2.63E-38,0.00E+00,298,NO/Br₂,(T),40,
-144,2NO+Br₂→2NOBr,,,,,2.69E-38,0.00E+00,303,NO/Br₂/Cl₂,(T),40,
-145,2NO+Br₂→2NOBr,,,,,"[1.2897281982E-38,8.7196327772E-38]",0.00E+00,275-363,Br₂/NO,(T),40a,
-146,2NO+H₂→Products,,47,196,1.38E-29,,,973-1098,NO/H₂,(T),"41,45",
-147,NO+NO₂+O₃→NO₂+NO₃,,,,,1.82E-40,0.00E+00,298,NOCl/NO₂/O₂,(T),47,
-148,NO+NO₂+O₃→NO₂+NO₃,,,,,8.52E-41,0.00E+00,,,,47,38a
-149,NO+NO₂+O₃→NO₂+NO₃,,-0.96,-4.01,5.76E-41,,,473-703,NO₂,(T),48,39
-150,2NO₂+O₂→2NO₃,,25,105,,,,300,,,47,40
-151,S₂+S₂+CO₂→S₄+CO₂,,,,,2.51E-30,0.00E+00,294,H₂S/CO₂,(F.P.),49,40
-152,S₂+S₂+CO₂→S₄+CO₂,,,,,1.00E-29,0.00E+00,293,OCS/CO₂,(F.P.),50,
-153,CF₃NO+2NO→CF₃+N₂+NO₃,,,,,1.55E-42,0.00E+00,297,CF₃I/NO,(P),51,41
-154,CF₃NO+2NO→CF₃+N₂+NO₃,,2.2,9.2,4.79E-41,,,298-333,CF₃NO/NO,,64,42
-155,CH₃NO+2NO→CH₃+N₂+NO₃,,-1.8,-7.52,7.09E-42,,,298-343,CH₃I/NO,(P),52,42
-156,CH₃NO+2NO→CH₃+N₂+NO₃,,,,,1.29E-40,0.00E+00,298,CH₃I/NO,(P),53,
-157,C₂H₅NO+2NO→C₂H₅+N₂+NO₃,,-2.9,-12.1,5.25E-42,,,298-343,C₂H₅I/NO,(P),52,48
-158,CH₃CH₂CH₂NO+2NO→CH₃CH₂CH₂+N₂+NO₃,,-7,-29,1.38E-44,,,298-318,C₃H₇I/NO,(P),52,43
-159,(CH₃)₂CHNO+2NO→(CH₃)₂CH+N₂+NO₃,,-4,-17,5.50E-43,,,298-318,i-C₃H₇I/NO,(P),52,
-160,(CH₃)₂CHNO+2NO→(CH₃)₂CH+N₂+NO₃,,-7.5,-31.4,,,,298-343,t-C₃H₇I/NO,(P),52,43
-161,2CH₃O₂NO+O₂→2CH₃ONO₂+O₂,,,,,3.55E-48,0.00E+00,298,(CH₃)₂N₂/NO/N₂,(P),54,43
-162,H+F+Ar → HF+Ar,-17680,,,2.00E-35,,,3500-6000,,,12,43
-163,H+Cl+M → HCl+M,,,,,<9.5608872185E-32,0.00E+00,1650-1900,,,8,44
-164,H+Cl+Ar → HCl+Ar,-9940,,,7.25E-35,,,2900-7000,,,12,9
-165,H+Br+M → HBr+M,,,,,<8.7196327772E-31,0.00E+00,1650-2050,,,8,12
-166,H+Br+He → HBr+He,,,,,5.29E-27,-1.87E+00,200-600,,,12,10
-167,H+I+M → HI+M,,,,,<8.7196327772E-31,0.00E+00,1650-1950,,,8,12
-168,N+N+N₂ → N₂+N₂,,,,,7.25E-33,0.00E+00,293,N₂ Discharge,Direct,4,10
-169,N+N+Cl₂ → N₂+Cl₂,,,,,1.32E-31,0.00E+00,Room Temp.,N₂ Discharge,Direct,9,12
-170,F+F+Ar → F₂+Ar,-3190,,,8.92E-40,,,1400-2600,,,12,10
-171,Cl+Cl+Ar → Cl₂+Ar,,,,,5.02E-34,0.00E+00,298,Cl₂ Discharge,Direct,10,4
-172,Cl+Cl+Ar → Cl₂+Ar,-906,,,6.17E-34,,,195-520,,,12,
-173,Cl+Br+Ar → ClBr+Ar,,,,,4.47E-34,0.00E+00,298,Cl₂ Discharge; Cl+Br₂→Br+BrCl,Direct,10,12
-174,Br+Br+He → Br₂+He,,,,,4.27E-33,0.00E+00,Room Temp.,Br₂ (F.P.),Direct,1,
-175,Br+Br+Ar → Br₂+Ar,,,,,2.57E-34,0,298,Cl+Br₂→Br+BrCl,Direct,10,12
-176,Br+Br+Ar → Br₂+Ar,-856,,,6.46E-34,,,290-2000,,,12,
-177,I+I+Ar → I₂+Ar,,,,,4.37E-33,0,360,I₂ (F.P.),Direct,6,1
-178,I+I+Ar → I₂+Ar,-754,,,6.46E-34,,,290-12500,,,12,
-179,I+I+N₂ → I₂+N₂,,,,,1.10E-32,0,360,I₂ (F.P.),Direct,6,12
-180,I+I+I₂ → I₂+I₂,,,,,1.41E-36,0.00E+00,360,I₂ (F.P.),Direct,6,8
-181,I+I+CO₂ → I₂+CO₂,,,,,2.19E-32,0,360,I₂ (F.P.),Direct,6,12
-182,I+I+SF₆ → I₂+SF₆,,,,,~8.327184655E-33,0.00E+00,346,I₂ (F.P.),Direct,11,8
-183,I+I+c-C₃H₆ → I₂+c-C₃H₆,,,,,~1.0011477951E-33,0.00E+00,346,I₂ (F.P.),Direct,11,8
-184,I+I+n-C₄H₁₀ → I₂+n-C₄H₁₀,,,,,~3.7196167542E-33,0,336-346,I₂ (F.P.),Direct,11,8
-185,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,,,~1.1762460966E-33,0.00E+00,355,I₂ (F.P.),Direct,11,11
-186,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,,,~3.7196167542E-33,0,380,I₂ (F.P.),Direct,11,11
-187,I+I+i-C₃F₇I → I₂+i-C₃F₇I,-1360,,,5.76E-33,1.32E-22,-3.40E+00,300-455,I₂ (F.P.),Direct,5,11
-188,I+I+i-C₅F₁₁I → I₂+i-C₅F₁₁I,-1300,,,5.90E-33,5.79E-23,-3.20E+00,304-463,I₂ (F.P.),Direct,5,11
-189,I+I*+n-C₃F₇I → II*+n-C₃F₇I,,,,,1.10E-32,0.00E+00,Room Temp.,n-C₃F₇I (P),Direct,13,11
-190,S+S+H₂S → S₂+H₂S,,,,,1.20E-29,0,295,H₂S (Pulse Radiolysis),See Notes,3,"5,6"
-191,Mg+F+Ar → MgF+Ar,,,,,1.05E-35,1.00E+00,873-1073,See Notes,See Notes,2,"5,7"
-192,Mg+F+Ar → MgF+Ar,<=1000,,,,,,873-1073,See Notes,See Notes,2,13
-193,H+H+He → H₂+He,,,,,1.20E-32,0.00E+00,77,H₂ (T),,1,2
-194,H+H+He → H₂+He,,,,,5.90E-33,0.00E+00,298,H₂ discharge,,2,2
-195,H+H+Ar → H₂+Ar,,,,,2.76E-33,0.00E+00,1300,H₂/O₂ (S.T.),,3,
-196,H+H+Ar → H₂+Ar,,,,,2.76E-33,0,1700,H₂/O₂ (S.T.),,3,
-197,H+H+Ar → H₂+Ar,,,,,2.76E-32,0,77,H₂ (T),,1,1
-198,H+H+Ar → H₂+Ar,,,,,1.78E-30,-1,1700,,,4,3
-199,H+H+Ar → H₂+Ar,,,,,1.78E-30,-1,5000,,,4,3
-200,H+H+H₂ → H₂+H₂,,,,,1.86E-32,0,77,H₂ (T),,1,1
-201,D+D+D₂ → D₂+D₂,,,,,6.17E-33,0.00E+00,298,D₂ (T),,1,1
-202,D+D+D₂ → D₂+D₂,,,,,1.52E-32,0.00E+00,77,D₂ (T),,1,1
-203,H+N+M → HN+M,,,,,3.09E-32,0.00E+00,294,H₂/N₂ Discharges,,5,2
-204,H+N+M → HN+M,,,,,6.46E-32,0.00E+00,294,H₂/N₂ Discharges,,5,2
-205,N+N+N₂ → N₂+N₂,,,,,1.41E-32,0.00E+00,293,N₂ Discharge,,7,
-206,N+N+N₂ → N₂+N₂,,,,,1.41E-32,0,573,N₂ Discharge,,7,
-207,N+O+N₂ → NO+N₂,,,,,1.07E-32,0.00E+00,273,,,8,3
-208,N+O+N₂ → NO+N₂,,,,,1.20E-32,0.00E+00,196,,,9,
-209,N+O+N₂ → NO+N₂,,,,,9.13E-33,0.00E+00,298,,,9,
-210,O+O+N₂ → O₂+N₂,,,,,1.12E-32,0.00E+00,196,,,9,
-211,O+O+N₂ → O₂+N₂,,,,,4.79E-33,0.00E+00,298,,,9,
-212,O+O+O₂ → O₂+O₂,,,,,5.50E-34,0.00E+00,3500,O₂ (S.T.),,10,
-213,O+O+H₂O → O₂+H₂O,,,,,2.51E-35,1.00E+00,360,O₂ Discharge,,11,
-214,O+O+H₂O → O₂+H₂O,,,,,2.51E-35,1.00E+00,520,O₂ Discharge,,11,
-215,O+O+M → O₂+M,,0.3,1.4,,3.72E-30,,300,,,13,3
-216,O+O+M → O₂+M,,0.3,1.4,,3.72E-30,,8000,,,13,3
-217,O+C+Ar/CO → OC+Ar/CO,,,,,9.13E-22,-3.08,7000,,,12,"3,9"
-218,O+C+Ar/CO → OC+Ar/CO,,,,,9.13E-22,-3.08,14000,,,12,"3,9"
-219,S+S+H₂S → S₂+H₂S,,,,,2.76E-33,0.00E+00,300,H₂S Discharge,,16,8
-220,F+F+He → F₂+He,,,,,2.19E-33,0.00E+00,293,F₂,,13a,"6,7"
-221,F+F+He → F₂+He,,,,,6.03E-34,0,294,F₂ Discharge,,13b,6
-222,F+F+Ar → F₂+Ar,,,,,2.76E-34,0,1000,,,14,3
-223,F+F+Ar → F₂+Ar,,,,,2.76E-34,0.00E+00,2000,,,14,3
-224,F+F+Ar → F₂+Ar,,,,,7.95E-35,0.00E+00,295,,,15,10
-225,Cl+Cl+He → Cl₂+He,,,,,3.89E-33,0.00E+00,298,Cl₂ (F.P.),,18,
-226,Cl+Cl+He → Cl₂+He,,,,,4.68E-33,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-227,Cl+Cl+Ne → Cl₂+Ne,,,,,4.68E-33,0.00E+00,298,Cl₂ (F.P.),,18,
-228,Cl+Cl+Ne → Cl₂+Ne,,,,,4.68E-33,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-229,Cl+Cl+Ar → Cl₂+Ar,,,,,2.09E-32,0.00E+00,298,Cl₂ (F.P.),,18,
-230,Cl+Cl+Ar → Cl₂+Ar,,,,,2.04E-32,0.00E+00,298,Cl₂ (F.P.),,18,
-231,Cl+Cl+N₂ → Cl₂+N₂,,,,,4.17E-32,0.00E+00,298,Cl₂ (F.P.),,18,
-232,Cl+Cl+N₂ → Cl₂+N₂,,,,,2.19E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-233,Cl+Cl+Cl₂ → Cl₂+Cl₂,,,,,5.50E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-234,Cl+Cl+CO₂ → Cl₂+CO₂,,,,,1.52E-31,0.00E+00,298,Cl₂ (F.P.),,18,
-235,Cl+Cl+CO₂ → Cl₂+CO₂,,,,,3.32E-32,,298,Cl₂ (F.P.),,18a,11a
-236,Cl+Cl+CF₄ → Cl₂+CF₄,,,,,1.52E-31,0.00E+00,298,Cl₂ (F.P.),,18,
-237,Cl+Cl+CF₄ → Cl₂+CF₄,,,,,3.32E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-238,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,,5.76E-32,0.00E+00,298,Cl₂ (F.P.),,18,
-239,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,,3.55E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-240,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,,1.59E-31,0.00E+00,298,Cl₂ (F.P.),,18,
-241,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,,3.55E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-242,Cl+Cl+SF₆ → Cl₂+SF₆,,,,,5.76E-32,0.00E+00,298,Cl₂ (F.P.),,18,
-243,Cl+Cl+SF₆ → Cl₂+SF₆,,,,,3.55E-32,0.00E+00,298,Cl₂ (F.P.),,18a,11a
-244,Br+Br+He → Br₂+He,,,,,2.82E-33,0.00E+00,298,Br₂ discharge,,19,12
-245,Br+Br+He → Br₂+He,,,,,3.24E-33,0.00E+00,300,Br₂ (F.P.),,20,13
-246,Br+Br+Ne → Br₂+Ne,,,,,4.08E-33,0.00E+00,300,Br₂ (F.P.),,20,13
-247,Br+Br+Ar → Br₂+Ar,,,,,9.34E-33,0.00E+00,298,Br₂ discharge,,19,12
-248,Br+Br+Ar → Br₂+Ar,,,,,6.61E-33,0.00E+00,300,Br₂ (F.P.),,20,13
-249,Br+Br+Kr → Br₂+Kr,,,,,8.52E-33,0.00E+00,300,Br₂ (F.P.),,20,13
-250,Br+Br+Xe → Br₂+Xe,,,,,1.12E-32,0.00E+00,300,Br₂ (F.P.),,21,13
-251,Br+Br+N₂ → Br₂+N₂,,,,,8.72E-33,0.00E+00,300,Br₂ (F.P.),,20,13
-252,Br+Br+N₂ → Br₂+N₂,,,,,8.33E-33,0.00E+00,298,"O+Br₂→BrO+Br
+Number,Reaction,(E/R)/K,E/kcal mol⁻¹,E/KJ mol⁻¹,A,k,n,Temp./K,Radical Source,System,Reference,Notes,Reference_Text
+1,H+O₂+M→HO₂+M,,,,,1.02E-32,0,1720,H₂/O₂,,1,1,"Fenimore, C. P. and Moore, J., Combust. Flame, 22, 343, 1974."
+2,H+O₂+M→HO₂+M,,,,,1.74E-32,0,2030,H₂/O₂,,1,1,"Fenimore, C. P. and Moore, J., Combust. Flame, 22, 343, 1974."
+3,H+O₂+H₂→HO₂+H₂,,,,,1.20E-32,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+4,H+O₂+H₂→HO₂+H₂,,,,,5.90E-32,0,298,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+5,H+O₂+He→HO₂+He,,,,,7.42E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+6,H+O₂+He→HO₂+He,,,,,1.86E-32,0,298,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+7,H+O₂+He→HO₂+He,,,,,1.48E-32,0,294,H₂ Discharge,,3a,3,"Hislop, J. R. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 73, 506, 1977."
+8,H+O₂+Ne→HO₂+Ne,,,,,1.52E-32,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+9,H+O₂+Ar→HO₂+Ar,,,,,6.03E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+10,H+O₂+Ar→HO₂+Ar,,-0.69,-2.9,6.75E-33,,,220,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+11,H+O₂+Ar→HO₂+Ar,,-0.69,-2.9,6.75E-33,,,360,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+12,H+O₂+Ar→HO₂+Ar,,,,,5.79E-30,-1,200,H₂/O₂,(S.T.),3b,4,"Slack, M. W., Combust. Flame, 28, 241, 1977."
+13,H+O₂+Ar→HO₂+Ar,,,,,5.79E-30,-1,2200,H₂/O₂,(S.T.),3b,4,"Slack, M. W., Combust. Flame, 28, 241, 1977."
+14,H+O₂+Kr→HO₂+Kr,,,,,1.10E-32,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+15,H+O₂+N₂→HO₂+N₂,,,,,5.50E-32,0,298,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+16,H+O₂+N₂→HO₂+N₂,,,,,1.85E-28,-1.42,200,H₂/O₂,(S.T.),3b,4,"Slack, M. W., Combust. Flame, 28, 241, 1977."
+17,H+O₂+N₂→HO₂+N₂,,,,,1.85E-28,-1.42,2200,H₂/O₂,(S.T.),3b,4,"Slack, M. W., Combust. Flame, 28, 241, 1977."
+18,H+O₂+O₂→HO₂+O₂,,,,,6.93E-33,0,1900,CH₄/O₂,(T),4,5,"Peeters, J. and Mahnen, G., 14th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1973, 133."
+19,H+O₂+CH₄→HO₂+CH₄,,,,,4.20E-31,0,298,CH₄,(F.P.),3,2,"Wong, W. and Davis, D. D., Int. J. Chem. Kinet., 6, 401, 1974."
+20,H+O₂+HO→HO₂+HO,,,,,5.50E-37,0,1103,H₂/O₂,(S.T.),5,,"Belles, F. E. and Lauver, M. R., J. Chem. Phys., 40, 415, 1964."
+21,H+O₂+HO→HO₂+HO,,,,,1.38E-36,0,1475,H₂/O₂/Ar,(S.T.),6,,"Zaslonko, I. S., Kogarko, S., and Mozzhuklin, E. V., Kinet. Katal., 10, 1197, 1969."
+22,H+O₂+HO→HO₂+HO,,,,,5.50E-37,0,1903,H₂/O₂,(S.T.),5,,"Belles, F. E. and Lauver, M. R., J. Chem. Phys., 40, 415, 1964."
+23,H+O₂+HO→HO₂+HO,,,,,1.38E-36,0,1100,H₂/O₂/Ar,(S.T.),6,,"Zaslonko, I. S., Kogarko, S., and Mozzhuklin, E. V., Kinet. Katal., 10, 1197, 1969."
+24,H+CO+H₂→HCO+H₂,,,,,7.95E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+25,H+CO+H₂→HCO+H₂,,2,8.4,,,,298,H₂,,7,"2,6","Wang, H. Y., Eyre, J. A., and Dorfman, L. M., J. Chem. Phys., 59, 5199, 1973."
+26,H+CO+H₂→HCO+H₂,,2,8.4,,,,373,H₂,,7,"2,6","Wang, H. Y., Eyre, J. A., and Dorfman, L. M., J. Chem. Phys., 59, 5199, 1973."
+27,H+CO+H₂→HCO+H₂,,,,,6.32E-34,0,773,H₂/O₂/CO,(T),8,7,"Baldwin, R. R., Jackson, D., Melvin, A., and Rossiter, B. N., Int. J. Chem. Kinet., 4, 277, 1972."
+28,H+CO+He→HCO+He,,,,,6.17E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+29,H+CO+Ne→HCO+Ne,,,,,4.79E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+30,H+CO+Ar→HCO+Ar,,,,,6.03E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+31,H+CO+Kr→HCO+Kr,,,,,6.93E-33,0,294,H₂/Hg*,,2,2,"Michael, J. V. and Osbourne, D. R., J. Chem. Phys., 57, 3736, 1972."
+32,H+SO₂+M→HSO₂+M,,,,,1.29E-32,0,1666,H₂/O₂/N₂,,9,1,"Kallend, A. S., Combust. Flame, 19, 227, 1972."
+33,H+SO₂+M→HSO₂+M,,,,,1.29E-32,0,2123,H₂/O₂/N₂,,9,1,"Kallend, A. S., Combust. Flame, 19, 227, 1972."
+34,2H+C₂N₂→2HCN,,,,,1.10E-30,0,300,C₂N₂/H₂ Discharge,,10,,"Dunn, M. R., Freeman, C. G., McEvan, M. J., and Phillips, L. F., J. Phys. Chem., 75, 2662, 1971."
+35,O+O₂+N₂→O₃+N₂,,,,,6.32E-34,0,295,NO₂/O₂,(P),11,8,"Hippler, H., Schippett, C., and Troe, J., Int. J. Chem. Kinet. Symp., 1, 27, 1975."
+36,O+O₂+O₂→O₃+O₂,,,,,6.32E-34,0,294,O₃,(T),60,,"Hogan, L. G. and Burch, D. S., J. Chem. Phys., 65, 894, 1976."
+37,O+CO+Ar→CO₂+Ar,,,,,9.78E-36,0,296,CO₂,(F.P.),12,,"Inn, E. C. Y., J. Chem. Phys., 59, 5431, 1973."
+38,O+CO+Ar→CO₂+Ar,,,,,1.59E-34,0,2100,N₂O/CO,(S.T.),13,9,"Dean, A. M. and Steiner, D. C., J. Chem. Phys., 66, 598, 1977."
+39,O+CO+Ar→CO₂+Ar,,,,,1.59E-34,0,3200,N₂O/CO,(S.T.),13,9,"Dean, A. M. and Steiner, D. C., J. Chem. Phys., 66, 598, 1977."
+40,O+CO+N₂→CO₂+N₂,,,,,2.29E-36,0,296,CO₂,(P),14,10,"Slanger, T. G., Wood, B. J., and Black, G., J. Chem. Phys., 57, 233, 1972."
+41,O+CO+O₂→CO₂+O₂,,,,,4.27E-34,0,470,,(T),15,11,"Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968."
+42,O+CO+CO→CO₂+CO,,4.34,18.2,6.46E-33,,,,CO₂,(P),14,10,"Slanger, T. G., Wood, B. J., and Black, G., J. Chem. Phys., 57, 233, 1972."
+43,O+CO+CO→CO₂+CO,,4.34,18.2,6.61E-33,,,250,,,16,12,"Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976."
+44,O+CO+CO→CO₂+CO,,4.34,18.2,6.61E-33,,,500,,,16,12,"Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976."
+45,O+CO+CO→CO₂+CO,,,,,<1.0011477951E-34,0,470,,(T),15,11,"Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968."
+46,O+CO+CO→CO₂+CO,,,,,4.47E-36,0,296,CO₂,(F.P.),12,,"Inn, E. C. Y., J. Chem. Phys., 59, 5431, 1973."
+47,O+CO+CO₂→CO₂+CO₂,,,,,5.38E-36,0,296,CO₂,(F.P.),12,,"Inn, E. C. Y., J. Chem. Phys., 59, 5431, 1973."
+48,O+CO+CO₂→CO₂+CO₂,,,,,6.17E-36,0,296,CO₂,(F.P.),14,10,"Slanger, T. G., Wood, B. J., and Black, G., J. Chem. Phys., 57, 233, 1972."
+49,O+CO+CO₂→CO₂+CO₂,,3.5,14.8,2.21E-33,,,254,CO₂,(F.P.),17,,"Inn, E. C. Y., J. Chem. Phys., 61, 741, 1974."
+50,O+CO+N₂O→CO₂+N₂O,,4.1,17.2,1.62E-32,,,298,N₂O/Hg*,,18,13,"Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972."
+51,O+CO+N₂O→CO₂+N₂O,,2.9,12.1,4.37E-38,,,298,N₂O/Hg*,,18,"7,13","Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972."
+52,O+CO+CO₂→CO₂+CO₂,,3.5,14.8,2.21E-33,,,2996,CO₂,(F.P.),17,,"Inn, E. C. Y., J. Chem. Phys., 61, 741, 1974."
+53,O+CO+N₂O→CO₂+N₂O,,4.1,17.2,1.62E-32,,,472,N₂O/Hg*,,18,13,"Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972."
+54,O+CO+N₂O→CO₂+N₂O,,2.9,12.1,4.37E-38,,,472,N₂O/Hg*,,18,"7,13","Simonaitis, R. and Heicklen, J., J. Chem. Phys., 56, 2004, 1972."
+55,O+CO+M→CO₂+M,,,,,<5.5017163419E-34,0,1500,O₃,(S.T.),19,,"Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974."
+56,O+CO+M→CO₂+M,,2.1,8.8,9.56E-34,,,373,,(T),20,14,"Kondratiev, V. N. and Ptichkin, I. I., Kinet. Katal., 2, 449, 1961."
+57,O+CO+M→CO₂+M,,-2.6,-10.8,1.00E-35,,,409,,(T),15,15,"Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968."
+58,O+CO+M→CO₂+M,,2.1,8.8,9.56E-34,,,525,,(T),20,14,"Kondratiev, V. N. and Ptichkin, I. I., Kinet. Katal., 2, 449, 1961."
+59,O+CO+M→CO₂+M,,-2.6,-10.8,1.00E-35,,,502,,(T),15,15,"Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968."
+60,O+SO₂+He→SO₃+He,,,,,8.33E-34,0,294,O₂ Discharge,,19,16,"Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974."
+61,O+SO₂+He→SO₃+He,,1.4,5.9,1.07E-31,,,248,O₂ Discharge,,19,16,"Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974."
+62,O+SO₂+He→SO₃+He,,1.4,5.9,1.07E-31,,,415,O₂ Discharge,,19,16,"Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974."
+63,O+SO₂+N₂→SO₃+N₂,,,,,1.32E-33,0,294,O₂ Discharge,,19,16,"Hardy, W. A., Vasatko, H., Wagner, H. Gg., and Zabel, F., Ber. Bun- senges. Phys. Chem., 78, 76, 1974."
+64,O+SO₂+N₂O→SO₃+N₂O,,2,8.4,9.13E-32,,,392,N₂O,(P),21,17,"Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 29, 28, 1974."
+65,O+SO₂+N₂O→SO₃+N₂O,,2,8.4,9.13E-32,,,299,N₂O,(P),21,17,"Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 29, 28, 1974."
+66,F+O₂+He→FO₂+He,,,,,5.38E-33,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+67,F+O₂+He→FO₂+He,,,,,6.93E-33,0,293,F₂/O₂,,21b,17b,"Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 268, 1976 (Russian); 17, 251, 1976 (English)."
+68,F+O₂+Ar→FO₂+Ar,,,,,8.33E-33,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+69,F+O₂+Ar→FO₂+Ar,,,,,6.03E-33,0,293,F₂/O₂,,21b,17b,"Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 268, 1976 (Russian); 17, 251, 1976 (English)."
+70,F+O₂+N₂→FO₂+N₂,,,,,1.41E-32,0,293,F₂/O₂,,21b,17b,"Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 268, 1976 (Russian); 17, 251, 1976 (English)."
+71,F+O₂+O₂→FO₂+O₂,,,,,1.48E-32,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+72,F+O₂+F₂→FO₂+F₂,,,,,5.02E-33,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+73,F+O₂+HF→FO₂+HF,,,,,2.51E-30,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+74,F+O₂+DF→FO₂+DF,,,,,~1.2603704002E-30,0,298,F₂/O₂/HF,(F.P),21a,17a,"Hao-Lin, Chen, Trainor, D. W., Center, R. E., and Fyfe, W. I., J. Chem. Phys., 66, 5513, 1977."
+75,F+CO+He→COF+He,,,,,3.39E-38,0,298,F₂/He Discharge/CO,,22,,"Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975."
+76,F+CO+Ar→COF+Ar,,,,,5.02E-38,0,298,F₂/Ar Discharge/CO,,22,,"Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975."
+77,F+Xe+Ar→XeF+Ar,,,,,2.29E-39,0,298,F₂/Ar Discharge/CO,,22,,"Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975."
+78,F+Kr+He→KrF+He,,,,,<1.9975524673E-40,0,298,F₂/Ar Discharge/CO,,22,,"Appelman, E. N. and Clyne, M. A. A., J. Chem. Soc., Faraday Trans. 1, 71, 2072, 1975."
+79,Cl+O₃+O₂→ClOOO+O₂,,,,,1.38E-37,0,263,Cl₂/O₃/O₂,(P),23,18,"Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+80,Cl+O₃+He→ClOOO+He,,,,,<2.7573899936E-40,0,263,Cl₂/O₃/He,(P),23,18,"Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+81,Cl+O₃+M→ClOOO+M,,,,,6.93E-38,0,263,Cl₂/O₃,(P),23,"18,19","Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+82,2I+H₂→2HI,,-5.3,-22.2,1.74E-34,,,418,H₂/I₂ and H₂/I₂,(P) and (T),24a,"20,21,22","Sullivan, J. H., J. Chem. Phys., 46, 73, 1967."
+83,Cl+O₃+O₂→ClOOO+O₂,,,,,1.38E-37,0,273,Cl₂/O₃/O₂,(P),23,18,"Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+84,Cl+O₃+He→ClOOO+He,,,,,<2.7573899936E-40,0,273,Cl₂/O₃/He,(P),23,18,"Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+85,Cl+O₃+M→ClOOO+M,,,,,6.93E-38,0,273,Cl₂/O₃,(P),23,"18,19","Davidson, R. W. and Williams, D. G., J. Phys. Chem., 77, 2515, 1973."
+86,2I+H₂→2HI,,-5.3,-22.2,1.74E-34,,,738,H₂/I₂ and H₂/I₂,(P) and (T),24a,"20,21,22","Sullivan, J. H., J. Chem. Phys., 46, 73, 1967."
+87,Pb+O₂+He→Products,,,,,1.41E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+88,Pb+O₂+N₂→Products,,,,,3.17E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+89,Pb+O₂+CO→Products,,,,,6.46E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+90,Pb+O₂+CO₂→Products,,,,,3.17E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+91,Pb+O₂+CH₄→Products,,,,,3.09E-31,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+92,Pb+O₂+CF₄→Products,,,,,3.89E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+93,Pb+O₂+SF₆→Products,,,,,2.09E-32,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+94,Pb+O₂+C₂H₆→Products,,,,,2.69E-30,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+95,Pb+O₂+C₂H₂→Products,,,,,1.18E-30,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+96,Pb+O₂+C₂H₄→Products,,,,,5.76E-28,0,300,PbEt₄/O₂,(P),24b,22b,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+97,Sb+O₂+He→Products,,,,,2.19E-31,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+98,Sb+O₂+N₂→Products,,,,,3.17E-31,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+99,Sb+O₂+SF₆→Products,,,,,3.63E-31,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+100,Sb+O₂+He→Products,,,,,3.63E-31,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+101,Sb+C₂H₂+He→Products,,,,,9.34E-33,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+102,Sb+C₂H₂+N₂→Products,,,,,1.00E-32,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+103,Sb+C₂H₂+SF₆→Products,,,,,1.20E-32,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+104,Sb+C₂H₄+He→Products,,,,,1.00E-32,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+105,Sb+C₂H₄+N₂→Products,,,,,1.10E-32,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+106,Sb+C₂H₄+SF₆→Products,,,,,1.15E-32,0,294,SbMe₃,(P),24c,22c,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+107,Bi+C₂H₂+He→Products,,,,,1.10E-33,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+108,Bi+C₂H₂+N₂→Products,,,,,7.42E-33,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+109,Bi+C₂H₂+SF₆→Products,,,,,6.46E-33,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+110,Bi+C₂H₄+He→Products,,1,4,1.59E-32,,,293-600,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+111,Bi+C₂H₄+He→Products,,,,,3.09E-33,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+112,Bi+C₂H₄+N₂→Products,,,,,8.14E-33,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+113,Bi+C₂H₄+SF₆→Products,,,,,1.78E-32,0,293,BiMe₃,(P),24d,22d,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+114,HO+SO₂+Ar→HSO₃+Ar,,,,,4.47E-31,0,298,H+NO₂→HO+NO,,25,23,"Harris, G. W. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 71, 610, 1975."
+115,HO+SO₂+Ar→HSO₃+Ar,,,,,1.62E-31,0,298,H₂O,(F.P.),65,49,"Atkinson, R., Perry, R. A., and Pitts, J. N., J. Chem. Phys., 65, 306, 1976."
+116,HO+SO₂+N₂→HSO₃+N₂,,,,,7.42E-31,0,298,H+NO₂→HO+NO,,25,23,"Harris, G. W. and Wayne, R. P., J. Chem. Soc., Faraday Trans. 1, 71, 610, 1975."
+117,HO+SO₂+N₂→HSO₃+N₂,,,,,1.59E-31,0,298,H₂O/SO₂/CO,(P),26,23a,"Castleman, A. W., Jr. and Tang, I. N., J. Photochem., 6, 349, 1977."
+118,HO+SO₂+M→HSO₃+M,,,,,1.00E-36,0,298,H₂O/SO₂/CO/N₂,(P),27,25,"Castleman, A. W., Davis, R. E., Munkelwitz, H. R., Tang, I. N., and Wood, W. P., Int. J. Chem. Kinet. Symp., 1, 629, 1975."
+119,HO+SO₂+M→HSO₃+M,,,,,1.00E-36,0,300,HONO/N₂/O₂,(P),28,26,"Cox, R. A., Int. J. Chem. Kinet. Symp., 1, 379, 1975."
+120,HO+SO₂+H₂O→Products,,,,,3.03E-36,0,435,H₂O,,29,27,"Gordon, S. and Mulac, W. A., Int. J. Chem. Kinet. Symp., 1, 289, 1975."
+121,NO+NO+O₂→2NO₂,,,,,3.99E-38,0,298,NO₂/O₂/N₂,(P),30,,"Stedman, D. H. and Niki, H., J. Phys. Chem., 77, 2604, 1973."
+122,NO+NO+O₂→2NO₂,,,,,8.33E-39,0,478,NO₂/O₂,(T),37,30,"Morecroft, M. J. and Thomas, J. H., J. Phys. Chem., 71, 1543, 1967."
+123,NO+NO+O₂→2NO₂,,,,,2.00E-39,0,298,NO₂/O₂,(T),33,31,"Johnston, H. S. and Slentz, L. W., J. Am. Chem. Soc., 73, 2948, 1951."
+124,NO+NO+O₂→2NO₂,,-0.95,-3.97,,,,293-372,NO₂/O₂/N₂,(T),"34,35",,"Greig, J. D. and Hall, P. G., Trans. Faraday Soc., 63, 655, 1967. , Hall, P. G. and Greig, J. D., Chem. Comm., 326, 1966."
+125,NO+NO+O₂→2NO₂,,,,,5.50E-38,0,293,NO₂/O₂/N₂,(T),"34,36","28,29","Greig, J. D. and Hall, P. G., Trans. Faraday Soc., 63, 655, 1967. , Greig, J. D. and Hall, J. D., Trans. Faraday Soc., 62, 652, 1966."
+126,NO+NO+O₂→2NO₂,,,,,8.72E-39,0,478-593,NO₂/O₂/N₂,(T),37,,"Morecroft, M. J. and Thomas, J. H., J. Phys. Chem., 71, 1543, 1967."
+127,NO+NO+O₂→2NO₂,,,,,8.52E-39,0,478-593,NO₂/O₂/N₂,(T),37,30,"Morecroft, M. J. and Thomas, J. H., J. Phys. Chem., 71, 1543, 1967."
+128,NO+NO+O₂→2NO₂,,,,,1.38E-37,0,298,NO₂/γ-radiolysis,,38,31,"Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967."
+129,NO+NO+O₂→2NO₂,,,,,1.38E-37,0,298,NO₂/γ-radiolysis,,38,"30,32","Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967."
+130,NO+NO+O₂→2NO₂,,,,,8.33E-38,0,298,NO₂/γ-radiolysis,,38,"31,32","Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967."
+131,NO+NO+O₂→2NO₂,,,,,7.25E-38,0,298,NO₂/γ-radiolysis,,38,33,"Dmitriev, L. A., Kamenetskaya, S. A., and Pshezhetskii, S. Ya., Khim. Vys. Energ., 1, 205, 1967."
+132,NO+NO+O₂→2NO₂,,-1.05,-4.38,6.61E-39,,,273-600,,,39,34,"Baulch, D. L., Drysdale, D. D., and Horne, D. G., High Temperature Re- action Rate Data, Rep. No. 5, University of Leeds, July 1970."
+133,CH₃+O₂+N₂→CH₃O₂+N₂,,,,,3.09E-31,0,294,(CH₃N)₂,(P),61,35,"Parkes, D. A., Int. J. Chem. Kinet., 9, 451, 1977."
+134,CH₃+O₂+(CH₃)₄C→CH₃O₂+(CH₃)₄C,,,,,1.52E-30,0,294,(CH₃N)₂,(P),61,36,"Parkes, D. A., Int. J. Chem. Kinet., 9, 451, 1977."
+135,CH₃+O₂+M→CH₃O₂+M,,,,,See Note,,295,(CH₃)₂N₂/O₂,(F.P.),39a,37,"Hochanadel, C. J., Ghormley, J. A., Boyle, J. W., and Ogren, P. J., J. Phys. Chem., 81, 3, 1977."
+136,NO+NO₂+H₂O→2HONO,,,,,6.03E-38,0,296,HONO/NOₓ/H₂O,(P),"62,63",46,"Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Chem. Phys. Lett., 37, 441, 1976. , Chan, W. C., Nordstrom, R. J., Calvert, J. G., and Shaw, J. H., Environ. Sci. Technol., 10, 674, 1976."
+137,2NO+Cl₂→2NOCl,,4.2,17.56,6.93E-38,,,,,,"41,42",46,"Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265, Welinsky, I. and Taylor, H. A., J. Chem. Phys., 6, 466, 1938."
+138,2NO+Cl₂→2NOCl,,6,25.1,6.93E-37,,,373-523,NO/Cl₂,(T),43,37a,"Ashmore, P. G. and Spencer, M. S., Trans. Faraday Soc., 55, 1868, 1959."
+139,2NO+Cl₂→2NOCl,,4.5,18.8,1.15E-37,,,278-338,NO/Cl₂,(T),40,47,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
+140,2NO+Cl₂→2NOCl,,,,,5.25E-41,0,298,NO/Cl₂,(T),40,38,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
+141,2NO+Br₂→2NOBr,,1.6,6.7,1.10E-37,,,265-288,NO/Br₂,(T),"41,44",,"Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265, Krauss, W., Z. Phys. Chem., Abt. A., 175, 295, 1936."
+142,2NO+Br₂→2NOBr,,0.57,2.39,6.93E-38,,,263-333,NO/Br₂,(T),40,,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
+143,2NO+Br₂→2NOBr,,,,,2.63E-38,0,298,NO/Br₂,(T),40,,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
+144,2NO+Br₂→2NOBr,,,,,2.69E-38,0,303,NO/Br₂/Cl₂,(T),40,,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
+145,2NO+Br₂→2NOBr,,,,,"[1.2897281982E-38,8.7196327772E-38]",0,275-363,Br₂/NO,(T),40a,,"Hovel, N. and van der Bergh, H., Int. J. Chem. Kinet., 9, 871, 1977."
+146,2NO+H₂→Products,,47,196,1.38E-29,,,973-1098,NO/H₂,(T),"41,45",,"Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265, Hinshelwood, C. N. and Mitchell, J. W., J. Chem. Soc., 378, 1936.
+"
+147,NO+NO₂+O₃→NO₂+NO₃,,,,,1.82E-40,0,298,NOCl/NO₂/O₂,(T),47,,"Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958."
+148,NO+NO₂+O₃→NO₂+NO₃,,,,,8.52E-41,0,,,,47,38a,"Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958."
+149,NO+NO₂+O₃→NO₂+NO₃,,-0.96,-4.01,5.76E-41,,,473-703,NO₂,(T),48,39,"Ashmore, P. G. and Burnett, M. G., Trans. Faraday Soc., 58, 253, 1962."
+150,2NO₂+O₂→2NO₃,,25,105,,,,300,,,47,40,"Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958."
+151,S₂+S₂+CO₂→S₄+CO₂,,,,,2.51E-30,0,294,H₂S/CO₂,(F.P.),49,40,"Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1, 68, 1550, 1972."
+152,S₂+S₂+CO₂→S₄+CO₂,,,,,1.00E-29,0,293,OCS/CO₂,(F.P.),50,,"Langford, R. B. and Oldershaw, G. A., J. Chem. Soc., Faraday Trans. 1, 69, 1389, 1973."
+153,CF₃NO+2NO→CF₃+N₂+NO₃,,,,,1.55E-42,0,297,CF₃I/NO,(P),51,41,"Heicklen, J., J. Phys. Chem., 70, 112, 1966."
+154,CF₃NO+2NO→CF₃+N₂+NO₃,,2.2,9.2,4.79E-41,,,298-333,CF₃NO/NO,,64,42,"Christie, M. I. and Matthews, C. J., J. Chem. Soc., Faraday Trans. 1, 72, 1652, 1976."
+155,CH₃NO+2NO→CH₃+N₂+NO₃,,-1.8,-7.52,7.09E-42,,,298-343,CH₃I/NO,(P),52,42,"Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965."
+156,CH₃NO+2NO→CH₃+N₂+NO₃,,,,,1.29E-40,0,298,CH₃I/NO,(P),53,,"Johnston, H. S. and Heicklen, J., J. Phys. Chem., 70, 3088, 1966."
+157,C₂H₅NO+2NO→C₂H₅+N₂+NO₃,,-2.9,-12.1,5.25E-42,,,298-343,C₂H₅I/NO,(P),52,48,"Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965."
+158,CH₃CH₂CH₂NO+2NO→CH₃CH₂CH₂+N₂+NO₃,,-7,-29,1.38E-44,,,298-318,C₃H₇I/NO,(P),52,43,"Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965."
+159,(CH₃)₂CHNO+2NO→(CH₃)₂CH+N₂+NO₃,,-4,-17,5.50E-43,,,298-318,i-C₃H₇I/NO,(P),52,,"Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965."
+160,(CH₃)₂CHNO+2NO→(CH₃)₂CH+N₂+NO₃,,-7.5,-31.4,,,,298-343,t-C₃H₇I/NO,(P),52,43,"Christie, M. I., Frost, J. S., and Voisey, M. A., Trans. Faraday Soc., 61, 674, 1965."
+161,2CH₃O₂NO+O₂→2CH₃ONO₂+O₂,,,,,3.55E-48,0,298,(CH₃)₂N₂/NO/N₂,(P),54,43,"Spicer, C. W., Villa, A., Wiebe, H. A., and Heicklen, J., J. Am. Chem. Soc., 95, 13, 1973."
+162,H+F+Ar → HF+Ar,-17680,,,2.00E-35,,,3500-6000,,,12,43,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+163,H+Cl+M → HCl+M,,,,,<9.5608872185E-32,0,1650-1900,,,8,44,"Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979."
+164,H+Cl+Ar → HCl+Ar,-9940,,,7.25E-35,,,2900-7000,,,12,9,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+165,H+Br+M → HBr+M,,,,,<8.7196327772E-31,0,1650-2050,,,8,12,"Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979."
+166,H+Br+He → HBr+He,,,,,5.29E-27,-1.87,200-600,,,12,10,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+167,H+I+M → HI+M,,,,,<8.7196327772E-31,0,1650-1950,,,8,12,"Fristrom, R. M. and Van Tiggelen, P., Symp. (Int.) Combust.. [Proc.]. 17. 773, 1979."
+168,N+N+N₂ → N₂+N₂,,,,,7.25E-33,0,293,N₂ Discharge,Direct,4,10,"Yamashita, T., J. Chem. Phys., 70, 4248, 1979."
+169,N+N+Cl₂ → N₂+Cl₂,,,,,1.32E-31,0,Room Temp.,N₂ Discharge,Direct,9,12,"Emel'kin, V. A. and Marusin, V. V., Kinet. Katal., 19, 1389, 1978."
+170,F+F+Ar → F₂+Ar,-3190,,,8.92E-40,,,1400-2600,,,12,10,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+171,Cl+Cl+Ar → Cl₂+Ar,,,,,5.02E-34,0,298,Cl₂ Discharge,Direct,10,4,"Clyne, M. A. A. and Smith, D. J., J. Chem. Soc., Faraday Trans. 2. 75, 704, 1979."
+172,Cl+Cl+Ar → Cl₂+Ar,-906,,,6.17E-34,,,195-520,,,12,,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+173,Cl+Br+Ar → ClBr+Ar,,,,,4.47E-34,0,298,Cl₂ Discharge; Cl+Br₂→Br+BrCl,Direct,10,12,"Clyne, M. A. A. and Smith, D. J., J. Chem. Soc., Faraday Trans. 2. 75, 704, 1979."
+174,Br+Br+He → Br₂+He,,,,,4.27E-33,0,Room Temp.,Br₂ (F.P.),Direct,1,,"Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet... 10, 155, 1978."
+175,Br+Br+Ar → Br₂+Ar,,,,,2.57E-34,0,298,Cl+Br₂→Br+BrCl,Direct,10,12,"Clyne, M. A. A. and Smith, D. J., J. Chem. Soc., Faraday Trans. 2. 75, 704, 1979."
+176,Br+Br+Ar → Br₂+Ar,-856,,,6.46E-34,,,290-2000,,,12,,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+177,I+I+Ar → I₂+Ar,,,,,4.37E-33,0,360,I₂ (F.P.),Direct,6,1,"Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980."
+178,I+I+Ar → I₂+Ar,-754,,,6.46E-34,,,290-12500,,,12,,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+179,I+I+N₂ → I₂+N₂,,,,,1.10E-32,0,360,I₂ (F.P.),Direct,6,12,"Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980."
+180,I+I+I₂ → I₂+I₂,,,,,1.41E-36,0,360,I₂ (F.P.),Direct,6,8,"Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980."
+181,I+I+CO₂ → I₂+CO₂,,,,,2.19E-32,0,360,I₂ (F.P.),Direct,6,12,"Semenov, S.Yu., Shafranovskii, E. A., Grishin, V. D., and Tal'roze, V. L., Dokl. Akad. Nauk. SSSR., 225, 1177, 1980."
+182,I+I+SF₆ → I₂+SF₆,,,,,~8.327184655E-33,0,346,I₂ (F.P.),Direct,11,8,"Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980."
+183,I+I+c-C₃H₆ → I₂+c-C₃H₆,,,,,~1.0011477951E-33,0,346,I₂ (F.P.),Direct,11,8,"Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980."
+184,I+I+n-C₄H₁₀ → I₂+n-C₄H₁₀,,,,,~3.7196167542E-33,0,336-346,I₂ (F.P.),Direct,11,8,"Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980."
+185,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,,,~1.1762460966E-33,0,355,I₂ (F.P.),Direct,11,11,"Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980."
+186,I+I+neo-C₅H₁₂ → I₂+neo-C₅H₁₂,,,,,~3.7196167542E-33,0,380,I₂ (F.P.),Direct,11,11,"Zellweger, J. M. and Van den Bergh, H., J. Chem. Phys.. 72. 5405, 1980."
+187,I+I+i-C₃F₇I → I₂+i-C₃F₇I,-1360,,,5.76E-33,1.32E-22,-3.4,300-455,I₂ (F.P.),Direct,5,11,"Skorobogatov, G. A., Dimov, B. P., and Khomenko, V. E., Chem. Phys.. 42, 73, 1979."
+188,I+I+i-C₅F₁₁I → I₂+i-C₅F₁₁I,-1300,,,5.90E-33,5.79E-23,-3.2,304-463,I₂ (F.P.),Direct,5,11,"Skorobogatov, G. A., Dimov, B. P., and Khomenko, V. E., Chem. Phys.. 42, 73, 1979."
+189,I+I*+n-C₃F₇I → II*+n-C₃F₇I,,,,,1.10E-32,0,Room Temp.,n-C₃F₇I (P),Direct,13,11,"Stephan, K.-H. and Comes, F. J., Chem. Phys. Lett., 65, 251, 1979."
+190,S+S+H₂S → S₂+H₂S,,,,,1.20E-29,0,295,H₂S (Pulse Radiolysis),See Notes,3,"5,6","Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1. 75. 1868, 1979."
+191,Mg+F+Ar → MgF+Ar,,,,,1.05E-35,1,873-1073,See Notes,See Notes,2,"5,7","Kuznetsov, V. A. and Kashireninov, O. E., Zh. Fiz. Khim., 52, 355, 1978."
+192,Mg+F+Ar → MgF+Ar,<=1000,,,,,,873-1073,See Notes,See Notes,2,13,"Kuznetsov, V. A. and Kashireninov, O. E., Zh. Fiz. Khim., 52, 355, 1978."
+193,H+H+He → H₂+He,,,,,1.20E-32,0,77,H₂ (T),,1,2,"Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973."
+194,H+H+He → H₂+He,,,,,5.90E-33,0,298,H₂ discharge,,2,2,"Bennett, J. E. and Blackmore, D. R., Chem. Comm., 1521, 1968."
+195,H+H+Ar → H₂+Ar,,,,,2.76E-33,0,1300,H₂/O₂ (S.T.),,3,,"Mallard, W. G. and Owen, J. H., Int. J. Chem. Kinet., 6, 753, 1974."
+196,H+H+Ar → H₂+Ar,,,,,2.76E-33,0,1700,H₂/O₂ (S.T.),,3,,"Mallard, W. G. and Owen, J. H., Int. J. Chem. Kinet., 6, 753, 1974."
+197,H+H+Ar → H₂+Ar,,,,,2.76E-32,0,77,H₂ (T),,1,1,"Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973."
+198,H+H+Ar → H₂+Ar,,,,,1.78E-30,-1,1700,,,4,3,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972."
+199,H+H+Ar → H₂+Ar,,,,,1.78E-30,-1,5000,,,4,3,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972."
+200,H+H+H₂ → H₂+H₂,,,,,1.86E-32,0,77,H₂ (T),,1,1,"Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973."
+201,D+D+D₂ → D₂+D₂,,,,,6.17E-33,0,298,D₂ (T),,1,1,"Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973."
+202,D+D+D₂ → D₂+D₂,,,,,1.52E-32,0,77,D₂ (T),,1,1,"Trainer, D. W., Ham, D. O., and Kaufman, F., J. Chem. Phys., 58, 4599, 1973."
+203,H+N+M → HN+M,,,,,3.09E-32,0,294,H₂/N₂ Discharges,,5,2,"Brown, R. L., Int. J. Chem. Kinet., 5, 663, 1973."
+204,H+N+M → HN+M,,,,,6.46E-32,0,294,H₂/N₂ Discharges,,5,2,"Brown, R. L., Int. J. Chem. Kinet., 5, 663, 1973."
+205,N+N+N₂ → N₂+N₂,,,,,1.41E-32,0,293,N₂ Discharge,,7,,"Avramenko, L. I. and Krasnen'kov, V. M., Izv. Akad. Nauk SSSR, Ser. Khim., 7, 1095, 1963 (English)."
+206,N+N+N₂ → N₂+N₂,,,,,1.41E-32,0,573,N₂ Discharge,,7,,"Avramenko, L. I. and Krasnen'kov, V. M., Izv. Akad. Nauk SSSR, Ser. Khim., 7, 1095, 1963 (English)."
+207,N+O+N₂ → NO+N₂,,,,,1.07E-32,0,273,,,8,3,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., High Temperature Reaction Rate Data, Vol. 4, University of Leeds, 1969."
+208,N+O+N₂ → NO+N₂,,,,,1.20E-32,0,196,,,9,,"Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973."
+209,N+O+N₂ → NO+N₂,,,,,9.13E-33,0,298,,,9,,"Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973."
+210,O+O+N₂ → O₂+N₂,,,,,1.12E-32,0,196,,,9,,"Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973."
+211,O+O+N₂ → O₂+N₂,,,,,4.79E-33,0,298,,,9,,"Campbell, I. M. and Gray, N. C., Chem. Phys. Lett., 18, 607, 1973."
+212,O+O+O₂ → O₂+O₂,,,,,5.50E-34,0,3500,O₂ (S.T.),,10,,"Loser, S. A., Dokl. Akad. Nauk SSSR, Ser. Khim., 120, 467, 1958."
+213,O+O+H₂O → O₂+H₂O,,,,,2.51E-35,1,360,O₂ Discharge,,11,,"Avramenko, L. I., Zh. Fiz. Khim., 23, 790, 1949."
+214,O+O+H₂O → O₂+H₂O,,,,,2.51E-35,1,520,O₂ Discharge,,11,,"Avramenko, L. I., Zh. Fiz. Khim., 23, 790, 1949."
+215,O+O+M → O₂+M,,0.3,1.4,,3.72E-30,,300,,,13,3,"Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National
+Standard Reference Data System - National Bureau of Standards 20, 1968. 13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English)."
+216,O+O+M → O₂+M,,0.3,1.4,,3.72E-30,,8000,,,13,3,"Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National
+Standard Reference Data System - National Bureau of Standards 20, 1968. 13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English)."
+217,O+C+Ar/CO → OC+Ar/CO,,,,,9.13E-22,-3.08,7000,,,12,"3,9","Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Kinetic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976."
+218,O+C+Ar/CO → OC+Ar/CO,,,,,9.13E-22,-3.08,14000,,,12,"3,9","Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Kinetic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976."
+219,S+S+H₂S → S₂+H₂S,,,,,2.76E-33,0,300,H₂S Discharge,,16,8,"Fair, R. W. and Thrush, B. A., Trans. Faraday Soc., 65, 1208, 1969."
+220,F+F+He → F₂+He,,,,,2.19E-33,0,293,F₂,,13a,"6,7","Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English)."
+221,F+F+He → F₂+He,,,,,6.03E-34,0,294,F₂ Discharge,,13b,6,"Ultec, C. J., Chem. Phys. Lett., 46, 366, 1977."
+222,F+F+Ar → F₂+Ar,,,,,2.76E-34,0,1000,,,14,3,"Lloyd, A. C., Int. J. Chem. Kinet., 3, 39, 1971."
+223,F+F+Ar → F₂+Ar,,,,,2.76E-34,0,2000,,,14,3,"Lloyd, A. C., Int. J. Chem. Kinet., 3, 39, 1971."
+224,F+F+Ar → F₂+Ar,,,,,7.95E-35,0,295,,,15,10,"Ganguli, P. S. and Kaufman, M., Chem. Phys. Lett., 25, 221, 1974."
+225,Cl+Cl+He → Cl₂+He,,,,,3.89E-33,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+226,Cl+Cl+He → Cl₂+He,,,,,4.68E-33,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+227,Cl+Cl+Ne → Cl₂+Ne,,,,,4.68E-33,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+228,Cl+Cl+Ne → Cl₂+Ne,,,,,4.68E-33,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+229,Cl+Cl+Ar → Cl₂+Ar,,,,,2.09E-32,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+230,Cl+Cl+Ar → Cl₂+Ar,,,,,2.04E-32,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+231,Cl+Cl+N₂ → Cl₂+N₂,,,,,4.17E-32,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+232,Cl+Cl+N₂ → Cl₂+N₂,,,,,2.19E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+233,Cl+Cl+Cl₂ → Cl₂+Cl₂,,,,,5.50E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+234,Cl+Cl+CO₂ → Cl₂+CO₂,,,,,1.52E-31,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+235,Cl+Cl+CO₂ → Cl₂+CO₂,,,,,3.32E-32,,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+236,Cl+Cl+CF₄ → Cl₂+CF₄,,,,,1.52E-31,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+237,Cl+Cl+CF₄ → Cl₂+CF₄,,,,,3.32E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+238,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,,5.76E-32,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+239,Cl+Cl+C₂F₆ → Cl₂+C₂F₆,,,,,3.55E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+240,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,,1.59E-31,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+241,Cl+Cl+SiF₄ → Cl₂+SiF₄,,,,,3.55E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+242,Cl+Cl+SF₆ → Cl₂+SF₆,,,,,5.76E-32,0,298,Cl₂ (F.P.),,18,,"Hippler, H. and Troe, J., Chem. Phys. Lett., 19, 607, 1973."
+243,Cl+Cl+SF₆ → Cl₂+SF₆,,,,,3.55E-32,0,298,Cl₂ (F.P.),,18a,11a,"Hippler, H. and Troe, J., Int. J. Chem. Kinet., 8, 501, 1976."
+244,Br+Br+He → Br₂+He,,,,,2.82E-33,0,298,Br₂ discharge,,19,12,"Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973."
+245,Br+Br+He → Br₂+He,,,,,3.24E-33,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+246,Br+Br+Ne → Br₂+Ne,,,,,4.08E-33,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+247,Br+Br+Ar → Br₂+Ar,,,,,9.34E-33,0,298,Br₂ discharge,,19,12,"Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973."
+248,Br+Br+Ar → Br₂+Ar,,,,,6.61E-33,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+249,Br+Br+Kr → Br₂+Kr,,,,,8.52E-33,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+250,Br+Br+Xe → Br₂+Xe,,,,,1.12E-32,0,300,Br₂ (F.P.),,21,13,"Chang, S. K., Clarke, A. G., and Burns, G., J. Chem. Phys., 54, 1835, 1971."
+251,Br+Br+N₂ → Br₂+N₂,,,,,8.72E-33,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+252,Br+Br+N₂ → Br₂+N₂,,,,,8.33E-33,0,298,"O+Br₂→BrO+Br
 O+BrO→O₂+Br
-",,19,12
-253,Br+Br+O₂ → Br₂+O₂,,,,,1.20E-32,0.00E+00,298,"O+Br₂→BrO+Br
+",,19,12,"Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973."
+253,Br+Br+O₂ → Br₂+O₂,,,,,1.20E-32,0,298,"O+Br₂→BrO+Br
 O+BrO→O₂+Br
-",,19,12
-254,Br+Br+O₂ → Br₂+O₂,,,,,1.62E-32,0.00E+00,300,Br₂ (F.P.),,20,13
-255,Br+Br+Br₂ → Br₂+Br₂,,,,,8.33E-32,0.00E+00,298,Br₂ discharge,,19,12
-256,Br+Br+HBr → Br₂+HBr,,,,,2.29E-33,0.00E+00,1417,flame,,22,
-257,Br+Br+CF₄ → Br₂+CF₄,,,,,3.09E-32,0.00E+00,300,Br₂ (F.P.),,21,13
-258,Br+Br+CH₃Cl → Br₂+CH₃Cl,,,,,9.56E-32,0.00E+00,294,Br₂ (F.P.),,23,
-259,Br+Br+C₂H₅Cl → Br₂+C₂H₅Cl,,,,,1.48E-31,0.00E+00,294,Br₂ (F.P.),,23,
-260,Br+Br+CH₃Br → Br₂+CH₃Br,,,,,3.32E-31,0.00E+00,294,Br₂ (F.P.),,23,
-261,Br+Br+C₂H₅Br → Br₂+C₂H₅Br,,,,,6.93E-31,0,294,Br₂ (F.P.),,23,
-262,Br+Br+C₆H₆ → Br₂+C₆H₆,,,,,1.45E-30,0,294,Br₂ (F.P.),,23,14
-263,Br+Br+SF₆ → Br₂+SF₆,,,,,3.17E-32,0,300,Br₂ (F.P.),,21,13
-264,I+I+He → I₂+He,,,,,7.77E-33,0,206,I₂ (F.P),,24a,
-265,I+I+Ar → I₂+Ar,,,,,8.33E-33,0.00E+00,298,I₂ (F.P),,25,
-266,I+I+Ar → I₂+Ar,,,,,2.19E-32,0,206,I₂ (F.P),,24a,
-267,I+I+Ar → I₂+Ar,,,,,8.27E-33,-1.56,500,I₂ (S.T),,24b,
-268,I+I+Ar → I₂+Ar,,,,,8.27E-33,-1.56,1450,I₂ (F.P),,24b,
-269,I+I+Xe → I₂+Xe,,,,,4.37E-32,0,206,I₂ (F.P),,24a,
-270,I+I+H₂ → I₂+H₂,,,,,2.14E-32,0,206,I₂ (F.P),,24a,
-271,I+I+D₂ → I₂+D₂,,,,,2.14E-32,0,206,I₂ (F.P),,24a,
-272,I+I+NO → I₂+NO,,,,,6.61E-29,0,294,CH₃I (F.P.),,26,
-273,I+I+ICl → I₂+ICl,,,,,2.46E-30,0,325,ICl (F.P.),,27,15
-274,I+I+DCl → I₂+DCl,,,,,4.27E-32,0.00E+00,300,I₂ (F.P),,28,
-275,I+I+CH₃Cl → I₂+CH₃Cl,,,,,1.10E-31,0.00E+00,294,I₂ (F.P),,23,16
-276,I+I+C₂H₅Cl → I₂+C₂H₅Cl,,,,,1.59E-31,0,294,I₂ (F.P),,23,16
-277,I+I+CH₃Br → I₂+CH₃Br,,,,,1.48E-31,0,294,I₂ (F.P),,23,16
-278,I+Cl+N₂ → ICl+N₂,,,,,1.70E-31,0.00E+00,325,ICl (F.P.),,27,15
-279,I+Cl+CO₂ → ICl+CO₂,,,,,4.27E-31,0,325,ICl (F.P.),,27,15
-280,I+Cl+ICl → ICl+ICl,,,,,1.20E-30,0,325,ICl (F.P.),,27,15
+",,19,12,"Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973."
+254,Br+Br+O₂ → Br₂+O₂,,,,,1.62E-32,0,300,Br₂ (F.P.),,20,13,"Ip, J. K. K. and Burns, G., J. Chem. Phys., 51, 3414, 1969."
+255,Br+Br+Br₂ → Br₂+Br₂,,,,,8.33E-32,0,298,Br₂ discharge,,19,12,"Clyne, M. A. A. and Woon-Fat, A. R., J. Chem. Soc., Faraday Trans. 2, 69, 412, 1973."
+256,Br+Br+HBr → Br₂+HBr,,,,,2.29E-33,0,1417,flame,,22,,"Horie, O. and Frazier, G. C., Jr., J. Phys. Chem., 75, 3046, 1971."
+257,Br+Br+CF₄ → Br₂+CF₄,,,,,3.09E-32,0,300,Br₂ (F.P.),,21,13,"Chang, S. K., Clarke, A. G., and Burns, G., J. Chem. Phys., 54, 1835, 1971."
+258,Br+Br+CH₃Cl → Br₂+CH₃Cl,,,,,9.56E-32,0,294,Br₂ (F.P.),,23,,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+259,Br+Br+C₂H₅Cl → Br₂+C₂H₅Cl,,,,,1.48E-31,0,294,Br₂ (F.P.),,23,,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+260,Br+Br+CH₃Br → Br₂+CH₃Br,,,,,3.32E-31,0,294,Br₂ (F.P.),,23,,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+261,Br+Br+C₂H₅Br → Br₂+C₂H₅Br,,,,,6.93E-31,0,294,Br₂ (F.P.),,23,,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+262,Br+Br+C₆H₆ → Br₂+C₆H₆,,,,,1.45E-30,0,294,Br₂ (F.P.),,23,14,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+263,Br+Br+SF₆ → Br₂+SF₆,,,,,3.17E-32,0,300,Br₂ (F.P.),,21,13,"Chang, S. K., Clarke, A. G., and Burns, G., J. Chem. Phys., 54, 1835, 1971."
+264,I+I+He → I₂+He,,,,,7.77E-33,0,206,I₂ (F.P),,24a,,"Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976."
+265,I+I+Ar → I₂+Ar,,,,,8.33E-33,0,298,I₂ (F.P),,25,,"Burns, G., Leroy, R. J., Morriss, D. G., and Blake, J. A., Proc. R. Soc. London, Ser. A, 315, 81, 1971."
+266,I+I+Ar → I₂+Ar,,,,,2.19E-32,0,206,I₂ (F.P),,24a,,"Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976."
+267,I+I+Ar → I₂+Ar,,,,,8.27E-33,-1.56,500,I₂ (S.T),,24b,,"Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976."
+268,I+I+Ar → I₂+Ar,,,,,8.27E-33,-1.56,1450,I₂ (F.P),,24b,,"Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976."
+269,I+I+Xe → I₂+Xe,,,,,4.37E-32,0,206,I₂ (F.P),,24a,,"Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976."
+270,I+I+H₂ → I₂+H₂,,,,,2.14E-32,0,206,I₂ (F.P),,24a,,"Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976."
+271,I+I+D₂ → I₂+D₂,,,,,2.14E-32,0,206,I₂ (F.P),,24a,,"Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976."
+272,I+I+NO → I₂+NO,,,,,6.61E-29,0,294,CH₃I (F.P.),,26,,"Mayer, R. T., J. Phys. Chem., 78, 878, 1974."
+273,I+I+ICl → I₂+ICl,,,,,2.46E-30,0,325,ICl (F.P.),,27,15,"Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973."
+274,I+I+DCl → I₂+DCl,,,,,4.27E-32,0,300,I₂ (F.P),,28,,"Chang, H. W. and Burns, G., J. Chem. Phys., 62, 2426, 1975."
+275,I+I+CH₃Cl → I₂+CH₃Cl,,,,,1.10E-31,0,294,I₂ (F.P),,23,16,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+276,I+I+C₂H₅Cl → I₂+C₂H₅Cl,,,,,1.59E-31,0,294,I₂ (F.P),,23,16,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+277,I+I+CH₃Br → I₂+CH₃Br,,,,,1.48E-31,0,294,I₂ (F.P),,23,16,"Basila, J. R. and Strong, R. L., J. Am. Chem. Soc., 96, 701, 1974."
+278,I+Cl+N₂ → ICl+N₂,,,,,1.70E-31,0,325,ICl (F.P.),,27,15,"Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973."
+279,I+Cl+CO₂ → ICl+CO₂,,,,,4.27E-31,0,325,ICl (F.P.),,27,15,"Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973."
+280,I+Cl+ICl → ICl+ICl,,,,,1.20E-30,0,325,ICl (F.P.),,27,15,"Maier, H. N. and Lampe, F. W., J. Phys. Chem., 77, 430, 1973."
 281,"H + O₂ + H₂ → HO₂ + H₂
-",,,,,3.02E-32,0,Room Temp,H₂ (Pulse-radiolysis),Direct,,11
+",,,,,3.02E-32,0,Room Temp,H₂ (Pulse-radiolysis),Direct,,11,
 282,"H + O₂ + H₂ → HO₂ + H₂
-",,,,,6.03E-32,0,295,H₂ (Pulse-radiolysis),Direct,,32
-283,H+O₂+He →  HO₂ + O₂,,,,,2.46E-32,0.00E+00,293,"         
+",,,,,6.03E-32,0,295,H₂ (Pulse-radiolysis),Direct,,32,
+283,H+O₂+He →  HO₂ + O₂,,,,,2.46E-32,0,293,"         
 H₂ (Pulse-radiolysis)
-",Direct,1,
-284,H + O₂ + O₂ →   HO₂  + O₂,,,,,5.79E-32,-1,200,H₂ discharge,Direct,58,11
-285,H + O₂ + O₂ →   HO₂  + O₂,,,,,5.79E-32,-1,300,H₂ discharge,Direct,58,41
-286,H + O₂ + N₂ → HO₂  + N₂,,,,,5.79E-32,-1,200,N/A,N/A,58,1
-287,H + O₂ + N₂ → HO₂  + N₂,,,,,5.79E-32,-1,300,N/A,N/A,58,"30,64"
-288,H + O₂ + N₂ → HO₂  + N₂,,,,,3.32E-32,0.00E+00,425,O+H₂ → OH + H and O+OH → O₂ + H,See Notes,5,"30,64"
-289,H + O₂ + H₂O → HO₂  + H₂O,,,,,8.72E-32,0.00E+00,1500,CH₄/ air flame,See Notes,33,"30,64"
-290,H + O₂  + M →  HO₂ + M,,,,,1.38E-36,0.00E+00,349,NH₃/O₂ (Pulse radiolysis),See Notes,15,"30,64"
-291,H + O₂  + M →  HO₂ + M,,,,,5.51E-32,-1.60E+00,200,N/A,N/A,58,5
-292,H + O₂  + M →  HO₂ + M,,,,,5.51E-32,-1.60E+00,300,N/A,N/A,58,"38,42,43"
-293,H+CO+H₂ → HCO + H₂,,,,,1.05E-34,0.00E+00,Room Temp,H₂O/CO/H₂ (F.P),See Notes,31,15
-294,H+CO+N₂ → HCO + N₂,,,,,3.99E-34,0.00E+00,425,O+H₂ → OH +H,See Notes,2,"30,52"
-295,H+CO+Ar → HCO + Ar,,,,,2.69E-34,0,425,O+H₂ → OH +H,See Notes,2,"30,52"
-296,H+CO+CH₄→ HCO + CH₄,,,,,1.59E-34,0,Room Temp,H₂O/CO/CH₄ (F.P),See Notes,31,"39,40"
-297,H+CO+CH₄→ HCO + CH₄,,,,,1.00E-34,0.00E+00,Room Temp,H₂O/CO (F.P),See Notes,31,2
-298,H+SO₂ + M → HSO₂ + M,,,,,6.03E-33,0.00E+00,305,H₂/maser,Direct,56,"44,69,72"
-299,D+O₂+D → DO₂ + D₂,,,,,2.89E-32,0.00E+00,Room Temp,D₂ (Pulse Radiolysis),Direct,11,69
-300,O+O₂+He → O₃ +He,,,,,2.51E-34,0,296,O₂ (Pulse Radiolysis),Direct,20,69
-301,O+O₂+He → O₃ +He,,,,,3.47E-34,0,298,O₂ / He (F.P),Direct,40,84
-302,O+O₂+Ar→ O₃ + Ar,-525,,,6.17E-35,,0,263,O₃ (Laser F.P),Direct,20,11
-303,O+O₂+Ar→ O₃ + Ar,-535,,,6.32E-35,,0,219,O₂ / Ar (F.P),Direct,39,10
-304,O+O₂+Ar→ O₃ + Ar,-687,,,,3.72E-35,0,220,O₂ / Ar (F.P),Direct,40,53
-305,O+O₂+N₂→ O₃ + N₂,-995,,,1.82E-35,,0,263,O₃ (Laser F.P),Direct,10,10
-306,O+O₂+N₂→ O₃ + N₂,-575,,,8.72E-35,,0.00E+00,219,O₂/N₂ (F.P),Direct,39,"53,54"
-307,O+O₂+N₂→ O₃ + N₂,-724,,,5.02E-35,,0.00E+00,218,O₂/N₂ (F.P),Direct,40,"53,59"
-308,O+O₂+N₂→ O₃ + N₂,,,,,5.79E-34,-2.80E+00,200,,,58,10
-309,O+O₂+O₂→O₃+O₂,-635,,,6.77E-35,,0.00E+00,262,O₃ (Laser F.P),Direct,10,"53,55"
-310,O+O₂+Ar→ O₃ + Ar,-525,,,6.17E-35,,0.00E+00,298,O₃ (Laser F.P),Direct,20,"53,60"
-311,O+O₂+Ar→ O₃ + Ar,-535,,,6.32E-35,,0.00E+00,368,O₂ / Ar (F.P),Direct,39,86
-312,O+O₂+Ar→ O₃ + Ar,-687,,,,3.72E-35,0.00E+00,353,O₂ / Ar (F.P),Direct,40,10
-313,O+O₂+N₂→ O₃ + N₂,-995,,,1.82E-35,,0.00E+00,309,O₃ (Laser F.P),Direct,10,10
-314,O+O₂+N₂→ O₃ + N₂,-575,,,8.72E-35,,0.00E+00,368,O₂/N₂ (F.P),Direct,39,"53,54"
-315,O+O₂+N₂→ O₃ + N₂,-724,,,5.02E-35,,0,366,O₂/N₂ (F.P),Direct,40,"53,59"
-316,O+O₂+N₂→ O₃ + N₂,,,,,5.79E-34,-2.8,300,,,58,10
-317,O+O₂+O₂→O₃+O₂,-635,,,6.77E-35,,0.00E+00,319,O₃ (Laser F.P),Direct,10,"53,55"
-318,O+O₂+O₂→O₃+O₂,,,,,1.10E-33,0.00E+00,296,O₂ (Pulse Radiolysis),Direct,20,"53,60"
-319,O+O₂+O₂→O₃+O₂,,,,,4.08E-34,0.00E+00,Room Temp,O₃/O₂ (F.P),See Notes,21,86
-320,O+O₂+O₂→O₃+O₂,,,,,4.37E-34,0.00E+00,300,O₂ discharge,Direct,35,10
-321,O+O₂+O₂→O₃+O₂,-345,,,,,0.00E+00,219,O₂ (F.P),Direct,39,10
-322,O+O₂+O₂→O₃+O₂,-663,,,,,0.00E+00,227,O₂ (F.P),Direct,40,22
-323,O+O₂+O₂→O₃+O₂,,,,,6.34E-34,-2.00E+00,200,,,58,
-324,O+O₂+M → O₃+ M,-525,,,,,0.00E+00,220,,,39,"53,56"
-325,O+O₂+M → O₃+ M,,,,,6.34E-34,-1.90E+00,220,,,39,53.61
-326,O+O₂+M → O₃+ M,-715,,,,,0.00E+00,218,,,40,86
-327,O+O₂+M → O₃+ M,,,,,5.76E-34,-2.57E+00,218,,,40,"57,58"
-328,O+O₂+M → O₃+ M,,,,,6.07E-34,-2.30E+00,200,,,58,"57,58"
-329,O+O₂+M → O₃+ M,,,,4.68E-36,,0.00E+00,200,,,58,"57,62"
-330,O+CO+M→CO₂+M,-2300,,,7.77E-35,,0,1300,See Notes,See Notes,3,"57,62"
-331,O+CO+M→CO₂+M,805,,,,,0,348,CO/O₃ (T),Relative,53,"57,86"
-332,O+O₂+O₂→O₃+O₂,-345,,,,,0.00E+00,368,O₂ (F.P),Direct,39,"30,44,52"
-333,O+O₂+O₂→O₃+O₂,-663,,,,,0.00E+00,353,O₂ (F.P),Direct,40,3
-334,O+O₂+O₂→O₃+O₂,,,,,6.34E-34,-2.00E+00,300,,,58,"80,81"
-335,O+O₂+M → O₃+ M,-525,,,,,0.00E+00,360,,,39,"53,56"
-336,O+O₂+M → O₃+ M,,,,,6.34E-34,-1.90E+00,360,,,39,53.61
-337,O+O₂+M → O₃+ M,-715,,,,,0.00E+00,366,,,40,86
-338,O+O₂+M → O₃+ M,,,,,5.76E-34,-2.57E+00,366,,,40,"57,58"
-339,O+O₂+M → O₃+ M,,,,,6.07E-34,-2.30E+00,300,,,58,"57,58"
-340,O+O₂+M → O₃+ M,,,,4.68E-36,,0.00E+00,300,,,58,"57,62"
-341,O+CO+M→CO₂+M,-2300,,,7.77E-35,,0.00E+00,2200,See Notes,See Notes,3,"57,62"
-342,O+CO+M→CO₂+M,805,,,,,0.00E+00,433,CO/O₃ (T),Relative,53,"57,86"
-343,O+CO+He→CO₂+He,,,,,1.00E-35,0.00E+00,294,CO (Pulse radiolysis),Direct,20,"30,44,52"
-344,O+CO₂+He→CO₃+He,,,,,2.76E-35,0.00E+00,294,CO (Pulse radiolysis),Direct,20,3
-345,O+CO+CO → CO₂ + CO,,,,,<4.3701686298E-36,0.00E+00,296,CO₂ (Pulse radiolysis),Direct,20,"80,81"
-346,O+SO₂+ M → SO₃ + M,,,,,2.04E-33,0.00E+00,2250,CH₄/H₂S/air flame,See Notes,30,10
-347,O+SO₂+ M → SO₃ + M,-3163,,,1.20E-33,,0.00E+00,1435,CO/SO₂/O₂/Ar flame,See Notes,29,10
-348,O+SO₂+ M → SO₃ + M,1000,,,4.08E-32,,0,200,,,58,10
-349,O+SO₂+ M → SO₃ + M,-3163,,,1.20E-33,,0,1850,CO/SO₂/O₂/Ar flame,See Notes,29,38
-350,O+SO₂+ M → SO₃ + M,1000,,,4.08E-32,,0,400,,,58,37
-351,O+SO₂+ M → SO₃ + M,,,,,1.41E-33,0,298,,,58,"64,86,87"
-352,O+SO₂+ N₂ → SO₃ + N₂,,,,,1.35E-33,0.00E+00,299,SO₂/NO (F.P),Direct,6,37
-353,O+SO₂+ Ar → SO₃ + Ar,1010,,,3.09E-32,,0.00E+00,299-400,SO₂/NO (F.P),Direct,6,"64,86,87"
-354,O+SO₂+ SO₂ → SO₃ + SO₂,,,,,9.56E-33,0.00E+00,299,SO₂/NO (F.P),Direct,6,"30,64,87"
-355,F+O₂ + M → FO₂ + M,-905,,,2.76E-34,,0,223,F₂ discharge,Direct,46,6
-356,F+O₂ + M → FO₂ + M,-905,,,2.76E-34,,0,293,F₂ discharge,Direct,46,6
-357,F+O₂ + M → FO₂ + M,,,,,3.17E-33,0,296,F₂ (Laser P),Direct,16,6
-358,F+O₂ + M → FO₂ + M,,,,,3.72E-33,0,295,F₂ (Laser F.P.),Direct,17,"74,75"
-359,F+O₂ + M → FO₂ + M,,,,,1.10E-32,0,Room Temp.,WF₆/H₂/O₂/He (Laser F.P.),Direct,47,"74,75"
-360,F+O₂ + M → FO₂ + M,,,,,5.76E-33,0,291,,,63,16
-361,F+O₂ + M → FO₂ + M,,,,,1.60E-32,-1.4,200,,,59,"16,17"
-362,F+O₂ + M → FO₂ + M,,,,,1.30E-32,-1.4,200,,,58,76
-363,F+O₂ + M → FO₂ + M,,,,,5.50E-35,0,200,,,58,"30,65"
-364,F+O₂ + M → FO₂ + M,,,,,5.76E-33,0,300,,,63,"30,57,64"
-365,F+O₂ + M → FO₂ + M,,,,,1.60E-32,-1.4,300,,,59,"30,64,87"
-366,F+O₂ + M → FO₂ + M,,,,,1.30E-32,-1.40E+00,300,,,58,"30,44,52"
-367,F+O₂ + M → FO₂ + M,,,,,5.50E-35,0,300,,,58,"30,65"
-368,F+CO+He→COF+He,,,,,5.50E-32,0,295,,,63,"30,57,64"
-369,Cl+O₂+M → ClO₂+M,,,,,2.29E-34,0.00E+00,298,Cl₂/H₂/O₂ (F.P.),Relative,"14,24","30,64,87"
-370,Cl+O₂+M → ClO₂+M,,,,,2.01E-33,-1.4,200,,,59,"30,44,52"
-371,Cl+O₂+M → ClO₂+M,,,,,2.01E-33,-1.4,300,,,59,30
-372,Cl+SO₂+Ar→ClSO₂+Ar,,,,,1.29E-33,0.00E+00,295,Cl₂ discharge,Direct,9,14
-373,Cl+SO₂+N₂→ClSO₂+N₂,,,,,2.29E-33,0.00E+00,295,Cl₂ discharge,Direct,9,"30,57,64"
-374,Cl+SO₂+SO₂→ClSO₂+SO₂,,,,,1.91E-32,0.00E+00,295,Cl₂ discharge,Direct,9,"30,57,64"
-375,Na+O₂+He→NaO₂+He,,,,,5.50E-31,0.00E+00,724,NaI (F.P.),Direct,25,9
-376,Na+O₂+N₂→NaO₂+N₂,,,,,1.00E-30,0.00E+00,724,NaI (F.P.),Direct,25,9
-377,Na+O₂+CO₂→NaO₂+CO₂,,,,,2.19E-30,0.00E+00,724,NaI (F.P.),Direct,25,9
-378,K+O₂+He→KO₂+He,,,,,9.93E-28,-1.00E+00,753,KI (F.P.),Direct,26,"32,33"
-379,K+O₂+N₂→KO₂+N₂,,,,,1.71E-27,-1.00E+00,753,KI (F.P.),Direct,26,"32,33"
-380,K+O₂+CO₂→KO₂+CO₂,,,,,5.51E-27,-1,753,KI (F.P.),Direct,26,"32,33"
-381,Na+O₂+He→NaO₂+He,,,,,5.50E-31,0.00E+00,844,NaI (F.P.),Direct,25,34
-382,Na+O₂+N₂→NaO₂+N₂,,,,,1.00E-30,0.00E+00,844,NaI (F.P.),Direct,25,34
-383,Na+O₂+CO₂→NaO₂+CO₂,,,,,2.19E-30,0.00E+00,844,NaI (F.P.),Direct,25,34
-384,K+O₂+He→KO₂+He,,,,,9.93E-28,-1,873,KI (F.P.),Direct,26,"32,33"
-385,K+O₂+N₂→KO₂+N₂,,,,,1.71E-27,-1.00E+00,873,KI (F.P.),Direct,26,"32,33"
-386,K+O₂+CO₂→KO₂+CO₂,,,,,5.51E-27,-1,873,KI (F.P.),Direct,26,"32,33"
-387,CH₃+O₂+M→CH₃O₂+M,,,,,"[2.7573899936E-32,5.5017163419E-32 ]",0.00E+00,295,F₂/CH₄/O₂ (T),Direct,51,34
-388,CH₃+O₂+M→CH₃O₂+M,,,,,1.59E-31,0,298,O+C₂H₄ → CH₃ + HCO,Relative,19,34
-389,CH₃+O₂+M→CH₃O₂+M,,,,,3.39E-31,0.00E+00,295,F+CH₄ → CH₃ + HF,Direct,27,34
-390,CH₃+O₂+M→CH₃O₂+M,,,,,5.51E-31,-2,200,,,"58,59",
-391,CH₃+O₂+M→CH₃O₂+M,,,,,3.31E-36,-1.70E+00,200,,,59,21
-392,CH₃+O₂+M→CH₃O₂+M,,,,,3.02E-36,0,200,,,58,35
-393,CH₃+O₂+M→CH₃O₂+M,,,,,5.51E-31,-2.00E+00,300,,,"58,59","57,86,87"
-394,CH₃+O₂+M→CH₃O₂+M,,,,,3.31E-36,-1.70E+00,300,,,59,"30,52,57"
-395,CH₃+O₂+M→CH₃O₂+M,,,,,3.02E-36,0.00E+00,300,,,58,"30,44,52"
-396,CH₃+CO+M→CH₃CO+M,,,,,3.02E-42,0.00E+00,298,(CH₃)₂N₂ (Modulated P),Relative,34,"57,86,87"
-397,CH₃+CO+M→CH₃CO+M,,,,,1.10E-41,0.00E+00,298,(CH₃)₂N₂ (Modulated P),See Notes,54,"30,52,57"
-398,CH₃+CO+M→CH₃CO+M,3020,,,2.00E-37,,0.00E+00,263,(CH₃)₂N₂ (Modulated P),See Notes,54,"30,44,52"
-399,CH₃+CO+M→CH₃CO+M,3020,,,2.00E-37,,0.00E+00,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,45,46"
-400,CH₃+CO+M→CH₃CO+M,,,,,5.76E-36,0.00E+00,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,45,47"
-401,CH₃+CO+M→CH₃CO+M,,,,,2.63E-41,0.00E+00,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83"
-402,CH₃+CO+M→CH₃CO+M,,,,,1.07E-35,0.00E+00,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83"
-403,CH₃+CO+M→CH₃CO+M,,,,,9.56E-41,0.00E+00,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"64,82,83"
-404,CH₃+SO₂+M→CH₃SO₂+M,,,,,<=1.3819686629E-36,0.00E+00,Room Temp.,CH₃N₂CH₃ (P),Relative,43,"44,52,82,83"
-405,CF₃+O₂+M→CF₃O₂+M,,,,,1.66E-35,0.00E+00,300,CF₃Cl (Pulse radiolysis),Direct,18,"64,82,83"
-406,CF₃+O₂+M→CF₃O₂+M,,,,,1.78E-29,0.00E+00,295,CF₄ discharge,Direct,28,"44,52,82,83"
-407,CCl₃+O₂+M→CCl₃O₂+M,,,,,8.52E-36,0.00E+00,300,CCl₄ (Pulse radiolysis),Direct,18,"39,44,67"
-408,HCO+O₂+CO→HCOO₂+H₂+CO,,,,,>=1.0977367285E-30,0.00E+00,298,H₂CO/O₂ (P),Relative,50,"18,19"
-409,CH₃O+SO₂+M → CH₃OSO₂ +M,,,,,8.72E-37,0.00E+00,Room Temp.,CH₃ONO (P),Direct,43,"35,36"
-410,CH₃O₂+SO₂+M → CH₃O₂SO₂ +M,,,,,2.19E-38,0.00E+00,Room Temp.,CH₃N₂CH₃/O₂ (F.P.),See Notes,43,"18,20"
-411,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,7.42E-29,0.00E+00,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,78
-412,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,7.25E-36,0.00E+00,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,"39,44,68"
-413,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,2.01E-28,-3.80E+00,200-300,,,58,"15,39"
-414,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,8.72E-36,0.00E+00,200-300,,,58,"64,65,66"
-415,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,3.32E-36,0.00E+00,298,CH₃COCH₃ (F.P.),Direct,37,"18,65,66"
-416,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,8.72E-36,0,200-300,,,58,"86,87"
-417,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,3.47E-36,0.00E+00,298,,,58,"30,44,52"
-418,C₃H₅+O₂+M→C₃H₅O₂+M,,,,,"[1.3505112156E-37,6.3168155424E-37]",0.00E+00,382-453,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"39,44,50,51"
-419,C₃H₅+O₂+M→C₃H₅O₂+M,,,,,2.63E-37,0.00E+00,348,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"30,44,52"
-420,C₃H₅+O₂+M→C₃H₅O₂+M,,,,,,,,,,,"30,44,92"
-421,n-C₃H₇+O₂+M→n-C₃H₇O₂+M,,,,,1.10E-35,0.00E+00,200-300,,,58,"44,88"
-422,i-C₃H₇+O₂+M→i-C₃H₇O₂+M,,,,,2.51E-35,0.00E+00,200-300,,,58,"44,89"
-423,n-C₄H₉+O₂+M → n-C₄H₉O₂ + M,,,,,1.23E-35,0.00E+00,300,n-C₄H₉I (F.P.),Direct,38,
-424,s-C₄H₉+O₂+M → s-C₄H₉O₂ + M,,,,,2.76E-35,0.00E+00,300,s-C₄H₉I (F.P.),Direct,38,"44,52,86"
-425,t-C₄H₉+O₂+M → t-C₄H₉O₂ + M,,,,,3.89E-35,0.00E+00,300,t-C₄H₉I (F.P.),Direct,38,"44,52,86"
-426,CH₃CH(OH)CHCH₃ + O₂ +M →CH₃CH(OH)CHO₂CH₃+M,,,,,4.37E-35,0.00E+00,300,CH₃CH(OH)CHICH₃ (F.P.),Direct,38,"44,50,52"
-427,C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,,,1.74E-36,0.00E+00,295-372,C₆H₅CH₂Cl (Laser P),Direct,57,"44,50,52"
-428,C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,,,1.66E-36,0.00E+00,298,C₆H₅CH₂X (F.P.),Direct,62,"44,50,52"
-429,C₆H₅CO+O₂+M→C₆H₅CO₃+M,,,,,9.56E-36,0.00E+00,Room Temp.,C₆H₅COCH₃ (F.P.),Direct,37,"44,50,52"
-430,o-CH₃C₆H₄CH₂+O₂+M→o-CH₃C₆H₄CH₂O₂+M,,,,,2.00E-36,0.00E+00,298,o-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,85,91"
-431,p-CH₃C₆H₄CH₂+O₂+M→p-CH₃C₆H₄CH₂O₂+M,,,,,1.82E-36,0,298,p-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,90"
-432,OH+SO₂+N₂→HSO₃+N₂,,,,,2.76E-31,0.00E+00,298,,,23,"39,44,50,51"
-433,OH+SO₂+N₂→HSO₃+N₂,,,,,1.38E-36,0.00E+00,298,H₂O (F.P.),Direct,36,"44,90"
-434,OH+SO₂+N₂→HSO₃+N₂,,,,,2.51E-31,0.00E+00,298,H+NO₂ → OH + NO,Direct,49,"44,90"
-435,OH+SO₂+N₂→HSO₃+N₂,,,,,4.96E-31,-3.30E+00,200-300,,,58,"30,31"
-436,OH+SO₂+O₂→HSO₃+O₂,,,,,2.46E-31,0.00E+00,298,H+NO₂ → OH + NO,Direct,49,"44,48,49"
-437,OH+SO₂+O₂→HSO₃+O₂,,,,,4.96E-31,-3.30E+00,200-300,,,58,"48,77"
-438,OH+SO₂+He→HSO₃+He,-913,,,3.63E-33,,0.00E+00,261-414,H+NO₂ → OH + NO,Direct,49,"30,64"
-439,OH+SO₂+He→HSO₃+He,,,,,7.91E-32,-2.85E+00,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
-440,OH+SO₂+Ar→HSO₃+Ar,-1190,,,1.91E-38,,0.00E+00,298-424,H₂O (F.P.),Direct,22,"30,64"
-441,OH+SO₂+Ar→HSO₃+Ar,,,,,1.10E-31,0,298,H+NO₂ → OH + NO,Direct,49,"48,77"
-442,OH+SO₂+CO₂→HSO₃+CO₂,,,,,1.20E-30,0.00E+00,298,H+NO₂ → OH + NO,Direct,49,"48,77"
-443,OH+SO₂+SO₂→HSO₃+SO₂,-908,,,5.25E-32,,0.00E+00,261-414,H+NO₂ → OH + NO,Direct,49,"23,24,26"
-444,OH+SO₂+SO₂→HSO₃+SO₂,,,,,1.15E-30,-2.78,261-414,H+NO₂ → OH + NO,Direct,49,"48,77"
-445,OH+SO₂+SF₆→HSO₃+SF₆,-810,,,6.17E-38,,0.00E+00,298-424,H₂O (F.P.),Direct,22,"48,77"
-446,OH+SO₂+SF₆→HSO₃+SF₆,-750,,,2.09E-37,,0,298-424,H₂O (F.P.),Direct,22,"48,77"
-447,OH+SO₂+M→HSO₃+M,,,,,1.20E-36,0,297,HONO (P),Relative,41,"48,77"
-448,OH+SO₂+M→HSO₃+M,,,,,3.03E-31,-3.4,200-300,,,59,"23,25,27,28"
-449,OH+SO₂+M→HSO₃+M,,,,,3.32E-36,0.00E+00,200-300,,,59,"23,24,27,29"
-450,OH+SO₂+M→HSO₃+M,,,,,3.47E-36,0,200-300,,,58,"44,63"
-451,HO₂+CO+He→HCO₃+He,,,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,8,"30,57,64"
-452,HO₂+SO₂+He→HO₂SO₂+He,,,,,<=4.3701686298E-34,0.00E+00,298,H₂O₂ discharge or F+H₂O₂,Relative,8,"30,44,52,57"
-453,NH+N₂ +N₂ → NH₃+N₂,,,,,<1.0977367285E-38,0.00E+00,296,NH₃ (Pulsed P),Direct,45,"30,44,52"
-454,NH+NH₃ +He → N₂H₄+He,,,,,<2.7573899936E-36,0,296,NH₃ (Pulsed P),Direct,45,8
-455,NH+NH₃ +Ar → N₂H₄+Ar,,,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,45,8
-456,NH+NH₃ +N₂ → N₂H₄+N₂,,,,,<5.5017163419E-35,0.00E+00,296,NH₃ (Pulsed P),Direct,45,73
-457,NH+NH₃ +NH₃  → N₂H₄+NH₃,,,,,<2.7573899936E-33,0.00E+00,296,NH₃ (Pulsed P),Direct,45,73
-458,2NO+O₂→2NO₂,,,,,4.68E-38,0,296,NO/O₂/N₂ (T),Direct,52,73
-459,2NO+O₂→2NO₂,-880,,,,,,268,NO/O₂/N₂ (T),Direct,52,73
-460,2NO+Cl₂→2ClNO,2500,,,1.12E-37,,,250,,,63,73
-461,2NO+O₂→2NO₂,-880,,,,,,296,NO/O₂/N₂ (T),Direct,52,79
-462,2NO+Cl₂→2ClNO,2500,,,1.12E-37,,,500,,,63,79
-463,2NO+Br₂→2BrNO,,,,,8.72E-39,0,300,NO/Br₂ (T),Direct,4,30
-464,2NO+Br₂→2BrNO,630,,,1.32E-37,,,270,,,63,79
-465,2NO+Br₂→2BrNO,630,,,1.32E-37,,,330,,,63,30
-466,2NO₂+H₂O→HNO₂+HNO₃,,,,,8.72E-39,0,296,,,12,4
-467,2NO₂+CH₃OH→CH₃ONO+HNO₃,,,,,5.76E-37,0,298,NO₂/CH₃OH/O₂/N₂ (T),Direct,48,30
-468,S₂+S₂+H₂S→S₄+H₂S,,,,,2.19E-29,0,295,H₂S (Pulse Radiolysis),See Notes,7,30
-469,H+NO+H₂→HNO+H₂,,,,,4.58E-32,0.00E+00,294,H₂ (Pulse Radiolysis),Direct,7,12
-470,D+NO+H₂→HNO+D₂,,,,,4.37E-32,0.00E+00,294,D₂ (Pulse Radiolysis),Direct,7,68
-471,F+NO+He→FNO+He,0,,,8.92E-32,,,195,F₂ Discharge,Direct,10,7
-472,F+NO+He→FNO+He,0,,,8.92E-32,,,288,F₂ Discharge,Direct,10,12
-473,F+NO+He→FNO+He,,,,,8.33E-32,0.00E+00,250,,,27,12
-474,F+NO+He→FNO+He,,,,,8.33E-32,0.00E+00,300,,,27,20
-475,F+NO+NO→FNO+NO,-100,,,1.35E-31,,,195,F₂ Discharge,Direct,10,15
-476,F+NO+NO→FNO+NO,-100,,,1.35E-31,,,288,F₂ Discharge,Direct,10,15
-477,F+NO+M→FNO+M,,,,,5.79E-32,-1.7,200,,,23,29
-478,F+NO+M→FNO+M,,,,,5.79E-32,-1.7,300,,,23,29
-479,F+NO₂+M→Produts,,,,,3.31E-30,-2,200,,,23,15
-480,F+NO₂+M→Produts,,,,,3.31E-30,-2,300,,,23,15
-481,F+NO₂+M→Produts,,,,,3.31E-34,-1.00E+00,200,,,23,"29,30,36"
-482,F+NO₂+M→Produts,,,,,9.93E-31,-2.00E+00,200,,,22,"29,30,36"
-483,F+NO₂+M→Produts,,,,,3.47E-34,0.00E+00,200,,,22,"29,30,36"
-484,F+NO₂+M→Produts,,,,,3.31E-34,-1.00E+00,300,,,23,"29,30,36"
-485,F+NO₂+M→Produts,,,,,9.93E-31,-2.00E+00,300,,,22,"29,30,37"
-486,F+NO₂+M→Produts,,,,,3.47E-34,0,300,,,22,"29,30,38"
-487,F+NF₂+Ne→NF₃+Ne,,,,,2.29E-31,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,38"
-488,F+NF₂+Ne→NF₃+Ne,,,,,1.70E-31,0.00E+00,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,37"
-489,F+NF₂+Ne→NF₃+Ne,,,,,8.92E-32,0.00E+00,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,38"
-490,F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,1000,,,27,"29,30,38"
-491,Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,200,COCl₂ (F.P.),Direct,1,25
-492,F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,2000,,,27,26
-493,Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,400,COCl₂ (F.P.),Direct,1,"22,33"
-494,Cl+NO+He→NOCl+He,,,,,4.08E-32,0.00E+00,294,COCl₂ (F.P.),Direct,1,"1,2"
-495,Cl+NO+Ar→NOCl+Ar,,,,,4.37E-32,0.00E+00,294,COCl₂ (F.P.),Direct,1,29
-496,Cl+NO+M→NOCl+M,,,,,6.17E-36,0.00E+00,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,"22,33"
-497,Cl+NO+M→NOCl+M,-520,,,1.45E-32,,,200,,,27,"1,2"
-498,Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.60E+00,200,,,23,"1,3"
-499,Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2.00E+00,200,,,23,"1,4"
-500,Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1.00E+00,200,,,23,34
-501,Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.6,300,,,23,"29,35"
-502,Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2.00E+00,300,,,23,"29,30,36"
-503,Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1.00E+00,300,,,23,"29,30,36"
-504,Cl+NO₂+M→ClNO₂+M,,,,,1.35E-35,0,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,"29,30,37"
-505,Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2,200,,,23,"29,35"
-506,Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1.00E+00,200,,,23,"29,30,36"
-507,Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2.00E+00,300,,,23,"29,30,36"
-508,Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1,300,,,23,"29,30,37"
-509,Br+NO+He→BrNO+He,,,,,9.34E-33,0,300,Br₂ (F.P.),See Note,2,34
-510,I+CH₃+Kr→CH₃I+Kr,,,,,1.74E-35,0,294,CH₃I (P),Direct,21,"29,30,36"
-511,I+CD₃+Kr→CD₃I+Kr,,,,,5.50E-35,0,294,CD₃I (P),Direct,21,"29,30,37"
-512,I+CH₂I+Kr→CH₂I₂+Kr,,,,,2.19E-34,0.00E+00,294,CH₂I₂ (P),Direct,21,"29,30,36"
-513,I+C₂H₅+Kr→C₂H₅I+Kr,,,,,2.19E-35,0.00E+00,294,C₂H₅I (P),Direct,21,"29,30,37"
-514,I+NO+Ar→INO+Ar,,,,,1.02E-32,0,298,I₂ (F.P.),Direct,3,5
-515,I+NO+Ar→INO+Ar,,,,,9.13E-33,0.00E+00,328,I₂ (F.P.),Direct,3,"22,27,28"
-516,I+NO+H₂→INO+H₂,,,,,7.42E-33,0.00E+00,295,H₂/HI (Pulse radiolysis),Direct,17,"22,27,28"
-517,I+NO+M→INO+M,,,,,1.79E-32,-1,200,,,22,"22,27,28"
-518,I+NO+M→INO+M,,,,,2.76E-35,0,200,,,22,"22,27,28"
-519,I+NO₂+M→INO₂+M,,,,,3.03E-31,-1.00E+00,200,,,22,6
-520,I+NO₂+M→INO₂+M,,,,,1.10E-34,0,200,,,22,6
-521,O+NO+M→NO₂+M,-588,,,1.78E-32,,,298,Modulated N₂O/Hg*,Direct,4,
-522,O+NO+M→NO₂+M,-619,,,1.66E-32,,,298,Modulated N₂O/Hg*,Direct,4,"29,36,38"
-523,O+NO+M→NO₂+M,-265,,,6.03E-32,,,298,Modulated N₂O/Hg*,Direct,8,"22.29,37,38"
-524,I+NO+M→INO+M,,,,,1.79E-32,-1,300,,,22,"29,36,38"
-525,I+NO+M→INO+M,,,,,2.76E-35,0,300,,,22,"22.29,37,38"
-526,I+NO₂+M→INO₂+M,,,,,3.03E-31,-1.00E+00,300,,,22,"7,8"
-527,I+NO₂+M→INO₂+M,,,,,1.10E-34,0.00E+00,300,,,22,"7,9"
-528,O+NO+M→NO₂+M,-588,,,1.78E-32,,,554,Modulated N₂O/Hg*,Direct,4,"7,13"
-529,O+NO+M→NO₂+M,-619,,,1.66E-32,,,554,Modulated N₂O/Hg*,Direct,4,"29,36,38"
-530,O+NO+M→NO₂+M,-265,,,6.03E-32,,,574,Modulated N₂O/Hg*,Direct,8,"22.29,37,38"
-531,O+NO+M→NO₂+M,,,,,1.21E-31,-1.80E+00,200,,,23,"29,36,38"
-532,O+NO+M→NO₂+M,,,,,5.02E-35,0,200,,,23,"22.29,37,38"
-533,O+NO+M→NO₂+M,,,,,4.96E-35,0.3,300,,,22,"7,8"
-534,O+NO+M→NO₂+M,,,,,1.21E-31,-1.80E+00,300,,,23,"7,9"
-535,O+NO+M→NO₂+M,,,,,5.02E-35,0.00E+00,300,,,23,"7,13"
-536,O+NO+M→NO₂+M,,,,,4.96E-35,3.00E-01,1500,,,22,"29,30,36"
-537,O+NO+He→NO₂+He,,,,,4.17E-32,0.00E+00,298,N+NO→O+N₂,Direct,12,"22,29,30,37"
-538,O+NO+N₂→NO₂+N₂,,,,,7.77E-32,0.00E+00,298,N+NO→O+N₂,Direct,12,"29,37"
-539,O+NO+N₂→NO₂+N₂,,,,,1.10E-31,0.00E+00,299,NO (F.P.),Direct,24,"29,30,36"
-540,O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.60E+00,200,,,22,"22,29,30,37"
-541,O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,237,NO (F.P.),Direct,6,"29,37"
-542,O+NO+O₂→NO₂+O₂,,,,,8.55E-32,-1.80E+00,200,,,22,"17,18"
-543,O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.60E+00,300,,,22,17
-544,O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,397,NO (F.P.),Direct,6,31
-545,O+NO+SO₂→NO₂+SO₂,,,,,8.55E-32,0.00E+00,299,NO (F.P.),Direct,24,29
-546,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2.00E+00,200,,,23,11
-547,O+NO₂+M→NO₃+M,,,,,3.63E-35,0.00E+00,200,,,23,29
-548,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2.00E+00,200,,,22,29
-549,O+NO₂+M→NO₃+M,,,,,3.63E-35,0.00E+00,200,,,22,11
-550,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2.00E+00,300,,,23,29
-551,O+NO₂+M→NO₃+M,,,,,3.63E-35,0.00E+00,300,,,23,31
-552,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2.00E+00,400,,,22,"29,30,36"
-553,O+NO₂+M→NO₃+M,,,,,3.63E-35,0.00E+00,400,,,22,"22,29,30,37"
-554,H+CH₃+He→CH₄+He,,,,,1.45E-29,0.00E+00,295,H₂/He discharge/C₂H₄ (T),,4,"29,36,38"
-555,H+CH₃+NO→CH₄+NO,,,,,5.50E-28,0.00E+00,295,H₂/He discharge/C₂H₄ (T),,4,"29,36,37"
-556,H+HO+H₂O→H₂O+H₂O,,,,,3.81E-25,-2.00E+00,1000,,,6,"29,36,38"
-557,H+HO+H₂O→H₂O+H₂O,,,,,3.81E-25,-2.00E+00,3000,,,6,"29,36,37"
-558,H+HO+He→H₂O+He,,,,,4.41E-25,-2.60E+00,230,H₂/He discharge/NO₂,,7a,3
-559,H+HO+He→H₂O+He,,,,,4.41E-25,-2.60E+00,300,H₂/He discharge/NO₂,,7a,3
-560,H+HO+Ar→H₂O+Ar,,,,,2.29E-31,0.00E+00,300,H₂/He discharge/NO₂,,7a,"2,4"
-561,H+HO+N₂→H₂O+N₂,,,,,4.79E-31,0.00E+00,300,H₂/He discharge/NO₂,,7a,"2,3a"
-562,H+HO+CO₂→H₂O+CO₂,,,,,8.92E-31,0.00E+00,300,H₂/He discharge/NO₂,,7a,"2,5"
-563,H+HO+H₂→H₂O+H₂,,,,,2.46E-32,0.00E+00,873,H₂/N₂O/He (T),,8,"2,5"
-564,H+HO+H₂→H₂O+H₂,,-0.5,-2.4,1.48E-32,,,230,,,9,6a
-565,H+HO+H₂→H₂O+H₂,,-0.5,-2.4,1.48E-32,,,700,,,9,6a
-566,H+HO+H₂→H₂O+H₂,,,,,6.03E-32,0.00E+00,294,H₂/Hg*,,10,6a
-567,H+HO+H₂→H₂O+H₂,,,,,4.27E-32,0.00E+00,298,H₂/Hg*,,10a,6a
-568,H+HO+H₂→H₂O+H₂,,0.7,3,1.26E-32,,,298,H₂/Hg*,,10b,6a
-569,H+HO+H₂→H₂O+H₂,,0.7,3,1.26E-32,,,477,H₂/Hg*,,10b,3
-570,H+NO+NO→HNO+NO,,,,,5.25E-32,0,298,H₂/Hg*,,10b,5
-571,H+NO+N₂→HNO+N₂,,,,,3.89E-32,0,392,"N+NO→N₂+O
-O/NO/H₂/N₂ (T)",,11,5
-572,H+NO+Ar→HNO+Ar,,,,,2.40E-32,0,392,"N+NO→N₂+O
-O/NO/H₂/Ar (T)",,11,7
-573,H+NO+Kr→HNO+Kr,,,,,5.38E-32,0,294,H₂/Hg*,,10,17
-574,H+NO+He→HNO+He,,,,,4.27E-32,0,294,H₂/Hg*,,10,17
-575,H+NO+Ar→HNO+Ar,,,,,3.89E-32,0,294,H₂/Hg*,,10,17
-576,H+NO+Ne→HNO+Ne,,,,,2.09E-32,0,294,H₂/Hg*,,10,17
-577,H+NH₂+Ar→NH₃+Ar,,-7.56,-31.59,,1.32E-33,0,2000,,,9,8
-578,H+NH₂+Ar→NH₃+Ar,,-7.56,-31.59,,1.32E-33,0,3000,,,9,9
-579,F+NF₂+He→NF₃+He,,,,,8.92E-31,0,298,"N₂F₄ + 2NF₂
-N+NF₂→2F+N₂",,13,10
-580,Cl+NF₂+Ar→NF₂Cl + Ar,,,,,2.69E-31,0,293,Cl₂/Ar discharge; N₂F₄ (T),,14,10
-581,Br+NF₂+Ar→NF₂Br + Ar,,,,,1.00E-31,0,293,Br₂/Ar discharge; N₂F₄ (T),,14,10
-582,I+NO+He→INO+He,,,,,6.03E-33,0,330,I₂  (laser F.P.),,14a,"5,11"
-583,I+NO+Ne→INO+Ne,,,,,8.14E-33,0,330,I₂  (laser F.P.),,14a,"5,11"
-584,I+NO+Ar→INO+Ar,,,,,9.56E-33,0,330,I₂  (laser F.P.),,14a,2
-585,I+NO₂+Xe→INO₂+Xe,,,,,2.04E-32,0,330,I₂  (F.P.),,14a,12
-586,I+NO₂+H₂→INO₂+H₂,,,,,2.29E-32,0,330,I₂  (F.P.),,14a,"13,14"
-587,I+NO₂+D₂→INO₂+D₂,,,,,1.95E-32,0,330,I₂  (F.P.),,14a,"13,14"
-588,I+NO₂+N₂→INO₂+N₂,,,,,2.57E-32,0,330,I₂  (F.P.),,14a,14a
-589,I+NO₂+CO→INO₂+CO,,,,,2.69E-32,0,330,I₂  (F.P.),,14a,14a
-590,I+NO₂+O₂→INO₂+O₂,,,,,2.82E-32,0,330,I₂  (F.P.),,14a,14a
-591,I+NO₂+N₂O→INO₂+N₂O,,,,,3.81E-32,0,330,I₂  (F.P.),,14a,23
-592,I+NO₂+CO₂→INO₂+CO₂,,,,,3.55E-32,0,330,I₂  (F.P.),,14a,23
-593,I+NO₂+CH₄→INO₂+CH₄,,,,,3.55E-32,0,330,I₂  (F.P.),,14a,23
-594,I+NO₂+CF₄→INO₂+CF₄,,,,,3.24E-32,0,330,I₂  (F.P.),,14a,23
-595,I+NO₂+C₂H₄→INO₂+C₂H₄,,,,,4.37E-32,0,330,I₂  (F.P.),,14a,23
-596,I+NO₂+SF₆→INO₂+SF₆,,,,,3.24E-32,0,330,I₂  (F.P.),,14a,23
-597,I+NO₂+C₂H₆→INO₂+C₂H₆,,,,,4.58E-32,0,330,I₂  (F.P.),,14a,23
-598,I+NO₂+C₂F₆→INO₂+C₂F₆,,,,,4.79E-32,0,330,I₂  (F.P.),,14a,23
-599,I+NO₂+C₃H₈→INO₂+C₃H₈,,,,,5.50E-32,0,330,I₂  (F.P.),,14a,23
-600,I+NO₂+C₃F₈→INO₂+C₃F₈,,,,,4.90E-32,0,330,I₂  (F.P.),,14a,23
-601,I+NO₂+n-C₄H₁₀→INO₂+n-C₄H₁₀,,,,,6.17E-32,0,330,I₂  (F.P.),,14a,23
-602,I+NO₂+i-C₄H₁₀→INO₂+i-C₄H₁₀,,,,,5.90E-32,0,330,I₂  (F.P.),,14a,23
-603,I+NO₂+neo-C₅H₁₂→INO₂+neo-C₅H₁₂,,,,,5.76E-32,0,330,I₂  (F.P.),,14a,23
-604,I+NO₂+(CH₃)₃CC₂H₅→INO₂+(CH₃)₃CC₂H₅,,,,,6.77E-32,0,330,I₂  (F.P.),,14a,23
-605,I+NO₂+(CH₃)₂CHCH₂CH(CH₃)₂→INO₂+M,,,,,6.93E-32,0,330,I₂  (F.P.),,14a,23
-606,I+NO₂+(CH₃)₂CCH₂CH(CH₃)₂→INO₂+M,,,,,7.59E-32,0,330,I₂  (F.P.),,14a,23
-607,O+NO+Ne→ NO₂+Ne,,-1,-4.2,9.34E-33,,,217,NO (F.P.),,26,23
-608,O+NO+He→ NO₂+He,,-1,-4.2,1.07E-32,,,217,NO (F.P.),,26,23
-609,O+NO+He→ NO₂+He,,-1,-4.2,1.07E-32,,,500,NO (F.P.),,26,23
-610,O+NO+Ar→ NO₂+Ar,,,,,6.46E-32,0,292,N+NO→ N₂+O,,11,23
-611,O+NO+Ar→ NO₂+Ar,,-0.9,-3.9,1.45E-32,,,298,O₂ and NO (F.P.),,11a,23
-612,O+NO+Ar→ NO₂+Ar,,-0.9,-3.9,1.45E-32,,,439,O₂ and NO (F.P.),,11a,23
-613,O+NO+Ar→ NO₂+Ar,,-1.2,-5,8.92E-33,,,217,NO (F.P.),,26,24
-614,O+NO+Ar→ NO₂+Ar,,-1.2,-5,8.92E-33,,,500,NO (F.P.),,26,24
-615,O+NO+Kr→ NO₂+Kr,,-1.1,-4.6,9.56E-33,,,217,NO (F.P.),,26,24
-616,O+NO+Kr→ NO₂+Kr,,-1.1,-4.6,9.56E-33,,,500,NO (F.P.),,26,24
-617,O+NO+N₂→ NO₂+N₂,,-1.8,-7.5,5.02E-33,,,285,N+NO→ N₂+O,,11,9
-618,O+NO+N₂→ NO₂+N₂,,-1.8,-7.5,5.02E-33,,,425,N+NO→ N₂+O,,11,9
-619,O+NO+N₂→ NO₂+N₂,,,,,6.46E-32,0,295,NO₂ (P),,15,9
-620,O+NO+N₂→ NO₂+N₂,,,,,5.02E-35,0,295,NO₂ (P),,15,24
-621,O+NO+N₂→ NO₂+N₂,,-1.2,-4.8,1.55E-32,,,217,NO (F.P.),,15a,24
-622,O+NO+N₂→ NO₂+N₂,,-1.2,-4.8,1.55E-32,,,500,NO (F.P.),,15a,24
-623,O+NO+O₂→ NO₂+O₂,,,,,7.09E-32,0,294,NO₂ (P.),,16,24
-624,O+NO+O₂/Ar→ NO₂+O₂/Ar,,-1.8,-7.8,3.02E-33,,,200,,,9,9
-625,O+NO+O₂/Ar→ NO₂+O₂/Ar,,-1.8,-7.8,3.02E-33,,,500,,,9,9
-626,O+NO+N₂O→ NO₂+N₂O,,-0.9,-3.8,2.63E-32,,,300,NO₂ (P.),,17,15
-627,O+NO+N₂O→ NO₂+N₂O,,-0.9,-3.8,2.63E-32,,,392,NO₂ (P.),,17,"2,15,16"
-628,O+NO+N₂O→ NO₂+N₂O,,,,,1.59E-31,0,299,N₂O/Hg* (P.),,18,16a
-629,O+NO+N₂O→ NO₂+N₂O,,-1.2,-5.1,1.66E-32,,,298,N₂O/Hg* (P.),,19,16a
-630,O+NO+N₂O→ NO₂+N₂O,,-1.2,-5.1,1.66E-32,,,473,N₂O/Hg* (P.),,19,
-631,O+NO+N₂O→ NO₂+N₂O,,-1.6,-6.7,7.25E-33,,,298,N₂O/Hg* (P.),,20,5
-632,O+NO+N₂O→ NO₂+N₂O,,-1.6,-6.7,7.25E-33,,,473,N₂O/Hg* (P.),,20,5
-633,O+NO+N₂O→ NO₂+N₂O,,,,,1.18E-31,0,294,N₂O/Hg* (P.),,21,17
-634,O+NO+N₂→ NO₂+N₂,,,,,7.95E-32,0,295,NO₂ (P.),,15,17
-635,O+NO+N₂→ NO₂+N₂,,,,,3.55E-35,0,295,NO₂ (P.),,15,17
-636,O+NO+N₂→ NO₂+N₂,,,,,6.32E-32,0,295,,,9,17
-637,O+NO+N₂→ NO₂+N₂,,,,,8.14E-32,0,297,NO₂ (P.),,27,17
-638,O+SO+N₂→ SO₂+N₂,,,,,1.86E-31,0,298,,,22,17
-639,S+CS+Ar→CS₂+Ar,,-8.7,-36.3,2.40E-34,,,1800,,,23,17
-640,S+CS+Ar→CS₂+Ar,,-8.7,-36.3,2.40E-34,,,3700,,,23,2
-641,Pb+NO+He→ Products,,,,,2.00E-30,0,300,PbEt₄ - pulse irraditation,,23,15
-642,Pb+NO+N₂→ Products,,,,,1.20E-30,0,300,PbEt₄ - pulse irraditation,,23,27
-643,Pb+NO+CO→ Products,,,,,2.57E-31,0,300,PbEt₄ - pulse irraditation,,23,5
-644,Pb+NO+CO₂→ Products,,,,,1.70E-30,0,300,PbEt₄ - pulse irraditation,,23,"21,22"
-645,Pb+NO+CH₄→ Products,,,,,7.09E-31,0,300,PbEt₄ - pulse irraditation,,23,5
-646,Pb+NO+CF₄→ Products,,,,,3.09E-30,0,300,PbEt₄ - pulse irraditation,,23,18
-647,Pb+NO+SF₆→ Products,,,,,8.72E-31,0,300,PbEt₄ - pulse irraditation,,23,18
-648,Pb+NO+C₂H₆→ Products,,,,,1.00E-30,0,300,PbEt₄ - pulse irraditation,,23,18
-649,Sb+NO+He→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18
-650,Sb+NO+N₂→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18
-651,Sb+NO+SF₆→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18
-652,Bi+NO+He→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18
-653,Bi+NO+N₂→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18
-654,Bi+NO+SF₆→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18
+",Direct,1,,"Hack, W., Wagner, H. Gg., and Hoyermann, K., Ber. Bunsenges. Phys. Chem., 82, 713, 1978."
+284,H + O₂ + O₂ →   HO₂  + O₂,,,,,5.79E-32,-1,200,H₂ discharge,Direct,58,11,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+285,H + O₂ + O₂ →   HO₂  + O₂,,,,,5.79E-32,-1,300,H₂ discharge,Direct,58,41,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+286,H + O₂ + N₂ → HO₂  + N₂,,,,,5.79E-32,-1,200,,,58,1,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+287,H + O₂ + N₂ → HO₂  + N₂,,,,,5.79E-32,-1,300,,,58,"30,64","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+288,H + O₂ + N₂ → HO₂  + N₂,,,,,3.32E-32,0,425,O+H₂ → OH + H and O+OH → O₂ + H,See Notes,5,"30,64","Campbell, I. M., Rogerson, J. S., and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 2672, 1978."
+289,H + O₂ + H₂O → HO₂  + H₂O,,,,,8.72E-32,0,1500,CH₄/ air flame,See Notes,33,"30,64","Teets, R. E. and Bechtel, J. H., Symp. (Int.) Combust., [Proc.], 18, 425, 1981."
+290,H + O₂  + M →  HO₂ + M,,,,,1.38E-36,0,349,NH₃/O₂ (Pulse radiolysis),See Notes,15,"30,64","Pagsberg, P. B., Eriksen, J., and Christensen, H. C., J. Phys. Chem., 83. 582, 1979."
+291,H + O₂  + M →  HO₂ + M,,,,,5.51E-32,-1.6,200,,,58,5,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+292,H + O₂  + M →  HO₂ + M,,,,,5.51E-32,-1.6,300,,,58,"38,42,43","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+293,H+CO+H₂ → HCO + H₂,,,,,1.05E-34,0,Room Temp,H₂O/CO/H₂ (F.P),See Notes,31,15,"Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980."
+294,H+CO+N₂ → HCO + N₂,,,,,3.99E-34,0,425,O+H₂ → OH +H,See Notes,2,"30,52","Campbell, I. M. and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 316, 1978."
+295,H+CO+Ar → HCO + Ar,,,,,2.69E-34,0,425,O+H₂ → OH +H,See Notes,2,"30,52","Campbell, I. M. and Handy, B. J., J. Chem. Soc., Faraday Trans. 1, 74, 316, 1978."
+296,H+CO+CH₄→ HCO + CH₄,,,,,1.59E-34,0,Room Temp,H₂O/CO/CH₄ (F.P),See Notes,31,"39,40","Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980."
+297,H+CO+CH₄→ HCO + CH₄,,,,,1.00E-34,0,Room Temp,H₂O/CO (F.P),See Notes,31,2,"Hochanadel, C. J., Sworski, T. J., and Ogren, P. J., J. Phys. Chem., 84, 231, 1980."
+298,H+SO₂ + M → HSO₂ + M,,,,,6.03E-33,0,305,H₂/maser,Direct,56,"44,69,72","Gordon, E. B., Ivanov, B. I., Perminov, A. P., and Balalaev, V. E., Chem. Phys., 35, 79, 1978."
+299,D+O₂+D → DO₂ + D₂,,,,,2.89E-32,0,Room Temp,D₂ (Pulse Radiolysis),Direct,11,69,"Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979."
+300,O+O₂+He → O₃ +He,,,,,2.51E-34,0,296,O₂ (Pulse Radiolysis),Direct,20,69,"Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+301,O+O₂+He → O₃ +He,,,,,3.47E-34,0,298,O₂ / He (F.P),Direct,40,84,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+302,O+O₂+Ar→ O₃ + Ar,-525,,,6.17E-35,,0,263,O₃ (Laser F.P),Direct,20,11,"Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+303,O+O₂+Ar→ O₃ + Ar,-535,,,6.32E-35,,0,219,O₂ / Ar (F.P),Direct,39,10,"Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+304,O+O₂+Ar→ O₃ + Ar,-687,,,,3.72E-35,0,220,O₂ / Ar (F.P),Direct,40,53,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+305,O+O₂+N₂→ O₃ + N₂,-995,,,1.82E-35,,0,263,O₃ (Laser F.P),Direct,10,10,"Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979."
+306,O+O₂+N₂→ O₃ + N₂,-575,,,8.72E-35,,0,219,O₂/N₂ (F.P),Direct,39,"53,54","Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+307,O+O₂+N₂→ O₃ + N₂,-724,,,5.02E-35,,0,218,O₂/N₂ (F.P),Direct,40,"53,59","Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+308,O+O₂+N₂→ O₃ + N₂,,,,,5.79E-34,-2.8,200,,,58,10,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+309,O+O₂+O₂→O₃+O₂,-635,,,6.77E-35,,0,262,O₃ (Laser F.P),Direct,10,"53,55","Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979."
+310,O+O₂+Ar→ O₃ + Ar,-525,,,6.17E-35,,0,298,O₃ (Laser F.P),Direct,20,"53,60","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+311,O+O₂+Ar→ O₃ + Ar,-535,,,6.32E-35,,0,368,O₂ / Ar (F.P),Direct,39,86,"Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+312,O+O₂+Ar→ O₃ + Ar,-687,,,,3.72E-35,0,353,O₂ / Ar (F.P),Direct,40,10,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+313,O+O₂+N₂→ O₃ + N₂,-995,,,1.82E-35,,0,309,O₃ (Laser F.P),Direct,10,10,"Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979."
+314,O+O₂+N₂→ O₃ + N₂,-575,,,8.72E-35,,0,368,O₂/N₂ (F.P),Direct,39,"53,54","Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+315,O+O₂+N₂→ O₃ + N₂,-724,,,5.02E-35,,0,366,O₂/N₂ (F.P),Direct,40,"53,59","Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+316,O+O₂+N₂→ O₃ + N₂,,,,,5.79E-34,-2.8,300,,,58,10,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+317,O+O₂+O₂→O₃+O₂,-635,,,6.77E-35,,0,319,O₃ (Laser F.P),Direct,10,"53,55","Arnold, I. and Comes, F. J., Chem. Phys., 42, 231, 1979."
+318,O+O₂+O₂→O₃+O₂,,,,,1.10E-33,0,296,O₂ (Pulse Radiolysis),Direct,20,"53,60","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+319,O+O₂+O₂→O₃+O₂,,,,,4.08E-34,0,Room Temp,O₃/O₂ (F.P),See Notes,21,86,"Ogren, P. J., Sworski, T. J., Hochanadel, C. J., and Cassel, J. M., J. Phys. Chem., 86, 238, 1982."
+320,O+O₂+O₂→O₃+O₂,,,,,4.37E-34,0,300,O₂ discharge,Direct,35,10,"Flesca, N. G., Diamy, A.-M., and Ben-Aim, R. I., J. Chim. Phys. Phys. Chim. Biol., 76, 681, 1979."
+321,O+O₂+O₂→O₃+O₂,-345,,,,,0,219,O₂ (F.P),Direct,39,10,"Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+322,O+O₂+O₂→O₃+O₂,-663,,,,,0,227,O₂ (F.P),Direct,40,22,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+323,O+O₂+O₂→O₃+O₂,,,,,6.34E-34,-2,200,,,58,,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+324,O+O₂+M → O₃+ M,-525,,,,,0,220,,,39,"53,56","Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+325,O+O₂+M → O₃+ M,,,,,6.34E-34,-1.9,220,,,39,53.61,"Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+326,O+O₂+M → O₃+ M,-715,,,,,0,218,,,40,86,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+327,O+O₂+M → O₃+ M,,,,,5.76E-34,-2.57,218,,,40,"57,58","Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+328,O+O₂+M → O₃+ M,,,,,6.07E-34,-2.3,200,,,58,"57,58","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+329,O+O₂+M → O₃+ M,,,,4.68E-36,,0,200,,,58,"57,62","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+330,O+CO+M→CO₂+M,-2300,,,7.77E-35,,0,1300,See Notes,See Notes,3,"57,62","Hardy, J. E., Gardiner, W. C., Jr., and Burcat, A., Int. J. Chem. Kinet.. 10, 503, 1978."
+331,O+CO+M→CO₂+M,805,,,,,0,348,CO/O₃ (T),Relative,53,"57,86","Toby, S. and Ullrich, E., Int. J. Chem. Kinet., 12, 535, 1980."
+332,O+O₂+O₂→O₃+O₂,-345,,,,,0,368,O₂ (F.P),Direct,39,"30,44,52","Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+333,O+O₂+O₂→O₃+O₂,-663,,,,,0,353,O₂ (F.P),Direct,40,3,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+334,O+O₂+O₂→O₃+O₂,,,,,6.34E-34,-2,300,,,58,"80,81","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+335,O+O₂+M → O₃+ M,-525,,,,,0,360,,,39,"53,56","Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+336,O+O₂+M → O₃+ M,,,,,6.34E-34,-1.9,360,,,39,53.61,"Klais, O., Anderson, P. C., and Kurylo, M. J., Int. J. Chem. Kinet., 12, 469, 1980."
+337,O+O₂+M → O₃+ M,-715,,,,,0,366,,,40,86,"Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+338,O+O₂+M → O₃+ M,,,,,5.76E-34,-2.57,366,,,40,"57,58","Lin, C. L. and Leu, M. T., Int. J. Chem. Kinet., 14, 417, 1982."
+339,O+O₂+M → O₃+ M,,,,,6.07E-34,-2.3,300,,,58,"57,58","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+340,O+O₂+M → O₃+ M,,,,4.68E-36,,0,300,,,58,"57,62","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+341,O+CO+M→CO₂+M,-2300,,,7.77E-35,,0,2200,See Notes,See Notes,3,"57,62","Hardy, J. E., Gardiner, W. C., Jr., and Burcat, A., Int. J. Chem. Kinet.. 10, 503, 1978."
+342,O+CO+M→CO₂+M,805,,,,,0,433,CO/O₃ (T),Relative,53,"57,86","Toby, S. and Ullrich, E., Int. J. Chem. Kinet., 12, 535, 1980."
+343,O+CO+He→CO₂+He,,,,,1.00E-35,0,294,CO (Pulse radiolysis),Direct,20,"30,44,52","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+344,O+CO₂+He→CO₃+He,,,,,2.76E-35,0,294,CO (Pulse radiolysis),Direct,20,3,"Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+345,O+CO+CO → CO₂ + CO,,,,,<4.3701686298E-36,0,296,CO₂ (Pulse radiolysis),Direct,20,"80,81","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 1344, 1980."
+346,O+SO₂+ M → SO₃ + M,,,,,2.04E-33,0,2250,CH₄/H₂S/air flame,See Notes,30,10,"Merryman, E. L. and Levy, A., Symp. (Int.) Combust., [Proc.). 17, 727, 1979."
+347,O+SO₂+ M → SO₃ + M,-3163,,,1.20E-33,,0,1435,CO/SO₂/O₂/Ar flame,See Notes,29,10,"Smith, O. I., Tseregounis, S., and Wang, S., Int. J. Chem. Kinet., 14, 679, 1982."
+348,O+SO₂+ M → SO₃ + M,1000,,,4.08E-32,,0,200,,,58,10,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+349,O+SO₂+ M → SO₃ + M,-3163,,,1.20E-33,,0,1850,CO/SO₂/O₂/Ar flame,See Notes,29,38,"Smith, O. I., Tseregounis, S., and Wang, S., Int. J. Chem. Kinet., 14, 679, 1982."
+350,O+SO₂+ M → SO₃ + M,1000,,,4.08E-32,,0,400,,,58,37,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+351,O+SO₂+ M → SO₃ + M,,,,,1.41E-33,0,298,,,58,"64,86,87","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+352,O+SO₂+ N₂ → SO₃ + N₂,,,,,1.35E-33,0,299,SO₂/NO (F.P),Direct,6,37,"Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978."
+353,O+SO₂+ Ar → SO₃ + Ar,1010,,,3.09E-32,,0,299-400,SO₂/NO (F.P),Direct,6,"64,86,87","Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978."
+354,O+SO₂+ SO₂ → SO₃ + SO₂,,,,,9.56E-33,0,299,SO₂/NO (F.P),Direct,6,"30,64,87","Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978."
+355,F+O₂ + M → FO₂ + M,-905,,,2.76E-34,,0,223,F₂ discharge,Direct,46,6,"Shamonima, N. F. and Kotov, A. G., Kinet. Katal., 20, 233, 1979."
+356,F+O₂ + M → FO₂ + M,-905,,,2.76E-34,,0,293,F₂ discharge,Direct,46,6,"Shamonima, N. F. and Kotov, A. G., Kinet. Katal., 20, 233, 1979."
+357,F+O₂ + M → FO₂ + M,,,,,3.17E-33,0,296,F₂ (Laser P),Direct,16,6,"Smith, I. W. M. and Wrigley, D. J., Chem. Phys. Lett., 70, 481, 1980."
+358,F+O₂ + M → FO₂ + M,,,,,3.72E-33,0,295,F₂ (Laser F.P.),Direct,17,"74,75","Smith, I. W. M. and Wrigley, D. J., Chem. Phys., 63, 321, 1981."
+359,F+O₂ + M → FO₂ + M,,,,,1.10E-32,0,Room Temp.,WF₆/H₂/O₂/He (Laser F.P.),Direct,47,"74,75","Chebotarev, N. F., Kinet. Katal., 20, 1381, 1979."
+360,F+O₂ + M → FO₂ + M,,,,,5.76E-33,0,291,,,63,16,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+361,F+O₂ + M → FO₂ + M,,,,,1.60E-32,-1.4,200,,,59,"16,17","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+362,F+O₂ + M → FO₂ + M,,,,,1.30E-32,-1.4,200,,,58,76,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+363,F+O₂ + M → FO₂ + M,,,,,5.50E-35,0,200,,,58,"30,65","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+364,F+O₂ + M → FO₂ + M,,,,,5.76E-33,0,300,,,63,"30,57,64","Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+365,F+O₂ + M → FO₂ + M,,,,,1.60E-32,-1.4,300,,,59,"30,64,87","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+366,F+O₂ + M → FO₂ + M,,,,,1.30E-32,-1.4,300,,,58,"30,44,52","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+367,F+O₂ + M → FO₂ + M,,,,,5.50E-35,0,300,,,58,"30,65","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+368,F+CO+He→COF+He,,,,,5.50E-32,0,295,,,63,"30,57,64","Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+369,Cl+O₂+M → ClO₂+M,,,,,2.29E-34,0,298,Cl₂/H₂/O₂ (F.P.),Relative,"14,24","30,64,87","Streit, G. E., Wells, J. S., Fehsenfeld, F. C., and Howard, C. J., J. Chem. Phys., 70, 3439, 1979. , Kharitonov, A. P., Suetinov, A. P., and Moskvin, Yu. L., Kinet. Katal., 22, 858, 1981."
+370,Cl+O₂+M → ClO₂+M,,,,,2.01E-33,-1.4,200,,,59,"30,44,52","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+371,Cl+O₂+M → ClO₂+M,,,,,2.01E-33,-1.4,300,,,59,30,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+372,Cl+SO₂+Ar→ClSO₂+Ar,,,,,1.29E-33,0,295,Cl₂ discharge,Direct,9,14,"Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979."
+373,Cl+SO₂+N₂→ClSO₂+N₂,,,,,2.29E-33,0,295,Cl₂ discharge,Direct,9,"30,57,64","Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979."
+374,Cl+SO₂+SO₂→ClSO₂+SO₂,,,,,1.91E-32,0,295,Cl₂ discharge,Direct,9,"30,57,64","Stratton, L. W., Eibling, R. E., and Kaufmann, M., Atmos. Environ.. 13, 175, 1979."
+375,Na+O₂+He→NaO₂+He,,,,,5.50E-31,0,724,NaI (F.P.),Direct,25,9,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+376,Na+O₂+N₂→NaO₂+N₂,,,,,1.00E-30,0,724,NaI (F.P.),Direct,25,9,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+377,Na+O₂+CO₂→NaO₂+CO₂,,,,,2.19E-30,0,724,NaI (F.P.),Direct,25,9,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+378,K+O₂+He→KO₂+He,,,,,9.93E-28,-1,753,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+379,K+O₂+N₂→KO₂+N₂,,,,,1.71E-27,-1,753,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+380,K+O₂+CO₂→KO₂+CO₂,,,,,5.51E-27,-1,753,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+381,Na+O₂+He→NaO₂+He,,,,,5.50E-31,0,844,NaI (F.P.),Direct,25,34,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+382,Na+O₂+N₂→NaO₂+N₂,,,,,1.00E-30,0,844,NaI (F.P.),Direct,25,34,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+383,Na+O₂+CO₂→NaO₂+CO₂,,,,,2.19E-30,0,844,NaI (F.P.),Direct,25,34,"Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 163, 1982."
+384,K+O₂+He→KO₂+He,,,,,9.93E-28,-1,873,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+385,K+O₂+N₂→KO₂+N₂,,,,,1.71E-27,-1,873,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+386,K+O₂+CO₂→KO₂+CO₂,,,,,5.51E-27,-1,873,KI (F.P.),Direct,26,"32,33","Husain, D. and Plane, J. M. C., J. Chem. Soc., Faraday Trans. 2, 78, 1175, 1982."
+387,CH₃+O₂+M→CH₃O₂+M,,,,,"[2.7573899936E-32,5.5017163419E-32 ]",0,295,F₂/CH₄/O₂ (T),Direct,51,34,"Nadtochenko, V. A., Fedotov, N. G., Vedeneev, V. I., and Sarkisov, O. M., Dokl. Akad. Nauk. SSSR., 238, 1391, 1978."
+388,CH₃+O₂+M→CH₃O₂+M,,,,,1.59E-31,0,298,O+C₂H₄ → CH₃ + HCO,Relative,19,34,"Washida, N., J. Chem. Phys., 73, 1665, 1980."
+389,CH₃+O₂+M→CH₃O₂+M,,,,,3.39E-31,0,295,F+CH₄ → CH₃ + HF,Direct,27,34,"Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 14, 861, 1982."
+390,CH₃+O₂+M→CH₃O₂+M,,,,,5.51E-31,-2,200,,,"58,59",,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984., DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83.
+"
+391,CH₃+O₂+M→CH₃O₂+M,,,,,3.31E-36,-1.7,200,,,59,21,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+392,CH₃+O₂+M→CH₃O₂+M,,,,,3.02E-36,0,200,,,58,35,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+393,CH₃+O₂+M→CH₃O₂+M,,,,,5.51E-31,-2,300,,,"58,59","57,86,87","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984., DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83.
+"
+394,CH₃+O₂+M→CH₃O₂+M,,,,,3.31E-36,-1.7,300,,,59,"30,52,57","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+395,CH₃+O₂+M→CH₃O₂+M,,,,,3.02E-36,0,300,,,58,"30,44,52","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+396,CH₃+CO+M→CH₃CO+M,,,,,3.02E-42,0,298,(CH₃)₂N₂ (Modulated P),Relative,34,"57,86,87","Parkes, D. A., Chem. Phys. Lett., 77, 527, 1981."
+397,CH₃+CO+M→CH₃CO+M,,,,,1.10E-41,0,298,(CH₃)₂N₂ (Modulated P),See Notes,54,"30,52,57","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+398,CH₃+CO+M→CH₃CO+M,3020,,,2.00E-37,,0,263,(CH₃)₂N₂ (Modulated P),See Notes,54,"30,44,52","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+399,CH₃+CO+M→CH₃CO+M,3020,,,2.00E-37,,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,45,46","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+400,CH₃+CO+M→CH₃CO+M,,,,,5.76E-36,0,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"44,45,47","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+401,CH₃+CO+M→CH₃CO+M,,,,,2.63E-41,0,303,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+402,CH₃+CO+M→CH₃CO+M,,,,,1.07E-35,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"80,82,83","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+403,CH₃+CO+M→CH₃CO+M,,,,,9.56E-41,0,343,(CH₃)₂N₂ (Modulated P),See Notes,54,"64,82,83","Anastasi, C. and Maw, P. R., J. Chem. Soc., Faraday Trans. 1. 78, 2423. 1982."
+404,CH₃+SO₂+M→CH₃SO₂+M,,,,,<=1.3819686629E-36,0,Room Temp.,CH₃N₂CH₃ (P),Relative,43,"44,52,82,83","Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981."
+405,CF₃+O₂+M→CF₃O₂+M,,,,,1.66E-35,0,300,CF₃Cl (Pulse radiolysis),Direct,18,"64,82,83","Cooper, R., Cumming, J. B., Gordon, S., and Mulac, W. A., Radiat. Phys. Chem., 16, 169, 1980."
+406,CF₃+O₂+M→CF₃O₂+M,,,,,1.78E-29,0,295,CF₄ discharge,Direct,28,"44,52,82,83","Ryan, K. R. and Plumb, I. C., J. Phys. Chem., 86, 4678, 1982."
+407,CCl₃+O₂+M→CCl₃O₂+M,,,,,8.52E-36,0,300,CCl₄ (Pulse radiolysis),Direct,18,"39,44,67","Cooper, R., Cumming, J. B., Gordon, S., and Mulac, W. A., Radiat. Phys. Chem., 16, 169, 1980."
+408,HCO+O₂+CO→HCOO₂+H₂+CO,,,,,>=1.0977367285E-30,0,298,H₂CO/O₂ (P),Relative,50,"18,19","Horowitz, A., Su., F., and Calvert, J. G., Int. J. Chem. Kinetc., 10, 1099,1978."
+409,CH₃O+SO₂+M → CH₃OSO₂ +M,,,,,8.72E-37,0,Room Temp.,CH₃ONO (P),Direct,43,"35,36","Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981."
+410,CH₃O₂+SO₂+M → CH₃O₂SO₂ +M,,,,,2.19E-38,0,Room Temp.,CH₃N₂CH₃/O₂ (F.P.),See Notes,43,"18,20","Kan, C. S., Calvert, J. G., and Shaw, J. H., J. Phys. Chem., 85, 1126, 1981."
+411,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,7.42E-29,0,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,78,"Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 13, 1011, 1981."
+412,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,7.25E-36,0,295,Cl+C₂H₆+C₂H₅+HCl,Direct,42,"39,44,68","Plumb, I. C. and Ryan, K. R., Int. J. Chem. Kinetc., 13, 1011, 1981."
+413,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,2.01E-28,-3.8,200-300,,,58,"15,39","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+414,C₂H₅+O₂+M→C₂H₅O₂+M,,,,,8.72E-36,0,200-300,,,58,"64,65,66","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+415,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,3.32E-36,0,298,CH₃COCH₃ (F.P.),Direct,37,"18,65,66","McDade, C. E., Lenhardt, T. M., and Bayes, K. D., J. Photochem., 20, 1, 1982."
+416,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,8.72E-36,0,200-300,,,58,"86,87","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+417,CH₃CO+O₂ + M → CH₃CO₃+M,,,,,3.47E-36,0,298,,,58,"30,44,52","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+418,C₃H₅+O₂+M→C₃H₅O₂+M,,,,,"[1.3505112156E-37,6.3168155424E-37]",0,382-453,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"39,44,50,51","Ruiz, R. P., Bayes, K. D., Macpherson, M. T., and Pilling, M.J., J. Phys. Chem., 85, 1622, 1981."
+419,C₃H₅+O₂+M→C₃H₅O₂+M,,,,,2.63E-37,0,348,"Hexa-1,5-diene (Laser F.P.) ",Direct,61,"30,44,52","Ruiz, R. P., Bayes, K. D., Macpherson, M. T., and Pilling, M.J., J. Phys. Chem., 85, 1622, 1981."
+420,n-C₃H₇+O₂+M→n-C₃H₇O₂+M,,,,,1.10E-35,0,200-300,,,58,"44,88","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+421,i-C₃H₇+O₂+M→i-C₃H₇O₂+M,,,,,2.51E-35,0,200-300,,,58,"44,89","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+422,n-C₄H₉+O₂+M → n-C₄H₉O₂ + M,,,,,1.23E-35,0,300,n-C₄H₉I (F.P.),Direct,38,,"Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980."
+423,s-C₄H₉+O₂+M → s-C₄H₉O₂ + M,,,,,2.76E-35,0,300,s-C₄H₉I (F.P.),Direct,38,"44,52,86","Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980."
+424,t-C₄H₉+O₂+M → t-C₄H₉O₂ + M,,,,,3.89E-35,0,300,t-C₄H₉I (F.P.),Direct,38,"44,52,86","Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980."
+425,CH₃CH(OH)CHCH₃ + O₂ +M →CH₃CH(OH)CHO₂CH₃+M,,,,,4.37E-35,0,300,CH₃CH(OH)CHICH₃ (F.P.),Direct,38,"44,50,52","Lenhardt, T. M., McDade, C. E., and Bayes, K. C., J. Chem. Phys., 72, 394, 1980."
+426,C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,,,1.74E-36,0,295-372,C₆H₅CH₂Cl (Laser P),Direct,57,"44,50,52","Nelson, H. H., and McDonald, J. R., J. Phys. Chem., 86, 1242, 1982."
+427,C₆H₅CH₂+O₂+M→C₆H₅CH₂O₂+M,,,,,1.66E-36,0,298,C₆H₅CH₂X (F.P.),Direct,62,"44,50,52","Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981."
+428,C₆H₅CO+O₂+M→C₆H₅CO₃+M,,,,,9.56E-36,0,Room Temp.,C₆H₅COCH₃ (F.P.),Direct,37,"44,50,52","McDade, C. E., Lenhardt, T. M., and Bayes, K. D., J. Photochem., 20, 1, 1982."
+429,o-CH₃C₆H₄CH₂+O₂+M→o-CH₃C₆H₄CH₂O₂+M,,,,,2.00E-36,0,298,o-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,85,91","Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981."
+430,p-CH₃C₆H₄CH₂+O₂+M→p-CH₃C₆H₄CH₂O₂+M,,,,,1.82E-36,0,298,p-CH₃C₆H₄CH₂X (F.P.),Direct,62,"44,90","Ebata, T., Obi, K., and Tanaka, I., Chem. Phys. Lett., 77, 480, 1981."
+431,OH+SO₂+N₂→HSO₃+N₂,,,,,2.76E-31,0,298,,,23,"39,44,50,51","Zellner, R., Ber. Bunsenges. Phys. Chem., 82, 1172, 1978."
+432,OH+SO₂+N₂→HSO₃+N₂,,,,,1.38E-36,0,298,H₂O (F.P.),Direct,36,"44,90","Davis, D. D., Ravishankara, A. R., and Fischer, S., Geophys. Res. Lett., 6, 113, 1979."
+433,OH+SO₂+N₂→HSO₃+N₂,,,,,2.51E-31,0,298,H+NO₂ → OH + NO,Direct,49,"44,90","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+434,OH+SO₂+N₂→HSO₃+N₂,,,,,4.96E-31,-3.3,200-300,,,58,"30,31","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+435,OH+SO₂+O₂→HSO₃+O₂,,,,,2.46E-31,0,298,H+NO₂ → OH + NO,Direct,49,"44,48,49","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+436,OH+SO₂+O₂→HSO₃+O₂,,,,,4.96E-31,-3.3,200-300,,,58,"48,77","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+437,OH+SO₂+He→HSO₃+He,-913,,,3.63E-33,,0,261-414,H+NO₂ → OH + NO,Direct,49,"30,64","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+438,OH+SO₂+He→HSO₃+He,,,,,7.91E-32,-2.85,261-414,H+NO₂ → OH + NO,Direct,49,"48,77","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+439,OH+SO₂+Ar→HSO₃+Ar,-1190,,,1.91E-38,,0,298-424,H₂O (F.P.),Direct,22,"30,64","Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980."
+440,OH+SO₂+Ar→HSO₃+Ar,,,,,1.10E-31,0,298,H+NO₂ → OH + NO,Direct,49,"48,77","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+441,OH+SO₂+CO₂→HSO₃+CO₂,,,,,1.20E-30,0,298,H+NO₂ → OH + NO,Direct,49,"48,77","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+442,OH+SO₂+SO₂→HSO₃+SO₂,-908,,,5.25E-32,,0,261-414,H+NO₂ → OH + NO,Direct,49,"23,24,26","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+443,OH+SO₂+SO₂→HSO₃+SO₂,,,,,1.15E-30,-2.78,261-414,H+NO₂ → OH + NO,Direct,49,"48,77","Leu, M.-T., J. Phys. Chem., 86, 4558, 1982."
+444,OH+SO₂+SF₆→HSO₃+SF₆,-810,,,6.17E-38,,0,298-424,H₂O (F.P.),Direct,22,"48,77","Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980."
+445,OH+SO₂+SF₆→HSO₃+SF₆,-750,,,2.09E-37,,0,298-424,H₂O (F.P.),Direct,22,"48,77","Harris, G. W., Atkinson, R., and Pitts, J. N., Jr., Chem. Phys. Lett., 69, 378, 1980."
+446,OH+SO₂+M→HSO₃+M,,,,,1.20E-36,0,297,HONO (P),Relative,41,"48,77","Cox, R. A. and Sheppard, D., Nature (London), 284, 330, 1980."
+447,OH+SO₂+M→HSO₃+M,,,,,3.03E-31,-3.4,200-300,,,59,"23,25,27,28","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+448,OH+SO₂+M→HSO₃+M,,,,,3.32E-36,0,200-300,,,59,"23,24,27,29","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modelling, JPL Publ.. Pasadena, Calif., 1983, 83."
+449,OH+SO₂+M→HSO₃+M,,,,,3.47E-36,0,200-300,,,58,"44,63","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+450,HO₂+CO+He→HCO₃+He,,,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,8,"30,57,64","Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979"
+451,HO₂+SO₂+He→HO₂SO₂+He,,,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,8,"30,44,52,57","Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979"
+452,NH+N₂ +N₂ → NH₃+N₂,,,,,<1.0977367285E-38,0,296,NH₃ (Pulsed P),Direct,45,"30,44,52","Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+453,NH+NH₃ +He → N₂H₄+He,,,,,<2.7573899936E-36,0,296,NH₃ (Pulsed P),Direct,45,8,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+454,NH+NH₃ +Ar → N₂H₄+Ar,,,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,45,8,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+455,NH+NH₃ +N₂ → N₂H₄+N₂,,,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,45,73,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+456,NH+NH₃ +NH₃  → N₂H₄+NH₃,,,,,<2.7573899936E-33,0,296,NH₃ (Pulsed P),Direct,45,73,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+457,2NO+O₂→2NO₂,,,,,4.68E-38,0,296,NO/O₂/N₂ (T),Direct,52,73,"Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982."
+458,2NO+O₂→2NO₂,-880,,,,,,268,NO/O₂/N₂ (T),Direct,52,73,"Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982."
+459,2NO+Cl₂→2ClNO,2500,,,1.12E-37,,,250,,,63,73,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+460,2NO+O₂→2NO₂,-880,,,,,,296,NO/O₂/N₂ (T),Direct,52,79,"Lindqvist, O., Lungström, E., and Svensson, R., Atmos. Environ., 16m 1957, 1982."
+461,2NO+Cl₂→2ClNO,2500,,,1.12E-37,,,500,,,63,79,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+462,2NO+Br₂→2BrNO,,,,,8.72E-39,0,300,NO/Br₂ (T),Direct,4,30,"Hippler, H., Luu, S.H., Teitelbaum, H. and Troe, J. (1978), Flash photolysis study of the NO-catalyzed recombination of bromine atoms. Int. J. Chem. Kinet., 10: 155-169"
+463,2NO+Br₂→2BrNO,630,,,1.32E-37,,,270,,,63,79,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+464,2NO+Br₂→2BrNO,630,,,1.32E-37,,,330,,,63,30,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+465,2NO₂+H₂O→HNO₂+HNO₃,,,,,8.72E-39,0,296,,,12,4,"Streit, G. E., Wells, J. S., Fehsenfeld, F. C., and Howard, C. J., J. Chem. Phys., 70, 3439, 1979."
+466,2NO₂+CH₃OH→CH₃ONO+HNO₃,,,,,5.76E-37,0,298,NO₂/CH₃OH/O₂/N₂ (T),Direct,48,30,"Niki, H., Maker, P. D., Savage, C. M., and Breitenbach, L. P., Int. J. Chem."
+467,S₂+S₂+H₂S→S₄+H₂S,,,,,2.19E-29,0,295,H₂S (Pulse Radiolysis),See Notes,7,30,"Nicholas, J. E., Amodio, C. A., and Baker, M. J., J. Chem. Soc., Faraday Trans. 1, 75, 1868, 1979."
+468,H+NO+H₂→HNO+H₂,,,,,4.58E-32,0,294,H₂ (Pulse Radiolysis),Direct,7,12,"Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979."
+469,D+NO+H₂→HNO+D₂,,,,,4.37E-32,0,294,D₂ (Pulse Radiolysis),Direct,7,68,"Ishikawa, Y., Sugawara, K., and Sato, S., Bull. Chem. Soc. Jpn., 52, 3503, 1979."
+470,F+NO+He→FNO+He,0,,,8.92E-32,,,195,F₂ Discharge,Direct,10,7,"Kim, P., MacLean, D. I., and Valance, W. G., J. Phys. Chem., 84, 1806, 1980."
+471,F+NO+He→FNO+He,0,,,8.92E-32,,,288,F₂ Discharge,Direct,10,12,"Kim, P., MacLean, D. I., and Valance, W. G., J. Phys. Chem., 84, 1806, 1980."
+472,F+NO+He→FNO+He,,,,,8.33E-32,0,250,,,27,12,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+473,F+NO+He→FNO+He,,,,,8.33E-32,0,300,,,27,20,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+474,F+NO+NO→FNO+NO,-100,,,1.35E-31,,,195,F₂ Discharge,Direct,10,15,"Kim, P., MacLean, D. I., and Valance, W. G., J. Phys. Chem., 84, 1806, 1980."
+475,F+NO+NO→FNO+NO,-100,,,1.35E-31,,,288,F₂ Discharge,Direct,10,15,"Kim, P., MacLean, D. I., and Valance, W. G., J. Phys. Chem., 84, 1806, 1980."
+476,F+NO+M→FNO+M,,,,,5.79E-32,-1.7,200,,,23,29,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+477,F+NO+M→FNO+M,,,,,5.79E-32,-1.7,300,,,23,29,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+478,F+NO₂+M→Produts,,,,,3.31E-30,-2,200,,,23,15,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+479,F+NO₂+M→Produts,,,,,3.31E-30,-2,300,,,23,15,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+480,F+NO₂+M→Produts,,,,,3.31E-34,-1,200,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+481,F+NO₂+M→Produts,,,,,9.93E-31,-2,200,,,22,"29,30,36","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+482,F+NO₂+M→Produts,,,,,3.47E-34,0,200,,,22,"29,30,36","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+483,F+NO₂+M→Produts,,,,,3.31E-34,-1,300,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+484,F+NO₂+M→Produts,,,,,9.93E-31,-2,300,,,22,"29,30,37","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+485,F+NO₂+M→Produts,,,,,3.47E-34,0,300,,,22,"29,30,38","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+486,F+NF₂+Ne→NF₃+Ne,,,,,2.29E-31,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,38","Tang, K. Y., Hunter, R. O., Jr., and Huestis, D. L., J., Appl. Phys., 52, 6046, 1981."
+487,F+NF₂+Ne→NF₃+Ne,,,,,1.70E-31,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,37","Tang, K. Y., Hunter, R. O., Jr., and Huestis, D. L., J., Appl. Phys., 52, 6046, 1981."
+488,F+NF₂+Ne→NF₃+Ne,,,,,8.92E-32,0,308,Ne/Xe/NF₃ (Pulse radiolysis),Direct,20,"29,30,38","Tang, K. Y., Hunter, R. O., Jr., and Huestis, D. L., J., Appl. Phys., 52, 6046, 1981."
+489,F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,1000,,,27,"29,30,38","Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+490,Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,200,COCl₂ (F.P.),Direct,1,25,"Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978."
+491,F+NF₂+Ar→NF₃+Ar,-4500,,,5.25E-34,,,2000,,,27,26,"Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+492,Cl+NO+N₂→NOCl+N₂,-532,,,1.18E-32,,,400,COCl₂ (F.P.),Direct,1,"22,33","Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978."
+493,Cl+NO+He→NOCl+He,,,,,4.08E-32,0,294,COCl₂ (F.P.),Direct,1,"1,2","Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978."
+494,Cl+NO+Ar→NOCl+Ar,,,,,4.37E-32,0,294,COCl₂ (F.P.),Direct,1,29,"Lee, J. H., Michael, J. V., Payne, W. A., Jr., and Stief, L. J., J. Chem. Phys., 68, 5410, 1978."
+495,Cl+NO+M→NOCl+M,,,,,6.17E-36,0,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,"22,33","Uselman, W. M., Levine, S. Z., Chan, W. H., Calvert, J. G., and Shaw, J. H., Nitrogenous Air Pollutants: Chemical and Biological Implications, Grosjean, D., Ed., Ann Arbor Science, Ann Arbor, Mich., 1979."
+496,Cl+NO+M→NOCl+M,-520,,,1.45E-32,,,200,,,27,"1,2","Baulch, D. L., Duxbury, J., Grant, S. J., and Montague, D. C., J. Phys. Chem. Ref. Data, 10, Suppl. 1, 1981."
+497,Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.6,200,,,23,"1,3","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+498,Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2,200,,,23,"1,4","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+499,Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1,200,,,23,34,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+500,Cl+NO+M→NOCl+M,,,,,9.10E-32,-1.6,300,,,23,"29,35","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+501,Cl+NO₂+M→ClONO+M,,,,,1.60E-30,-2,300,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+502,Cl+NO₂+M→ClONO+M,,,,,1.65E-34,-1,300,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+503,Cl+NO₂+M→ClNO₂+M,,,,,1.35E-35,0,298,Cl₂/H₂/NOₓ/Air (P),See Note,28,"29,30,37","Uselman, W. M., Levine, S. Z., Chan, W. H., Calvert, J. G., and Shaw, J. H., Nitrogenous Air Pollutants: Chemical and Biological Implications, Grosjean, D., Ed., Ann Arbor Science, Ann Arbor, Mich., 1979."
+504,Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2,200,,,23,"29,35","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+505,Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1,200,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+506,Cl+NO₂+M→ClNO₂+M,,,,,2.21E-31,-2,300,,,23,"29,30,36","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+507,Cl+NO₂+M→ClNO₂+M,,,,,1.65E-34,-1,300,,,23,"29,30,37","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+508,Br+NO+He→BrNO+He,,,,,9.34E-33,0,300,Br₂ (F.P.),See Note,2,34,"Hippler, H., Luu, S. H., Teitelbaum, H., and Troe, J., Int. J. Chem. Kinet.. 10, 155, 1978."
+509,I+CH₃+Kr→CH₃I+Kr,,,,,1.74E-35,0,294,CH₃I (P),Direct,21,"29,30,36","Hunter, R. F. and Kristjansson, K. S., J. Chem. Soc., Faraday Trans. 2, 78, 2067, 1982."
+510,I+CD₃+Kr→CD₃I+Kr,,,,,5.50E-35,0,294,CD₃I (P),Direct,21,"29,30,37","Hunter, R. F. and Kristjansson, K. S., J. Chem. Soc., Faraday Trans. 2, 78, 2067, 1982."
+511,I+CH₂I+Kr→CH₂I₂+Kr,,,,,2.19E-34,0,294,CH₂I₂ (P),Direct,21,"29,30,36","Hunter, R. F. and Kristjansson, K. S., J. Chem. Soc., Faraday Trans. 2, 78, 2067, 1982."
+512,I+C₂H₅+Kr→C₂H₅I+Kr,,,,,2.19E-35,0,294,C₂H₅I (P),Direct,21,"29,30,37","Hunter, R. F. and Kristjansson, K. S., J. Chem. Soc., Faraday Trans. 2, 78, 2067, 1982."
+513,I+NO+Ar→INO+Ar,,,,,1.02E-32,0,298,I₂ (F.P.),Direct,3,5,"Basco, N. and Hunt, J. E., Int. J. Chem. Kinet., 10, 733, 1978."
+514,I+NO+Ar→INO+Ar,,,,,9.13E-33,0,328,I₂ (F.P.),Direct,3,"22,27,28","Basco, N. and Hunt, J. E., Int. J. Chem. Kinet., 10, 733, 1978."
+515,I+NO+H₂→INO+H₂,,,,,7.42E-33,0,295,H₂/HI (Pulse radiolysis),Direct,17,"22,27,28","Nielsen, O. J., Siliesen, A., Luther, K., and Troe, J., J. Phys. Chem., 86, 2929, 1982."
+516,I+NO+M→INO+M,,,,,1.79E-32,-1,200,,,22,"22,27,28","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+517,I+NO+M→INO+M,,,,,2.76E-35,0,200,,,22,"22,27,28","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+518,I+NO₂+M→INO₂+M,,,,,3.03E-31,-1,200,,,22,6,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+519,I+NO₂+M→INO₂+M,,,,,1.10E-34,0,200,,,22,6,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+520,O+NO+M→NO₂+M,-588,,,1.78E-32,,,298,Modulated N₂O/Hg*,Direct,4,,"Singleton, D. L. and Cvetanović, R. J., Can. J. Chem., 56, 2934, 1978."
+521,O+NO+M→NO₂+M,-619,,,1.66E-32,,,298,Modulated N₂O/Hg*,Direct,4,"29,36,38","Singleton, D. L. and Cvetanović, R. J., Can. J. Chem., 56, 2934, 1978."
+522,O+NO+M→NO₂+M,-265,,,6.03E-32,,,298,Modulated N₂O/Hg*,Direct,8,"22.29,37,38","Nip, W. S., Singleton, D. L., and Cvetanović, R. J., Can. J. Chem., 57, 949,"
+523,I+NO+M→INO+M,,,,,1.79E-32,-1,300,,,22,"29,36,38","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+524,I+NO+M→INO+M,,,,,2.76E-35,0,300,,,22,"22.29,37,38","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+525,I+NO₂+M→INO₂+M,,,,,3.03E-31,-1,300,,,22,"7,8","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+526,I+NO₂+M→INO₂+M,,,,,1.10E-34,0,300,,,22,"7,9","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+527,O+NO+M→NO₂+M,-588,,,1.78E-32,,,554,Modulated N₂O/Hg*,Direct,4,"7,13","Singleton, D. L. and Cvetanović, R. J., Can. J. Chem., 56, 2934, 1978."
+528,O+NO+M→NO₂+M,-619,,,1.66E-32,,,554,Modulated N₂O/Hg*,Direct,4,"29,36,38","Singleton, D. L. and Cvetanović, R. J., Can. J. Chem., 56, 2934, 1978."
+529,O+NO+M→NO₂+M,-265,,,6.03E-32,,,574,Modulated N₂O/Hg*,Direct,8,"22.29,37,38","Nip, W. S., Singleton, D. L., and Cvetanović, R. J., Can. J. Chem., 57, 949,"
+530,O+NO+M→NO₂+M,,,,,1.21E-31,-1.8,200,,,23,"29,36,38","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+531,O+NO+M→NO₂+M,,,,,5.02E-35,0,200,,,23,"22.29,37,38","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+532,O+NO+M→NO₂+M,,,,,4.96E-35,0.3,300,,,22,"7,8","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+533,O+NO+M→NO₂+M,,,,,1.21E-31,-1.8,300,,,23,"7,9","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+534,O+NO+M→NO₂+M,,,,,5.02E-35,0,300,,,23,"7,13","DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+535,O+NO+M→NO₂+M,,,,,4.96E-35,0.3,1500,,,22,"29,30,36","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+536,O+NO+He→NO₂+He,,,,,4.17E-32,0,298,N+NO→O+N₂,Direct,12,"22,29,30,37","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 3159, 1980."
+537,O+NO+N₂→NO₂+N₂,,,,,7.77E-32,0,298,N+NO→O+N₂,Direct,12,"29,37","Sugawara, K., Ishikawa, Y., and Sato, S., Bull. Chem. Soc. Jpn., 53, 3159, 1980."
+538,O+NO+N₂→NO₂+N₂,,,,,1.10E-31,0,299,NO (F.P.),Direct,24,"29,30,36","Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978."
+539,O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.6,200,,,22,"22,29,30,37","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+540,O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,237,NO (F.P.),Direct,6,"29,37","Anderson, L. G. and Stephens, R. D., J. Photochem., 11, 293, 1979."
+541,O+NO+O₂→NO₂+O₂,,,,,8.55E-32,-1.8,200,,,22,"17,18","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+542,O+NO+N₂→NO₂+N₂,,,,,9.93E-32,-1.6,300,,,22,17,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+543,O+NO+Ar→NO₂+Ar,-508,,,1.26E-32,,,397,NO (F.P.),Direct,6,31,"Anderson, L. G. and Stephens, R. D., J. Photochem., 11, 293, 1979."
+544,O+NO+SO₂→NO₂+SO₂,,,,,8.55E-32,0,299,NO (F.P.),Direct,24,29,"Atkinson, R. and Pitts, J. N., Jr., Int. J. Chem. Kinet., 10, 1081, 1978."
+545,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,200,,,23,11,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+546,O+NO₂+M→NO₃+M,,,,,3.63E-35,0,200,,,23,29,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+547,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,200,,,22,29,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+548,O+NO₂+M→NO₃+M,,,,,3.63E-35,0,200,,,22,11,"Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+549,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,300,,,23,29,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+550,O+NO₂+M→NO₃+M,,,,,3.63E-35,0,300,,,23,31,"DeMore, W. B., Molina, M. J., Watson, R. T., Golden, D. M., Hampson, R. F., Kurylo, M. J., Howard, C. J., and Ravishankara, A. R., Chemical Kinetics and Photochemical Data for Use in Stratospheric Modeling, JPL Publ., Pasadena, Calif., 1983, 83."
+551,O+NO₂+M→NO₃+M,,,,,8.27E-32,-2,400,,,22,"29,30,36","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+552,O+NO₂+M→NO₃+M,,,,,3.63E-35,0,400,,,22,"22,29,30,37","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
+553,H+CH₃+He→CH₄+He,,,,,1.45E-29,0,295,H₂/He discharge/C₂H₄ (T),,4,"29,36,38","Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 70, 1840, 1974. 4a. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 72, 1733, 1976."
+554,H+CH₃+NO→CH₄+NO,,,,,5.50E-28,0,295,H₂/He discharge/C₂H₄ (T),,4,"29,36,37","Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 70, 1840, 1974. 4a. Pratt, G. and Veltman, I., J. Chem. Soc., Faraday Trans. 1, 72, 1733, 1976."
+555,H+HO+H₂O→H₂O+H₂O,,,,,3.81E-25,-2,1000,,,6,"29,36,38","Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972."
+556,H+HO+H₂O→H₂O+H₂O,,,,,3.81E-25,-2,3000,,,6,"29,36,37","Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. 1, Butterworths, Lon- don, 1972."
+557,H+HO+He→H₂O+He,,,,,4.41E-25,-2.6,230,H₂/He discharge/NO₂,,7a,3,"Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939."
+558,H+HO+He→H₂O+He,,,,,4.41E-25,-2.6,300,H₂/He discharge/NO₂,,7a,3,"Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939."
+559,H+HO+Ar→H₂O+Ar,,,,,2.29E-31,0,300,H₂/He discharge/NO₂,,7a,"2,4","Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939."
+560,H+HO+N₂→H₂O+N₂,,,,,4.79E-31,0,300,H₂/He discharge/NO₂,,7a,"2,3a","Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939."
+561,H+HO+CO₂→H₂O+CO₂,,,,,8.92E-31,0,300,H₂/He discharge/NO₂,,7a,"2,5","Zellner, R., Erler, K., and Field, D., 16th Symp. (Int.) Combust., The Combustion Institute, Pittsburgh, 1977, 939."
+562,H+HO+H₂→H₂O+H₂,,,,,2.46E-32,0,873,H₂/N₂O/He (T),,8,"2,5","Baldwin, R. R., Gethin, A., Plaistowe, J., and Walker, R. W., J. Chem. Soc., Faraday Trans. 1,71, 1265, 1975."
+563,H+HO+H₂→H₂O+H₂,,-0.5,-2.4,1.48E-32,,,230,,,9,6a,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+564,H+HO+H₂→H₂O+H₂,,-0.5,-2.4,1.48E-32,,,700,,,9,6a,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+565,H+HO+H₂→H₂O+H₂,,,,,6.03E-32,0,294,H₂/Hg*,,10,6a,"Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972."
+566,H+HO+H₂→H₂O+H₂,,,,,4.27E-32,0,298,H₂/Hg*,,10a,6a,"Oka, K., Singleton, D. L., and Cvetanovic, R. J., J. Chem. Phys., 66, 713, 1977."
+567,H+HO+H₂→H₂O+H₂,,0.7,3,1.26E-32,,,298,H₂/Hg*,,10b,6a,"Oka, K., Singleton, D. L., and Cvetanović, R. J., J. Chem. Phys., 67, 4681, 1977."
+568,H+HO+H₂→H₂O+H₂,,0.7,3,1.26E-32,,,477,H₂/Hg*,,10b,3,"Oka, K., Singleton, D. L., and Cvetanović, R. J., J. Chem. Phys., 67, 4681, 1977."
+569,H+NO+NO→HNO+NO,,,,,5.25E-32,0,298,H₂/Hg*,,10b,5,"Oka, K., Singleton, D. L., and Cvetanović, R. J., J. Chem. Phys., 67, 4681, 1977."
+570,H+NO+N₂→HNO+N₂,,,,,3.89E-32,0,392,"N+NO→N₂+O
+O/NO/H₂/N₂ (T)",,11,5,"Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975."
+571,H+NO+Ar→HNO+Ar,,,,,2.40E-32,0,392,"N+NO→N₂+O
+O/NO/H₂/Ar (T)",,11,7,"Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975."
+572,H+NO+Kr→HNO+Kr,,,,,5.38E-32,0,294,H₂/Hg*,,10,17,"Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972."
+573,H+NO+He→HNO+He,,,,,4.27E-32,0,294,H₂/Hg*,,10,17,"Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972."
+574,H+NO+Ar→HNO+Ar,,,,,3.89E-32,0,294,H₂/Hg*,,10,17,"Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972."
+575,H+NO+Ne→HNO+Ne,,,,,2.09E-32,0,294,H₂/Hg*,,10,17,"Michael, J. V. and Osborne, D. R., J. Chem. Phys., 57, 3736, 1972."
+576,H+NH₂+Ar→NH₃+Ar,,-7.56,-31.59,,1.32E-33,0,2000,,,9,8,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+577,H+NH₂+Ar→NH₃+Ar,,-7.56,-31.59,,1.32E-33,0,3000,,,9,9,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+578,F+NF₂+He→NF₃+He,,,,,8.92E-31,0,298,"N₂F₄ + 2NF₂
+N+NF₂→2F+N₂",,13,10,"Clyne, M. A. A. and Watson, R. T., J. Chem. Soc., Faraday Trans. 1, 70, 1109, 1974."
+579,Cl+NF₂+Ar→NF₂Cl + Ar,,,,,2.69E-31,0,293,Cl₂/Ar discharge; N₂F₄ (T),,14,10,"Clyne, M. A. A., and Connor, J., J. Chem. Soc., Faraday Trans. 2, 68, 1220, 1972."
+580,Br+NF₂+Ar→NF₂Br + Ar,,,,,1.00E-31,0,293,Br₂/Ar discharge; N₂F₄ (T),,14,10,"Clyne, M. A. A., and Connor, J., J. Chem. Soc., Faraday Trans. 2, 68, 1220, 1972."
+581,I+NO+He→INO+He,,,,,6.03E-33,0,330,I₂  (laser F.P.),,14a,"5,11","Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+582,I+NO+Ne→INO+Ne,,,,,8.14E-33,0,330,I₂  (laser F.P.),,14a,"5,11","Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+583,I+NO+Ar→INO+Ar,,,,,9.56E-33,0,330,I₂  (laser F.P.),,14a,2,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+584,I+NO₂+Xe→INO₂+Xe,,,,,2.04E-32,0,330,I₂  (F.P.),,14a,12,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+585,I+NO₂+H₂→INO₂+H₂,,,,,2.29E-32,0,330,I₂  (F.P.),,14a,"13,14","Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+586,I+NO₂+D₂→INO₂+D₂,,,,,1.95E-32,0,330,I₂  (F.P.),,14a,"13,14","Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+587,I+NO₂+N₂→INO₂+N₂,,,,,2.57E-32,0,330,I₂  (F.P.),,14a,14a,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+588,I+NO₂+CO→INO₂+CO,,,,,2.69E-32,0,330,I₂  (F.P.),,14a,14a,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+589,I+NO₂+O₂→INO₂+O₂,,,,,2.82E-32,0,330,I₂  (F.P.),,14a,14a,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+590,I+NO₂+N₂O→INO₂+N₂O,,,,,3.81E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+591,I+NO₂+CO₂→INO₂+CO₂,,,,,3.55E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+592,I+NO₂+CH₄→INO₂+CH₄,,,,,3.55E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+593,I+NO₂+CF₄→INO₂+CF₄,,,,,3.24E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+594,I+NO₂+C₂H₄→INO₂+C₂H₄,,,,,4.37E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+595,I+NO₂+SF₆→INO₂+SF₆,,,,,3.24E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+596,I+NO₂+C₂H₆→INO₂+C₂H₆,,,,,4.58E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+597,I+NO₂+C₂F₆→INO₂+C₂F₆,,,,,4.79E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+598,I+NO₂+C₃H₈→INO₂+C₃H₈,,,,,5.50E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+599,I+NO₂+C₃F₈→INO₂+C₃F₈,,,,,4.90E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+600,I+NO₂+n-C₄H₁₀→INO₂+n-C₄H₁₀,,,,,6.17E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+601,I+NO₂+i-C₄H₁₀→INO₂+i-C₄H₁₀,,,,,5.90E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+602,I+NO₂+neo-C₅H₁₂→INO₂+neo-C₅H₁₂,,,,,5.76E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+603,I+NO₂+(CH₃)₃CC₂H₅→INO₂+(CH₃)₃CC₂H₅,,,,,6.77E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+604,I+NO₂+(CH₃)₂CHCH₂CH(CH₃)₂→INO₂+M,,,,,6.93E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+605,I+NO₂+(CH₃)₂CCH₂CH(CH₃)₂→INO₂+M,,,,,7.59E-32,0,330,I₂  (F.P.),,14a,23,"Van den Bergh, H., Benoit-Guyot, N., and Troe, J., Int. J. Chem. Kinet.. 9, 223, 1977."
+606,O+NO+Ne→ NO₂+Ne,,-1,-4.2,9.34E-33,,,217,NO (F.P.),,26,23,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+607,O+NO+He→ NO₂+He,,-1,-4.2,1.07E-32,,,217,NO (F.P.),,26,23,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+608,O+NO+He→ NO₂+He,,-1,-4.2,1.07E-32,,,500,NO (F.P.),,26,23,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+609,O+NO+Ar→ NO₂+Ar,,,,,6.46E-32,0,292,N+NO→ N₂+O,,11,23,"Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975."
+610,O+NO+Ar→ NO₂+Ar,,-0.9,-3.9,1.45E-32,,,298,O₂ and NO (F.P.),,11a,23,"Atkinson, R., Perry, R. A., and Pitts, J. N., Chem. Phys. Lett., 47, 197, 1977."
+611,O+NO+Ar→ NO₂+Ar,,-0.9,-3.9,1.45E-32,,,439,O₂ and NO (F.P.),,11a,23,"Atkinson, R., Perry, R. A., and Pitts, J. N., Chem. Phys. Lett., 47, 197, 1977."
+612,O+NO+Ar→ NO₂+Ar,,-1.2,-5,8.92E-33,,,217,NO (F.P.),,26,24,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+613,O+NO+Ar→ NO₂+Ar,,-1.2,-5,8.92E-33,,,500,NO (F.P.),,26,24,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+614,O+NO+Kr→ NO₂+Kr,,-1.1,-4.6,9.56E-33,,,217,NO (F.P.),,26,24,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+615,O+NO+Kr→ NO₂+Kr,,-1.1,-4.6,9.56E-33,,,500,NO (F.P.),,26,24,"Michael, J. V., Payne, W. A., and Whytock, D. A., J. Chem. Phys., 65, 4830, 1976."
+616,O+NO+N₂→ NO₂+N₂,,-1.8,-7.5,5.02E-33,,,285,N+NO→ N₂+O,,11,9,"Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975."
+617,O+NO+N₂→ NO₂+N₂,,-1.8,-7.5,5.02E-33,,,425,N+NO→ N₂+O,,11,9,"Campbell, I. M. and Hardy, B. J., J. Chem. Soc., Faraday Trans. 1, 71, 2097, 1975."
+618,O+NO+N₂→ NO₂+N₂,,,,,6.46E-32,0,295,NO₂ (P),,15,9,"Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27."
+619,O+NO+N₂→ NO₂+N₂,,,,,5.02E-35,0,295,NO₂ (P),,15,24,"Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27."
+620,O+NO+N₂→ NO₂+N₂,,-1.2,-4.8,1.55E-32,,,217,NO (F.P.),,15a,24,"Whytock, D. A., Michael, J. V., and Payne, W. A., Chem. Phys. Lett., 42, 466, 1976."
+621,O+NO+N₂→ NO₂+N₂,,-1.2,-4.8,1.55E-32,,,500,NO (F.P.),,15a,24,"Whytock, D. A., Michael, J. V., and Payne, W. A., Chem. Phys. Lett., 42, 466, 1976."
+622,O+NO+O₂→ NO₂+O₂,,,,,7.09E-32,0,294,NO₂ (P.),,16,24,"Becker, K. H., Groth, W., and Thran, D., Chem. Phys. Lett., 15, 215, 1972."
+623,O+NO+O₂/Ar→ NO₂+O₂/Ar,,-1.8,-7.8,3.02E-33,,,200,,,9,9,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+624,O+NO+O₂/Ar→ NO₂+O₂/Ar,,-1.8,-7.8,3.02E-33,,,500,,,9,9,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+625,O+NO+N₂O→ NO₂+N₂O,,-0.9,-3.8,2.63E-32,,,300,NO₂ (P.),,17,15,"Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 27, 467, 1974."
+626,O+NO+N₂O→ NO₂+N₂O,,-0.9,-3.8,2.63E-32,,,392,NO₂ (P.),,17,"2,15,16","Atkinson, R. and Pitts, J. N., Chem. Phys. Lett., 27, 467, 1974."
+627,O+NO+N₂O→ NO₂+N₂O,,,,,1.59E-31,0,299,N₂O/Hg* (P.),,18,16a,"Furuyama, S., Atkinson, R., Colussi, A. J., and Cvetanovic, R. J., Int. J. Chem. Kinet., 6, 741, 1974."
+628,O+NO+N₂O→ NO₂+N₂O,,-1.2,-5.1,1.66E-32,,,298,N₂O/Hg* (P.),,19,16a,"Singleton, D. L., Furuyama, S., and Cvetanovic, R. J., J. Chem. Phys., 63, 1003, 1975."
+629,O+NO+N₂O→ NO₂+N₂O,,-1.2,-5.1,1.66E-32,,,473,N₂O/Hg* (P.),,19,,"Singleton, D. L., Furuyama, S., and Cvetanovic, R. J., J. Chem. Phys., 63, 1003, 1975."
+630,O+NO+N₂O→ NO₂+N₂O,,-1.6,-6.7,7.25E-33,,,298,N₂O/Hg* (P.),,20,5,"Atkinson, R. and Cvetanović, R. J., J. Chem. Phys., 56, 432, 1972."
+631,O+NO+N₂O→ NO₂+N₂O,,-1.6,-6.7,7.25E-33,,,473,N₂O/Hg* (P.),,20,5,"Atkinson, R. and Cvetanović, R. J., J. Chem. Phys., 56, 432, 1972."
+632,O+NO+N₂O→ NO₂+N₂O,,,,,1.18E-31,0,294,N₂O/Hg* (P.),,21,17,"Atkinson, R. and Pitts, J. N., J. Phys. Chem., 78, 1780, 1974."
+633,O+NO+N₂→ NO₂+N₂,,,,,7.95E-32,0,295,NO₂ (P.),,15,17,"Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27."
+634,O+NO+N₂→ NO₂+N₂,,,,,3.55E-35,0,295,NO₂ (P.),,15,17,"Hippler, H., Schippert, C., and Troe, J., Int. J. Chem. Kinet., Symp., 1, 1975, 27."
+635,O+NO+N₂→ NO₂+N₂,,,,,6.32E-32,0,295,,,9,17,"Baulch, D. L., Drysdale, D. D., Horne, D. G., and Lloyd, A. C., Evaluated Kinetic Data for High Temperature Reactions, Vol. II, Butterworths, Lon- don, 1973."
+636,O+NO+N₂→ NO₂+N₂,,,,,8.14E-32,0,297,NO₂ (P.),,27,17,"Harker, A. B. and Johnston, H. S., J. Phys. Chem., 77, 1153, 1973."
+637,O+SO+N₂→ SO₂+N₂,,,,,1.86E-31,0,298,,,22,17,"Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. III, Butterworths, London, 1976."
+638,S+CS+Ar→CS₂+Ar,,-8.7,-36.3,2.40E-34,,,1800,,,23,17,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+639,S+CS+Ar→CS₂+Ar,,-8.7,-36.3,2.40E-34,,,3700,,,23,2,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+640,Pb+NO+He→ Products,,,,,2.00E-30,0,300,PbEt₄ - pulse irraditation,,23,15,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+641,Pb+NO+N₂→ Products,,,,,1.20E-30,0,300,PbEt₄ - pulse irraditation,,23,27,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+642,Pb+NO+CO→ Products,,,,,2.57E-31,0,300,PbEt₄ - pulse irraditation,,23,5,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+643,Pb+NO+CO₂→ Products,,,,,1.70E-30,0,300,PbEt₄ - pulse irraditation,,23,"21,22","Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+644,Pb+NO+CH₄→ Products,,,,,7.09E-31,0,300,PbEt₄ - pulse irraditation,,23,5,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+645,Pb+NO+CF₄→ Products,,,,,3.09E-30,0,300,PbEt₄ - pulse irraditation,,23,18,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+646,Pb+NO+SF₆→ Products,,,,,8.72E-31,0,300,PbEt₄ - pulse irraditation,,23,18,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+647,Pb+NO+C₂H₆→ Products,,,,,1.00E-30,0,300,PbEt₄ - pulse irraditation,,23,18,"Cross, P. J. and Husain, D., J. Photochem., 7, 157, 1977."
+648,Sb+NO+He→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+649,Sb+NO+N₂→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+650,Sb+NO+SF₆→ Products,,,,,see note,,294,SbMe₃-pulsed irradiation,,24,18,"Husain, D. and Slater, N. K. H., J. Photochem., 7, 59, 1977."
+651,Bi+NO+He→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+652,Bi+NO+N₂→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."
+653,Bi+NO+SF₆→ Products,,,,,see note,,293,BiMe₃-pulsed irradiation,,25,18,"Husain, D. and Slater, N. K. H., J. Photochem., 6, 325, 1977."

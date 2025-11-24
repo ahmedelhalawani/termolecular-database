@@ -62,7 +62,7 @@ https://pubs.aip.org/aip/jcp/article-abstract/57/1/233/779742/Kinetics-of-O-3P-C
 15. Intezarova, E. I. and Kondratiev, V. N., Kinet. Katal., 9, 395, 1968.
 
 
-16. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Ki- netic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
+16. Baulch, D. L., Drysdale, D. D., Duxbury, J., and Grant, S., Evaluated Kinetic Data for High Temperature Reactions, Vol. 3, Butterworths, London, 1976.
 https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fbbpc.19770810719
 
 
@@ -342,9 +342,9 @@ https://www.sciencedirect.com/science/article/abs/pii/0009261473804798
 https://onlinelibrary.wiley.com/doi/epdf/10.1002/bbpc.19770810719
 
 
-13. Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National
-Standard Reference Data System - National Bureau of Standards 20, 1968. 13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English).
+13. Johnston, H. S., Gas Phase Reactions of Neutral Oxygen Species, National Standard Reference Data System - National Bureau of Standards 20, 1968. 
 
+13a. Arutyunov, V. S., Popov, L. S., and Chaikin, A. M., Kinet. Katal., 17, 286, 1976 (Russian); 17, 251, 1976 (English).
 https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds20.pdf
 
 
@@ -397,7 +397,10 @@ https://pubs.acs.org/doi/abs/10.1021/j100689a003?casa_token=gOAkNL7wJ20AAAAA:9uo
 https://pubs.acs.org/doi/pdf/10.1021/ja00810a011?casa_token=_uZHa_h4o8cAAAAA:xA6vWvCeCyNQ1lHLij7JpCrYV6KhhMx0z3v1xCYmsSI7Yg0Dpwgd06Tpeo8n4wIYUDGbf6TNAJJ22w
 
 
-24. Ip, J. K. K. and Burns, G., J. Chem. Phys., 56, 3155, 1972. 24a. Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976. 
+24. Ip, J. K. K. and Burns, G., J. Chem. Phys., 56, 3155, 1972. 
+
+
+24a. Chang, H. W. and Burns, G., J. Chem. Phys., 64, 349, 1976. 
 
 
 24b. Beck, W. H. and Mackie, J. C., Chem. Phys. Lett., 44, 444, 1976.

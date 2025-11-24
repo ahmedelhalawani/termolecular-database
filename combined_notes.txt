@@ -91,7 +91,7 @@ NOTES FOR SECTION 3 (Rows 193-280):
 16. Measured relative to I+I+I₂ → 2I₂  for which k 1.4 x 10^18 cm^-6 mol^-2 s^-1.  
 17. Over the temperature range 300 to 573 K, the rate constant showed a temperature-dependent, negative temperature coefficient.
 
-NOTES FOR SECTION 4 (Rows 281-468):
+NOTES FOR SECTION 4 (Rows 281-467):
 1. Discharge-flow system. Rate constant derived from decay of H atoms, monitored by ESR. Total pressures were of the order of 4 torr.
 2. Discharge-flow stirred reaction system (O/H₂/N₂(or Ar)/CO). Kinetic analysis based on rate of decay of O atoms ([O] monitored via chemiluminescent reaction with CO) in the system and the ratio [H]/[O] (derived from effect of added NO on rate of decay of O atoms).
 3. Shock tube study (H₂/O₂/CO/Ar mixtures). Experiments performed over the pressure range 2 to 4 atm. Overall kinetics monitored by CO flame spectrum (visible), which is a measure of the product [CO][O], and by thermal emission (infrared) from CO₂. Experimental profiles were compared to results of numerical integration of proposed mechanism; the rate constant for O + CO + M was obtained from a computer fit of the profiles.
@@ -187,7 +187,7 @@ CH₄  → H₂ + CH₃.
 91. M = N₂
 92. P = 1 to 4 torr.
 
-NOTES FOR SECTION 5 (Rows 469-553):
+NOTES FOR SECTION 5 (Rows 468-552):
 1. Flow system. Rate constant(s) derived from decay of Cl atoms, monitored by time-resolved resonance fluorescence.
 2. Reaction was studied over the pressure range 15 to 120 torr. The temperature dependence of the reaction can also be represented by the expression k = 1.40 x 10^21*T^-1.91cm^6 mol^-2s^-1.
 3. Reaction was studied over the pressure range 15 to 90 torr.
@@ -227,7 +227,7 @@ NOTES FOR SECTION 5 (Rows 469-553):
 37. k is high-pressure limiting rate constant.
 38. M = N₂ or O₂. 
 
-NOTES FOR SECTION 6 (Rows 554-654):
+NOTES FOR SECTION 6 (Rows 553-653):
 1. Values obtained from computer simulation of experimental data.
 2. Units of k and A are cm^3 mol^-1 s^-1.
 2a. Reaction was third order at P <50 mmHg, fall-off beginning at P <150 mmHg. The table lists the extrapolated high-pressure rate constant.
