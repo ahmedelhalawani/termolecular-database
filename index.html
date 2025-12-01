@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Termolecular Database</title>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
   <style>
     body {
       margin: 0;
@@ -91,6 +92,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <div>
@@ -137,11 +139,12 @@
 
   <script>
     let allRows = [];
-    let currentSet = "nonIonic"; 
+    let currentSet = "nonIonic";
+
     const datasets = {
       ionic: { csv: "ionic.csv" },
       nonIonic: { csv: "nonionic.csv" },
-      highPressure: { csv: "k_infinity.csv"}
+      highPressure: { csv: "k_infinity.csv" }
     };
 
     const searchBar = document.getElementById("searchBar");
@@ -177,15 +180,19 @@
 
       const temps = allRows.map(r => parseFloat(r["Temp./K"])).filter(v => !isNaN(v));
       const minT = Math.min(...temps), maxT = Math.max(...temps);
-      slider.min = minT; slider.max = maxT; slider.value = maxT; tempValue.textContent = maxT;
+      slider.min = minT;
+      slider.max = maxT;
+      slider.value = maxT;
+      tempValue.textContent = maxT;
 
-      renderTable(allRows);
+      // High Pressure always renders full table
+      renderTable(allRows, setKey === "highPressure");
     }
 
     function normalizeChemical(text) {
       if (!text) return "";
-      const subs = { "0": "₀","1":"₁","2":"₂","3":"₃","4":"₄","5":"₅","6":"₆","7":"₇","8":"₈","9":"₉" };
-      const sups = { "₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9" };
+      const subs = { "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉" };
+      const sups = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9" };
       let t = text;
       for (const [n, s] of Object.entries(subs)) t = t.replaceAll(n, s);
       for (const [s, n] of Object.entries(sups)) t = t.replaceAll(s, n);
@@ -193,6 +200,8 @@
     }
 
     function applyFilters() {
+      if (currentSet === "highPressure") return;
+
       const query = searchBar.value.toLowerCase().trim();
       tempValue.textContent = slider.value;
 
@@ -216,14 +225,13 @@
       renderTable(filtered);
     }
 
-    function renderTable(data) {
+    function renderTable(data, showAll = false) {
       const table = document.getElementById("csvTable");
       table.innerHTML = "";
       if (!data.length) { table.innerHTML = "<tr><td>No results</td></tr>"; return; }
 
-      const hiddenCols = ["reference_text"];  /* ← HIDE THIS COLUMN */
+      const hiddenCols = ["reference_text"];
 
-      // Build header
       const headerRow = document.createElement("tr");
       Object.keys(data[0]).forEach(k => {
         if (hiddenCols.includes(k.toLowerCase())) return;
@@ -233,7 +241,6 @@
       });
       table.appendChild(headerRow);
 
-      // Build rows
       data.forEach(row => {
         const tr = document.createElement("tr");
         const num = parseInt(row["Number"]);
@@ -245,17 +252,18 @@
           const td = document.createElement("td");
           const lower = key.toLowerCase();
 
-          if ((lower === "notes" || lower === "reference" || lower === "references") && val) {
-            let linkTarget = "";
+          if (!showAll && (lower === "notes" || lower === "reference" || lower === "references") && val) {
+            let link = "";
+
             if (currentSet === "ionic") {
-              const page = lower === "notes" ? "notes.html" : "sources.html";
-              linkTarget = `${page}?tab=ionic`;
+              link = `sources.html?tab=ionic`;
+            } else if (currentSet === "highPressure") {
+              link = `sources.html#highpressure`;
             } else if (section) {
-              const page = lower === "notes" ? "notes.html" : "sources.html";
-              linkTarget = `${page}#section${section}`;
+              link = `sources.html#section${section}`;
             }
-            if (linkTarget) td.innerHTML = `<a href="${linkTarget}">${val}</a>`;
-            else td.textContent = val;
+
+            td.innerHTML = `<a href="${link}" target="_blank">${val}</a>`;
           } else {
             td.textContent = val;
           }

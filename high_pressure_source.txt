@@ -1,0 +1,3 @@
+Source for High Pressure Reactions:
+
+1. D. L. Baulch, C. T. Bowman, C. J. Cobos, R. A. Cox, Th. Just, J. A. Kerr, M. J. Pilling, D. Stocker, J. Troe, W. Tsang, R. W. Walker, J. Warnatz; Evaluated Kinetic Data for Combustion Modeling: Supplement II. J. Phys. Chem. Ref. Data 1 September 2005; 34 (3): 757–1397. https://doi.org/10.1063/1.1748524

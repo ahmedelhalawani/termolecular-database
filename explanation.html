@@ -20,9 +20,8 @@
 
     .container{max-width:980px;margin:0 auto;padding:24px}
 
-    /* Navigation Bar - copied from landing.html to match exactly */
     header.topbar {
-      background: #990000; /* Deep red */
+      background: #990000;
       color: white;
       display: flex;
       align-items: center;
@@ -46,7 +45,6 @@
       text-decoration: underline;
     }
 
-    /* Page links */
     a {
       color: #800000;
       text-decoration: underline;
@@ -56,7 +54,6 @@
       color: #990000;
     }
 
-   
     h1{font-size:1.6rem;margin:0;color:#990000}
     p.lead{color:#990000;margin-top:6px}
 
@@ -75,10 +72,6 @@
     .muted{color:#990000;font-size:0.95rem}
     .help{font-size:0.9rem;color:#990000}
 
-    footer{margin-top:18px;color:#990000;font-size:0.9rem}
-
-    @media (max-width:920px){.grid{grid-template-columns:1fr}.col-list{grid-template-columns:1fr}}
-    
     footer {
       background: #333;
       color: #ddd;
@@ -87,7 +80,37 @@
       font-size: 14px;
       margin-top: auto;
     }
+
+    /* NEW BUTTON STYLES */
+    .toggle-container {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .toggle-btn {
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 2px solid #990000;
+      font-weight: 600;
+      cursor: pointer;
+      background: #fff;
+      color: #990000;
+      transition: 0.25s;
+    }
+
+    .toggle-btn.active {
+      background: #990000;
+      color: white;
+    }
+
+    @media (max-width:920px){
+      .grid{grid-template-columns:1fr}
+      .col-list{grid-template-columns:1fr}
+    }
   </style>
+
   <script>
     window.MathJax = {
       tex: { inlineMath: [['$','$'], ['\\(','\\)']] },
@@ -95,27 +118,63 @@
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <script>
+    // NEW: Toggle behavior + hide/show sections
+    function setRateType(type) {
+      const lowSection = document.getElementById("lowPressureSection");
+      const highSection = document.getElementById("highPressureSection");
+
+      const lowBtn = document.getElementById("btn-low");
+      const highBtn = document.getElementById("btn-high");
+
+      if (type === "low") {
+        lowSection.style.display = "block";
+        highSection.style.display = "none";
+        lowBtn.classList.add("active");
+        highBtn.classList.remove("active");
+      } else {
+        lowSection.style.display = "none";
+        highSection.style.display = "block";
+        highBtn.classList.add("active");
+        lowBtn.classList.remove("active");
+      }
+    }
+
+    // Default on page load = Low Pressure Reaction Rate
+    window.onload = () => setRateType("low");
+  </script>
 </head>
+
 <body>
 
-  
   <header class="topbar">
-  <div>
-    <a href="landing.html">
-      <img src="jpr_logo.png" alt="Logo" class="logo">
-    </a>
-  </div>
-  <nav>
-    <a href="landing.html">Home</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-    <a href="explanation.html">Explanation</a>
-    <a href="index.html">Database</a>
-  </nav>
+    <div>
+      <a href="landing.html">
+        <img src="jpr_logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <nav>
+      <a href="landing.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="explanation.html">Explanation</a>
+      <a href="index.html">Database</a>
+    </nav>
   </header>
 
-
   <div class="container">
+
+    <!-- TOGGLE BUTTONS -->
+    <div class="toggle-container">
+      <button id="btn-low" class="toggle-btn" onclick="setRateType('low')">
+        Low Pressure Reaction Rate
+      </button>
+      <button id="btn-high" class="toggle-btn" onclick="setRateType('high')">
+        High Pressure Reaction Rate
+      </button>
+    </div>
+
     <header>
       <div>
         <h1>Explanation of Database</h1>
@@ -124,6 +183,7 @@
     </header>
 
     <div class="grid">
+
       <section class="card">
         <h2 style="margin-top:0;color:#990000">Goals & scope</h2>
         <p class="muted">This page explains the dataset columns and gives guidance for interpretation, units, and uncertainties.</p>
@@ -144,8 +204,11 @@
         </table>
       </aside>
 
-      <section class="card full">
+
+      <!-- ⭐ LOW PRESSURE SECTION ⭐ -->
+      <section id="lowPressureSection" class="card full">
         <h2 style="color:#990000">Column-by-column explanations</h2>
+
         <div class="col-list" style="margin-top:12px">
           <div class="col-card">
             <h4 style="color:#990000">Reaction</h4>
@@ -183,11 +246,46 @@
           </div>
         </div>
       </section>
+      <!-- END LOW PRESSURE SECTION -->
+
+
+      <!-- ⭐⭐⭐ NEW HIGH PRESSURE SECTION ⭐⭐⭐ -->
+      <section id="highPressureSection" class="card full" style="display:none">
+        <h2 style="color:#990000">High Pressure Reaction Rate — Column-by-column explanations</h2>
+
+        <div class="col-list" style="margin-top:12px">
+
+          <div class="col-card">
+            <h4 style="color:#990000">Reaction (High Pressure)</h4>
+            <p class="muted">Balanced chemical equation evaluated in the high-pressure limit. Molecularity and third bodies (M) are shown when applicable.</p>
+          </div>
+
+          <div class="col-card">
+            <h4 style="color:#990000">k∞</h4>
+            <p class="muted">High-pressure limit rate constant. Represents the value of the rate coefficient when pressure is sufficiently high that collisional stabilization is no longer rate-limiting.</p>
+          </div>
+
+          <div class="col-card">
+            <h4 style="color:#990000">Temp. / K</h4>
+            <p class="muted">Temperature (Kelvin) corresponding to the high-pressure limit rate constant. If a range is provided, k∞ is valid within that interval.</p>
+          </div>
+
+          <div class="col-card">
+            <h4 style="color:#990000">Error Limits (Δlog k)</h4>
+            <p class="muted">Uncertainty in logarithmic units for the high-pressure rate constant. Δlog k = 0.3 corresponds to roughly a factor of 2 variation.</p>
+          </div>
+
+        </div>
+      </section>
+      <!-- END HIGH PRESSURE SECTION -->
+
+
     </div>
   </div>
 
   <footer>
     © 2025 Termolecular Reaction Database | JPR Group
   </footer>
+
 </body>
 </html>

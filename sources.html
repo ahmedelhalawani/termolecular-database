@@ -45,6 +45,7 @@
     <div class="tabs">
       <button id="nonIonicBtn" class="activeTab">Non-Ionic</button>
       <button id="ionicBtn">Ionic</button>
+      <button id="highPressureBtn">High Pressure</button>
     </div>
 
     <div id="sourcesContainer">Loading...</div>
@@ -55,7 +56,8 @@
   <script>
     const files = {
       nonionic: "combined_sources.txt",
-      ionic: "sources_7.txt"
+      ionic: "sources_7.txt",
+      highpressure: "high_pressure_source.txt"
     };
 
     let currentTab = "nonionic";
@@ -63,6 +65,7 @@
     function setActiveTab() {
       document.getElementById("nonIonicBtn").classList.toggle("activeTab", currentTab === "nonionic");
       document.getElementById("ionicBtn").classList.toggle("activeTab", currentTab === "ionic");
+      document.getElementById("highPressureBtn").classList.toggle("activeTab", currentTab === "highpressure");
     }
 
     async function loadSources() {
@@ -73,6 +76,22 @@
       try {
         const text = await fetch(files[currentTab]).then(r => r.text());
 
+        // --- HIGH PRESSURE: Single section ---
+        if (currentTab === "highpressure") {
+          const lines = text.split(/\r?\n/).filter(l => l.trim());
+          const citation = lines.slice(1).join(" "); // Everything after the first line
+          
+          container.innerHTML = `
+            <details class="section" open>
+              <summary>Source for High Pressure Reactions</summary>
+              <div class="source">
+                ${citation.replace(/(https?:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')}
+              </div>
+            </details>`;
+          return;
+        }
+
+        // --- IONIC behavior ---
         if (currentTab === "ionic") {
           const lines = text.split(/\r?\n/).filter(l => l.trim());
           container.innerHTML = `<h2 id="ionicHeader">SOURCES FOR IONIC DATASET</h2>` +
@@ -84,49 +103,36 @@
               }
               return `<div class="source">${line}</div>`;
             }).join("");
-        } else {
-          const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
-          const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
-          const sections = text.split(sectionRegex).filter(s => s.trim());
-
-          let html = "";
-          for (let i = 0; i < sections.length; i++) {
-            const sectionNumber = i + 1;
-            const lines = sections[i].split(/\r?\n/).filter(l => l.trim());
-            const sourcesHTML = [];
-
-            for (let j = 0; j < lines.length; j++) {
-              let line = lines[j];
-              if (lines[j+1] && /^https?:\/\//i.test(lines[j+1].trim())) {
-                line += ` (<a href="${lines[j+1].trim()}" target="_blank">link</a>)`;
-                j++;
-              }
-              sourcesHTML.push(`<div class="source">${line}</div>`);
-            }
-
-            html += `
-              <details class="section" id="section${sectionNumber}">
-                <summary>${headers[i] || "Section " + sectionNumber}</summary>
-                ${sourcesHTML.join("")}
-              </details>`;
-          }
-          container.innerHTML = html;
+          return;
         }
 
-        // Handle redirect
-        if (location.hash) {
-          const id = location.hash.slice(1);
-          if (id === "ionic") {
-            currentTab = "ionic";
-            await loadSources();
-          } else {
-            const el = document.getElementById(id);
-            if (el) {
-              if (el.tagName.toLowerCase() === "details") el.open = true;
-              setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 200);
+        // --- NON-IONIC behavior ---
+        const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
+        const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
+        const sections = text.split(sectionRegex).filter(s => s.trim());
+
+        let html = "";
+        for (let i = 0; i < sections.length; i++) {
+          const sectionNumber = i + 1;
+          const lines2 = sections[i].split(/\r?\n/).filter(l => l.trim());
+          const sourcesHTML = [];
+
+          for (let j = 0; j < lines2.length; j++) {
+            let line = lines2[j];
+            if (lines2[j+1] && /^https?:\/\//i.test(lines2[j+1].trim())) {
+              line += ` (<a href="${lines2[j+1].trim()}" target="_blank">link</a>)`;
+              j++;
             }
+            sourcesHTML.push(`<div class="source">${line}</div>`);
           }
+
+          html += `
+            <details class="section" id="section${sectionNumber}">
+              <summary>${headers[i] || "Section " + sectionNumber}</summary>
+              ${sourcesHTML.join("")}
+            </details>`;
         }
+        container.innerHTML = html;
 
       } catch (e) {
         container.innerHTML = "Failed to load sources.";
@@ -134,8 +140,10 @@
       }
     }
 
+    // Tab listeners
     document.getElementById("nonIonicBtn").addEventListener("click", () => { currentTab = "nonionic"; loadSources(); });
     document.getElementById("ionicBtn").addEventListener("click", () => { currentTab = "ionic"; loadSources(); });
+    document.getElementById("highPressureBtn").addEventListener("click", () => { currentTab = "highpressure"; loadSources(); });
 
     loadSources();
   </script>
