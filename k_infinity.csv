@@ -35,3 +35,4 @@ C₃H₅+C₃H₅+M→CH₂CHCH₂CH₂CHCH₂+M,2.30E-11,300-1000,±.2
 C₃H+2-C₄H₈+M→CH₂CHCH₂CH(CH₃)CHCH₃+M,(1.0E-13)*exp(-9620/T),600-1200,±.7
 i-C₃H₇+i-C₃H₇+M→(CH₃)₂CHCH(CH₃)₂+M,6.80E-12,300-1000,"±.1 at 300K, rising to ±.3 at 1000K"
 t-C₄H₉+t-C₄H₉+M→(CH₃)₃CC(CH₃)₃+M,(5.2E-8)*T^(-1.73),300-1000,"±.15 at 300K, rising to ±.3 at 1000K"
+H+C₆H₅O+M→C₆H₅OH+M,4.20E-10,1000,±.3

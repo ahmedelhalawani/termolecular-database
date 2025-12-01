@@ -144,8 +144,7 @@ Number,Reaction,(E/R)/K,E/kcal mol⁻¹,E/KJ mol⁻¹,A,k,n,Temp./K,Radical Sour
 143,2NO+Br₂→2NOBr,,,,,2.63E-38,0,298,NO/Br₂,(T),40,,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
 144,2NO+Br₂→2NOBr,,,,,2.69E-38,0,303,NO/Br₂/Cl₂,(T),40,,"Hisatsune, I. C. and Zafonte, L., J. Phys. Chem., 73, 2980, 1969."
 145,2NO+Br₂→2NOBr,,,,,"[1.2897281982E-38,8.7196327772E-38]",0,275-363,Br₂/NO,(T),40a,,"Hovel, N. and van der Bergh, H., Int. J. Chem. Kinet., 9, 871, 1977."
-146,2NO+H₂→Products,,47,196,1.38E-29,,,973-1098,NO/H₂,(T),"41,45",,"Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265, Hinshelwood, C. N. and Mitchell, J. W., J. Chem. Soc., 378, 1936.
-"
+146,2NO+H₂→Products,,47,196,1.38E-29,,,973-1098,NO/H₂,(T),"41,45",,"Trotman-Dickenson, A. F., Gas Kinetics, Butterworths, London, 1955, 265, Hinshelwood, C. N. and Mitchell, J. W., J. Chem. Soc., 378, 1936."
 147,NO+NO₂+O₃→NO₂+NO₃,,,,,1.82E-40,0,298,NOCl/NO₂/O₂,(T),47,,"Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958."
 148,NO+NO₂+O₃→NO₂+NO₃,,,,,8.52E-41,0,,,,47,38a,"Schott, G. and Davidson, N., J. Am. Chem. Soc., 80, 1841, 1958."
 149,NO+NO₂+O₃→NO₂+NO₃,,-0.96,-4.01,5.76E-41,,,473-703,NO₂,(T),48,39,"Ashmore, P. G. and Burnett, M. G., Trans. Faraday Soc., 58, 253, 1962."
