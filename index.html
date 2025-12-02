@@ -24,8 +24,11 @@
       color: white;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: overflow-position;  
       padding: 12px 24px;
+      width: 110%;                 
+      top: 0;
+      z-index: 1000;
     }
     header img.logo { height: 40px; }
     nav a {
@@ -185,7 +188,6 @@
       slider.value = maxT;
       tempValue.textContent = maxT;
 
-      // High Pressure always renders full table
       renderTable(allRows, setKey === "highPressure");
     }
 
@@ -252,21 +254,35 @@
           const td = document.createElement("td");
           const lower = key.toLowerCase();
 
-          if (!showAll && (lower === "notes" || lower === "reference" || lower === "references") && val) {
+          /* ---------- FIXED BLOCK ---------- */
+          if (!showAll && (lower === "notes" || lower.includes("reference")) && val) {
             let link = "";
 
-            if (currentSet === "ionic") {
-              link = `sources.html?tab=ionic`;
-            } else if (currentSet === "highPressure") {
-              link = `sources.html#highpressure`;
-            } else if (section) {
-              link = `sources.html#section${section}`;
+            // REFERENCE links (all datasets)
+            if (lower.includes("reference")) {
+              if (currentSet === "ionic") {
+                link = `sources.html?tab=ionic`;
+              } else if (currentSet === "highPressure") {
+                link = `sources.html#highpressure`;
+              } else if (currentSet === "nonIonic" || currentSet.toLowerCase() === "nonionic") {
+                link = `sources.html#section${section}`;
+              }
+            }
+
+            // NOTES links
+            if (lower === "notes") {
+              if (currentSet === "ionic") {
+                link = `notes.html#ionic`;
+              } else if (currentSet === "nonIonic" || currentSet.toLowerCase() === "nonionic") {
+                link = `notes.html#section${section}`;
+              }
             }
 
             td.innerHTML = `<a href="${link}" target="_blank">${val}</a>`;
           } else {
             td.textContent = val;
           }
+          /* ---------- END FIX ---------- */
 
           tr.appendChild(td);
         });
