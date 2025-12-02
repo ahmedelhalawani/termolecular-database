@@ -81,7 +81,6 @@
       margin-top: auto;
     }
 
-    /* NEW BUTTON STYLES */
     .toggle-container {
       display: flex;
       gap: 10px;
@@ -111,6 +110,7 @@
     }
   </style>
 
+  <!-- MathJax -->
   <script>
     window.MathJax = {
       tex: { inlineMath: [['$','$'], ['\\(','\\)']] },
@@ -120,10 +120,12 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <script>
-    // NEW: Toggle behavior + hide/show sections
     function setRateType(type) {
       const lowSection = document.getElementById("lowPressureSection");
       const highSection = document.getElementById("highPressureSection");
+
+      const lowUnits = document.getElementById("lowUnitsTable");
+      const highUnits = document.getElementById("highUnitsTable");
 
       const lowBtn = document.getElementById("btn-low");
       const highBtn = document.getElementById("btn-high");
@@ -131,17 +133,22 @@
       if (type === "low") {
         lowSection.style.display = "block";
         highSection.style.display = "none";
+        lowUnits.style.display = "table";
+        highUnits.style.display = "none";
+
         lowBtn.classList.add("active");
         highBtn.classList.remove("active");
       } else {
         lowSection.style.display = "none";
         highSection.style.display = "block";
+        lowUnits.style.display = "none";
+        highUnits.style.display = "table";
+
         highBtn.classList.add("active");
         lowBtn.classList.remove("active");
       }
     }
 
-    // Default on page load = Low Pressure Reaction Rate
     window.onload = () => setRateType("low");
   </script>
 </head>
@@ -165,7 +172,6 @@
 
   <div class="container">
 
-    <!-- TOGGLE BUTTONS -->
     <div class="toggle-container">
       <button id="btn-low" class="toggle-btn" onclick="setRateType('low')">
         Low Pressure Reaction Rate
@@ -176,10 +182,8 @@
     </div>
 
     <header>
-      <div>
-        <h1>Explanation of Database</h1>
-        <p class="lead">Concise guide to what each column means.</p>
-      </div>
+      <h1>Explanation of Database</h1>
+      <p class="lead">Concise guide to what each column means.</p>
     </header>
 
     <div class="grid">
@@ -189,23 +193,32 @@
         <p class="muted">This page explains the dataset columns and gives guidance for interpretation, units, and uncertainties.</p>
 
         <h3 style="margin-top:16px;color:#990000">Quick example</h3>
-        <p class="muted">If a row lists $A = 1.2\times 10^{30}$, $n = -2.5$, and $E = 5.1\;\text{kcal mol}^{-1}$, then the generalized Arrhenius form is $$k(T) = A T^n e^{-E/(RT)}.$$ Use $R = 1.9872\times10^{-3}\;\text{kcal mol}^{-1}\text{K}^{-1}$ to evaluate the exponential term when $E$ is in kcal/mol.</p>
+        <p class="muted">If a row lists $A = 1.2\times 10^{30}$, $n = -2.5$, and $E = 5.1\;\text{kcal mol}^{-1}$, then the generalized Arrhenius form is $$k(T) = A T^n e^{-E/(RT)}.$$</p>
       </section>
 
+      <!-- RIGHT SIDEBAR -->
       <aside class="card">
         <h3 style="margin-top:0;color:#990000">At-a-glance</h3>
         <p class="muted">Units & quick tips</p>
-        <table>
+
+        <!-- LOW PRESSURE UNITS TABLE -->
+        <table id="lowUnitsTable">
           <tr><th>Column</th><th>Typical units</th></tr>
           <tr><td>k (termolecular)</td><td>cm⁶ mol⁻² s⁻¹</td></tr>
-          <tr><td>A (pre-exponential)</td><td>termolecular → cm⁶ mol⁻² s⁻¹</td></tr>
+          <tr><td>A (pre-exponential)</td><td>cm⁶ mol⁻² s⁻¹</td></tr>
           <tr><td>E</td><td>kcal mol⁻¹ or kJ mol⁻¹</td></tr>
+          <tr><td>Temp.</td><td>K</td></tr>
+        </table>
+
+        <!-- HIGH PRESSURE UNITS TABLE (NEW) -->
+        <table id="highUnitsTable" style="display:none">
+          <tr><th>Column</th><th>Typical units</th></tr>
+          <tr><td>k∞ (bimolecular)</td><td>cm³ mol⁻¹ s⁻¹</td></tr>
           <tr><td>Temp.</td><td>K</td></tr>
         </table>
       </aside>
 
-
-      <!-- ⭐ LOW PRESSURE SECTION ⭐ -->
+      <!-- LOW PRESSURE SECTION -->
       <section id="lowPressureSection" class="card full">
         <h2 style="color:#990000">Column-by-column explanations</h2>
 
@@ -246,39 +259,18 @@
           </div>
         </div>
       </section>
-      <!-- END LOW PRESSURE SECTION -->
 
-
-      <!-- ⭐⭐⭐ NEW HIGH PRESSURE SECTION ⭐⭐⭐ -->
+      <!-- HIGH PRESSURE SECTION -->
       <section id="highPressureSection" class="card full" style="display:none">
         <h2 style="color:#990000">High Pressure Reaction Rate — Column-by-column explanations</h2>
 
         <div class="col-list" style="margin-top:12px">
-
-          <div class="col-card">
-            <h4 style="color:#990000">Reaction (High Pressure)</h4>
-            <p class="muted">Balanced chemical equation evaluated in the high-pressure limit. Molecularity and third bodies (M) are shown when applicable.</p>
-          </div>
-
-          <div class="col-card">
-            <h4 style="color:#990000">k∞</h4>
-            <p class="muted">High-pressure limit rate constant. Represents the value of the rate coefficient when pressure is sufficiently high that collisional stabilization is no longer rate-limiting.</p>
-          </div>
-
-          <div class="col-card">
-            <h4 style="color:#990000">Temp. / K</h4>
-            <p class="muted">Temperature (Kelvin) corresponding to the high-pressure limit rate constant. If a range is provided, k∞ is valid within that interval.</p>
-          </div>
-
-          <div class="col-card">
-            <h4 style="color:#990000">Error Limits (Δlog k)</h4>
-            <p class="muted">Uncertainty in logarithmic units for the high-pressure rate constant. Δlog k = 0.3 corresponds to roughly a factor of 2 variation.</p>
-          </div>
-
+          <div class="col-card"><h4 style="color:#990000">Reaction (High Pressure)</h4><p class="muted">Balanced chemical equation evaluated in the high-pressure limit. Molecularity and third bodies (M) are shown when applicable.</p></div>
+          <div class="col-card"><h4 style="color:#990000">k∞</h4><p class="muted">High-pressure limit rate constant. Represents the value of the rate coefficient when pressure is sufficiently high that collisional stabilization is no longer rate-limiting.</p></div>
+          <div class="col-card"><h4 style="color:#990000">Temp. / K</h4><p class="muted">Temperature (Kelvin) corresponding to the high-pressure limit rate constant. If a range is provided, k∞ is valid within that interval</p></div>
+          <div class="col-card"><h4 style="color:#990000">Error Limits (Δlog k)</h4><p class="muted">Uncertainty in logarithmic units for the high-pressure rate constant. Δlog k = 0.3 corresponds to roughly a factor of 2 variation</p></div>
         </div>
       </section>
-      <!-- END HIGH PRESSURE SECTION -->
-
 
     </div>
   </div>
