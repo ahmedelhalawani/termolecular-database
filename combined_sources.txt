@@ -831,5 +831,10 @@ https://pubs.aip.org/aip/jcp/article/65/11/4830/793516/Absolute-rate-constants-f
 
 27. Harker, A. B. and Johnston, H. S., J. Phys. Chem., 77, 1153, 1973.
 https://kinetics.nist.gov/kinetics/Detail;jsessionid=6E3167619D742552113492AD4D5AFDBA?id=1973HAR/JOH1153:4
+
+28. Hsu, K. J., Durant, J. L. and Kaufman, F., J. Phys. Chem., 91, 1895, 1987.
+https://pubs.acs.org/doi/10.1021/j100291a043
+
+
                         
                         
