@@ -6,8 +6,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <title>Termolecular Database</title>
+
+  <!-- PapaParse -->
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+      svg: { fontCache: "global" }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   <style>
     body {
@@ -24,10 +36,8 @@
       color: white;
       display: flex;
       align-items: center;
-      justify-content: overflow-position;  
       padding: 12px 24px;
-      width: 110%;                 
-      top: 0;
+      width: 110%;
       z-index: 1000;
     }
     header img.logo { height: 40px; }
@@ -38,18 +48,21 @@
       font-weight: bold;
     }
     nav a:hover { text-decoration: underline; }
+
     h1 {
       color: #990000;
       font-size: 2em;
       margin-bottom: 20px;
     }
+
     main { padding: 20px; }
     table { border-collapse: collapse; width: 100%; margin-top: 20px; }
     th, td { border: 1px solid #ccc; padding: 6px 10px; }
     th { background: #f0f0f0; }
+
     a { color: #990000; text-decoration: underline; }
+
     button {
-      display: inline-block;
       padding: 6px 12px;
       font-size: 0.825em;
       margin-top: 10px;
@@ -58,27 +71,17 @@
       border: none;
       border-radius: 3px;
       color: white;
-      font-family: "Montserrat", sans-serif;
     }
-    .activeTab { background: #b30000; color: white; }
+    .activeTab { background: #b30000; }
+
     input[type=range] {
-      -webkit-appearance: none;
       width: 300px;
       height: 6px;
       background: #ddd;
       border-radius: 3px;
-      outline: none;
       margin: 10px 0;
     }
-    input[type=range]::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      width: 16px;
-      height: 16px;
-      background: #b30000;
-      cursor: pointer;
-      border-radius: 50%;
-      border: none;
-    }
+
     #searchBar {
       margin: 15px 0;
       padding: 8px;
@@ -86,6 +89,7 @@
       border: 1px solid #aaa;
       border-radius: 5px;
     }
+
     footer {
       text-align: center;
       background: #333;
@@ -98,9 +102,7 @@
 
 <body>
   <header>
-    <div>
-      <a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a>
-    </div>
+    <a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a>
     <nav>
       <a href="landing.html">Home</a>
       <a href="contact.html">Contact</a>
@@ -119,9 +121,7 @@
       <button id="highPressureBtn">High Pressure Dataset</button>
     </div>
 
-    <div>
-      <button id="downloadBtn">Download CSV</button>
-    </div>
+    <div><button id="downloadBtn">Download CSV</button></div>
 
     <div>
       <label for="tempSlider">Filter Temp./K ≤ <span id="tempValue"></span></label><br />
@@ -136,9 +136,7 @@
     <div id="graphContainer"></div>
   </main>
 
-  <footer>
-    © 2025 Termolecular Reaction Database | JPR Group
-  </footer>
+  <footer>© 2025 Termolecular Reaction Database | JPR Group</footer>
 
   <script>
     let allRows = [];
@@ -147,7 +145,12 @@
     const datasets = {
       ionic: { csv: "ionic.csv" },
       nonIonic: { csv: "nonionic.csv" },
-      highPressure: { csv: "k_infinity.csv" }
+
+      /* 🔥 High-pressure now loads LaTeX version but downloads the old file */
+      highPressure: {
+        csv: "k_infinity.csv",          // download file
+        latexCsv: "k_infinity_latex.csv" // on-screen table file
+      }
     };
 
     const searchBar = document.getElementById("searchBar");
@@ -177,7 +180,10 @@
       graphContainer.innerHTML = "";
       window.scrollTo({ top: 0, behavior: "smooth" });
 
-      const text = await (await fetch(datasets[setKey].csv)).text();
+      const fileToLoad =
+        setKey === "highPressure" ? datasets.highPressure.latexCsv : datasets[setKey].csv;
+
+      const text = await (await fetch(fileToLoad)).text();
       const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
       allRows = parsed.data;
 
@@ -194,15 +200,13 @@
     function normalizeChemical(text) {
       if (!text) return "";
       const subs = { "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉" };
-      const sups = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9" };
       let t = text;
       for (const [n, s] of Object.entries(subs)) t = t.replaceAll(n, s);
-      for (const [s, n] of Object.entries(sups)) t = t.replaceAll(s, n);
       return t;
     }
 
     function applyFilters() {
-      if (currentSet === "highPressure") return;
+      if (currentSet === "highPressure") return; // HP has no filtering
 
       const query = searchBar.value.toLowerCase().trim();
       tempValue.textContent = slider.value;
@@ -215,25 +219,29 @@
         const normQuery = normalizeChemical(query);
         const normReaction = normalizeChemical(reaction);
 
-        const searchOK =
+        return (
           reaction.includes(query) ||
           reaction.includes(normQuery) ||
           normReaction.includes(query) ||
-          normReaction.includes(normQuery);
-
-        return tempOK && searchOK;
+          normReaction.includes(normQuery)
+        ) && tempOK;
       });
 
       renderTable(filtered);
     }
 
-    function renderTable(data, showAll = false) {
+    function renderTable(data, isHighPressure = false) {
       const table = document.getElementById("csvTable");
       table.innerHTML = "";
-      if (!data.length) { table.innerHTML = "<tr><td>No results</td></tr>"; return; }
+
+      if (!data.length) {
+        table.innerHTML = "<tr><td>No results</td></tr>";
+        return;
+      }
 
       const hiddenCols = ["reference_text"];
 
+      // Header
       const headerRow = document.createElement("tr");
       Object.keys(data[0]).forEach(k => {
         if (hiddenCols.includes(k.toLowerCase())) return;
@@ -243,6 +251,7 @@
       });
       table.appendChild(headerRow);
 
+      // Rows
       data.forEach(row => {
         const tr = document.createElement("tr");
         const num = parseInt(row["Number"]);
@@ -254,49 +263,50 @@
           const td = document.createElement("td");
           const lower = key.toLowerCase();
 
-          /* ---------- FIXED BLOCK ---------- */
-          if (!showAll && (lower === "notes" || lower.includes("reference")) && val) {
+          if (!isHighPressure &&
+              (lower === "notes" || lower.includes("reference")) &&
+              val) {
+
             let link = "";
-
-            // REFERENCE links (all datasets)
             if (lower.includes("reference")) {
-              if (currentSet === "ionic") {
-                link = `sources.html?tab=ionic`;
-              } else if (currentSet === "highPressure") {
-                link = `sources.html#highpressure`;
-              } else if (currentSet === "nonIonic" || currentSet.toLowerCase() === "nonionic") {
-                link = `sources.html#section${section}`;
-              }
+              if (currentSet === "ionic") link = `sources.html?tab=ionic`;
+              else if (currentSet === "highPressure") link = `sources.html#highpressure`;
+              else link = `sources.html#section${section}`;
             }
-
-            // NOTES links
             if (lower === "notes") {
-              if (currentSet === "ionic") {
-                link = `notes.html#ionic`;
-              } else if (currentSet === "nonIonic" || currentSet.toLowerCase() === "nonionic") {
-                link = `notes.html#section${section}`;
-              }
+              if (currentSet === "ionic") link = `notes.html#ionic`;
+              else link = `notes.html#section${section}`;
             }
-
             td.innerHTML = `<a href="${link}" target="_blank">${val}</a>`;
-          } else {
+          }
+
+          /* 🔥 High-pressure LaTeX rendering for k∞ */
+          else if (isHighPressure && (key === "k∞" || key.toLowerCase() === "k_infinity")) {
+            td.innerHTML = `$${val}$`;
+          }
+
+          else {
             td.textContent = val;
           }
-          /* ---------- END FIX ---------- */
 
           tr.appendChild(td);
         });
 
         table.appendChild(tr);
       });
+
+      /* 🔥 Re-render LaTeX */
+      MathJax.typesetPromise();
     }
 
     document.getElementById("ionicBtn").addEventListener("click", () => loadCSV("ionic"));
     document.getElementById("nonIonicBtn").addEventListener("click", () => loadCSV("nonIonic"));
     document.getElementById("highPressureBtn").addEventListener("click", () => loadCSV("highPressure"));
+
     searchBar.addEventListener("input", applyFilters);
     slider.addEventListener("input", applyFilters);
 
+    /* 🔥 Download original CSV (not LaTeX) */
     document.getElementById("downloadBtn").addEventListener("click", () => {
       const link = document.createElement("a");
       link.href = datasets[currentSet].csv;
