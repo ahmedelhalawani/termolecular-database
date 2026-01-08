@@ -7,25 +7,68 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Sources</title>
+
   <style>
+    /* Base Layout */
     body { margin: 0; font-family: "Montserrat", sans-serif; background: #f3f1ed; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
-    header { background: #990000; color: white; display: flex; align-items: center; justify-content: overflow-position; padding: 12px 24px; }
+    header { background: #990000; color: white; display: flex; align-items: center; justify-content: start; padding: 12px 24px; }
     header img.logo { height: 40px; }
     nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
-    main { padding: 20px; max-width: 1000px; margin: auto; }
+    main { padding: 20px; max-width: 1000px; margin: auto; width: 100%; box-sizing: border-box; }
     h1 { color: #990000; }
+    footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
+
+    /* BUTTONS AND CONTAINERS */
     .tabs { margin: 12px 0; }
     .tabs button { display: inline-block; padding: 6px 12px; margin-right: 6px; border: none; border-radius: 4px; cursor: pointer; background: #990000; color: white; font-size: 0.9em; }
     .tabs button.activeTab { background: #b30000; }
-    .section { background: #fff; margin: 10px 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden; }
-    .section summary { background: #eee; padding: 10px 14px; cursor: pointer; font-weight: 600; color: #990000; }
-    .section summary:hover { background: #e2e2e2; }
-    .source { padding: 8px 16px; line-height: 1.4; border-top: 1px solid #ddd; }
-    footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
-    #ionicHeader { color: #990000; border-bottom: 2px solid #990000; margin-top: 30px; padding-bottom: 5px; }
+    .section-container { background: #fff; margin: 10px 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden; padding: 20px; }
+
+    /* Nice numbered list like your old sources page */
+    ul.sources-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.sources-list > li {
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px dashed #eee;
+      line-height: 1.4;
+      font-weight: 400;
+      position: relative;
+      padding-left: 40px;
+    }
+    ul.sources-list > li::before {
+      content: attr(data-label) ". ";
+      position: absolute;
+      left: 0px;
+      font-weight: 700;
+      color: #990000;
+      display: inline-block;
+      width: 30px;
+      text-align: right;
+    }
+    ul.sources-list > li:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    /* Make hash targets pop a bit */
+    li:target {
+      outline: 2px solid rgba(153,0,0,0.35);
+      outline-offset: 6px;
+      border-radius: 6px;
+      background: rgba(153,0,0,0.04);
+    }
+
+    /* High Pressure */
+    .hp-citation { padding: 10px 0; font-style: italic; }
   </style>
 </head>
+
 <body>
   <header>
     <div><a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a></div>
@@ -40,7 +83,7 @@
 
   <main>
     <h1>Sources</h1>
-    <p><a href="index.html">⬅ Back to Table</a></p>
+    <p><a href="index.html" style="color: #990000; font-weight: 600;">⬅ Back to Table</a></p>
 
     <div class="tabs">
       <button id="nonIonicBtn" class="activeTab">Non-Ionic</button>
@@ -51,14 +94,21 @@
     <div id="sourcesContainer">Loading...</div>
   </main>
 
-  <footer>© 2025 Termolecular Reaction Database | JPR Group</footer>
+  <footer>&copy; 2025 Termolecular Reaction Database | JPR Group</footer>
 
   <script>
+    // File mapping (edit nonionic filename if yours is different)
     const files = {
       nonionic: "combined_sources.txt",
-      ionic: "sources_7.txt",
-      highpressure: "high_pressure_source.txt"
+      ionic: "sources_7.txt"
     };
+
+    const highPressureSource = `
+D. L. Baulch, C. T. Bowman, C. J. Cobos, R. A. Cox, Th. Just, J. A.
+Kerr, M. J. Pilling, D. Stocker, J. Troe, W. Tsang, R. W. Walker, J.
+Warnatz; Evaluated Kinetic Data for Combustion Modeling: Supplement II.
+J. Phys. Chem. Ref. Data 1 September 2005; 34 (3): 757–1397. https://doi.org/10.1063/1.1748524
+    `.trim();
 
     let currentTab = "nonionic";
 
@@ -68,84 +118,114 @@
       document.getElementById("highPressureBtn").classList.toggle("activeTab", currentTab === "highpressure");
     }
 
-    async function loadSources() {
+    function escapeHTML(s) {
+      return (s || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    async function loadSources(skipScroll = false) {
       setActiveTab();
       const container = document.getElementById("sourcesContainer");
-      container.innerHTML = "Loading...";
+      container.innerHTML = "";
 
+      // High Pressure: single citation
+      if (currentTab === "highpressure") {
+        const linkMatch = highPressureSource.match(/(https?:\/\/\S+)/);
+        const url = linkMatch ? linkMatch[0] : "";
+        const citationText = url ? highPressureSource.replace(url, "").trim() : highPressureSource;
+
+        container.innerHTML = `
+          <div class="section-container">
+            <p class="hp-citation">
+              1. ${escapeHTML(citationText)}
+              ${url ? ` <a href="${escapeHTML(url)}" target="_blank">${escapeHTML(url)}</a>` : ""}
+            </p>
+          </div>
+        `;
+        return;
+      }
+
+      // Nonionic / Ionic: load from file
+      let text = "";
       try {
-        const text = await fetch(files[currentTab]).then(r => r.text());
-
-        // --- HIGH PRESSURE: Single section ---
-        if (currentTab === "highpressure") {
-          const lines = text.split(/\r?\n/).filter(l => l.trim());
-          const citation = lines.slice(1).join(" "); // Everything after the first line
-          
-          container.innerHTML = `
-            <details class="section" open>
-              <summary>Source for High Pressure Reactions</summary>
-              <div class="source">
-                ${citation.replace(/(https?:\/\/\S+)/g, '<a href="$1" target="_blank">$1</a>')}
-              </div>
-            </details>`;
-          return;
-        }
-
-        // --- IONIC behavior ---
-        if (currentTab === "ionic") {
-          const lines = text.split(/\r?\n/).filter(l => l.trim());
-          container.innerHTML = `<h2 id="ionicHeader">SOURCES FOR IONIC DATASET</h2>` +
-            lines.map((line, idx) => {
-              if (lines[idx+1] && /^https?:\/\//i.test(lines[idx+1].trim())) {
-                const link = lines[idx+1].trim();
-                lines.splice(idx+1, 1);
-                return `<div class="source">${line} (<a href="${link}" target="_blank">link</a>)</div>`;
-              }
-              return `<div class="source">${line}</div>`;
-            }).join("");
-          return;
-        }
-
-        // --- NON-IONIC behavior ---
-        const sectionRegex = /SOURCES FOR SECTION [0-9]+/gi;
-        const headers = [...text.matchAll(sectionRegex)].map(m => m[0]);
-        const sections = text.split(sectionRegex).filter(s => s.trim());
-
-        let html = "";
-        for (let i = 0; i < sections.length; i++) {
-          const sectionNumber = i + 1;
-          const lines2 = sections[i].split(/\r?\n/).filter(l => l.trim());
-          const sourcesHTML = [];
-
-          for (let j = 0; j < lines2.length; j++) {
-            let line = lines2[j];
-            if (lines2[j+1] && /^https?:\/\//i.test(lines2[j+1].trim())) {
-              line += ` (<a href="${lines2[j+1].trim()}" target="_blank">link</a>)`;
-              j++;
-            }
-            sourcesHTML.push(`<div class="source">${line}</div>`);
-          }
-
-          html += `
-            <details class="section" id="section${sectionNumber}">
-              <summary>${headers[i] || "Section " + sectionNumber}</summary>
-              ${sourcesHTML.join("")}
-            </details>`;
-        }
-        container.innerHTML = html;
-
+        const resp = await fetch(files[currentTab], { cache: "no-store" });
+        text = await resp.text();
       } catch (e) {
-        container.innerHTML = "Failed to load sources.";
+        container.innerHTML = `<div class="section-container">Failed to load sources.</div>`;
         console.error(e);
+        return;
+      }
+
+      const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+
+      // Expect lines like: "17a. Citation text ..."
+      const items = lines.map(line => {
+        const m = line.match(/^\s*([0-9]+[a-zA-Z]?)\.\s*(.*)$/);
+        if (!m) {
+          // fallback: show the line without an id/number
+          return `<li data-label="" style="padding-left:0;border-bottom:1px dashed #eee;">${escapeHTML(line)}</li>`;
+        }
+        const label = m[1];
+        const rest  = m[2] || "";
+        // id must be label (no dot) so #17a works
+        return `<li id="${escapeHTML(label)}" data-label="${escapeHTML(label)}">${escapeHTML(rest)}</li>`;
+      }).join("");
+
+      container.innerHTML = `
+        <div class="section-container">
+          <ul class="sources-list">
+            ${items}
+          </ul>
+        </div>
+      `;
+
+      // Scroll to hash target if present
+      if (skipScroll) return;
+
+      if (location.hash) {
+        const id = decodeURIComponent(location.hash.slice(1));
+        // allow #ionic / #nonionic / #highpressure if you ever want it
+        if (id === "ionic" || id === "nonionic" || id === "highpressure") return;
+
+        const el = document.getElementById(id);
+        if (el) {
+          setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
+        }
       }
     }
 
-    // Tab listeners
-    document.getElementById("nonIonicBtn").addEventListener("click", () => { currentTab = "nonionic"; loadSources(); });
-    document.getElementById("ionicBtn").addEventListener("click", () => { currentTab = "ionic"; loadSources(); });
-    document.getElementById("highPressureBtn").addEventListener("click", () => { currentTab = "highpressure"; loadSources(); });
+    // Tab button listeners
+    document.getElementById("nonIonicBtn").addEventListener("click", () => {
+      currentTab = "nonionic";
+      history.replaceState(null, "", `${location.pathname}?tab=nonionic`);
+      loadSources(true);
+    });
 
-    loadSources();
+    document.getElementById("ionicBtn").addEventListener("click", () => {
+      currentTab = "ionic";
+      history.replaceState(null, "", `${location.pathname}?tab=ionic`);
+      loadSources(true);
+    });
+
+    document.getElementById("highPressureBtn").addEventListener("click", () => {
+      currentTab = "highpressure";
+      history.replaceState(null, "", `${location.pathname}?tab=highpressure`);
+      loadSources(true);
+    });
+
+    // Init from ?tab=
+    (function init() {
+      const params = new URLSearchParams(location.search);
+      const tab = (params.get("tab") || "").toLowerCase();
+      if (tab === "ionic") currentTab = "ionic";
+      else if (tab === "highpressure") currentTab = "highpressure";
+      else currentTab = "nonionic";
+      loadSources();
+    })();
   </script>
 </body>
 </html>

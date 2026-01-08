@@ -7,25 +7,106 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Notes</title>
+
   <style>
-    body { margin: 0; font-family: "Montserrat", sans-serif; background: #f3f1ed; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
-    header { background: #990000; color: white; display: flex; align-items: center; justify-content: overflow-position; padding: 12px 24px; }
+    /* Base Layout (match sources.html) */
+    body {
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      background: #f3f1ed;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #990000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding: 12px 24px;
+    }
     header img.logo { height: 40px; }
-    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     nav a:hover { text-decoration: underline; }
-    main { padding: 20px; max-width: 1000px; margin: auto; }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      width: 100%;
+      box-sizing: border-box;
+    }
     h1 { color: #990000; }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: #ddd;
+      padding: 15px;
+      margin-top: auto;
+    }
+
+    /* Tabs (match sources.html) */
     .tabs { margin: 12px 0; }
-    .tabs button { display: inline-block; padding: 6px 12px; margin-right: 6px; border: none; border-radius: 4px; cursor: pointer; background: #990000; color: white; font-size: 0.9em; }
+    .tabs button {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-right: 6px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background: #990000;
+      color: white;
+      font-size: 0.9em;
+    }
     .tabs button.activeTab { background: #b30000; }
-    .section { background: #fff; margin: 10px 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden; }
-    .section summary { background: #eee; padding: 10px 14px; cursor: pointer; font-weight: 600; color: #990000; }
-    .section summary:hover { background: #e2e2e2; }
-    .note { padding: 8px 16px; line-height: 1.4; border-top: 1px solid #ddd; }
-    footer { text-align: center; background: #333; color: #ddd; padding: 15px; margin-top: auto; }
-    #ionicHeader { color: #990000; border-bottom: 2px solid #990000; margin-top: 30px; padding-bottom: 5px; }
+
+    /* Container (match sources.html) */
+    .section-container {
+      background: #fff;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    /* Notes styling */
+    .note {
+      padding: 8px 0;
+      line-height: 1.4;
+      border-top: 1px solid #ddd;
+    }
+    .note:first-child { border-top: none; }
+
+    #ionicHeader {
+      color: #990000;
+      border-bottom: 2px solid #990000;
+      margin-top: 0;
+      padding-bottom: 5px;
+    }
+
+    /* Optional: make hash targets feel nicer */
+    .note:target {
+      outline: 2px solid rgba(153,0,0,0.35);
+      outline-offset: 6px;
+      border-radius: 6px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: -10px;
+      margin-right: -10px;
+      background: rgba(153,0,0,0.04);
+    }
   </style>
 </head>
+
 <body>
   <header>
     <div><a href="landing.html"><img src="jpr_logo.png" alt="Logo" class="logo"></a></div>
@@ -40,7 +121,7 @@
 
   <main>
     <h1>Notes</h1>
-    <p><a href="index.html">⬅ Back to Table</a></p>
+    <p><a href="index.html" style="color: #990000; font-weight: 600;">⬅ Back to Table</a></p>
 
     <div class="tabs">
       <button id="nonIonicBtn" class="activeTab">Non-Ionic</button>
@@ -50,7 +131,7 @@
     <div id="notesContainer">Loading...</div>
   </main>
 
-  <footer>© 2025 Termolecular Reaction Database | JPR Group</footer>
+  <footer>&copy; 2025 Termolecular Reaction Database | JPR Group</footer>
 
   <script>
     const files = {
@@ -65,63 +146,90 @@
       document.getElementById("ionicBtn").classList.toggle("activeTab", currentTab === "ionic");
     }
 
-    async function loadNotes() {
+    function escapeHTML(s) {
+      return (s || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    async function loadNotes(skipHashHandling = false) {
       setActiveTab();
+
       const container = document.getElementById("notesContainer");
-      container.innerHTML = "Loading...";
+      container.innerHTML = "";
 
+      let text = "";
       try {
-        const text = await fetch(files[currentTab]).then(r => r.text());
-
-        if (currentTab === "ionic") {
-          const lines = text.split(/\r?\n/).filter(l => l.trim());
-          container.innerHTML = `<h2 id="ionicHeader">NOTES FOR IONIC DATASET</h2>` +
-            lines.map((line, idx) => `<div class="note" id="ionic-entry-${idx+1}">${line}</div>`).join("");
-        } else {
-          const headerMatches = [...text.matchAll(/NOTES FOR SECTION\s+\d+[^\n]*/gi)];
-          const headers = headerMatches.map(m => m[0]);
-          const sections = text.split(/NOTES FOR SECTION\s+\d+[^\n]*/i).filter(s => s.trim());
-
-          let html = "";
-          for (let i = 0; i < sections.length; i++) {
-            const body = sections[i].split(/\r?\n/).filter(l => l.trim());
-            const notesHTML = body.map((line, idx) => {
-              const m = line.match(/^\s*([0-9a-zA-Z.]+)\s*(.*)$/);
-              if (m) return `<div class="note" id="section${i+1}-note${idx+1}"><strong>${m[1]}</strong> ${m[2]}</div>`;
-              return `<div class="note" id="section${i+1}-note${idx+1}">${line}</div>`;
-            }).join("");
-            html += `
-              <details class="section" id="section${i+1}">
-                <summary>${headers[i] || "Section " + (i + 1)}</summary>
-                ${notesHTML}
-              </details>`;
-          }
-          container.innerHTML = html;
-        }
-
-        // Scroll logic
-        if (location.hash) {
-          const id = location.hash.slice(1);
-          if (id === "ionic") {
-            currentTab = "ionic";
-            await loadNotes();
-          } else {
-            const el = document.getElementById(id);
-            if (el) {
-              if (el.tagName.toLowerCase() === "details") el.open = true;
-              setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 200);
-            }
-          }
-        }
-
+        const resp = await fetch(files[currentTab], { cache: "no-store" });
+        text = await resp.text();
       } catch (e) {
-        container.innerHTML = "Failed to load notes.";
+        container.innerHTML = `<div class="section-container">Failed to load notes.</div>`;
         console.error(e);
+        return;
+      }
+
+      const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+
+      // Lines look like: "17a. text ..."
+      const itemsHTML = lines.map((line) => {
+        const m = line.match(/^\s*([0-9]+[a-zA-Z]?)\.\s*(.*)$/);
+        if (!m) {
+          // Render anything unexpected safely, without an id
+          return `<div class="note">${escapeHTML(line)}</div>`;
+        }
+
+        const label = m[1];          // "17a" (no dot)
+        const rest  = m[2] || "";    // note text
+
+        return `
+          <div class="note" id="${escapeHTML(label)}">
+            <strong>${escapeHTML(label)}.</strong> ${escapeHTML(rest)}
+          </div>
+        `;
+      }).join("");
+
+      container.innerHTML = `
+        <div class="section-container">
+          ${currentTab === "ionic" ? `<h2 id="ionicHeader">NOTES FOR IONIC DATASET</h2>` : ``}
+          ${itemsHTML}
+        </div>
+      `;
+
+      // Hash handling: allow #ionic to switch tabs, otherwise scroll to exact label id (e.g., #17a)
+      if (skipHashHandling) return;
+
+      if (location.hash) {
+        const id = decodeURIComponent(location.hash.slice(1));
+
+        if (id === "ionic") {
+          currentTab = "ionic";
+          await loadNotes(true);
+          const hdr = document.getElementById("ionicHeader");
+          if (hdr) hdr.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+
+        const el = document.getElementById(id);
+        if (el) {
+          setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
+        }
       }
     }
 
-    document.getElementById("nonIonicBtn").addEventListener("click", () => { currentTab = "nonionic"; loadNotes(); });
-    document.getElementById("ionicBtn").addEventListener("click", () => { currentTab = "ionic"; loadNotes(); });
+    document.getElementById("nonIonicBtn").addEventListener("click", () => {
+      currentTab = "nonionic";
+      history.replaceState(null, "", location.pathname); // clear hash
+      loadNotes(true);
+    });
+
+    document.getElementById("ionicBtn").addEventListener("click", () => {
+      currentTab = "ionic";
+      history.replaceState(null, "", location.pathname); // clear hash
+      loadNotes(true);
+    });
 
     loadNotes();
   </script>

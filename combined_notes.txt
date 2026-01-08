@@ -1,4 +1,3 @@
-NOTES FOR SECTION 1 (Rows 1-161):
 1. Flame study.
 2. [H] monitored by resonance fluorescence.
 3. [H] monitored by HNO chemiluminescence.
@@ -51,211 +50,196 @@ rate constants.
 47. Fourier transform infrared spectrometric study.
 48. NO₂ formed from NO + NO₃ → 2N0₂ and [NO₂]  monitored spectrophotometrically
 49. [OH] monitored by resonance fluorescence; pressure range 25 to 648 torr; limiting low-pressure third-order k.
-
-NOTES FOR SECTION 2 (Rows 162-192):
-
-1. Static system. Rate constant derived from variation of [Br₂], monitored by ab- sorption spectrophotometry. Pressure of added He ranged from 1 to 100 atm.
-2.  Data derived using a diffusion flame method. Pressure range was approximately 7 to 20 torr.
-3. Study of the pulse-radiolysis of H₂S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectrometry. Experimental S₂/SH profiles were compared to the results of numerical integration of proposed mechanism; rate constant obtained by fitting simulated profiles to experimental profiles.
-4. Discharge-flow system. Rate constant derived from decay of N atoms, monitored by mass spectrometry.
-5. Reaction studied by kinetic spectroscopy.
-6. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 4.8 x 10^25*T^-3.4
-7. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 2.1 x 10^25*T^-3.2.
-8. Reaction studied using mass spectrometry.
-9. [OH(²Σ⁺)] monitored by emission spectroscopy.
-10. Rate constant derived by modeling flame inhibition data taken from the literature. 
-11. Approximate value derived from graphical data in paper.
-12. Data evaluation.
-13. Laser photolyses at 266 nm with resonance fluorescence detection of 1. Rotational and vibrational state of I* unknown. Temperature assumed to be room temperature.
-
-
-NOTES FOR SECTION 3 (Rows 193-280):
-
-1. [H] monitored by self-balancing catalytic probe detector.
-2. [H] monitored by e.s.r.
-3. Evaluated rate data.
-4. Estimated values, based on experimental data at 1050 K combined with literature data at lower temperatures.
-5. [OH²Σ⁺] monitored by emmission spectroscopy.
-6. [F] monitored by e.s.r.
-7. Measured in jet-flow apparatus.
-8. [S₂] monitored by chemiluminescence.
-9. Rate constant k, calculated from k1 = k_1 * K_c
-10. [F] monitored by Cl, titration with measurement of emission. 
-11. [Cl₂] monitored by kinetic absorption spectroscopy.
-11a. [Cl₂] monitored by absorption at 313 nm.
-12. [Br₂] monitored by kinetic absorption spectroscopy.
-13. Experimental data measured over the range 298 to 1273 K.
-13a. Recombination studied in supersonic nozzle at end of shock tube over a pres- sure range of 5 to 30 atm.
-14. Measured relative to Br+ Br+ Ar → Br₂ + Ar for which k = 2.7 x 10^15 cm^-6 mol^-2 s^-1
-15. [I₂] and [ICI] monitored spectrophotometrically.
-16. Measured relative to I+I+I₂ → 2I₂  for which k 1.4 x 10^18 cm^-6 mol^-2 s^-1.  
-17. Over the temperature range 300 to 573 K, the rate constant showed a temperature-dependent, negative temperature coefficient.
-
-NOTES FOR SECTION 4 (Rows 281-467):
-1. Discharge-flow system. Rate constant derived from decay of H atoms, monitored by ESR. Total pressures were of the order of 4 torr.
-2. Discharge-flow stirred reaction system (O/H₂/N₂(or Ar)/CO). Kinetic analysis based on rate of decay of O atoms ([O] monitored via chemiluminescent reaction with CO) in the system and the ratio [H]/[O] (derived from effect of added NO on rate of decay of O atoms).
-3. Shock tube study (H₂/O₂/CO/Ar mixtures). Experiments performed over the pressure range 2 to 4 atm. Overall kinetics monitored by CO flame spectrum (visible), which is a measure of the product [CO][O], and by thermal emission (infrared) from CO₂. Experimental profiles were compared to results of numerical integration of proposed mechanism; the rate constant for O + CO + M was obtained from a computer fit of the profiles.
-4. Static system. Rate constant derived from decay of Br₂, monitored by absorption spectrophotometry.
-5. Discharge-flow stirred reaction system (O/H₂/N₂/CO). O atoms produced by N discharge, followed by the reaction N+NO→N₂+O. Kinetic analysis based on observing variation in rate of decay of O atoms due to addition of O₂ ([O] monitored via chemiluminescent reaction with CO) as a function of the ratio [H]/ [0].
-6. Flow system. Kinetic analysis based on decay of O atoms, monitored by NO₂ chemiluminescence from the reaction of O with NO.
-7. Study of the pulse-radiolysis of H.S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectro- metry. Experimental SSH profiles were compared to the results of numerical integration of proposed mechanism, rate constant obtained by fitting simulated profiles to experimental profiles.
-8. Fast-flow system. [HO₂] monitored by LMR.
-9. Fast-flow system. Rate constant derived from decay of Cl atoms, monitored by mass spectrometry.
-10. Rate constants derived from decay of O(³P), monitored by resonance absorption.  
-11. Rate constant derived from decay of H/D atoms, monitored by absorption spectroscopy.
-12. Rate constant calculated from kinetic data for the reverse reaction and thermodynamic data.
-13. Flow system. Rate constant derived from decay of O(³P), monitored by atomic resonance fluorescence.
-14. Reaction studied using kinetic spectroscopy. M = Cl₂ + H₂,  k calculated using k/cm^6mol^2s^-1= 2.0 x 10^16 for the reference reaction H + 0₂ + M → HO₂ + M.
-15. Rate constant obtained from computer simulation of experimental data. Units of k are cm^3mol^-1s^-1.
-16. Flow system.
-17. Rate constant obtained by combining data of References 16 and 17.
-18. Rate constant tabulated is high pressure limiting second-order k. Units of k are cm^3mol^-1s^-1
-19. Rate constant derived from formation of CF₃O₂, monitored by absorption spectrophotometry.
-20. Rate constant derived from formation of CCI₃O₂, monitored by absorption spectrophotometry.
-21. Discharge-flow system. Reaction studied using photoionization mass spectrometry. k calculated using k/cm^3mol^-1s^-1 = 8.31 x 10^13 for the reference reaction O + CH₃ → H₂CO + H.
-22. [0₃] monitored by UV absorption. Rate constant obtained by computer simulation of experimental data. Experimental temperature not stated, hence room temperature assumed.
-23. Flow system. [OH] monitored by resonance fluorescence. Units of A are cm^3mol^-1s^-1.
-24. Total pressure approximately 650 torr. 
-25. Total pressure approximately 100 torr.
-26. Temperature dependence equivalent to T^-3.4
-27. From Lindemann treatment, second-order limiting high-pressure rate constants were estimated to be 1.8 x 10^12 cm^3mol^-1s^-1 at 298 K and >= 9 x 10^11 cm^3mol^-1s^-1 at 424 K.
-28. Temperature dependence equivalent to T^-2.3
-29. Temperature dependence equivalent to T^-2.1
-30. Data Evaluation
-31. k is low-pressure limiting rate constant. k/cm^3mol^-1s^-1  = 7.2 x 10^11 is the recommended value for the high-pressure limiting rate constant (298 K).
-32. k is independent of temperature.
-33. [Na] monitored by time-resolved atomic resonance absorption.
-34. [K] monitored by time-resolved atomic resonance absorption.
-35. Discharge-flow system. Reaction studied using mass spectrometry, k is limiting low-pressure rate constant, obtained by extrapolation of experimental data. Bath gas was He.
-36. Data suggest a value of the limiting high-pressure rate constant k∞ of approximately 5 x 10^12 cm^3mol^-1s^-1. The channel CF₃ +0₂ → F₂CO + FO is estimated to account for less than 1% of the overall CF₃ +0₂ reaction.
-37. Flame study with mass spectrometric analysis.
-38. Flame study.
-39. Experimental temperature not stated hence room temperature assumed.
-40. [HCO] monitored by UV absorption. k obtained from computer simulation of experimental data.
-41. [HO₂] monitored by absorption spectrophotometry.
-42. [OH] monitored by laser absorption spectroscopy.
-43. Rate constant obtained from computer simulation of experimental data. 
-44. Units of k are cm^3mol^-1s^-1.
-45. Reaction studied using molecular modulation spectroscopy. Reference reaction was 2CH₃ → C₂H₆.
-46. k determined at 100 torr (mainly CO).
-47. k determined at 750 torr (mainly CO).
-48. [OH] monitored by resonance fluorescence.
-49. Experiments performed using N₂(5 to 20 torr), Ar(20 to 500 torr) and He(50 to 200 torr) bath gases. k tabulated applies to 1 atm N₂; this value was estimated using data of Reference 36 and available literature data.
-50. Reaction studied using photoionization mass spectrometry.
-51. k does not depend on total pressure over the range 1 to 4 torr (mainly He), indicating that the reaction is at or near to its high pressure limit.
-52. k is limiting high-pressure rate constant.
-53. [O] monitored by resonance fluorescence.
-54. Data can also be represented by the expression k/cm^6mol^-2s^-1= 1.4 x 10^14 (T/ 300)^-1.9
-55. Data can also be represented by the expression k/cm^6mol^-2s^-1= 2.25 x 10^14 (T/300)^-2.0
-56. Data can also be represented by the expression k/cm^6mol^-2s^-1= 2.5 x 10^14 (T/ 300)^-1.25
-57. M = air.
-58. Rate expression derived from O+ O₂+ O₂ and O+ O₂+ N₂ data of Reference 39.
-59. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 1.38 x 10^14 (T/300)^-2.54
-60. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 2.07 × 10^14 (T/300)^-2.62
-61. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 2.16 x 10^14 (T/300)^-2.37
-62. Rate expression derived from O+ O₂+ N₂ and O+ O₂+ O₂ data of Reference 40.
-63. Experiments performed in synthetic air mixtures at 1 atm total pressure. Decay of SO₂ monitored by gas chromatography. k calculated using k/cm^3mol^-1s^-1 = 5 x 10^12 for the reference reaction OH + C₂H₄ → products.
-64. k is low-pressure limiting rate constant.
-65. M = He.
-66. Discharge-flow system. Products analyzed by mass spectrometry.
-67. k calculated using k/cm^3mol^-1s^-1  = 1.3 x 10^12 for the reference reaction CH₃ + 0₂ (+M) → CH₃O₂ (+M).
-68. Reaction studied using FTIR spectroscopy.
-69. Experiments performed at atmospheric pressure.
-70. k calculated using k/cm^3mol^-1s^-1 = 9.15 x 10^5 for the reference reaction H +
-CH₄  → H₂ + CH₃.
-71. k calculated using k/cm^3mol^-1s^-1 9.09 x 10^6 for the reference reaction H +  CH₄  → H₂ + CH₃.
-72. k calculated using k/cm^3mol^-1s^-1 7.41 x 10^7 for the reference reaction H +
-CH₄  → H₂ + CH₃.
-73. [NH] monitored by resonance fluorescence.
-74. Discharge-flow system. [F] monitored by ESR.
-75. M = Ar.
-76. M = 0₂.
-77. Discharge-flow system.
-78. k calculated using k/cm^3mol^-1s^-1  3.4 x 10^12 for the reference reaction HCO +O₂ → HO₂ + CO.
-79. Flow system. Decay of NO monitored using a chemiluminescence analyzer.
-80.  Units of A are cm^3mol^-1s^-1.
-81. Rate parameters calculated using  k/cm^3mol^-1s^-1 = 1.0 x 10^15 exp(-11430/T) for the reaction O₃ + M → 0₂ +0+ M and k/cm^3mol^-1s^-1 = 1.20 × 10^13 exp(-2410/T) for the reaction O+ 0₃→ 20₂.
-82. Rate constant(s) obtained by computer simulation of experimental data. 
-83. Molecular modulation study.
-84. Experiments involved the application of the H-maser as a spin relaxometer. 
-85. [C₆H₅CH₂] monitored by laser-induced fluorescence. k is overall 2nd order rate constant.
-86. Data evaluation.
-87. M = 0₂ or N₂
-88. [C₃H₅] monitored by UV absorption. Tabulated rate constants estimated from Arrhenius plot provided by authors, which displayed distinct curvature and a strong negative temperature dependence. Data refer to total pressure of 50 torr.
-89. [C₃H₅] monitored by photoionization mass spectrometry.
-90. Radical concentration monitored by UV absorption at 300 nm. X = Cl or Br.
-91. M = N₂
-92. P = 1 to 4 torr.
-
-NOTES FOR SECTION 5 (Rows 468-552):
-1. Flow system. Rate constant(s) derived from decay of Cl atoms, monitored by time-resolved resonance fluorescence.
-2. Reaction was studied over the pressure range 15 to 120 torr. The temperature dependence of the reaction can also be represented by the expression k = 1.40 x 10^21*T^-1.91cm^6 mol^-2s^-1.
-3. Reaction was studied over the pressure range 15 to 90 torr.
-4. Reaction was studied over the pressure range 15 to 75 torr.
-5. Static system. [Br₂] and [BrNO] monitored by absorption spectrophotometry. Rate constant obtained from kinetic analysis of experimental data. Pressure of added He ranged from 1 to 100 atm. Tabulated k is the limiting low-pressure rate constant obtained from "fitting" the fall off curve to the experimental data (k∞ >= 2 * 10^13 cm^3mol^-1s^-1 is the value obtained for the limiting high-pressure rate constant).
-6. Study of the recombination of iodine atoms in the presence of NO (static system). Reappearance of I, was monitored by absorbance measurements at 500 nm. Rate constant derived from kinetic treatment of proposed mechanism. Pressures of Ar used ranged from approximately 100 to 450 torr.
-7. Flow system. Rate of reaction was monitored by observing the chemiluminescence produced by the O + NO + M reaction. Rate parameters were derived by means of a phase shift technique.
-8. Data obtained from a study of the Hg/N₂O/NO/HBr system.
-9. Data obtained from a study of the Hg/N₂O/NO/HI system.
-10. Static system. Rate constant derived from decay spectroscopy. Experiments performed over the pressure range 50 to 600 torr. Lindemann-Hinshelwood treatment of experimental data yields the low-pressure rate constant listed and a limiting high-pressure rate constant of 9.3 x 10^12 cm^3mol^-1s^-1
-11. Rate parameters derived from decay of O atoms, monitored by observation of NO₂ chemiluminescence. Rate constant can be equally well represented by the expression k/cm^6 mol^-2s^-1 4.24 x 10^20*T^-1.70
-12. Rate constant derived from decay of H/D atoms monitored by absorption spectroscopy.
-13. Data obtained from studies of Hg/N₂O/NO/allene and Hg/N₂O/NO/1,3-butadiene systems.
-14. Rate constant calculated from kinetic data for the reverse reaction and thermodynamic data.
-15. Discharge-flow system. Reaction studied using ESR spectroscopy. Total pressures were less than 10 torr.
-16. Rate constant obtained from computer simulation of experimental data. Units of k are cm^3 mol^-1 s^-1.
-17. N atoms were produced by the pulse-radiolysis of N₂. Rate constant derived from decay of O atoms, monitored by resonance absorption.
-18. In some experiments O atoms were produced by the pulse-radiolysis of O₂. 
-19. Reaction was studied over the total pressure range 50 to 1000 torr (mainly Ar or SF₆ diluent). Reaction products were analyzed by gas chromatography. Rate data were obtained from computer simulation of product yields. k tabulated is the limiting high pressure second-order rate constant, obtained from RRKM treatment of experimental data.
-20. Reaction studied by scavenging F atoms with added HI and monitoring HF† produced by its infrared fluorescence. k obtained from kinetic modeling of reaction system. Units of k are cm^3 mol^-1 s^-1.
-21. k obtained from re-analysis of laser-schlieren data of Kiefer (J. Chem. Phys., 62, 1354, 1975) by computer simulation.
-22. Units of k are cm^3 mol^-1 s^-1.
-23. [CH₃] monitored by UV absorption. Rate constant obtained from computer simulation of experimental data. Experiments performed at 1 atm total pressure.
-24. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 3.49 × 10^12 is the corresponding second-order rate constant.
-25. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 5.06 × 10^12 is the corresponding second-order rate constant.
-26. Ne pressure = 4 atm, k/cm^3 mol^-1 s^-1 = 5.4 × 10^12 is the corresponding second-order rate constant.
-27. Experimental temperature not stated hence room temperature assumed.
-28. Reaction studied using an optoacoustic technique. k determined at 100 torr Kr pressure.
-29. Data evaluation.
-30. M = air.
-31. Flow system. Kinetic analysis based on decay of O atoms, monitored by chemiluminescence from O + NO.
-32. Determined from a study of the kinetics of the H₂O₂/N₂ flame inhibited by Na.
-33. Above value found to be compatible with a kinetic analysis of the photo-oxidation of CHCl₃ initiated by Cl atoms.
-﻿34. Smog chamber study at 1 atm pressure. Photolyses of Cl₂, in presence of H₂, NO, NO₂, and air. Products monitored by FTIR spectroscopy. Rate constants estimated from a computer fit of product data. Units of rate constant are cm^3mol^-1s^-1 
-35. M = Cl₂. 
-36. k is low-pressure limiting rate constant. 
-37. k is high-pressure limiting rate constant.
-38. M = N₂ or O₂. 
-
-NOTES FOR SECTION 6 (Rows 553-653):
-1. Values obtained from computer simulation of experimental data.
-2. Units of k and A are cm^3 mol^-1 s^-1.
-2a. Reaction was third order at P <50 mmHg, fall-off beginning at P <150 mmHg. The table lists the extrapolated high-pressure rate constant.
-3. Rate data based on mass spectrometric analysis of products.
-3a. Products were analyzed by mass spectrometry.
-4. Measured at a pressure of 50 torr He.
-5. Evaluated rate data.
-6. Flame study.
-6a. [OH] monitored by resonance fluorescence.
-7. [H] monitored by resonance fluorescence.
-8. Estimated value based on k = 7.58 x 10^13 exp (-7590/T) cm^3 mol^-1 s^-1 for the reaction: H+ N₂O → HO + N₂.
-9. Measured using chemiluminescence technique.
-10. [H] monitored by resonance fluorescence.
-11. Rate constant k, calculated from k1 = k_1 * K_c
-12. Measured mass spectrometrically in a discharge flow system.
-13. [NF₂] monitored by absorption spectrophotometry.
-14. Halogen atom concentrations followed by titration of atoms with nitrosyl chloride using the afterglow emission as indicator.
-14a. [I₂] monitored by absorption spectrometry.
-14b. Rate constants measured by analysis of overlapping relaxations. [I₂] monitored by laser resonance absorption.
-15. Based on k = 5.49 x 10^12 cm^3 mol^-1 s^-1 at 295 K for reaction O + NO₂ → O₂ + NO.
-16. k∞/cm^3 mol^-1 s^-1.
-16a. [O] monitored by resonance absorption. The temperature dependence of the rate constant could be equally well represented by k = 1.38 x 10^21 T^-1.82 cm^6 mol^-2 s^-1
-17. Modulation phase shift technique.
-18. [Pb] monitored by resonance absorption. Reaction products were not determined.
-19. [Sb] monitored by resonance absorption. Reaction products were not determined. The reaction was found to be second order with k = 1.08 x 10^11 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
-20. [Bi] monitored by resonance absorption. Reaction products were not deter- mined. The reaction was found to be second order with k = 3.37 x 10^10 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
-21. Measured relative to k/cm^6 mol^-2 s^-1 2.5 x 10' for the reaction O+ NO + N₂ → NO₂+ N₂.
-22. Measured using infrared absorption spectroscopy.
-23. Laser flash photolysis followed by monitoring I, absorption. The mechanism is believed to be I + NO₂ + M → INO₂ + M; I + INO₂ →  I₂ + NO₂ (fast). 
-24. [O(³P)] monitored by resonance fluorescence.
+50. Static system. Rate constant derived from variation of [Br₂], monitored by ab- sorption spectrophotometry. Pressure of added He ranged from 1 to 100 atm.
+51.  Data derived using a diffusion flame method. Pressure range was approximately 7 to 20 torr.
+52. Study of the pulse-radiolysis of H₂S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectrometry. Experimental S₂/SH profiles were compared to the results of numerical integration of proposed mechanism; rate constant obtained by fitting simulated profiles to experimental profiles.
+53. Discharge-flow system. Rate constant derived from decay of N atoms, monitored by mass spectrometry.
+54. Reaction studied by kinetic spectroscopy.
+55. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 4.8 x 10^25*T^-3.4
+56. Rate data can be equally well represented by the expression k/cm^6mol^-2s^-1 = 2.1 x 10^25*T^-3.2.
+57. Reaction studied using mass spectrometry.
+58. [OH(²Σ⁺)] monitored by emission spectroscopy.
+59. Rate constant derived by modeling flame inhibition data taken from the literature. 
+60. Approximate value derived from graphical data in paper.
+61. Data evaluation.
+62. Laser photolyses at 266 nm with resonance fluorescence detection of 1. Rotational and vibrational state of I* unknown. Temperature assumed to be room temperature.
+63. [H] monitored by self-balancing catalytic probe detector.
+64. [H] monitored by e.s.r.
+65. Evaluated rate data.
+66. Estimated values, based on experimental data at 1050 K combined with literature data at lower temperatures.
+67. [OH²Σ⁺] monitored by emmission spectroscopy.
+68. [F] monitored by e.s.r.
+69. Measured in jet-flow apparatus.
+70. [S₂] monitored by chemiluminescence.
+71. Rate constant k, calculated from k1 = k_1 * K_c
+72. [F] monitored by Cl, titration with measurement of emission. 
+73. [Cl₂] monitored by kinetic absorption spectroscopy.
+73a. [Cl₂] monitored by absorption at 313 nm.
+74. [Br₂] monitored by kinetic absorption spectroscopy.
+75. Experimental data measured over the range 298 to 1273 K.
+75a. Recombination studied in supersonic nozzle at end of shock tube over a pres- sure range of 5 to 30 atm.
+76. Measured relative to Br+ Br+ Ar → Br₂ + Ar for which k = 2.7 x 10^15 cm^-6 mol^-2 s^-1
+77. [I₂] and [ICI] monitored spectrophotometrically.
+78. Measured relative to I+I+I₂ → 2I₂  for which k 1.4 x 10^18 cm^-6 mol^-2 s^-1.  
+79. Over the temperature range 300 to 573 K, the rate constant showed a temperature-dependent, negative temperature coefficient.
+80. Discharge-flow system. Rate constant derived from decay of H atoms, monitored by ESR. Total pressures were of the order of 4 torr.
+81. Discharge-flow stirred reaction system (O/H₂/N₂(or Ar)/CO). Kinetic analysis based on rate of decay of O atoms ([O] monitored via chemiluminescent reaction with CO) in the system and the ratio [H]/[O] (derived from effect of added NO on rate of decay of O atoms).
+82. Shock tube study (H₂/O₂/CO/Ar mixtures). Experiments performed over the pressure range 2 to 4 atm. Overall kinetics monitored by CO flame spectrum (visible), which is a measure of the product [CO][O], and by thermal emission (infrared) from CO₂. Experimental profiles were compared to results of numerical integration of proposed mechanism; the rate constant for O + CO + M was obtained from a computer fit of the profiles.
+83. Static system. Rate constant derived from decay of Br₂, monitored by absorption spectrophotometry.
+84. Discharge-flow stirred reaction system (O/H₂/N₂/CO). O atoms produced by N discharge, followed by the reaction N+NO→N₂+O. Kinetic analysis based on observing variation in rate of decay of O atoms due to addition of O₂ ([O] monitored via chemiluminescent reaction with CO) as a function of the ratio [H]/ [0].
+85. Flow system. Kinetic analysis based on decay of O atoms, monitored by NO₂ chemiluminescence from the reaction of O with NO.
+86. Study of the pulse-radiolysis of H.S. Experiments could be performed under static or flow conditions. Transient species (S₂ and SH) were monitored by kinetic spectroscopy, products were analyzed by gas chromatography and mass spectro- metry. Experimental SSH profiles were compared to the results of numerical integration of proposed mechanism, rate constant obtained by fitting simulated profiles to experimental profiles.
+87. Fast-flow system. [HO₂] monitored by LMR.
+88. Fast-flow system. Rate constant derived from decay of Cl atoms, monitored by mass spectrometry.
+89. Rate constants derived from decay of O(³P), monitored by resonance absorption.  
+90. Rate constant derived from decay of H/D atoms, monitored by absorption spectroscopy.
+91. Rate constant calculated from kinetic data for the reverse reaction and thermodynamic data.
+92. Flow system. Rate constant derived from decay of O(³P), monitored by atomic resonance fluorescence.
+93. Reaction studied using kinetic spectroscopy. M = Cl₂ + H₂,  k calculated using k/cm^6mol^2s^-1= 2.0 x 10^16 for the reference reaction H + 0₂ + M → HO₂ + M.
+94. Rate constant obtained from computer simulation of experimental data. Units of k are cm^3mol^-1s^-1.
+95. Flow system.
+96. Rate constant obtained by combining data of References 16 and 17.
+97. Rate constant tabulated is high pressure limiting second-order k. Units of k are cm^3mol^-1s^-1
+98. Rate constant derived from formation of CF₃O₂, monitored by absorption spectrophotometry.
+99. Rate constant derived from formation of CCI₃O₂, monitored by absorption spectrophotometry.
+100. Discharge-flow system. Reaction studied using photoionization mass spectrometry. k calculated using k/cm^3mol^-1s^-1 = 8.31 x 10^13 for the reference reaction O + CH₃ → H₂CO + H.
+101. [0₃] monitored by UV absorption. Rate constant obtained by computer simulation of experimental data. Experimental temperature not stated, hence room temperature assumed.
+102. Flow system. [OH] monitored by resonance fluorescence. Units of A are cm^3mol^-1s^-1.
+103. Total pressure approximately 650 torr. 
+104. Total pressure approximately 100 torr.
+105. Temperature dependence equivalent to T^-3.4
+106. From Lindemann treatment, second-order limiting high-pressure rate constants were estimated to be 1.8 x 10^12 cm^3mol^-1s^-1 at 298 K and >= 9 x 10^11 cm^3mol^-1s^-1 at 424 K.
+107. Temperature dependence equivalent to T^-2.3
+108. Temperature dependence equivalent to T^-2.1
+109. Data Evaluation
+110. k is low-pressure limiting rate constant. k/cm^3mol^-1s^-1  = 7.2 x 10^11 is the recommended value for the high-pressure limiting rate constant (298 K).
+111. k is independent of temperature.
+112. [Na] monitored by time-resolved atomic resonance absorption.
+113. [K] monitored by time-resolved atomic resonance absorption.
+114. Discharge-flow system. Reaction studied using mass spectrometry, k is limiting low-pressure rate constant, obtained by extrapolation of experimental data. Bath gas was He.
+115. Data suggest a value of the limiting high-pressure rate constant k∞ of approximately 5 x 10^12 cm^3mol^-1s^-1. The channel CF₃ +0₂ → F₂CO + FO is estimated to account for less than 1% of the overall CF₃ +0₂ reaction.
+116. Flame study with mass spectrometric analysis.
+117. Flame study.
+118. Experimental temperature not stated hence room temperature assumed.
+119. [HCO] monitored by UV absorption. k obtained from computer simulation of experimental data.
+120. [HO₂] monitored by absorption spectrophotometry.
+121. [OH] monitored by laser absorption spectroscopy.
+122. Rate constant obtained from computer simulation of experimental data. 
+123. Units of k are cm^3mol^-1s^-1.
+124. Reaction studied using molecular modulation spectroscopy. Reference reaction was 2CH₃ → C₂H₆.
+125. k determined at 100 torr (mainly CO).
+126. k determined at 750 torr (mainly CO).
+127. [OH] monitored by resonance fluorescence.
+128. Experiments performed using N₂(5 to 20 torr), Ar(20 to 500 torr) and He(50 to 200 torr) bath gases. k tabulated applies to 1 atm N₂; this value was estimated using data of Reference 36 and available literature data.
+129. Reaction studied using photoionization mass spectrometry.
+130. k does not depend on total pressure over the range 1 to 4 torr (mainly He), indicating that the reaction is at or near to its high pressure limit.
+131. k is limiting high-pressure rate constant.
+132. [O] monitored by resonance fluorescence.
+133. Data can also be represented by the expression k/cm^6mol^-2s^-1= 1.4 x 10^14 (T/ 300)^-1.9
+134. Data can also be represented by the expression k/cm^6mol^-2s^-1= 2.25 x 10^14 (T/300)^-2.0
+135. Data can also be represented by the expression k/cm^6mol^-2s^-1= 2.5 x 10^14 (T/ 300)^-1.25
+136. M = air.
+137. Rate expression derived from O+ O₂+ O₂ and O+ O₂+ N₂ data of Reference 39.
+138. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 1.38 x 10^14 (T/300)^-2.54
+139. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 2.07 × 10^14 (T/300)^-2.62
+140. Data can also be represented by the expression k/cm^6mol^-2s^-1 = 2.16 x 10^14 (T/300)^-2.37
+141. Rate expression derived from O+ O₂+ N₂ and O+ O₂+ O₂ data of Reference 40.
+142. Experiments performed in synthetic air mixtures at 1 atm total pressure. Decay of SO₂ monitored by gas chromatography. k calculated using k/cm^3mol^-1s^-1 = 5 x 10^12 for the reference reaction OH + C₂H₄ → products.
+143. k is low-pressure limiting rate constant.
+144. M = He.
+145. Discharge-flow system. Products analyzed by mass spectrometry.
+146. k calculated using k/cm^3mol^-1s^-1  = 1.3 x 10^12 for the reference reaction CH₃ + 0₂ (+M) → CH₃O₂ (+M).
+147. Reaction studied using FTIR spectroscopy.
+148. Experiments performed at atmospheric pressure.
+149. k calculated using k/cm^3mol^-1s^-1 = 9.15 x 10^5 for the reference reaction H + CH₄  → H₂ + CH₃.
+150. k calculated using k/cm^3mol^-1s^-1 9.09 x 10^6 for the reference reaction H +  CH₄  → H₂ + CH₃.
+151. k calculated using k/cm^3mol^-1s^-1 7.41 x 10^7 for the reference reaction H + CH₄  → H₂ + CH₃.
+152. [NH] monitored by resonance fluorescence.
+153. Discharge-flow system. [F] monitored by ESR.
+154. M = Ar.
+155. M = 0₂.
+156. Discharge-flow system.
+157. k calculated using k/cm^3mol^-1s^-1  3.4 x 10^12 for the reference reaction HCO +O₂ → HO₂ + CO.
+158. Flow system. Decay of NO monitored using a chemiluminescence analyzer.
+159.  Units of A are cm^3mol^-1s^-1.
+160. Rate parameters calculated using  k/cm^3mol^-1s^-1 = 1.0 x 10^15 exp(-11430/T) for the reaction O₃ + M → 0₂ +0+ M and k/cm^3mol^-1s^-1 = 1.20 × 10^13 exp(-2410/T) for the reaction O+ 0₃→ 20₂.
+161. Rate constant(s) obtained by computer simulation of experimental data. 
+162. Molecular modulation study.
+163. Experiments involved the application of the H-maser as a spin relaxometer. 
+164. [C₆H₅CH₂] monitored by laser-induced fluorescence. k is overall 2nd order rate constant.
+165. Data evaluation.
+166. M = 0₂ or N₂
+167. [C₃H₅] monitored by UV absorption. Tabulated rate constants estimated from Arrhenius plot provided by authors, which displayed distinct curvature and a strong negative temperature dependence. Data refer to total pressure of 50 torr.
+168. [C₃H₅] monitored by photoionization mass spectrometry.
+169. Radical concentration monitored by UV absorption at 300 nm. X = Cl or Br.
+170. M = N₂
+171. P = 1 to 4 torr.
+172. Flow system. Rate constant(s) derived from decay of Cl atoms, monitored by time-resolved resonance fluorescence.
+173. Reaction was studied over the pressure range 15 to 120 torr. The temperature dependence of the reaction can also be represented by the expression k = 1.40 x 10^21*T^-1.91cm^6 mol^-2s^-1.
+174. Reaction was studied over the pressure range 15 to 90 torr.
+175. Reaction was studied over the pressure range 15 to 75 torr.
+176. Static system. [Br₂] and [BrNO] monitored by absorption spectrophotometry. Rate constant obtained from kinetic analysis of experimental data. Pressure of added He ranged from 1 to 100 atm. Tabulated k is the limiting low-pressure rate constant obtained from "fitting" the fall off curve to the experimental data (k∞ >= 2 * 10^13 cm^3mol^-1s^-1 is the value obtained for the limiting high-pressure rate constant).
+177. Study of the recombination of iodine atoms in the presence of NO (static system). Reappearance of I, was monitored by absorbance measurements at 500 nm. Rate constant derived from kinetic treatment of proposed mechanism. Pressures of Ar used ranged from approximately 100 to 450 torr.
+178. Flow system. Rate of reaction was monitored by observing the chemiluminescence produced by the O + NO + M reaction. Rate parameters were derived by means of a phase shift technique.
+179. Data obtained from a study of the Hg/N₂O/NO/HBr system.
+180. Data obtained from a study of the Hg/N₂O/NO/HI system.
+181. Static system. Rate constant derived from decay spectroscopy. Experiments performed over the pressure range 50 to 600 torr. Lindemann-Hinshelwood treatment of experimental data yields the low-pressure rate constant listed and a limiting high-pressure rate constant of 9.3 x 10^12 cm^3mol^-1s^-1
+182. Rate parameters derived from decay of O atoms, monitored by observation of NO₂ chemiluminescence. Rate constant can be equally well represented by the expression k/cm^6 mol^-2s^-1 4.24 x 10^20*T^-1.70
+183. Rate constant derived from decay of H/D atoms monitored by absorption spectroscopy.
+184. Data obtained from studies of Hg/N₂O/NO/allene and Hg/N₂O/NO/1,3-butadiene systems.
+185. Rate constant calculated from kinetic data for the reverse reaction and thermodynamic data.
+186. Discharge-flow system. Reaction studied using ESR spectroscopy. Total pressures were less than 10 torr.
+187. Rate constant obtained from computer simulation of experimental data. Units of k are cm^3 mol^-1 s^-1.
+188. N atoms were produced by the pulse-radiolysis of N₂. Rate constant derived from decay of O atoms, monitored by resonance absorption.
+189. In some experiments O atoms were produced by the pulse-radiolysis of O₂. 
+190. Reaction was studied over the total pressure range 50 to 1000 torr (mainly Ar or SF₆ diluent). Reaction products were analyzed by gas chromatography. Rate data were obtained from computer simulation of product yields. k tabulated is the limiting high pressure second-order rate constant, obtained from RRKM treatment of experimental data.
+191. Reaction studied by scavenging F atoms with added HI and monitoring HF† produced by its infrared fluorescence. k obtained from kinetic modeling of reaction system. Units of k are cm^3 mol^-1 s^-1.
+192. k obtained from re-analysis of laser-schlieren data of Kiefer (J. Chem. Phys., 62, 1354, 1975) by computer simulation.
+193. Units of k are cm^3 mol^-1 s^-1.
+194. [CH₃] monitored by UV absorption. Rate constant obtained from computer simulation of experimental data. Experiments performed at 1 atm total pressure.
+195. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 3.49 × 10^12 is the corresponding second-order rate constant.
+196. Ne pressure = 1 atm, k/cm^3 mol^-1 s^-1 = 5.06 × 10^12 is the corresponding second-order rate constant.
+197. Ne pressure = 4 atm, k/cm^3 mol^-1 s^-1 = 5.4 × 10^12 is the corresponding second-order rate constant.
+198. Experimental temperature not stated hence room temperature assumed.
+199. Reaction studied using an optoacoustic technique. k determined at 100 torr Kr pressure.
+200. Data evaluation.
+201. M = air.
+202. Flow system. Kinetic analysis based on decay of O atoms, monitored by chemiluminescence from O + NO.
+203. Determined from a study of the kinetics of the H₂O₂/N₂ flame inhibited by Na.
+204. Above value found to be compatible with a kinetic analysis of the photo-oxidation of CHCl₃ initiated by Cl atoms.
+﻿205. Smog chamber study at 1 atm pressure. Photolyses of Cl₂, in presence of H₂, NO, NO₂, and air. Products monitored by FTIR spectroscopy. Rate constants estimated from a computer fit of product data. Units of rate constant are cm^3mol^-1s^-1 
+206. M = Cl₂. 
+207. k is low-pressure limiting rate constant. 
+208. k is high-pressure limiting rate constant.
+209. M = N₂ or O₂. 
+210. Values obtained from computer simulation of experimental data.
+211. Units of k and A are cm^3 mol^-1 s^-1.
+211a. Reaction was third order at P <50 mmHg, fall-off beginning at P <150 mmHg. The table lists the extrapolated high-pressure rate constant.
+212. Rate data based on mass spectrometric analysis of products.
+212a. Products were analyzed by mass spectrometry.
+213. Measured at a pressure of 50 torr He.
+214. Evaluated rate data.
+215. Flame study.
+215a. [OH] monitored by resonance fluorescence.
+216. [H] monitored by resonance fluorescence.
+217. Estimated value based on k = 7.58 x 10^13 exp (-7590/T) cm^3 mol^-1 s^-1 for the reaction: H+ N₂O → HO + N₂.
+218. Measured using chemiluminescence technique.
+219. [H] monitored by resonance fluorescence.
+220. Rate constant k, calculated from k1 = k_1 * K_c
+221. Measured mass spectrometrically in a discharge flow system.
+222. [NF₂] monitored by absorption spectrophotometry.
+223. Halogen atom concentrations followed by titration of atoms with nitrosyl chloride using the afterglow emission as indicator.
+223a. [I₂] monitored by absorption spectrometry.
+223b. Rate constants measured by analysis of overlapping relaxations. [I₂] monitored by laser resonance absorption.
+224. Based on k = 5.49 x 10^12 cm^3 mol^-1 s^-1 at 295 K for reaction O + NO₂ → O₂ + NO.
+225. k∞/cm^3 mol^-1 s^-1.
+225a. [O] monitored by resonance absorption. The temperature dependence of the rate constant could be equally well represented by k = 1.38 x 10^21 T^-1.82 cm^6 mol^-2 s^-1
+226. Modulation phase shift technique.
+227. [Pb] monitored by resonance absorption. Reaction products were not determined.
+228. [Sb] monitored by resonance absorption. Reaction products were not determined. The reaction was found to be second order with k = 1.08 x 10^11 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
+229. [Bi] monitored by resonance absorption. Reaction products were not deter- mined. The reaction was found to be second order with k = 3.37 x 10^10 cm^3 mol^-1 s^-1 in He, N₂, and SF₆
+230. Measured relative to k/cm^6 mol^-2 s^-1 2.5 x 10' for the reaction O+ NO + N₂ → NO₂+ N₂.
+231. Measured using infrared absorption spectroscopy.
+232. Laser flash photolysis followed by monitoring I, absorption. The mechanism is believed to be I + NO₂ + M → INO₂ + M; I + INO₂ →  I₂ + NO₂ (fast). 
+233. [O(³P)] monitored by resonance fluorescence.
 

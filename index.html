@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <title>Termolecular Database</title>
 
-  <!-- PapaParse -->
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-  <!-- MathJax for LaTeX rendering -->
   <script>
     window.MathJax = {
       tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
@@ -31,6 +30,7 @@
       flex-direction: column;
       min-height: 100vh;
     }
+
     header {
       background: #990000;
       color: white;
@@ -41,6 +41,7 @@
       z-index: 1000;
     }
     header img.logo { height: 40px; }
+
     nav a {
       color: white;
       margin-left: 20px;
@@ -49,15 +50,24 @@
     }
     nav a:hover { text-decoration: underline; }
 
+    main { padding: 20px; }
+
     h1 {
       color: #990000;
       font-size: 2em;
       margin-bottom: 20px;
     }
 
-    main { padding: 20px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-    th, td { border: 1px solid #ccc; padding: 6px 10px; }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      vertical-align: top;
+    }
     th { background: #f0f0f0; }
 
     a { color: #990000; text-decoration: underline; }
@@ -95,6 +105,7 @@
       background: #333;
       color: #ddd;
       padding: 15px;
+      width: 111%;
       margin-top: auto;
     }
   </style>
@@ -121,11 +132,13 @@
       <button id="highPressureBtn">High Pressure Dataset</button>
     </div>
 
-    <div><button id="downloadBtn">Download CSV</button></div>
+    <div>
+      <button id="downloadBtn">Download CSV</button>
+    </div>
 
     <div>
-      <label for="tempSlider">Filter Temp./K ≤ <span id="tempValue"></span></label><br />
-      <input type="range" id="tempSlider" min="0" max="100" value="100" />
+      <label>Filter Temp./K ≤ <span id="tempValue"></span></label><br />
+      <input type="range" id="tempSlider" />
     </div>
 
     <div>
@@ -145,28 +158,15 @@
     const datasets = {
       ionic: { csv: "ionic.csv" },
       nonIonic: { csv: "nonionic.csv" },
-
-      /* 🔥 High-pressure now loads LaTeX version but downloads the old file */
-      highPressure: {
-        csv: "k_infinity.csv",          // download file
-        latexCsv: "k_infinity_latex.csv" // on-screen table file
-      }
+      highPressure: { csv: "k_infinity.csv", latexCsv: "k_infinity_latex.csv" }
     };
+
+    // Hide Reference_Text column (case-insensitive)
+    const hiddenCols = ["reference_text"];
 
     const searchBar = document.getElementById("searchBar");
     const slider = document.getElementById("tempSlider");
     const tempValue = document.getElementById("tempValue");
-    const graphContainer = document.getElementById("graphContainer");
-
-    function getSectionFromNumber(num) {
-      if (num >= 1 && num <= 161) return 1;
-      if (num >= 162 && num <= 192) return 2;
-      if (num >= 193 && num <= 280) return 3;
-      if (num >= 281 && num <= 468) return 4;
-      if (num >= 469 && num <= 553) return 5;
-      if (num >= 554 && num <= 654) return 6;
-      return null;
-    }
 
     async function loadCSV(setKey) {
       currentSet = setKey;
@@ -175,56 +175,47 @@
       document.getElementById("nonIonicBtn").classList.toggle("activeTab", setKey === "nonIonic");
       document.getElementById("highPressureBtn").classList.toggle("activeTab", setKey === "highPressure");
 
+      // Reset filters / UI
       searchBar.value = "";
-      slider.value = slider.max;
-      graphContainer.innerHTML = "";
-      window.scrollTo({ top: 0, behavior: "smooth" });
 
       const fileToLoad =
-        setKey === "highPressure" ? datasets.highPressure.latexCsv : datasets[setKey].csv;
+        setKey === "highPressure"
+          ? datasets.highPressure.latexCsv
+          : datasets[setKey].csv;
 
       const text = await (await fetch(fileToLoad)).text();
       const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
       allRows = parsed.data;
 
-      const temps = allRows.map(r => parseFloat(r["Temp./K"])).filter(v => !isNaN(v));
-      const minT = Math.min(...temps), maxT = Math.max(...temps);
-      slider.min = minT;
-      slider.max = maxT;
-      slider.value = maxT;
-      tempValue.textContent = maxT;
+      const temps = allRows
+        .map(r => parseFloat(r["Temp./K"]))
+        .filter(v => !isNaN(v));
+
+      if (temps.length) {
+        slider.min = Math.min(...temps);
+        slider.max = Math.max(...temps);
+        slider.value = slider.max;
+        tempValue.textContent = slider.value;
+      } else {
+        slider.min = 0;
+        slider.max = 100;
+        slider.value = 100;
+        tempValue.textContent = slider.value;
+      }
 
       renderTable(allRows, setKey === "highPressure");
     }
 
-    function normalizeChemical(text) {
-      if (!text) return "";
-      const subs = { "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉" };
-      let t = text;
-      for (const [n, s] of Object.entries(subs)) t = t.replaceAll(n, s);
-      return t;
-    }
-
     function applyFilters() {
-      if (currentSet === "highPressure") return; // HP has no filtering
+      if (currentSet === "highPressure") return;
 
-      const query = searchBar.value.toLowerCase().trim();
+      const q = searchBar.value.toLowerCase().trim();
       tempValue.textContent = slider.value;
 
       const filtered = allRows.filter(r => {
-        const tempOK = parseFloat(r["Temp./K"]) <= slider.value;
-        if (!query) return tempOK;
-
-        const reaction = (r.Reaction || "").toLowerCase();
-        const normQuery = normalizeChemical(query);
-        const normReaction = normalizeChemical(reaction);
-
-        return (
-          reaction.includes(query) ||
-          reaction.includes(normQuery) ||
-          normReaction.includes(query) ||
-          normReaction.includes(normQuery)
-        ) && tempOK;
+        const t = parseFloat(r["Temp./K"]);
+        if (!isNaN(t) && t > slider.value) return false;
+        return !q || (r.Reaction || "").toLowerCase().includes(q);
       });
 
       renderTable(filtered);
@@ -239,9 +230,7 @@
         return;
       }
 
-      const hiddenCols = ["reference_text"];
-
-      // Header
+      // ----- HEADER -----
       const headerRow = document.createElement("tr");
       Object.keys(data[0]).forEach(k => {
         if (hiddenCols.includes(k.toLowerCase())) return;
@@ -251,42 +240,78 @@
       });
       table.appendChild(headerRow);
 
-      // Rows
+      // ----- ROWS -----
       data.forEach(row => {
         const tr = document.createElement("tr");
-        const num = parseInt(row["Number"]);
-        const section = currentSet === "ionic" ? null : getSectionFromNumber(num);
 
         Object.entries(row).forEach(([key, val]) => {
           if (hiddenCols.includes(key.toLowerCase())) return;
 
           const td = document.createElement("td");
           const lower = key.toLowerCase();
+          const text = (val || "").toString().trim();
 
-          if (!isHighPressure &&
-              (lower === "notes" || lower.includes("reference")) &&
-              val) {
-
-            let link = "";
-            if (lower.includes("reference")) {
-              if (currentSet === "ionic") link = `sources.html?tab=ionic`;
-              else if (currentSet === "highPressure") link = `sources.html#highpressure`;
-              else link = `sources.html#section${section}`;
-            }
-            if (lower === "notes") {
-              if (currentSet === "ionic") link = `notes.html#ionic`;
-              else link = `notes.html#section${section}`;
-            }
-            td.innerHTML = `<a href="${link}" target="_blank">${val}</a>`;
+          // -----------------------------
+          // HIGH PRESSURE: make Reference clickable
+          // -----------------------------
+          if (isHighPressure && lower === "reference" && text) {
+            const a = document.createElement("a");
+            // force to the single HP source entry
+            a.href = `sources.html?tab=highpressure#1`;
+            a.target = "_blank";
+            a.textContent = text; // will show "1"
+            td.appendChild(a);
           }
 
-          /* 🔥 High-pressure LaTeX rendering for k∞ */
-          else if (isHighPressure && (key === "k∞" || key.toLowerCase() === "k_infinity")) {
-            td.innerHTML = `$${val}$`;
+          // -----------------------------
+          // NORMAL DATASETS: Reference/Notes links
+          // -----------------------------
+          else if (!isHighPressure && text) {
+            const refs = text.split(",").map(r => r.trim()).filter(Boolean);
+
+            // References → sources.html (dataset-aware)
+            if (lower.includes("reference")) {
+              const tab =
+                currentSet === "ionic" ? "ionic" :
+                "nonionic";
+
+              refs.forEach((r, i) => {
+                const a = document.createElement("a");
+                a.href = `sources.html?tab=${tab}#${encodeURIComponent(r)}`;
+                a.target = "_blank";
+                a.textContent = r;
+                td.appendChild(a);
+                if (i < refs.length - 1) td.append(", ");
+              });
+            }
+
+            // Notes → notes.html
+            else if (lower === "notes" || lower.includes("note")) {
+              refs.forEach((r, i) => {
+                const a = document.createElement("a");
+                // Force Ionic → single ionic note (tab jump)
+                a.href = (currentSet === "ionic")
+                  ? `notes.html#ionic`
+                  : `notes.html#${encodeURIComponent(r)}`;
+                a.target = "_blank";
+                a.textContent = r;
+                td.appendChild(a);
+                if (i < refs.length - 1) td.append(", ");
+              });
+            }
+
+            else {
+              td.textContent = text;
+            }
+          }
+
+          // High pressure latex formatting for k∞ if desired
+          else if (isHighPressure && key === "k∞") {
+            td.innerHTML = `$${text}$`;
           }
 
           else {
-            td.textContent = val;
+            td.textContent = text;
           }
 
           tr.appendChild(td);
@@ -295,26 +320,22 @@
         table.appendChild(tr);
       });
 
-      /* 🔥 Re-render LaTeX */
       MathJax.typesetPromise();
     }
 
-    document.getElementById("ionicBtn").addEventListener("click", () => loadCSV("ionic"));
-    document.getElementById("nonIonicBtn").addEventListener("click", () => loadCSV("nonIonic"));
-    document.getElementById("highPressureBtn").addEventListener("click", () => loadCSV("highPressure"));
+    document.getElementById("ionicBtn").onclick = () => loadCSV("ionic");
+    document.getElementById("nonIonicBtn").onclick = () => loadCSV("nonIonic");
+    document.getElementById("highPressureBtn").onclick = () => loadCSV("highPressure");
 
     searchBar.addEventListener("input", applyFilters);
     slider.addEventListener("input", applyFilters);
 
-    /* 🔥 Download original CSV (not LaTeX) */
-    document.getElementById("downloadBtn").addEventListener("click", () => {
-      const link = document.createElement("a");
-      link.href = datasets[currentSet].csv;
-      link.download = datasets[currentSet].csv;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    });
+    document.getElementById("downloadBtn").onclick = () => {
+      const a = document.createElement("a");
+      a.href = datasets[currentSet].csv;
+      a.download = datasets[currentSet].csv;
+      a.click();
+    };
 
     loadCSV("nonIonic");
   </script>

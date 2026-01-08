@@ -1,4 +1,4 @@
-Reaction,k∞,Temp./K,Error Limits (Δlog k),Source
+Reaction,k∞,Temp./K,Error Limits (Δlog k),Reference
 O+NO+M→NO₂+M,\left(4.9\cdot10^{-10}\right)T^{-.4},200-2000,±.3,1
 H+O₂+M→HO₂+M,\left[.32T^{.^{.56}}+\left(2.9*10^{4}\right)T^{-1.7}\right]*10^{-11},298 –1500,,1
 H+NH₂+M→NH₃+M,(7.6\cdot10^{-10})e^{-850/T},2000-3000,±.5,1
