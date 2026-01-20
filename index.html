@@ -168,6 +168,22 @@
     const slider = document.getElementById("tempSlider");
     const tempValue = document.getElementById("tempValue");
 
+    // NEW: normalize digits so "2" matches "₂" (and vice versa)
+    const subscriptMap = {
+      "0":"₀","1":"₁","2":"₂","3":"₃","4":"₄",
+      "5":"₅","6":"₆","7":"₇","8":"₈","9":"₉"
+    };
+    const toSubscripts = (s) => (s || "").toString().replace(/[0-9]/g, d => subscriptMap[d] || d);
+    const normalizeForSearch = (s) => {
+      s = (s || "").toString();
+      // convert all unicode subscripts to normal digits
+      s = s.replace(/[₀₁₂₃₄₅₆₇₈₉]/g, ch => {
+        const idx = "₀₁₂₃₄₅₆₇₈₉".indexOf(ch);
+        return idx >= 0 ? String(idx) : ch;
+      });
+      return s.toLowerCase();
+    };
+
     async function loadCSV(setKey) {
       currentSet = setKey;
 
@@ -209,14 +225,22 @@
     function applyFilters() {
       if (currentSet === "highPressure") return;
 
-      const q = searchBar.value.toLowerCase().trim();
+      const qRaw = searchBar.value.trim();
+      const q = normalizeForSearch(qRaw);
+      const qSub = normalizeForSearch(toSubscripts(qRaw));
       tempValue.textContent = slider.value;
 
       const filtered = allRows.filter(r => {
         const t = parseFloat(r["Temp./K"]);
         if (!isNaN(t) && t > slider.value) return false;
-        return !q || (r.Reaction || "").toLowerCase().includes(q);
+
+        if (!q) return true;
+
+        const reactionNorm = normalizeForSearch(r.Reaction || "");
+        // match if query appears either in normalized reaction OR query's subscript-variant appears
+        return reactionNorm.includes(q) || reactionNorm.includes(qSub);
       });
+
 
       renderTable(filtered);
     }
