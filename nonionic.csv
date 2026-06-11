@@ -460,7 +460,7 @@ H₂ (Pulse-radiolysis)
 449,OH+SO₂+M→HSO₃+M,,,,,3.47E-36,0,200-300,,,164,"123,142","Baulch, D. L., Cox, R. A., Hampson, R. F., Kerr, J. A., Troe, J., and Watson, R. T., J. Phys. Chem. Ref. Data, 13, 1259, 1984."
 450,HO₂+CO+He→HCO₃+He,,,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,114,"109,136,143","Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979"
 451,HO₂+SO₂+He→HO₂SO₂+He,,,,,<=4.3701686298E-34,0,298,H₂O₂ discharge or F+H₂O₂,Relative,114,"109,123,131,136","Burrows, J. P., Cliff, D. I., Harris, G. W., Thrush, B. A., and Wilkinson, J. P. T., Proc. R. Soc. London, Ser. A.. 368, 463, 1979"
-452,NH+N₂ +N₂ → NH₃+N₂,,,,,<1.0977367285E-38,0,296,NH₃ (Pulsed P),Direct,151,"109,123,131","Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
+452,NH+N₂ +N₂ → HN₃+N₂,,,,,<1.0977367285E-38,0,296,NH₃ (Pulsed P),Direct,151,"109,123,131","Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
 453,NH+NH₃ +He → N₂H₄+He,,,,,<2.7573899936E-36,0,296,NH₃ (Pulsed P),Direct,151,87,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
 454,NH+NH₃ +Ar → N₂H₄+Ar,,,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,151,87,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
 455,NH+NH₃ +N₂ → N₂H₄+N₂,,,,,<5.5017163419E-35,0,296,NH₃ (Pulsed P),Direct,151,152,"Zetzsch, C. and Stuhl, F., Ber. Bunsenges. Phys. Chem., 85, 564, 1981."
